@@ -1,12 +1,11 @@
-FROM node:14-slim
+FROM python:3.10-slim
 
-WORKDIR /app
+WORKDIR /usr/src/app
 
-COPY ./package.json ./package.json
-RUN npm install --no-package-lock && \
-  npm cache clear --force
+COPY ./requirements.txt ./
 
-COPY ./update_remote_settings_records.mjs ./update_remote_settings_records.mjs
-COPY ./version.json ./version.json
+RUN python -m pip install --no-cache-dir -r requirements.txt
 
-CMD ["npm", "run", "ingest"]
+COPY ./rs-publish.py ./version.json ./cookie-banner-rules-list.json ./
+
+CMD ["python", "./rs-publish.py"]
