@@ -1,0 +1,641 @@
+{
+  "data": [
+    {
+      "click": {
+        "optIn": "button.btn-accept",
+        "presence": "div#gdpr-new-container"
+      },
+      "domain": "aliexpress.com",
+      "schema": 1661958902092,
+      "cookies": {},
+      "id": "80851a39-2183-49e4-99f4-16d6189bff1e",
+      "last_modified": 1661959171141
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "soundcloud.com",
+      "schema": 1661957607051,
+      "cookies": {},
+      "id": "6c7366a0-4762-47b9-8eeb-04e86cc7a0cc",
+      "last_modified": 1661958901702
+    },
+    {
+      "click": {
+        "optIn": ".a8c-cookie-banner-accept-all-button",
+        "presence": "div.a8c-cookie-banner"
+      },
+      "domain": "gravatar.com",
+      "schema": 1661956519437,
+      "cookies": {},
+      "id": "4b835605-77e0-457a-8409-8d499ee1131c",
+      "last_modified": 1661957606664
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-banner-sdk"
+      },
+      "domain": "fastly.com",
+      "schema": 1661955856767,
+      "cookies": {},
+      "id": "c63efcc1-06e0-42c5-955f-f5a61fd0baa2",
+      "last_modified": 1661956519048
+    },
+    {
+      "click": { "presence": "div#uhfCookieAlert" },
+      "domain": "skype.com",
+      "schema": 1661956089353,
+      "cookies": {},
+      "id": "0c43a914-8bc7-4872-89f2-f1ad213d2a7f",
+      "last_modified": 1661956519043
+    },
+    {
+      "click": {
+        "optIn": ".acceptAll",
+        "optOut": ".rejectAll",
+        "presence": "div.truste_box_overlay_inner"
+      },
+      "domain": "flickr.com",
+      "schema": 1661954382225,
+      "cookies": {},
+      "id": "22d33421-6872-41bc-9316-adba6a9af18e",
+      "last_modified": 1661955856388
+    },
+    {
+      "click": {
+        "optIn": ".cck-actions div > button",
+        "optOut": ".cck-actions div > button + button",
+        "presence": "div#cookie-consent-banner"
+      },
+      "domain": "europa.eu",
+      "schema": 1661954200065,
+      "cookies": {},
+      "id": "0c74749a-8c53-4bb0-b31a-ab2f89b7f493",
+      "last_modified": 1661954381849
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-banner-sdk"
+      },
+      "domain": "spotify.com",
+      "schema": 1661953620268,
+      "cookies": {},
+      "id": "443c2cd7-1d4f-486f-a263-02d57aa70cb3",
+      "last_modified": 1661953825139
+    },
+    {
+      "click": {
+        "optOut": "button.cookieBarButtons",
+        "presence": "div#cookieBar"
+      },
+      "domain": "google-analytics.com",
+      "schema": 1661952366874,
+      "cookies": {},
+      "id": "286028cd-7cb7-4c71-91a7-ae1a23df8a31",
+      "last_modified": 1661953619867
+    },
+    {
+      "click": {
+        "optIn": ".evidon-banner-acceptbutton",
+        "optOut": ".evidon-banner-declinebutton",
+        "presence": "div.evidon-banner"
+      },
+      "domain": "dropbox.com",
+      "schema": 1661951534770,
+      "cookies": {},
+      "id": "7f82a27a-eaf8-4c16-b15e-66b5efe62fa2",
+      "last_modified": 1661952366489
+    },
+    {
+      "click": {
+        "optIn": ".cmpboxbtnyes",
+        "optOut": ".cmpboxbtnno",
+        "presence": "div#cmpbox"
+      },
+      "domain": "mail.ru",
+      "schema": 1661869950587,
+      "cookies": {},
+      "id": "77424a06-c47f-4b06-9925-e4d5afc7c61a",
+      "last_modified": 1661873355741
+    },
+    {
+      "click": {
+        "optIn": "div.uiLayer div > button[type=submit]",
+        "optOut": "div.uiLayer div > button + button[type=submit]",
+        "presence": "div#cookie-banner"
+      },
+      "domain": "azure.microsoft.com",
+      "schema": 1661781288397,
+      "cookies": {},
+      "id": "f899d35e-20af-4cfb-9856-143a80b86ba9",
+      "last_modified": 1661782001575
+    },
+    {
+      "click": {
+        "optIn": ".js-accept-cookies",
+        "presence": ".js-consent-banner"
+      },
+      "domain": "askubuntu.com",
+      "schema": 1661539693723,
+      "cookies": {},
+      "id": "71443ce9-15b8-4e07-b51b-1f2158521ea9",
+      "last_modified": 1661539730639
+    },
+    {
+      "click": {
+        "optIn": ".js-accept-cookies",
+        "presence": ".js-consent-banner"
+      },
+      "domain": "serverfault.com",
+      "schema": 1661539634697,
+      "cookies": {},
+      "id": "98fcaf1f-aae9-4fb4-985a-e4f7230c3fdb",
+      "last_modified": 1661539730634
+    },
+    {
+      "click": {
+        "optIn": ".js-accept-cookies",
+        "presence": ".js-consent-banner"
+      },
+      "domain": "stackexchange.com",
+      "schema": 1661539497584,
+      "cookies": {},
+      "id": "6dca720b-4df0-4707-86c8-2a98748cba02",
+      "last_modified": 1661539730629
+    },
+    {
+      "click": {
+        "optIn": ".js-accept-cookies",
+        "presence": ".js-consent-banner"
+      },
+      "domain": "stackoverflow.com",
+      "schema": 1661539322069,
+      "cookies": {},
+      "id": "05e86dab-14e2-4fbe-9229-539752d57f8f",
+      "last_modified": 1661539497287
+    },
+    {
+      "click": {
+        "hide": "div#onetrust-consent-sdk",
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-banner-sdk"
+      },
+      "domain": "cnn.com",
+      "schema": 1661539313645,
+      "cookies": {},
+      "id": "3dde4bbf-a1fa-458d-afb1-e2ae5f459217",
+      "last_modified": 1661539497276
+    },
+    {
+      "click": { "optIn": "button.sp_choice_type_11", "presence": "body" },
+      "domain": "privacy-mgmt.com",
+      "schema": 1661372690527,
+      "cookies": {},
+      "id": "d3d9bf51-2613-408a-afad-5d203fea7857",
+      "last_modified": 1661372852775
+    },
+    {
+      "click": {},
+      "domain": "youtube.com",
+      "schema": 1661372391701,
+      "cookies": {
+        "optOut": [
+          { "name": "CONSENT", "path": "/", "value": "PENDING", "sameSite": 0 },
+          {
+            "name": "SOCS",
+            "path": "/",
+            "value": "CAESEwgDEgk0Njk1NTcxMzUaAmVuIAEaBgiA1JWYBg",
+            "sameSite": 0
+          }
+        ]
+      },
+      "id": "788ed05e-cf93-41a8-b2e5-c5571d855232",
+      "last_modified": 1661372428150
+    },
+    {
+      "click": {
+        "hide": "#onetrust-consent-sdk",
+        "optIn": "#accept-recommended-btn-handler",
+        "optOut": "button.save-preference-btn-handler",
+        "presence": "#onetrust-pc-sdk"
+      },
+      "domain": "dhl.com",
+      "schema": 1661367207642,
+      "cookies": {},
+      "id": "a224a333-229d-4f1f-af68-41a25a152037",
+      "last_modified": 1661368829788
+    },
+    {
+      "click": {},
+      "domain": "google.com",
+      "schema": 1661360967749,
+      "cookies": {
+        "optOut": [
+          { "name": "CONSENT", "path": "/", "value": "PENDING", "sameSite": 0 },
+          {
+            "name": "SOCS",
+            "path": "/",
+            "value": "CAESHAgBEhJnd3NfMjAyMjA4MTEtMF9SQzMaAmRlIAEaBgiA1JWYBg",
+            "sameSite": 0
+          }
+        ]
+      },
+      "id": "ffe76ba2-d6aa-47f4-ab85-9368feeb4519",
+      "last_modified": 1661361726513
+    },
+    {
+      "click": {},
+      "domain": "google.fr",
+      "schema": 1661360388718,
+      "cookies": {
+        "optOut": [
+          { "name": "CONSENT", "path": "/", "value": "PENDING", "sameSite": 0 },
+          {
+            "name": "SOCS",
+            "path": "/",
+            "value": "CAESHAgBEhJnd3NfMjAyMjA4MTEtMF9SQzMaAmRlIAEaBgiA1JWYBg",
+            "sameSite": 0
+          }
+        ]
+      },
+      "id": "114dde58-155f-45f6-9da6-b545f8f3f613",
+      "last_modified": 1661360967440
+    },
+    {
+      "click": {},
+      "domain": "google.de",
+      "schema": 1661360299863,
+      "cookies": {
+        "optOut": [
+          { "name": "CONSENT", "path": "/", "value": "PENDING", "sameSite": 0 },
+          {
+            "name": "SOCS",
+            "path": "/",
+            "value": "CAESHAgBEhJnd3NfMjAyMjA4MTEtMF9SQzMaAmRlIAEaBgiA1JWYBg",
+            "sameSite": 0
+          }
+        ]
+      },
+      "id": "01c11d97-981e-4543-ae60-e468f1adbe98",
+      "last_modified": 1661360388419
+    },
+    {
+      "click": {
+        "optIn": "div.uiLayer div > button + button[type=submit]",
+        "optOut": "div.uiLayer div > button[type=submit]",
+        "presence": "div.uiLayer"
+      },
+      "domain": "facebook.com",
+      "schema": 1661165103413,
+      "cookies": {},
+      "id": "d1d8ba36-ced7-4453-8b17-2e051e0ab1eb",
+      "last_modified": 1661165447807
+    },
+    {
+      "click": {
+        "optIn": "div#uhfCookieAlert div > button",
+        "optOut": "iv#uhfCookieAlert div > button + button",
+        "presence": "div#uhfCookieAlert"
+      },
+      "domain": "microsoft.com",
+      "schema": 1661165137971,
+      "cookies": {},
+      "id": "caf8d44d-af29-47a9-aa66-ec4041655d33",
+      "last_modified": 1661165447803
+    },
+    {
+      "click": {
+        "optIn": "div#layers div[role]",
+        "optOut": "div#layers div[role] + div[role]",
+        "presence": "div#layers > div > div > div > div > div"
+      },
+      "domain": "twitter.com",
+      "schema": 1661165167737,
+      "cookies": {},
+      "id": "05b3b417-c4c7-4ed0-a3cf-43053e8b33ab",
+      "last_modified": 1661165447799
+    },
+    {
+      "click": {
+        "optIn": "div.global-alert-banner button[action-type=ACCEPT]",
+        "optOut": "div.global-alert-banner button[action-type=DENY]",
+        "presence": "div.global-alert-banner"
+      },
+      "domain": "linkedin.com",
+      "schema": 1661165204884,
+      "cookies": {},
+      "id": "f1ddc6f6-8927-4205-8003-1f6e84ae22b0",
+      "last_modified": 1661165447795
+    },
+    {
+      "click": {
+        "hide": "div#onetrust-consent-sdk",
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-banner-sdk"
+      },
+      "domain": "vimeo.com",
+      "schema": 1661165282200,
+      "cookies": {},
+      "id": "dd0c1047-7dfa-4ad7-b249-3559e6a466f9",
+      "last_modified": 1661165447792
+    },
+    {
+      "click": {
+        "optIn": "button#gdpr-banner-accept",
+        "optOut": "button#gdpr-banner-decline",
+        "presence": "div#gdpr-banner"
+      },
+      "domain": "ebay.com",
+      "schema": 1661165373411,
+      "cookies": {},
+      "id": "1e6d35e7-b907-4f5c-a09a-9f3336ef6e61",
+      "last_modified": 1661165447784
+    },
+    {
+      "click": {
+        "optIn": "button#gdpr-banner-accept",
+        "optOut": "button#gdpr-banner-decline",
+        "presence": "div#gdpr-banner"
+      },
+      "domain": "ebay.de",
+      "schema": 1661165397311,
+      "cookies": {},
+      "id": "d0356a58-6b55-4bbc-ab79-9ded68601af2",
+      "last_modified": 1661165447780
+    },
+    {
+      "click": {
+        "optIn": "button[data-a-target=consent-banner-accept]",
+        "presence": "div.consent-banner"
+      },
+      "domain": "twitch.tv",
+      "schema": 1661165425864,
+      "cookies": {},
+      "id": "542aafba-9f44-4321-88e5-ece333073360",
+      "last_modified": 1661165447776
+    },
+    {
+      "click": {
+        "optIn": "div.gdpr div > button:not([aria-label]",
+        "optOut": "div.gdpr div > button + button:not([aria-label])",
+        "presence": "div.gdpr"
+      },
+      "domain": "nytimes.com",
+      "schema": 1661164977100,
+      "cookies": { "optOut": [{ "name": "purr-pref-agent", "value": "<Go" }] },
+      "id": "488f07f9-0a01-4118-aab3-2b817e9fe6dc",
+      "last_modified": 1661165447772
+    },
+    {
+      "click": {
+        "hide": "div#onetrust-consent-sdk",
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button.ot-pc-refuse-all-handler",
+        "presence": "div#onetrust-banner-sdk"
+      },
+      "domain": "getpocket.com",
+      "schema": 1661165237785,
+      "cookies": {
+        "optOut": [
+          {
+            "name": "OptanonAlertBoxClosed",
+            "value": "2022-08-09T16:49:23.845Z"
+          }
+        ]
+      },
+      "id": "c2f6b05e-73dc-4df4-bb54-68215bb9f176",
+      "last_modified": 1661165447769
+    },
+    {
+      "click": {
+        "optIn": "button#truste-consent-button",
+        "presence": "div#truste-consent-track"
+      },
+      "domain": "forbes.com",
+      "schema": 1661164859621,
+      "cookies": {},
+      "id": "30293090-f064-473a-ae0f-cd390507c1c7",
+      "last_modified": 1661164976804
+    },
+    {
+      "click": {
+        "optIn": "input#sp-cc-accept[data-cel-widget]",
+        "presence": "form#sp-cc"
+      },
+      "domain": "amazon.de",
+      "schema": 1661164918986,
+      "cookies": {},
+      "id": "7957b964-6cc5-4d33-9200-aa35e649a2af",
+      "last_modified": 1661164976800
+    },
+    {
+      "click": {
+        "optIn": "button.btn-accept",
+        "optOut": "button.btn-reject",
+        "presence": "div#cookie-disclosure"
+      },
+      "domain": "netflix.com",
+      "schema": 1661164945628,
+      "cookies": {},
+      "id": "6037802d-9a37-4df2-bf35-9ad60c478725",
+      "last_modified": 1661164976796
+    },
+    {
+      "click": {
+        "optIn": "div[role=dialog] > div > button",
+        "optOut": "div[role=dialog] > div > button + button",
+        "presence": "div[role=presentation]"
+      },
+      "domain": "instagram.com",
+      "schema": 1660934222335,
+      "cookies": {},
+      "id": "e7112653-2ab3-4ddf-b0b1-396052c2f001",
+      "last_modified": 1661164859316
+    },
+    {
+      "click": {},
+      "domain": "bbc.com",
+      "schema": 1660929784754,
+      "cookies": {
+        "optOut": [
+          { "name": "ckns_explicit", "value": "2" },
+          { "name": "ckns_policy", "value": "000" },
+          { "name": "ckns_privacy", "value": "july2019" }
+        ]
+      },
+      "id": "e9a07bcd-28b5-4034-a663-c017e6a8208e",
+      "last_modified": 1660929852978
+    },
+    {
+      "click": {},
+      "domain": "bbc.co.uk",
+      "schema": 1660918464179,
+      "cookies": {
+        "optOut": [
+          { "name": "ckns_explicit", "value": "2" },
+          { "name": "ckns_policy", "value": "000" },
+          { "name": "ckns_privacy", "value": "july2019" }
+        ]
+      },
+      "id": "1be89e75-e68b-4323-928e-3839995f2be3",
+      "last_modified": 1660929784461
+    },
+    {
+      "click": {},
+      "domain": "web.de",
+      "schema": 1660845073491,
+      "cookies": {
+        "optOut": [
+          { "name": "consentLevel", "value": "1" },
+          { "name": "euconsent-bypass", "value": "1" }
+        ]
+      },
+      "id": "290db348-ced2-4f16-9954-da476d0aef01",
+      "last_modified": 1660918463869
+    },
+    {
+      "click": {},
+      "domain": "bundesregierung.de",
+      "schema": 1660843213528,
+      "cookies": {
+        "optOut": [
+          { "name": "cookie-allow-necessary", "value": "1" },
+          { "name": "cookie-allow-tracking", "value": "0" },
+          { "name": "cookie-banner", "value": "hide" }
+        ]
+      },
+      "id": "84f68b1a-18a2-478c-bc8e-9ec32d4e3e80",
+      "last_modified": 1660845073182
+    },
+    {
+      "click": {},
+      "domain": "bing.com",
+      "schema": 1660836870336,
+      "cookies": { "optOut": [{ "name": "BCP", "value": "AD=0&AL=0&SM=0" }] },
+      "id": "31dc6160-3495-4f4e-8c67-594527bd4051",
+      "last_modified": 1660837365450
+    },
+    {
+      "click": {},
+      "domain": "paypal.com",
+      "schema": 1660837021903,
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookie_prefs",
+            "value": "T%3D0%2CP%3D0%2CF%3D0%2Ctype%3Dexplicit_banner"
+          }
+        ]
+      },
+      "id": "3f1e21e7-327f-42de-ac40-25da7f4fa7c9",
+      "last_modified": 1660837365442
+    },
+    {
+      "click": {},
+      "domain": "mydealz.de",
+      "schema": 1660837054566,
+      "cookies": {
+        "optOut": [
+          { "name": "cookie_policy_agreement", "value": "3" },
+          { "name": "dont-track", "value": "1" }
+        ]
+      },
+      "id": "069f4d94-8031-4b83-b8f9-89752c5c1353",
+      "last_modified": 1660837365438
+    },
+    {
+      "click": {},
+      "domain": "whatsapp.com",
+      "schema": 1660837148437,
+      "cookies": {
+        "optIn": [{ "name": "wa_cb", "value": "1_2022_08_09_" }],
+        "optOut": []
+      },
+      "id": "0f4b1486-7d4b-4f73-8ec9-122daca9ebf4",
+      "last_modified": 1660837365425
+    },
+    {
+      "click": {},
+      "domain": "wordpress.com",
+      "schema": 1660837179455,
+      "cookies": {
+        "optIn": [{ "name": "sensitive_pixel_option", "value": "yes" }]
+      },
+      "id": "709f87b8-b010-4d32-b32d-3f265963c6a5",
+      "last_modified": 1660837365419
+    },
+    {
+      "click": {},
+      "domain": "bitly.com",
+      "schema": 1660837207193,
+      "cookies": { "optIn": [{ "name": "cookie_banner", "value": "1" }] },
+      "id": "84a097a3-5cd1-448a-afcf-4be950bc5756",
+      "last_modified": 1660837365414
+    },
+    {
+      "click": {},
+      "domain": "yandex.com",
+      "schema": 1660837231206,
+      "cookies": { "optOut": [{ "name": "gdpr", "value": "1" }] },
+      "id": "37319f5d-9484-4da8-aee1-570a78688da3",
+      "last_modified": 1660837365409
+    },
+    {
+      "click": {},
+      "domain": "yandex.ru",
+      "schema": 1660837249273,
+      "cookies": { "optOut": [{ "name": "gdpr", "value": "1" }] },
+      "id": "128c2e2e-99c8-4f15-9843-dab9942421b0",
+      "last_modified": 1660837365401
+    },
+    {
+      "click": {},
+      "domain": "tumblr.com",
+      "schema": 1660837266873,
+      "cookies": {
+        "optOut": [
+          { "name": "euconsent-v2", "value": "1" },
+          { "name": "euconsent-v2-noniab", "value": "AAYA" }
+        ]
+      },
+      "id": "e8f941e6-ac56-4dec-b682-a75e8bd52aae",
+      "last_modified": 1660837365396
+    },
+    {
+      "click": {},
+      "domain": "tiktok.com",
+      "schema": 1660837306986,
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookie-consent",
+            "value": "{%22ga%22:false%2C%22af%22:false%2C%22fbp%22:false%2C%22lip%22:false%2C%22bing%22:false%2C%22ttads%22:false%2C%22reddit%22:false%2C%22version%22:%22v8%22}"
+          }
+        ]
+      },
+      "id": "d9166ae8-dcc7-4ca2-8b02-0884fb1d6f70",
+      "last_modified": 1660837365389
+    },
+    {
+      "click": {},
+      "domain": "reddit.com",
+      "schema": 1660836803699,
+      "cookies": {
+        "optOut": [
+          {
+            "name": "eu_cookie",
+            "value": "{%22opted%22:true%2C%22nonessential%22:false}"
+          }
+        ]
+      },
+      "id": "c5243e7c-eb86-4a9d-947c-7129e99fbd72",
+      "last_modified": 1660836869997
+    }
+  ]
+}
