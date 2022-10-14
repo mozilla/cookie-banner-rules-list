@@ -636,6 +636,265 @@
       },
       "id": "c5243e7c-eb86-4a9d-947c-7129e99fbd72",
       "last_modified": 1660836869997
-    }
+    },
+    	{
+  "click": {
+    "optIn": "button#onetrust-accept-btn-handler",
+    "optOut": "button#onetrust-reject-all-handler",
+    "presence": "div#onetrust-consent-sdk"
+  },
+  "domain": "cloudflare.com",
+  "schema": 1665622072973,
+  "cookies": {},
+  "id": "0b42c238-b54d-4106-8d9a-81df5bc0b3ae"
+  },
+    {
+  "click": {
+    "optIn": "button#L2AGLb",
+    "optOut": "button#W0wltc",
+    "presence": "div#CXQnmb"
+  },
+  "domain": "google.com.hk",
+  "schema": 1665664785245,
+  "cookies": {
+    "optIn": [
+      {
+        "name": "SOCS",
+        "value": "CAISHAgBEhJnd3NfMjAyMjEwMDYtMF9SQzMaAnJvIAEaBgiAqp2aBg",
+        "isSecure": true
+      }
+    ],
+    "optOut": [
+      {
+        "name": "SOCS",
+        "value": "CAESHAgBEhJnd3NfMjAyMjEwMDYtMF9SQzMaAnJvIAEaBgiAqp2aBg",
+        "isSecure": true
+      }
+    ]
+  },
+  "id": "4a947309-9a90-45bc-916c-b76bcd61bed1"
+  },
+    {
+  "click": {
+    "optIn": "button#onetrust-accept-btn-handler",
+    "optOut": "button#onetrust-reject-all-handler",
+    "presence": "div#onetrust-consent-sdk"
+  },
+  "domain": "msn.com",
+  "schema": 1665665451546,
+  "cookies": {
+    "optIn": [
+      {
+        "name": "eupubconsent-v2",
+        "value": "CPg0HlKPg0HlKAcABBENCFCsAP_AAEPAACiQImtf_X__b3_j-_5_f_t0eY1P9_7_v-0zjhedt-8N3d_X_L8X52M7vF36pq4KuR4Eu3LBAQdlHOHcTUmw6IkVqzPsbk2cr7NKJ7PEmnMbO2dYGH9_n93TuZKY7______z_v-v_v____f__-3_3__5_1---wAAB8gdzLv9____393P___9v-_9_____-CIYBJhqXkAXZljgybRpVCiBGFYSHQCgAooBhaIrCB1cFOyuAn1BCwAQCpCcCIEGIKMGAQACCQBIREBIAeCARAEQCAAEAKsBCAAjYBBYAWBgEAAoBoWIEUAQgSEGRwVHKYEBUi0UE9lYglB3saYQhlnARQIAAABABrNECwMhIWDmOAJAS8WSB5ihfIBAaBCAFYALgAhgBkADLAGyAOwAfgBAACCgEYAKeAVeAtAC0gGsAN4AdUA-QCHQEVAJEATYAnYBSIC5AGEgMPAYwAycBnIDPAGfAPwDACgBzAHUASEAkUBkYDdAHEgOzAe6BD4QALABIAOYA3gCQgEigN0AcSA7MB7oD7AIfCIDQAVgBDADIAGWANkAdgA_ACAAEYAKeAVcA1gB1QD5AIdASIAmwBOwCkQFyAMJAYeAycBnIDPgH4CoDgAFAAhgBMAC4AI4AZYA7AB-AEYAI4AVeAtAC0gG8ASCAmIBNgCmwFsALkAXmAw8BkQDOQGeAM-AbkA_ACF4oAaANoAcwA8ACCgHVAR6AkUBrwDbwHEgPsAgeBBsZAaAAoAEMAJgAjgBlgDsgH2AfgBGACOAFXAK2AbwBJwCYgE2ALRAWwAvMBh4DIgGcgM8AZ8A-IB-AELxgAwAbQA5gB4AFiAOqAj0BIoC8gG3gOJAfYBBsAA.f_gACHgAAAAA"
+      }
+    ],
+    "optOut": [
+      {
+        "name": "eupubconsent-v2",
+        "value": "CPg0HVBPg0HVBAcABBENCFCgAAAAAAAAACiQAAAAAAEBoEIAVgAuACGAGQAMsAbIA7AB-AEAAIKARgAp4BV4C0ALSAawA3gB1QD5AIdARUAkQBNgCdgFIgLkAYSAw8BjADJwGcgM8AZ8A_AMAKAHMAdQBIQCRQGRgN0AcSA7MB7oEPhAAsAEgA5gDeAJCASKA3QBxIDswHugPsAh8IgNABWAEMAMgAZYA2QB2AD8AIAARgAp4BVwDWAHVAPkAh0BIgCbAE7AKRAXIAwkBh4DJwGcgM-AfgKgOAAUACGAEwALgAjgBlgDsAH4ARgAjgBV4C0ALSAbwBIICYgE2AKbAWwAuQBeYDDwGRAM5AZ4Az4BuQD8AIXigBoA2gBzADwAIKAdUBHoCRQGvANvAcSA-wCB4EGxkBoACgAQwAmACOAGWAOyAfYB-AEYAI4AVcArYBvAEnAJiATYAtEBbAC8wGHgMiAZyAzwBnwD4gH4AQvGADABtADmAHgAWIA6oCPQEigLyAbeA4kB9gEGwAAA.YAAAAAAAAAAA"
+      }
+    ]
+  },
+  "id": "dbbf625a-5a3f-4040-96c3-4633cc2d3e24"
+  },
+    {
+  "click": {
+    "optIn": "button.primary",
+    "presence": "div.con-wizard"
+  },
+  "domain": "yahoo.com",
+  "schema": 1665666115860,
+  "cookies": {
+    "optIn": [
+      {
+        "name": "EuConsent",
+        "value": "CPgyVIAPgyVIAAOACBROCkCoAP_AAH_AACiQJBNd_H__bX9n-f7_6ft0eY1f9_r37uQzDhfNk-8F3L_W_LwX_2E7NF36tq4KmR4ku1LBIUNtHMnUDUmxaokVrzHsak2cpzNKJ_BkknsZe2dYGF9vm5tj-QKZ7_5_d3f52T_9_9v-39z33913v3d93-_13LjdV5_9H_v9fR_bc_Kft_5-_8v8_____3_e______8EggCTDVuIAuxLHAm0DCKBECMKwkKoFABBQDC0QGADg4KdlYBPrCBAAgFAEYEQIcAUYEAgAAAgCQiACQIsEAAAIgEAAIAEQiEABAwCCgAsDAIAAQDQMUQoABAkIMiAiKUwICIEggJbKhBKC6Q0wgDrLACgkRsVAAiAAAUgACAsHAMESAlYsECTFG-QAjBCgFEqFaAGGgAwABBIIRABgACCQQqADAAEEgg",
+        "isSecure": true
+      }
+    ]
+  },
+  "id": "2f9123b1-7d6b-460f-8da8-988f82238ec7"
+  },
+    {
+  "click": {
+    "optIn": "button.cmd-button-accept-all",
+    "optOut": "button.cmd-button-reject-all",
+    "presence": "div.cookies-modal"
+  },
+  "domain": "xhamster.com",
+  "schema": 1665666942133,
+  "cookies": {
+    "optIn": [
+      {
+        "name": "cookie_accept",
+        "value": "%7B%22e%22%3A1%2C%22n%22%3A1%2C%22tp%22%3A1%7D"
+      },
+      {
+        "name": "parental-control",
+        "value": "yes"
+      }
+    ],
+    "optOut": [
+      {
+        "name": "cookie_accept",
+        "value": "%7B%22e%22%3A1%2C%22n%22%3A0%2C%22tp%22%3A0%7D"
+      },
+      {
+        "name": "parental-control",
+        "value": "yes"
+      }
+    ]
+  },
+  "id": "02e04a3d-0848-4b10-a41d-80e31c4062a7"
+  },
+    {
+  "click": {
+    "optIn": ".btn--primary",
+    "presence": "div#cookie-consent"
+  },
+  "domain": "opera.com",
+  "schema": 1665669651587,
+  "cookies": {
+    "optIn": [
+      {
+        "name": "cookie_consent_essential",
+        "value": "true"
+      },
+      {
+        "name": "cookie_consent_marketing",
+        "value": "true"
+      }
+    ]
+  },
+  "id": "09884f7b-ef06-45dd-9bda-960b5c6b7232"
+  },
+    {
+  "click": {
+    "optIn": "#cmpbntyestxt",
+    "optOut": "#cmpbntnotxt",
+    "presence": "div.cmpboxbtns"
+  },
+  "domain": "sourceforge.net",
+  "schema": 1665669888782,
+  "cookies": {
+    "optIn": [
+      {
+        "name": "__cmpconsentx11319",
+        "value": "CPgx6wgPgx6wgAfUnBENCkCsAP_AAH_AACiQGgwDwAGgAVABAADQAJgAXwAwgB4AEEAJAAUYBCAFoALzAaCBoMA8ABoAFQAQAA0ACYAF8AMIAeABBACQAFGAQgBaAC8wGggAAA",
+        "isSecure": true
+      }
+    ],
+    "optOut": [
+      {
+        "name": "__cmpconsentx11319",
+        "value": "CPgx6wgPgx6wgAfUnBENCkCgAAAAAAAAACiQAAAAAAAA",
+        "isSecure": true
+      }
+    ]
+  },
+  "id": "786f7ae5-548a-43d4-97a2-7b8efb5ed7a7"
+  },
+    {
+  "click": {
+    "optIn": "button#onetrust-accept-btn-handler",
+    "presence": "div#onetrust-button-group-parent"
+  },
+  "domain": "digicert.com",
+  "schema": 1665670173294,
+  "cookies": {},
+  "id": "0da6a0df-beac-4499-b3ac-023fc68ca695"
+  },
+    {
+  "click": {
+    "optIn": "button#onetrust-accept-btn-handler",
+    "optOut": "button#onetrust-reject-all-handler",
+    "presence": "div#onetrust-button-group"
+  },
+  "domain": "webex.com",
+  "schema": 1665670505287,
+  "cookies": {},
+  "id": "5e777243-0819-48a6-90b4-66a1353e2514"
+  },
+    {
+  "click": {
+    "optIn": "div#gdpr-single-choice-overlay",
+    "presence": "button.wt-btn--filled"
+  },
+  "domain": "etsy.com",
+  "schema": 1665671188137,
+  "cookies": {
+    "optIn": [
+      {
+        "name": "p",
+        "value": "eyJnZHByX3RwIjoxLCJnZHByX3AiOjF9"
+      }
+    ]
+  },
+  "id": "e5706488-f2e9-47bd-a178-4d569ca26ce8"
+  },
+    {
+  "click": {
+    "optIn": "button#onetrust-accept-btn-handler",
+    "optOut": "button#onetrust-reject-all-handler",
+    "presence": "div#onetrust-button-group"
+  },
+  "domain": "indeed.com",
+  "schema": 1665671330451,
+  "cookies": {},
+  "id": "a4d94551-fc83-4477-b542-a13950b97468"
+  },
+    {
+  "click": {
+    "optIn": "button#L2AGLb",
+    "optOut": "button#W0wltc",
+    "presence": "div.spoKVd"
+  },
+  "domain": "google.co.in",
+  "schema": 1665671846324,
+  "cookies": {
+    "optIn": [
+      {
+        "name": "NID",
+        "value": "511=LsN6Ln7-Mo3s1--Jj6XriDXGASnZN_hteNJEsV6PLicq77EDsKmJ8VTJZTDocymcQypv1LdFO5ybVOkZEZrNzxAn3T1F1OwY7lqNpB1LRkGd7LKLv_958U0Shm4Q2Pf4eqmSSZt54JGHrkp2bsttfFriwXdN1LkZzPG8DBxcbz0",
+      }
+    ],
+    "optOut": [
+      {
+        "name": "SOCS",
+        "value": "CAESHAgBEhJnd3NfMjAyMjA5MjEtMF9SQzQaAnJvIAEaBgiA49iZBg",
+      }
+    ]
+  },
+  "id": "9c252bbd-0ddc-4677-bab1-3946161dc819"
+  },
+  {
+  "click": {
+    "optIn": "button#onetrust-accept-btn-handler",
+    "presence": "div#onetrust-consent-sdk"
+  },
+  "domain": "weebly.com",
+  "schema": 1665747960527,
+  "cookies": {
+    "optIn": [
+      {
+        "name": "cookie-consent",
+        "value": "{\"allowStrictlyNecessaryCookies\":true,\"allowFunctionalityCookies\":true,\"allowPerformanceCookies\":true,\"allowTargetingCookies\":true}"
+      }
+    ]
+  },
+  "id": "eed2da2f-466d-4f5e-8138-73103b881cdc"
+	},
+	{
+  "click": {
+    "optIn": "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+    "optOut": "button#CybotCookiebotDialogBodyButtonDecline",
+    "presence": "div#CybotCookiebotDialog"
+  },
+  "domain": "issuu.com",
+  "schema": 1665755061248,
+  "cookies": {},
+  "id": "019c0709-e9ef-4b0d-94bf-958d251a51b5"
+	}
   ]
 }
