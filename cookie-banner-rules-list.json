@@ -759,7 +759,6 @@
         "presence": "div#onetrust-consent-sdk"
       },
       "domain": "cloudflare.com",
-      "schema": 1665622072973,
       "cookies": {},
       "id": "0b42c238-b54d-4106-8d9a-81df5bc0b3ae"
     },
@@ -770,7 +769,6 @@
         "presence": "div#CXQnmb"
       },
       "domain": "google.com.hk",
-      "schema": 1665664785245,
       "cookies": {
         "optIn": [
           {
@@ -796,7 +794,6 @@
         "presence": "div#onetrust-consent-sdk"
       },
       "domain": "msn.com",
-      "schema": 1665665451546,
       "cookies": {
         "optIn": [
           {
@@ -819,7 +816,6 @@
         "presence": "div.con-wizard"
       },
       "domain": "yahoo.com",
-      "schema": 1665666115860,
       "cookies": {
         "optIn": [
           {
@@ -838,26 +834,17 @@
         "presence": "div.cookies-modal"
       },
       "domain": "xhamster.com",
-      "schema": 1665666942133,
       "cookies": {
         "optIn": [
           {
             "name": "cookie_accept",
             "value": "%7B%22e%22%3A1%2C%22n%22%3A1%2C%22tp%22%3A1%7D"
-          },
-          {
-            "name": "parental-control",
-            "value": "yes"
           }
         ],
         "optOut": [
           {
             "name": "cookie_accept",
             "value": "%7B%22e%22%3A1%2C%22n%22%3A0%2C%22tp%22%3A0%7D"
-          },
-          {
-            "name": "parental-control",
-            "value": "yes"
           }
         ]
       },
@@ -869,7 +856,6 @@
         "presence": "div#cookie-consent"
       },
       "domain": "opera.com",
-      "schema": 1665669651587,
       "cookies": {
         "optIn": [
           {
@@ -891,7 +877,6 @@
         "presence": "div.cmpboxbtns"
       },
       "domain": "sourceforge.net",
-      "schema": 1665669888782,
       "cookies": {
         "optIn": [
           {
@@ -916,7 +901,6 @@
         "presence": "div#onetrust-button-group-parent"
       },
       "domain": "digicert.com",
-      "schema": 1665670173294,
       "cookies": {},
       "id": "0da6a0df-beac-4499-b3ac-023fc68ca695"
     },
@@ -927,7 +911,6 @@
         "presence": "div#onetrust-button-group"
       },
       "domain": "webex.com",
-      "schema": 1665670505287,
       "cookies": {},
       "id": "5e777243-0819-48a6-90b4-66a1353e2514"
     },
@@ -937,7 +920,6 @@
         "presence": "button.wt-btn--filled"
       },
       "domain": "etsy.com",
-      "schema": 1665671188137,
       "cookies": {
         "optIn": [
           {
@@ -955,7 +937,6 @@
         "presence": "div#onetrust-button-group"
       },
       "domain": "indeed.com",
-      "schema": 1665671330451,
       "cookies": {},
       "id": "a4d94551-fc83-4477-b542-a13950b97468"
     },
@@ -966,7 +947,6 @@
         "presence": "div.spoKVd"
       },
       "domain": "google.co.in",
-      "schema": 1665671846324,
       "cookies": {
         "optIn": [
           {
@@ -997,7 +977,6 @@
         "presence": "div#onetrust-consent-sdk"
       },
       "domain": "weebly.com",
-      "schema": 1665747960527,
       "cookies": {
         "optIn": [
           {
@@ -1015,7 +994,6 @@
         "presence": "div#CybotCookiebotDialog"
       },
       "domain": "issuu.com",
-      "schema": 1665755061248,
       "cookies": {},
       "id": "019c0709-e9ef-4b0d-94bf-958d251a51b5"
     }
