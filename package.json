@@ -4,7 +4,7 @@
   "description": "Rules List for how Firefox's Automated Cookie Banner Preference Manager is to interact with banners on a site by site basis",
   "scripts": {
     "validate": "node test/validateSchema.js",
-    "lint": "echo \"Error: Not implemented\" && exit 1"
+    "prettier": "prettier --check cookie-banner-rules-list.json"
   },
   "repository": {
     "type": "git",
