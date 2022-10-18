@@ -862,15 +862,15 @@
         "name": "CONSENT",
         "value": "PENDING"
             }
-        ]
+        ],
       "optOut": [
       {
         "name": "SOCS",
-        "value": "CAESHAgBEhJnd3NfMjAyMjA5MjEtMF9SQzQaAnJvIAEaBgiA49iZBg",
+        "value": "CAESHAgBEhJnd3NfMjAyMjA5MjEtMF9SQzQaAnJvIAEaBgiA49iZBg"
             },
             {
         "name": "CONSENT",
-        "value": "CAISHAgBEhJnd3NfMjAyMjEwMTAtMF9SQzIaAnJvIAEaBgiA2beaBg",
+        "value": "CAISHAgBEhJnd3NfMjAyMjEwMTAtMF9SQzIaAnJvIAEaBgiA2beaBg"
             }
           ]
         },
