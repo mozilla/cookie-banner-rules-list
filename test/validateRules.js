@@ -58,4 +58,27 @@ const ajv = new Ajv({ loadSchema });
     console.info("Rule list validation error", validate.errors);
     exit(1);
   }
+
+  // 3. Check for duplicate rules (id or domain)
+  const idSet = new Set();
+  const domainSet = new Set();
+
+  let foundDuplicates = false;
+  let i = 0;
+  ruleList.data.forEach((rule) => {
+    if (idSet.has(rule.id)) {
+      console.error(`Duplicate id ${rule.id} for rule #${i}`);
+    }
+    // Allow * domain rules which are global rules.
+    if (domainSet.has(rule.domain) && rule.domain != "*") {
+      console.error(`Duplicate domain ${rule.domain} for rule #${i}`);
+    }
+
+    idSet.add(rule.id);
+    domainSet.add(rule.domain);
+    i += 1;
+  });
+  if (foundDuplicates) {
+    exit(1);
+  }
 })();
