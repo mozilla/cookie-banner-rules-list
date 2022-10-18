@@ -1,4 +1,5 @@
 # `cookie-banner-rules-list` -> RemoteSettings
+
 Rules List for how Firefox's Automated Cookie Banner Preference Manager is to interact with banners on a site by site basis
 
 The script from this repo publishes the latest cookie-banner-rules-list.json and updates the associated collection in RemoteSettings:
