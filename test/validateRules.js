@@ -38,7 +38,7 @@ function exitWithError(reason) {
   exit(1);
 }
 
-const ajv = new Ajv({ loadSchema });
+const ajv = new Ajv({ loadSchema, allErrors: true });
 
 (async () => {
   // 1. Load and parse the rules list.
@@ -69,8 +69,7 @@ const ajv = new Ajv({ loadSchema });
   const domainSet = new Set();
 
   let foundDuplicates = false;
-  let i = 0;
-  ruleList.data.forEach((rule) => {
+  ruleList.data.forEach((rule, i) => {
     if (idSet.has(rule.id)) {
       console.error(`Duplicate id ${rule.id} for rule #${i}`);
       foundDuplicates = true;
@@ -83,7 +82,6 @@ const ajv = new Ajv({ loadSchema });
 
     idSet.add(rule.id);
     domainSet.add(rule.domain);
-    i += 1;
   });
   if (foundDuplicates) {
     exitWithError("Found duplicate rules");
