@@ -24,15 +24,20 @@ See [CookieBannerRuleList.schema.json](./CookieBannerRuleList.schema.json) and [
 
 Before submitting run the following commands to ensure the rule list is well formatted and valid:
 
+Install dependencies:
 ```
-npm run validate
-npm run prettier
+npm install
+```
+
+Run tests:
+```
+npm test
 ```
 
 You can correct any prettier formatting issues automatically with
 
 ```
-npx prettier --write cookie-banner-rules-list.json
+npm run prettier
 ```
 
 To submit your rule list change please create a pull request. Include the list of affected domains in the description.
