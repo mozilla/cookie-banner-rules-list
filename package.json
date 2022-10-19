@@ -1,0 +1,26 @@
+{
+  "name": "cookie-banner-rules-list",
+  "version": "1.0.0",
+  "description": "Rules List for how Firefox's Automated Cookie Banner Preference Manager is to interact with banners on a site by site basis",
+  "scripts": {
+    "validate": "node test/validateRules.js",
+    "prettier": "prettier --check cookie-banner-rules-list.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mozilla/cookie-banner-rules-list.git"
+  },
+  "author": "",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mozilla/cookie-banner-rules-list/issues"
+  },
+  "homepage": "https://github.com/mozilla/cookie-banner-rules-list#readme",
+  "private": "true",
+  "devDependencies": {
+    "ajv": "^8.11.0",
+    "ajv-cli": "^5.0.0",
+    "node-fetch": "^3.2.10",
+    "prettier": "2.7.1"
+  }
+}
