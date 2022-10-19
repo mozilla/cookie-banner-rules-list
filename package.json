@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "Rules List for how Firefox's Automated Cookie Banner Preference Manager is to interact with banners on a site by site basis",
   "scripts": {
-    "validate": "node test/validateRules.js",
-    "prettier": "prettier --check cookie-banner-rules-list.json"
+    "test": "npm run test-formatting && npm run test-validate-rules",
+    "test-validate-rules": "node test/validateRules.js",
+    "test-formatting": "prettier --check .",
+    "prettier": "prettier --write ."
   },
   "repository": {
     "type": "git",
