@@ -43,7 +43,8 @@ with client.batch() as batch:
         batch.create_record(data=r)
     for r in to_update:
         # Let the server assign a new timestamp.
-        del r["last_modified"]
+        if "last_modified" in r:
+            del r["last_modified"]
         batch.update_record(data=r)
     for r in to_delete:
         batch.delete_record(id=r["id"])
