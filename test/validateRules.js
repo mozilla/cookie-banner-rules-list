@@ -33,7 +33,12 @@ async function loadSchema(uri) {
   return response.json();
 }
 
-const ajv = new Ajv({ loadSchema });
+function exitWithError(reason) {
+  console.error(`❌ ${RULE_LIST_FILE} is invalid: ${reason}`);
+  exit(1);
+}
+
+const ajv = new Ajv({ loadSchema, allErrors: true });
 
 (async () => {
   // 1. Load and parse the rules list.
@@ -46,7 +51,7 @@ const ajv = new Ajv({ loadSchema });
     ruleList = JSON.parse(ruleListStr);
   } catch (error) {
     console.error("Error while parsing rule list", error);
-    exit(1);
+    exitWithError("Invalid JSON");
   }
 
   // 2. Validate rules list against schema.
@@ -56,7 +61,7 @@ const ajv = new Ajv({ loadSchema });
   const valid = validate(ruleList);
   if (!valid) {
     console.info("Rule list validation error", validate.errors);
-    exit(1);
+    exitWithError("Schema validation error");
   }
 
   // 3. Check for duplicate rules (id or domain)
@@ -64,21 +69,23 @@ const ajv = new Ajv({ loadSchema });
   const domainSet = new Set();
 
   let foundDuplicates = false;
-  let i = 0;
-  ruleList.data.forEach((rule) => {
+  ruleList.data.forEach((rule, i) => {
     if (idSet.has(rule.id)) {
       console.error(`Duplicate id ${rule.id} for rule #${i}`);
+      foundDuplicates = true;
     }
     // Allow * domain rules which are global rules.
     if (domainSet.has(rule.domain) && rule.domain != "*") {
       console.error(`Duplicate domain ${rule.domain} for rule #${i}`);
+      foundDuplicates = true;
     }
 
     idSet.add(rule.id);
     domainSet.add(rule.domain);
-    i += 1;
   });
   if (foundDuplicates) {
-    exit(1);
+    exitWithError("Found duplicate rules");
   }
+
+  console.info(`✅ ${RULE_LIST_FILE} is valid.`);
 })();

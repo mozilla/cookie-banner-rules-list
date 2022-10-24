@@ -25,11 +25,13 @@ See [CookieBannerRuleList.schema.json](./CookieBannerRuleList.schema.json) and [
 Before submitting run the following commands to ensure the rule list is well formatted and valid:
 
 Install dependencies:
+
 ```
 npm install
 ```
 
 Run tests:
+
 ```
 npm test
 ```
