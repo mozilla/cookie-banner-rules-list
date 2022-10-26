@@ -411,7 +411,7 @@
       "click": {
         "optIn": "div[role=dialog] > div > button",
         "optOut": "div[role=dialog] > div > button + button",
-        "presence": "div[role=presentation]"
+        "presence": "#scrollview + div"
       },
       "domain": "instagram.com",
       "cookies": {},
