@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+import requests
 
 from kinto_http import Client, BearerTokenAuth
 
@@ -8,9 +9,69 @@ AUTH = os.getenv("AUTHORIZATION", "")
 BUCKET = "main-workspace"
 COLLECTION = "cookie-banner-rules-list"
 
-# source_records = ["cookie-banner-rules-list"]  # Fetch source of truth
-f = open("cookie-banner-rules-list.json")
-source_records = json.load(f).get("data")  # Fetch source of truth
+
+class GitHubRepo:
+    def __init__(self, org, repo):
+        self.__org = org
+        self.__repo = repo
+
+    def __api_get(self, url):
+        headers = {"Accept": "application/vnd.github+json"}
+
+        response = requests.get(f"https://api.github.com{url}", headers=headers)
+        doc = None
+
+        if response.ok:
+            doc = response.json()
+
+        else:
+            try:
+                raise Exception(
+                    f'could not get latest release for "{self.__org}/{self.__repo}!"'
+                )
+
+            except Exception as err:
+                print(err, file=sys.stderr)
+                sys.exit(1)
+
+        return doc.get("tag_name")
+
+    def __get(self, url):
+        response = requests.get(url)
+        body = None
+
+        if response.ok:
+            body = response.text
+
+        else:
+            try:
+                raise Exception(f'could not get url: "{url}"!')
+
+            except Exception as err:
+                print(err, file=sys.stderr)
+                sys.exit(1)
+
+        return body
+
+    def get_latest_release(self):
+        latest_release = self.__api_get(
+            f"/repos/{self.__org}/{self.__repo}/releases/latest"
+        )
+
+        return latest_release
+
+    def get_file_content(self, commitish, path):
+        return self.__get(
+            f"https://raw.githubusercontent.com/{self.__org}/{self.__repo}/{commitish}/{path}"
+        )
+
+
+# fetch cookie-banner-rules-list.json of latest release from github.com/mozilla/cookie-banner-rules-list
+gh_repo = GitHubRepo("mozilla", "cookie-banner-rules-list")
+latest_release = gh_repo.get_latest_release()
+source_records = json.loads(
+    gh_repo.get_file_content(latest_release, "cookie-banner-rules-list.json")
+).get("data")
 
 client = Client(
     server_url=os.getenv("SERVER", "https://settings.dev.mozaws.net/v1/"),
