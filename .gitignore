@@ -1,1 +1,5 @@
-node_modules
+# npm packages
+/node_modules/
+
+# python venv
+/venv/
