@@ -202,7 +202,11 @@
       "id": "a224a333-229d-4f1f-af68-41a25a152037"
     },
     {
-      "click": {},
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div.spoKVd" 
+      },
       "domain": "google.com",
       "cookies": {
         "optOut": [
@@ -223,7 +227,11 @@
       "id": "ffe76ba2-d6aa-47f4-ab85-9368feeb4519"
     },
     {
-      "click": {},
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div.spoKVd"
+      },
       "domain": "google.fr",
       "cookies": {
         "optOut": [
@@ -244,7 +252,11 @@
       "id": "114dde58-155f-45f6-9da6-b545f8f3f613"
     },
     {
-      "click": {},
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div.spoKVd"
+      },
       "domain": "google.de",
       "cookies": {
         "optOut": [
@@ -672,6 +684,10 @@
             "name": "SOCS",
             "value": "CAISHAgBEhJnd3NfMjAyMjEwMDYtMF9SQzMaAnJvIAEaBgiAqp2aBg",
             "isSecure": true
+          },
+          {
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1014,8 +1030,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=iQczolKLhSNyaA78wftS3RkRCKCGyJ3pgy1n8UKuaFW3Iv_LLWeyrBkEirbkjWQbelHVxNHYIZVsFmNHwYDIRNXoN75MlCpJLjO__r93euRqy4KS2y0u0GkLEjPmnOWb9Xmn3-S_vLAg4OlMh3tZERsIV6eJBjlpA5TSOBAsUNY"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1037,8 +1053,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=t9ormuzi4e550lBbL3_39XCB_A4vqcJ_loHNIPgMhaj1ThpizkGcTJVeDj6s0U0lmn0OSFYv0aFoXNeZiTTNPVS3IZNv6rv1viywhDkT5Z8tLLm5vSYgniBSKZV9FWU4yoeeDAaEkHkv9r9Lb_MPieXpU1VqtZ9he04yGaww6yA"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1104,7 +1120,7 @@
         "optIn": [
           {
             "name": "CookieConsent",
-            "value": "{stamp:%27WCJvxz/hqBZ/ELOL5sat3WmYnBbYDKFGWYlhItSfcWe2HkSYX3Fi8g==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cver:5%2Cutc:1664957292568%2Cregion:%27ro%27}"
+            "value": "{stamp:%272Wv5SQ2S2WiaKDYUJJCdPOTrSbeFVWR11Lxbrkc5K1CcpesiF9QZ+A==%27%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:5%2Cutc:1667308125393%2Cregion:%27ro%27}"
           }
         ],
         "optOut": [
@@ -1126,8 +1142,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=WARPda8jk_HGJF0k3pMrrdJq0MPasR31xXOLNyiqyBdJj2mQWHPnb-d5eqwUC9IFwx3ANNKC0TPpeuV2MwKh2b76xRXYG6h4_eiOzc4cB-XKMg0e4ZcWBfX87W86hn5ykrCM8NfPnRAEQqN9ymlcAAaoMrtrWyJpR0fmjhnzajg"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1149,8 +1165,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=FfhInKV7dyhvus1GIL6tG-E9mE1iFGAWlZyi1iZmm_DsypMlDpIc6ouDSAHl15TzhEB1K-IxtZ-Vp-D9KHx-Pk0wmstr-xcUdy9ZZ1PKufLmiQSIRmVigc_nqq60worfjQZtfmZzxwJOwLmmTpQT23xSWXqS5OaHqivOslhhoyA"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1188,8 +1204,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=jUd2Npoda7S2ZfWd76z44rQfYXGZpD3bwYziZutKs2PRm2FHnLSWacSp7k5BaHgEuNu7UCZUOjSeRb5s5kcoRa2HQzPXSEMxGTXzK-SiQ_T8MtvKTSEpyMoW6Ck9wufbU1xAqnC965ouDsMDiIcmvbAy0efv5Ice9H7mjgfHDjM"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1238,8 +1254,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=ntCDgWUxji_8A64T5CnZHtmT3V1Yq1JP5oZ8v53ESF-h3ChgFwz2ZbGdE9imzdwDbDntCjOL4ZHQEx73LfPoX97VroPzNlyoojCvvHkDUpuOjfsWhwBtP9yWYAzTAhowsjCyxRrNJ_PHk2aql_LJMFTZq46iY_WBNk3c7qsBV54"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1261,8 +1277,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=KQduV0v0HsjPa51Z2vqPopH-vPt9aCzt2MoaoC-Jm8lfmMGX52PfpZkIThxcRpHO1EWXQ3Xzk1xkDOH5b3r-w6bI6_8PsL5nI0Jp1T3hWmKXxOHKoLcnLOBOMjRUMcjt9OgQ30hypa9AAs-CGKnf71AtaKqQQR9IHmxI6ba-TdQ"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1284,8 +1300,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=XfZZs0qDp4KidKSqZVhkko77b-yy8Wi5cSAij6J_hHpQT9l-6dihYcjiEiZXiJi5dbsv6yCep3-hBxB072tJPyJbCpmXTeuRDO2KEzaXLP_XSux5rhv6Z0YmedxNLGD1ghe54L_fDvPvYwUTTe8AuJXPqc5YNGLkctL8jWiJA0o"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1316,8 +1332,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=YgxznQVpKEPlrHle9MnsynHfmmF0aKDGXHPfdoOGVv-YroPXrybLAbqsaI-PR-bh9o4lThvn1Ojb6ibV7MURfHhS7_Pj4DtlCOwuOibaAtrRByb3VTkCsvQM1lP7vPUkLv7xF2OX4eZFhsZUkmfO9c2x4LvSxj0_v84PjZFLgzQ"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1339,8 +1355,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=Ydqr52GKkLb_xaU1d8Z66-A_Mr8UDG9h40jaiA0_EM07bS_gg23mez-Ton803Zm9MKaYzDbCQ8h5m3hgvt_M40NLBw8TE-7n85u1_TVYKYvntBeJIdfEzb0YxzWKz-d2_aGkp6VhDpECsSINNi_ck8GPUHETbxTvMO_tkhiP4Gg"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1378,8 +1394,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=JTeGwkHAIVqFhZq5-rEMWBAsqjJ7FlvuxM3q57_iCFoXNb8kiumyOUvk92B0Qi-bbZK9FBfcI5K1Iq1AW6PrWheJ8-U7J1yfI3KjAUSUZWWQ5E2vhJXahHztr-6BG_xMJOll6W2QbJzNFRgNcNqiIMUsH93pgajOTwPbzxYysK4"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1417,8 +1433,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=RiyZteCJyMjsTg78XRwSyhyOXna3gYCJ5vVzPqZQzwORwxqQPjIDfx4fVF8kQDU39tViJFxCRtajnI8zJXtRxI1RpDQupSjmRUD40zvnVbPSjxzxghD-Nl-AIQKFK4FQG3C_oXH6i46eOip8OH0jjHUWsbcm-XxmCu6ez4H1tEk"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1563,8 +1579,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "CAISHAgBEhJnd3NfMjAyMjA5MjktMF9SQzEaAnJvIAEaBgiAkvOZBg"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1595,8 +1611,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=S3UI-rxcoAZ1CGQgWFfq_NUvIIBeJhBQFfR-tSuiRYO-dbpS6hOtY4NDDW0mLtwqRaSyX08YV67eGIFIKQ9cM8DjDxNSDoexqDPt_xKnXXWjI9L5vd4vjpaIH6-5bgftyGHFtkWwH1YT6nv0V4zzGsE3O6BRx3jojFUtQI134wU"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1618,8 +1634,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=SfJYnMD14VmDBZftm2rOYMfEUGahLCYqBvTZdt_-k_dm5b1wumH_nRh5O_4mzzjhFAkoeT39J-pIF6HhYJ7d4aRx2CAujyP9d49EeUArchKO6gwnS_Mfnuz0o3z7VqRQRrx_QgdoKS0XjJgvrBS17_gjfPBUjlrSyMFGfYHyU8E"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1669,8 +1685,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=SLzkyyQ0UfYSdv5JPwX28Kic_ovMVbbm7ElhkDkowvunjdmbXf1gYLQi0ePRK6Ab83L2IRgTEkFWIADQAG8N9G8Zw_yfpoRMZ7mn8peU4zkgRFdfXNIo_wy5RPQcZ9Qb7DMgt7ELn3O2kuyJsw8nAOUgH1DadDYi5xSFswN1HZ8"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1692,8 +1708,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=FvDV_iMEjBBOuup4XB8bqmruezTmVe7hPo3ZTvrUUxojZVSzehBGQ93eU3Im8Zad6g7tFwGoQuX93Wa017CrSJS9X3VTAb_o4Gj4uRBmZPGE-lIZ1AxdLVZh8Rjo5ywihxMPzvTY0zSBBaBL5M9E_9titw9lEdjb04r0d2zXxR8"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1784,8 +1800,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=V2JZtzunMZZkxM7iR0tFWEGXyxzHv3elITxa3VFGIvcX7GghLbGTIU_vTj968PvOX9af4fAva4L_PqSs12F7JfvdpHdrP_MaFzwD3zAeuR6wpPLEY8jTVgkIjZr_rftLB0j0s0eAtVKcqsb1fvL-D3jABp9xcdglhO3IbuBWHZQ"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1807,8 +1823,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=dBZg6njUMcHxdpEQpsFZ_R6kycWvvTYOUCt9WpiSbqeq4X4ifEVxMK6fLNnyIM0Bx461HJMrsnM052Fpe85s-V-pNqtSFEqWHrJ13GaDOlK39A5EsN_RBFBOuM_CYdcy76fZ9Guy5GxJow2IKVMro64AM7qhmbR8HAxwjvJX25Q"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -1932,8 +1948,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=Wf7svLDgLISSeuPUgr5yKhhSevrwIKsfDabds6a0RrcrQC0o2ntoQx-H2hD6gXcwKGZPrTYnCr6dVBhWgTx7-LA3SikC7vte8LLjgZrpzd471tsusrjHxpbDkwtQiHQF5pcCfh4xyBWXMim_9Q7TPRXorbB5MEWTi1quIIhzQcY"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
@@ -2116,8 +2132,8 @@
       "cookies": {
         "optIn": [
           {
-            "name": "NID",
-            "value": "511=B-G1idc0laMGWo3Endbb-ZCR6hMAp4YPaY3PIMsBfjeaCWpb-mnxoxvtzryn2JU6ekflR0vCbf4L53cesGDYM9mXG2OPco9OAMCrn8YAa5Fz81yK3X-ORtsb-85mHKc5Zyp6wD4Hkw7yPBhJcjyCQvJ6GRrs5iGXZ3Isxhcd26M"
+            "name": "CONSENT",
+            "value": "PENDING"
           }
         ],
         "optOut": [
