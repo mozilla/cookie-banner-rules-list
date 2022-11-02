@@ -205,7 +205,7 @@
       "click": {
         "optIn": "button#L2AGLb",
         "optOut": "button#W0wltc",
-        "presence": "div.spoKVd" 
+        "presence": "div.spoKVd"
       },
       "domain": "google.com",
       "cookies": {
