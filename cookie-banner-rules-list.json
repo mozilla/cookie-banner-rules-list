@@ -22,7 +22,7 @@
     {
       "click": {
         "optIn": ".a8c-cookie-banner-accept-all-button",
-        "presence": "div.a8c-cookie-banner"
+        "presence": ".a8c-cookie-banner"
       },
       "domain": "gravatar.com",
       "cookies": {},
