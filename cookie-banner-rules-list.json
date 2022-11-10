@@ -725,7 +725,8 @@
     },
     {
       "click": {
-        "optIn": "button.primary",
+        "optIn": "button.accept-all",
+        "optOut": "button.reject-all",
         "presence": "div.con-wizard"
       },
       "domain": "yahoo.com",
