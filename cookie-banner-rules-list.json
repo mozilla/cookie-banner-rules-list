@@ -7461,6 +7461,25 @@
         ]
       },
       "id": "637c8bb9-b2f6-493e-86c2-f1954aa6a96a"
+    },
+    {
+      "click": {
+        "optIn": "button[name=accept_cookie]",
+        "optOut": "button[name=decline_cookie]",
+        "presence": ".js-cookie-notification__form"
+      },
+      "domain": "coolblue.nl",
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookie-preferences",
+            "path": "/",
+            "value": "eyJmdW5jdGlvbmFsIjp0cnVlLCJhbmFseXRpY2FsIjp0cnVlLCJtYXJrZXRpbmciOmZhbHNlfQ%3D%3D",
+            "sameSite": 0
+          }
+        ]
+      },
+      "id": "1bf6fa4e-7882-41cf-b5e1-ef3c91485006"
     }
   ]
 }
