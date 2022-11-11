@@ -7454,7 +7454,7 @@
         "optOut": [
           {
             "name": "bolConsentChoices",
-            "value": "source#OFC|version#6|int-tran#false|ext-tran#false|int-beh#false|ext-beh#false",
+            "value": "source#OFC|version#6|int-tran#false|ext-tran#false|int-beh#false|ext-beh#false"
           }
         ]
       },
