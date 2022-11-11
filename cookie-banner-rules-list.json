@@ -7461,6 +7461,24 @@
         ]
       },
       "id": "637c8bb9-b2f6-493e-86c2-f1954aa6a96a"
+    },
+    {
+      "click": {
+        "optIn": "button[data-sem=gdpr-consent-banner-accept-button]",
+        "presence": "[data-sem=gdpr-consent-banner]"
+      },
+      "domain": "marktplaats.nl",
+      "cookies": {
+        "optOut": [
+          {
+            "name": "MpTCString",
+            "path": "/",
+            "value": "CPiTffbPiTffbE0ACCNLBiCgAAAAAAAAABpYAAAO8gFgA4AM-AwQBt4DcQG5gN8AdiA7YB3IDvAAAAAA.YAAAAAAAAYAA",
+            "sameSite": 0
+          }
+        ]
+      },
+      "id": "cc60422a-09e2-4c4d-a0b8-ad8de9f7a894"
     }
   ]
 }
