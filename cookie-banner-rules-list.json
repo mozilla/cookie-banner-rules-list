@@ -7454,9 +7454,7 @@
         "optOut": [
           {
             "name": "bolConsentChoices",
-            "path": "/",
             "value": "source#OFC|version#6|int-tran#false|ext-tran#false|int-beh#false|ext-beh#false",
-            "sameSite": 0
           }
         ]
       },
@@ -7473,9 +7471,7 @@
         "optOut": [
           {
             "name": "cookie-preferences",
-            "path": "/",
-            "value": "eyJmdW5jdGlvbmFsIjp0cnVlLCJhbmFseXRpY2FsIjp0cnVlLCJtYXJrZXRpbmciOmZhbHNlfQ%3D%3D",
-            "sameSite": 0
+            "value": "eyJmdW5jdGlvbmFsIjp0cnVlLCJhbmFseXRpY2FsIjp0cnVlLCJtYXJrZXRpbmciOmZhbHNlfQ%3D%3D"
           }
         ]
       },
