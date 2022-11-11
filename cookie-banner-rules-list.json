@@ -7446,6 +7446,21 @@
         ]
       },
       "id": "992a91e5-9d29-411a-a8e6-e689fb75c2b7"
+    },
+    {
+      "click": {},
+      "domain": "bol.com",
+      "cookies": {
+        "optOut": [
+          {
+            "name": "bolConsentChoices",
+            "path": "/",
+            "value": "source#OFC|version#6|int-tran#false|ext-tran#false|int-beh#false|ext-beh#false",
+            "sameSite": 0
+          }
+        ]
+      },
+      "id": "637c8bb9-b2f6-493e-86c2-f1954aa6a96a"
     }
   ]
 }
