@@ -7446,6 +7446,33 @@
         ]
       },
       "id": "992a91e5-9d29-411a-a8e6-e689fb75c2b7"
+    },
+    {
+      "click": {},
+      "domain": "nu.nl",
+      "cookies": {
+        "optOut": [
+          {
+            "name": "eupubconsent-v2",
+            "path": "/",
+            "value": "CPiR6UAPiR6UAAGABBENCqCgAAAAAAAAABpYAAAAAAAA.YAAAAAAAAAAA",
+            "sameSite": 0
+          },
+          {
+            "name": "euconsent-v2",
+            "path": "/",
+            "value": "CPiR6UAPiR6UAAGABBENCqCgAAAAAAAAABpYAAAAAAAA.YAAAAAAAAAAA",
+            "sameSite": 0
+          },
+          {
+            "name": "CookieConsent",
+            "path": "/",
+            "value": "CPiR6UAPiR6UAAGABBENCqCgAAAAAAAAABpYAAAAAAAA.YAAAAAAAAAAA",
+            "sameSite": 0
+          }
+        ]
+      },
+      "id": "0724f49c-4316-47df-8013-3e934113de22"
     }
   ]
 }
