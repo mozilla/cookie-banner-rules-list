@@ -7515,24 +7515,13 @@
       "id": "88e79126-8072-4079-aa60-1d71d9ddb65b"
     },
     {
-      "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "presence": "div.banner-actions-container"
-      },
       "domain": "gutekueche.at",
-      "cookies": {
-        "optIn": [
-          {
-            "name": "_pbjs_userid_consent_data",
-            "value": "618401108686130"
-          },
-          {
-            "name": "_gat",
-            "value": "1"
-          }
-        ]
+      "click": {
+        "optIn": ".sp_choice_type_11",
+        "presence": ".message-container >  #notice",
+        "skipPresenceVisibilityCheck": true
       },
-      "id": "95495d1d-7dcd-4457-bc40-1d4744904426"
+      "id": "58dd5020-ecc0-4fdc-813b-1009fa83794a"
     },
     {
       "click": {
@@ -7591,20 +7580,12 @@
           {
             "name": "rtp_cookie_privacy",
             "value": "permit 1,2,3,4"
-          },
-          {
-            "name": "googlepersonalization",
-            "value": "1"
           }
         ],
         "optOut": [
           {
             "name": "rtp_cookie_privacy",
             "value": "permit 1"
-          },
-          {
-            "name": "googlepersonalization",
-            "value": "0"
           }
         ]
       },
@@ -7875,14 +7856,6 @@
         "presence": "div#buttons"
       },
       "domain": "naszemiasto.pl",
-      "cookies": {
-        "optIn": [
-          {
-            "name": "_pbjs_userid_consent_data",
-            "value": "6798433657233410"
-          }
-        ]
-      },
       "id": "9fbf194d-4299-4857-b222-caf11ddf7c73"
     },
     {
