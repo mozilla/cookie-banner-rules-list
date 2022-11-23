@@ -743,29 +743,6 @@
     },
     {
       "click": {
-        "optIn": "button.cmd-button-accept-all",
-        "optOut": "button.cmd-button-reject-all",
-        "presence": "div.cookies-modal"
-      },
-      "domain": "xhamster.com",
-      "cookies": {
-        "optIn": [
-          {
-            "name": "cookie_accept",
-            "value": "%7B%22e%22%3A1%2C%22n%22%3A1%2C%22tp%22%3A1%7D"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "cookie_accept",
-            "value": "%7B%22e%22%3A1%2C%22n%22%3A0%2C%22tp%22%3A0%7D"
-          }
-        ]
-      },
-      "id": "02e04a3d-0848-4b10-a41d-80e31c4062a7"
-    },
-    {
-      "click": {
         "optIn": ".btn--primary",
         "presence": "div#cookie-consent"
       },
