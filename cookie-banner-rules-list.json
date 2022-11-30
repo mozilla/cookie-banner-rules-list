@@ -7503,7 +7503,7 @@
     {
       "click": {
         "optIn": "button.fc-button",
-        "presence": "div.fc-footer-buttons"
+        "presence": "div.fc-consent-root"
       },
       "domain": "offnews.bg",
       "cookies": {},
@@ -7523,7 +7523,7 @@
       "click": {
         "optIn": "button.cookie-alert-extended-button",
         "optOut": "button.cookie-alert-decline-button",
-        "presence": "div.cookie-alert-extended-controls"
+        "presence": "dialog#CybotCookiebotDialog"
       },
       "domain": "lidl.cz",
       "cookies": {},
@@ -7590,7 +7590,7 @@
     {
       "click": {
         "optIn": "button.css-v43ltw",
-        "presence": "div#qc-cmp2-ui"
+        "presence": "div#qc-cmp2-container"
       },
       "domain": "filmaffinity.com",
       "cookies": {
@@ -7640,7 +7640,7 @@
     {
       "click": {
         "optIn": "button.css-k8o10q",
-        "presence": "div#qc-cmp2-ui"
+        "presence": "div#qc-cmp2-container"
       },
       "domain": "vrisko.gr",
       "cookies": {
@@ -7766,7 +7766,7 @@
     {
       "click": {
         "optIn": "button.css-fz9f1h",
-        "presence": "div#qc-cmp2-ui"
+        "presence": "div#qc-cmp2-container"
       },
       "domain": "dikaiologitika.gr",
       "cookies": {
@@ -7792,7 +7792,7 @@
     {
       "click": {
         "optIn": "button.css-k8o10q",
-        "presence": "div#qc-cmp2-ui"
+        "presence": "div#qc-cmp2-container"
       },
       "domain": "fantacalcio.it",
       "cookies": {
@@ -8047,7 +8047,7 @@
       "click": {
         "optIn": "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
         "optOut": "button#CybotCookiebotDialogBodyButtonDecline",
-        "presence": "div#CybotCookiebotDialogActive"
+        "presence": "div#CybotCookiebotDialog"
       },
       "domain": "voetbal24.be",
       "cookies": {},
@@ -8148,7 +8148,7 @@
     {
       "click": {
         "optOut": "button.css-2y11ar",
-        "presence": "qc-cmp2-container"
+        "presence": "div#qc-cmp2-container"
       },
       "domain": "dagospia.com",
       "cookies": {
@@ -8206,7 +8206,7 @@
     {
       "click": {
         "optIn": "button.sp_choice_type_11",
-        "presence": "div#notice"
+        "presence": "div.message-container"
       },
       "domain": "independent.co.uk",
       "cookies": {},
@@ -8215,7 +8215,7 @@
     {
       "click": {
         "optIn": "button.sp_choice_type_11",
-        "presence": "div#notice"
+        "presence": "div.message-container"
       },
       "domain": "chip.de",
       "cookies": {
@@ -8287,7 +8287,7 @@
     {
       "click": {
         "optIn": "button.css-1euwp1t",
-        "presence": "div#qc-cmp2-ui"
+        "presence": "div#qc-cmp2-container"
       },
       "domain": "enikos.gr",
       "cookies": {
@@ -8368,7 +8368,7 @@
       "click": {
         "optIn": "button#uc-btn-accept-banner",
         "optOut": "button#uc-btn-deny-banner",
-        "presence": "div.uc-banner-content"
+        "presence": "div#uc-banner-modal"
       },
       "domain": "zalando.ch",
       "cookies": {},
@@ -8430,7 +8430,7 @@
     {
       "click": {
         "optIn": "button.iubenda-cs-accept-btn",
-        "presence": "div.iubenda-cs-rationale"
+        "presence": "div#iubenda-cs-banner"
       },
       "domain": "lastampa.it",
       "cookies": {},
@@ -8439,7 +8439,7 @@
     {
       "click": {
         "optIn": "button.css-hxv78t",
-        "presence": "div#qc-cmp2-ui"
+        "presence": "div#qc-cmp2-container"
       },
       "domain": "rsvplive.ie",
       "cookies": {
