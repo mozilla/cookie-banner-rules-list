@@ -297,13 +297,21 @@
       "id": "caf8d44d-af29-47a9-aa66-ec4041655d33"
     },
     {
-      "click": {
-        "optIn": "div#layers div[role]",
-        "optOut": "div#layers div[role] + div[role]",
-        "presence": "div#layers > div > div > div > div > div"
-      },
       "domain": "twitter.com",
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "d_prefs",
+            "value": "MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw"
+          }
+        ],
+        "optIn": [
+          {
+            "name": "d_prefs",
+            "value": "MToxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw"
+          }
+        ]
+      },
       "id": "05b3b417-c4c7-4ed0-a3cf-43053e8b33ab"
     },
     {
