@@ -4157,17 +4157,9 @@
       "click": {
         "optIn": "button#accept-recommended-btn-handler",
         "optOut": "button#confirm-choices-handler",
-        "presence": "div#onetrust-consent-sdk"
+        "presence": "div#onetrust-pc-sdk"
       },
       "domain": "dhl.de",
-      "cookies": {
-        "optIn": [
-          {
-            "name": "s_cc",
-            "value": "true"
-          }
-        ]
-      },
       "id": "6dddbd1c-6c99-4085-abf7-8aa15d230701"
     },
     {
