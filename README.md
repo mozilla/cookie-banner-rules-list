@@ -50,7 +50,7 @@ Here is an example rule that both defines cookies to set and a cookie banner to 
 
 ```json
 {
-  "domain": "example.com",
+  "domains": ["example.com", "example.org"],
   "click": {
     "hide": "#bannerParent",
     "optIn": "#accept-btn",
