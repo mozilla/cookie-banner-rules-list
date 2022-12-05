@@ -8603,6 +8603,2937 @@
       "domain": "mozzartbet.com",
       "cookies": {},
       "id": "b8b2cf50-d9cf-432b-947c-894350121024"
+    },
+    {
+      "click": {
+        "optIn": "button#AcceptButton-cookie-banner",
+        "presence": "div#cookie-banner"
+      },
+      "domain": "prisjakt.nu",
+      "cookies": {},
+      "id": "6950df9f-2529-4cdc-ab8b-9ba788b6d2f7"
+    },
+    {
+      "click": {
+        "optIn": "button.button-close",
+        "presence": "div#cookie-disclaimer"
+      },
+      "domain": "milenio.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "accepts-milenio-cookies",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "befe1d72-f33a-4e63-be43-236bedc3b49a"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "zdf.de",
+      "cookies": {},
+      "id": "299516cb-d8e3-4024-9dba-627c512caa17"
+    },
+    {
+      "click": {
+        "optIn": "button#didomi-notice-agree-button",
+        "optOut": "button#didomi-notice-disagree-button",
+        "presence": "div#didomi-host"
+      },
+      "domain": "aukro.cz",
+      "cookies": {},
+      "id": "efab90a4-50df-459d-bfc2-090de5845fe4"
+    },
+    {
+      "click": {
+        "optIn": "button#uc-btn-accept-banner",
+        "optOut": "button#uc-btn-deny-banner",
+        "presence": "div#uc-main-banner"
+      },
+      "domain": "zalando.dk",
+      "cookies": {},
+      "id": "45ab789b-8f8b-4112-a56f-aa3035f15acf"
+    },
+    {
+      "click": {
+        "optIn": "button.css-1k3zih6",
+        "presence": "div#qc-cmp2-container"
+      },
+      "domain": "capital.gr",
+      "cookies": {
+        "optIn": [],
+        "optOut": [
+          {
+            "name": "addtl_consent",
+            "value": "1~"
+          }
+        ]
+      },
+      "id": "8e9824be-3535-4d17-8e64-ae9628a0611d"
+    },
+    {
+      "click": {
+        "optIn": "button#accept_all_cookies",
+        "presence": "section#cookie_consent"
+      },
+      "domain": "telekom.hu",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookie_policy_level",
+            "value": "ALL"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cookie_policy_level",
+            "value": "BASE"
+          }
+        ]
+      },
+      "id": "80d51057-06fe-4469-be50-0438c9165020"
+    },
+    {
+      "click": {
+        "optIn": "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+        "optOut": "button#CybotCookiebotDialogBodyButtonDecline",
+        "presence": "div#CybotCookiebotDialogTabContent"
+      },
+      "domain": "aruba.it",
+      "cookies": {},
+      "id": "469218de-6bea-475f-be47-734a412b4fa7"
+    },
+    {
+      "click": {
+        "optIn": "button#cookie-accept-all-secondary",
+        "optOut": "button.CookieConsentSecondary__RejectAllButton-sc-12do1ry-2",
+        "presence": "div.CookieConsentSecondary__Container-sc-12do1ry-0"
+      },
+      "domain": "nordnet.no",
+      "cookies": {},
+      "id": "9ea83ecf-3e82-4976-80e7-86872d7e4aeb"
+    },
+    {
+      "click": {
+        "optIn": "button#btnInfo",
+        "presence": "div#info-modal"
+      },
+      "domain": "limundo.com",
+      "cookies": {},
+      "id": "5df00bf4-ecbc-4521-862b-db1453be23c9"
+    },
+    {
+      "click": {
+        "optIn": "span.sd-cmp-3cRQ2",
+        "presence": "div#sd-cmp"
+      },
+      "domain": "forocoches.com",
+      "cookies": {},
+      "id": "a0698f6e-dd50-4773-9aad-eb23688383f3"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "behance.net",
+      "cookies": {},
+      "id": "eade4a3f-f2e8-4c8a-aa19-fe15582290cd"
+    },
+    {
+      "click": {
+        "optIn": "div.accept-btn",
+        "optOut": "div.refuse-btn",
+        "presence": "div.cookie-pop"
+      },
+      "domain": "tencent.com",
+      "cookies": {},
+      "id": "e964784f-f4f4-4e71-b973-8c68ef6f49d7"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "freepik.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "e4dab3b2-9520-451a-9d9d-6e703d33fb59"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "zemanta.com",
+      "cookies": {},
+      "id": "75d233cc-cb01-4c9f-8596-5677837b8fb8"
+    },
+    {
+      "click": {
+        "optIn": "button#truste-consent-button",
+        "optOut": "button#truste-consent-required",
+        "presence": "div#truste-consent-content"
+      },
+      "domain": "ibm.com",
+      "cookies": {},
+      "id": "97c1b39b-6573-4dbc-83a4-3af02a416f0a"
+    },
+    {
+      "click": {
+        "optIn": "button.cc-banner__button-accept",
+        "presence": "section.cc-banner"
+      },
+      "domain": "springer.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "9ab30eae-9592-47b1-b46e-7640c4316f14"
+    },
+    {
+      "click": {
+        "optIn": "button.fZYtinTR",
+        "presence": "div.CoZ9Nu8Z"
+      },
+      "domain": "fc2.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "FC2_GDPR",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "5669aa13-d825-45b6-9a65-14904ecd9ee9"
+    },
+    {
+      "click": {
+        "optIn": "div.cmc-cookie-policy-banner__close",
+        "presence": "div#cmc-cookie-policy-banner"
+      },
+      "domain": "coinmarketcap.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cmc_gdpr_hide",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "faccc72f-fab0-4dd8-82a5-4b97774a0058"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "grammarly.com",
+      "cookies": {},
+      "id": "4333f0c3-2ff1-4f89-b82a-4a3508cd6ec3"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "usatoday.com",
+      "cookies": {},
+      "id": "36004c64-5df8-413a-82ca-a76484d35775"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "cnet.com",
+      "cookies": {},
+      "id": "55b660b6-b9bf-4191-91b6-a46e1ed3ef01"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "fiverr.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "44295704-775a-407d-858f-02c9a611ae54"
+    },
+    {
+      "click": {
+        "optIn": "button.TCF2Popup__continueWithoutAccepting___1fMWW",
+        "presence": "div.TCF2Popup__container___1TN_W"
+      },
+      "domain": "dailymotion.com",
+      "cookies": {},
+      "id": "e5d31bce-4a62-4c6d-a40f-94fda7c41c9d"
+    },
+    {
+      "click": {
+        "optIn": "div#accept-choices",
+        "presence": "div.sn-inner"
+      },
+      "domain": "w3schools.com",
+      "cookies": {},
+      "id": "230b6c9b-c717-4a88-9d64-9a892091d53d"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "npr.org",
+      "cookies": {},
+      "id": "0f5878b9-ed90-4723-bdc9-5b4475ac1d8a"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "slack.com",
+      "cookies": {},
+      "id": "a6e6d7df-c694-4add-83c4-39108afe2257"
+    },
+    {
+      "click": {
+        "optIn": "button#truste-consent-button",
+        "optOut": "button#truste-consent-required",
+        "presence": "div#truste-consent-track"
+      },
+      "domain": "nginx.com",
+      "cookies": {},
+      "id": "aaace84f-069e-4713-85f0-7a2f419c34eb"
+    },
+    {
+      "click": {
+        "optOut": "a.n-messaging-banner__button",
+        "presence": "div.consent-container"
+      },
+      "domain": "indiatimes.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "optout",
+            "value": "0"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "optout",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "e991cb20-0597-4f14-aabc-214a2e493f90"
+    },
+    {
+      "click": {
+        "optIn": "button#_evidon-accept-button",
+        "optOut": "button#_evidon-decline-button",
+        "presence": "div#_evidon_banner"
+      },
+      "domain": "eventbrite.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ],
+        "optOut": []
+      },
+      "id": "25d7b523-6e33-414a-a1e8-b9f27c7e8a37"
+    },
+    {
+      "click": {
+        "optIn": "button.MGGI9",
+        "presence": "div._3V2rG"
+      },
+      "domain": "deviantart.com",
+      "cookies": {},
+      "id": "489a59fb-1054-4d7a-ae1f-c6c561d2cd81"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "surveymonkey.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "8ec1d9ff-ef4e-414b-b1f1-036ae31767ea"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "binance.com",
+      "cookies": {},
+      "id": "ae517a88-4184-4e18-b49a-244666b210fd"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "linktr.ee",
+      "cookies": {},
+      "id": "46c8d229-5baa-4ced-93ab-bb40ebd36e2f"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "time.com",
+      "cookies": {},
+      "id": "7b9e78a2-e273-4bf9-84d8-39284da294d6"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "teamviewer.com",
+      "cookies": {},
+      "id": "5e3c1162-1b36-4345-8bc8-c87c025493bc"
+    },
+    {
+      "click": {
+        "optIn": "a#okck",
+        "presence": "div#toast-container"
+      },
+      "domain": "ilovepdf.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "ck",
+            "value": "4"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "ck",
+            "value": "0"
+          }
+        ]
+      },
+      "id": "137eec59-6b48-413c-bb45-33420aabdc87"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "cisco.com",
+      "cookies": {},
+      "id": "71dabe43-8443-4b78-a4c3-090b24d3b779"
+    },
+    {
+      "click": {
+        "optIn": "a#CybotCookiebotDialogBodyButtonAccept",
+        "presence": "div#CybotCookiebotDialog"
+      },
+      "domain": "themeforest.net",
+      "cookies": {},
+      "id": "f9b5b6d8-50be-486e-bc59-a45733be492c"
+    },
+    {
+      "click": {
+        "optIn": "a#CybotCookiebotDialogBodyButtonAccept",
+        "presence": "div#CybotCookiebotDialog"
+      },
+      "domain": "cpanel.net",
+      "cookies": {},
+      "id": "0d4c97d6-5f33-4886-a220-ce6195bccdad"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "udemy.com",
+      "cookies": {},
+      "id": "81e369a0-f9c2-4e9e-b948-b1367be5d0db"
+    },
+    {
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div.spoKVd"
+      },
+      "domain": "google.co.jp",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "CONSENT",
+            "value": "PENDING"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "SOCS",
+            "value": "CAESHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiA89WbBg"
+          }
+        ]
+      },
+      "id": "f0f7561b-4dd7-4509-ae0b-a527db4181b7"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "ted.com",
+      "cookies": {},
+      "id": "d05a4eed-f446-4996-9617-f9619285a1cb"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "tripadvisor.com",
+      "cookies": {},
+      "id": "37b8b711-aa72-440a-b907-03ac5725eb10"
+    },
+    {
+      "click": {
+        "optIn": "button.welcome__button--accept",
+        "optOut": "button.welcome__button--decline",
+        "presence": "div.welcome__cookie-notice"
+      },
+      "domain": "wetransfer.com",
+      "cookies": {},
+      "id": "8b43c95f-2617-4541-a88d-ebae3b819bee"
+    },
+    {
+      "click": {
+        "optIn": "button.osano-cm-accept-all",
+        "presence": "div.osano-cm-window"
+      },
+      "domain": "scribd.com",
+      "cookies": {},
+      "id": "f6f48ce2-0487-4003-b1c7-dfcd37def8d7"
+    },
+    {
+      "click": {
+        "optIn": "button.css-quk35p",
+        "presence": "div.css-103nllw"
+      },
+      "domain": "healthline.com",
+      "cookies": {},
+      "id": "b62e5259-f7f5-4319-8175-e39266b8a031"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "mailchimp.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ],
+        "optOut": []
+      },
+      "id": "341da955-59eb-410f-b39f-3a8406280d65"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "wired.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "213e6262-e58d-45d5-b5a3-5e56942e5fca"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "webmd.com",
+      "cookies": {},
+      "id": "e327c4df-fdee-4d4d-8845-2fffd4fb3fd8"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "statista.com",
+      "cookies": {},
+      "id": "f1444b6d-7e24-4816-9e11-324f5c7d4f95"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "pixabay.com",
+      "cookies": {},
+      "id": "56ec39cc-bb8d-4b86-bdb2-cd3c8a8953c8"
+    },
+    {
+      "click": {
+        "optIn": "button#truste-consent-button",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "squarespace.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "notice_gdpr_prefs",
+            "value": "0:"
+          }
+        ]
+      },
+      "id": "b17a2376-ae8b-40de-9b6f-61efdf25f862"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "shutterstock.com",
+      "cookies": {},
+      "id": "441aae5d-90e0-422e-a71a-016234e58a5b"
+    },
+    {
+      "click": {
+        "optIn": "a.o-cookie-message__button",
+        "presence": "div.o-cookie-message--active"
+      },
+      "domain": "ft.com",
+      "cookies": {},
+      "id": "b485c89f-130e-4d5a-94f8-99eacad96e5f"
+    },
+    {
+      "click": {
+        "optIn": "a.close",
+        "presence": "div.ReadPolicy"
+      },
+      "domain": "huawei.com",
+      "cookies": {},
+      "id": "645dca4f-49b6-456e-8aa1-40dfdb35acb7"
+    },
+    {
+      "click": {
+        "optIn": "button#_evidon-accept-button",
+        "optOut": "button#_evidon-decline-button",
+        "presence": "div#_evidon_banner"
+      },
+      "domain": "pubmatic.com",
+      "cookies": {},
+      "id": "35142692-9d67-4f16-9512-36673e35c43d"
+    },
+    {
+      "click": {
+        "optIn": "button.CookieBanner_button__P6xCl",
+        "presence": "section.CookieBanner_notificationBar__nn49h"
+      },
+      "domain": "kaspersky.com",
+      "cookies": {},
+      "id": "1e504f8f-4377-4de7-90e4-cbbfaa30f54d"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "cambridge.org",
+      "cookies": {},
+      "id": "0261c6b0-0eaa-41f7-a4f7-15a340877db7"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "speedtest.net",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "zdconsent",
+            "value": "optin"
+          }
+        ]
+      },
+      "id": "597dab25-1433-4bed-92c2-d10e6a85b188"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "prnewswire.com",
+      "cookies": {},
+      "id": "0b85833a-1bd1-4668-97c2-be82b7dd9baf"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "investopedia.com",
+      "cookies": {},
+      "id": "27f396c1-4452-472d-9bb7-49693c1b9972"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "criteo.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "8cd7e5bc-b0c5-4fe2-90e0-e2b3f08e206b"
+    },
+    {
+      "click": {
+        "optIn": "a#tbp-consent-confirm",
+        "presence": "div.tbp-container"
+      },
+      "domain": "taboola.com",
+      "cookies": {},
+      "id": "cade9499-6c59-4939-90e7-e5e029ce0446"
+    },
+    {
+      "click": {
+        "optIn": "button.css-1k3tyyb",
+        "presence": "div#qc-cmp2-ui"
+      },
+      "domain": "theatlantic.com",
+      "cookies": {
+        "optOut": [
+          {
+            "name": "addtl_consent",
+            "value": "1~"
+          }
+        ]
+      },
+      "id": "43f34378-73c3-4851-a948-e073908edddd"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button.onetrust-close-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "nationalgeographic.com",
+      "cookies": {},
+      "id": "869a0ec0-0b7e-4a09-a52d-79cd8b9195ad"
+    },
+    {
+      "click": {
+        "optIn": "a.cookiepolicycontinue",
+        "presence": "div#cookieMessage_content"
+      },
+      "domain": "oup.com",
+      "cookies": {},
+      "id": "2e0b3da1-4072-4e1b-b561-939789c90f4d"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "trustpilot.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "e077e970-323c-4fb8-9135-c86329ff398f"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "cbsnews.com",
+      "cookies": {},
+      "id": "5c550961-19ae-4a78-a747-fba4cbb3b4fb"
+    },
+    {
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div.spoKVd"
+      },
+      "domain": "google.com.tw",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "CONSENT",
+            "value": "PENDING"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "SOCS",
+            "value": "CAISHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiAltubBg"
+          }
+        ]
+      },
+      "id": "41c1453f-f601-486f-a792-cfb1c9276e76"
+    },
+    {
+      "click": {
+        "optIn": "button#cx_button_close",
+        "presence": "div#cx_bottom_banner"
+      },
+      "domain": "nbcnews.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "show_gdpr_consent_messaging",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "fecfb874-fff9-4d91-af27-885729a4556d"
+    },
+    {
+      "click": {
+        "optIn": "button.cta--is-1",
+        "presence": "div.cookie-banner__cta"
+      },
+      "domain": "android.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "and_cba_EN_US",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "35a8e0de-9308-4dfe-abc9-764a9e3833ec"
+    },
+    {
+      "click": {
+        "optIn": "button#didomi-notice-agree-button",
+        "presence": "div#didomi-notice"
+      },
+      "domain": "giphy.com",
+      "cookies": {},
+      "id": "8c58a553-8147-4972-9d0c-8e5c39cd1b96"
+    },
+    {
+      "click": {
+        "optIn": "a.cc-dismiss",
+        "presence": "div.cc-window"
+      },
+      "domain": "dnsmadeeasy.com",
+      "cookies": {},
+      "id": "581b7d96-d1a4-43a8-9498-5650f9234e10"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "okta.com",
+      "cookies": {},
+      "id": "66c9c6a3-76e6-4927-99eb-5807dca29502"
+    },
+    {
+      "click": {
+        "optIn": "div#gdpr_accept",
+        "presence": "div#gdpr"
+      },
+      "domain": "wikihow.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "gdpr_cpp_opt_out",
+            "value": "1"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "gdpr_accept",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "90b68b2d-46eb-4500-8cfd-9ee794653aaa"
+    },
+    {
+      "click": {
+        "optIn": "a.cc-cookie-accept",
+        "presence": "div.cc-cookies"
+      },
+      "domain": "sagepub.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cc_cookie_accept",
+            "value": "cc_cookie_accept"
+          }
+        ]
+      },
+      "id": "be009a6e-886d-4cad-b64a-d22c7c3167cc"
+    },
+    {
+      "click": {
+        "optIn": "div.zbc-cta-accept",
+        "presence": "div.zbottom-cookie-container"
+      },
+      "domain": "zoho.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "has_js",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "3656dd64-5840-4918-adc8-caa723503f20"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "nypost.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "false"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "aabe7dc4-7614-4664-83dd-7eca5f0feda6"
+    },
+    {
+      "click": {
+        "optIn": "button#gdpr-modal-agree",
+        "presence": "div.modal-window"
+      },
+      "domain": "usnews.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "gdpr_agreed",
+            "value": "4"
+          }
+        ]
+      },
+      "id": "d9ebe530-4e45-4315-b628-c2d8c81c48a5"
+    },
+    {
+      "click": {
+        "optIn": "span.js-dismiss-cookie-banner",
+        "presence": "div.DesignSystem"
+      },
+      "domain": "academia.edu",
+      "cookies": {},
+      "id": "41001e78-302d-44da-bd82-a690d1968a9f"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "appsflyer.com",
+      "cookies": {},
+      "id": "6a169070-008d-4abb-8f9d-558ca72420f1"
+    },
+    {
+      "click": {
+        "optIn": "button.fc-cta-consent",
+        "presence": "div.fc-footer-buttons-container"
+      },
+      "domain": "hbr.org",
+      "cookies": {},
+      "id": "ce5a9633-65bd-4eb7-9a71-88c552c4f3c3"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-reject-all-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "coursera.org",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "false"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "9d346f3f-60bd-4105-9479-96c62e78a7bf"
+    },
+    {
+      "click": {
+        "optIn": "button.eu-cookie-compliance-default-button",
+        "presence": "div.cookies"
+      },
+      "domain": "unesco.org",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookie-agreed",
+            "value": "2"
+          }
+        ]
+      },
+      "id": "689fe5d6-7792-4475-98fc-71aa1715d0d9"
+    },
+    {
+      "click": {
+        "optIn": "button.corgi__sc-140l2f3-1",
+        "optOut": "button.corgi__sc-1k5bfrh-3",
+        "presence": "div.corgi__sc-p6yu06-0"
+      },
+      "domain": "change.org",
+      "cookies": {},
+      "id": "1c3ab910-8635-4007-8ea3-8aeea0c56143"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "investing.com",
+      "cookies": {},
+      "id": "7409feb9-f552-438b-ab8a-40070ac5deb5"
+    },
+    {
+      "click": {
+        "optIn": "button#truste-consent-button",
+        "optOut": "button#truste-consent-required",
+        "presence": "div#truste-consent-track"
+      },
+      "domain": "box.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cmapi_cookie_privacy",
+            "value": "permit 1,2,3"
+          }
+        ]
+      },
+      "id": "b8e927a8-e0fc-4e7b-ad60-edca983accd3"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "elsevier.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "at_check",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "44c55477-0999-45e4-9ea4-5e06e53fd1ce"
+    },
+    {
+      "click": {
+        "optIn": "a.a8c-cookie-banner-ok-button",
+        "presence": "div.a8c-cookie-banner"
+      },
+      "domain": "akismet.com",
+      "cookies": {},
+      "id": "9a5038c6-31da-40e5-94d8-6eea3ecfa9ec"
+    },
+    {
+      "click": {
+        "optIn": "button.jsx-3795857475",
+        "presence": "section.jsx-539809080"
+      },
+      "domain": "notion.so",
+      "cookies": {},
+      "id": "85205acd-fa99-438e-b353-2b40adfdf868"
+    },
+    {
+      "click": {
+        "optIn": "button.cu-privacy-notice-close",
+        "presence": "div#cu-privacy-notice"
+      },
+      "domain": "columbia.edu",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cuPivacyNotice",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "2952e826-d897-431b-866d-f8ed95f4db64"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "businesswire.com",
+      "cookies": {},
+      "id": "4f14b1ac-ac6c-4c38-98ef-6343a308b92d"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button.onetrust-close-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "allaboutcookies.org",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "false"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "2b307c25-c2fe-40f7-9104-82d0a5395df9"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "typepad.com",
+      "cookies": {},
+      "id": "aab1bd03-079d-4cec-aa6f-7af96c148ac2"
+    },
+    {
+      "click": {
+        "optIn": "span#hf_cookie_text_cookieAccept",
+        "presence": "div.pre-cookie-modal-body"
+      },
+      "domain": "nike.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "sq",
+            "value": "3"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "sq",
+            "value": "0"
+          }
+        ]
+      },
+      "id": "719a0a85-a706-4393-9668-0b7123891058"
+    },
+    {
+      "click": {
+        "optIn": "button.consent-btn",
+        "presence": "div.cookie-consent"
+      },
+      "domain": "geeksforgeeks.org",
+      "cookies": {},
+      "id": "f3d0e044-1dc7-4d6e-9477-2724c5115ba4"
+    },
+    {
+      "click": {
+        "optIn": "button.accept-consent",
+        "presence": "section#cookieconsentpopup"
+      },
+      "domain": "worldbank.org",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "consent_cookie",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "efe049ac-d21c-4fa6-b559-5c47b5ce307b"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "calendly.com",
+      "cookies": {},
+      "id": "3012d266-97fe-4a4b-8fb0-cdebf992ad12"
+    },
+    {
+      "click": {
+        "optIn": "a#CybotCookiebotDialogBodyButtonAccept",
+        "presence": "div#CybotCookiebotDialog"
+      },
+      "domain": "envato.com",
+      "cookies": {},
+      "id": "e56afc69-2816-4365-a1e5-6004360bdccc"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "verisign.com",
+      "cookies": {},
+      "id": "2ebdf6f7-e575-47ca-8b13-8acfdadad370"
+    },
+    {
+      "click": {
+        "optIn": "a.cc-dismiss",
+        "presence": "div.cc-banner"
+      },
+      "domain": "ieee.org",
+      "cookies": {},
+      "id": "4ec563ab-ef41-4aa7-8da6-58227000fe1d"
+    },
+    {
+      "click": {
+        "optIn": "button.css-1k47zha",
+        "presence": "div#qc-cmp2-ui"
+      },
+      "domain": "9gag.com",
+      "cookies": {
+        "optOut": [
+          {
+            "name": "addtl_consent",
+            "value": "1~"
+          }
+        ]
+      },
+      "id": "6c246e7d-2a12-4b13-94b4-d2908cd64aad"
+    },
+    {
+      "click": {
+        "optIn": "button#close_feedback_btn",
+        "presence": "div#feedback-bar"
+      },
+      "domain": "cricbuzz.com",
+      "cookies": {},
+      "id": "22187533-0a56-4679-9244-f11b2c58083a"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "istockphoto.com",
+      "cookies": {},
+      "id": "8867026b-f10b-4f88-a097-97ca00e83096"
+    },
+    {
+      "click": {
+        "optIn": "button#truste-consent-button",
+        "presence": "div#truste-consent-track"
+      },
+      "domain": "mi.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cmapi_cookie_privacy",
+            "value": "permit 1,2,3,4"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cmapi_cookie_privacy",
+            "value": "permit 1 required"
+          }
+        ]
+      },
+      "id": "30a2b81a-b5a6-4c49-818d-de34ecddafbe"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "outbrain.com",
+      "cookies": {},
+      "id": "2c701358-583b-464e-a610-a02323ccf127"
+    },
+    {
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div.spoKVd"
+      },
+      "domain": "google.com.sg",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "CONSENT",
+            "value": "PENDING"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "SOCS",
+            "value": "CAESHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiA_-qbBg"
+          }
+        ]
+      },
+      "id": "58988b45-3e1f-4055-8f6d-fc3c9ae3601c"
+    },
+    {
+      "click": {
+        "optIn": "button.color-secondary",
+        "presence": "div.footer_footer__ZK5Q_"
+      },
+      "domain": "sberdevices.ru",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "__cookie__agree",
+            "value": "Y"
+          }
+        ]
+      },
+      "id": "c8c58b5e-45d1-4442-ad53-b89f3603586f"
+    },
+    {
+      "click": {
+        "optIn": "button.cookie-accept-btn",
+        "presence": "div.cookie-consent-area"
+      },
+      "domain": "typeform.com",
+      "cookies": {},
+      "id": "c0bef9bb-67e2-4038-bfe9-795085f37719"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "hotjar.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "33f52eaa-bece-4df7-b9ae-14b43ef741fb"
+    },
+    {
+      "click": {
+        "optIn": "button.js-opt-in-consent-button",
+        "presence": "div.opt-in-modal__inner"
+      },
+      "domain": "wpengine.com",
+      "cookies": {},
+      "id": "f89481a5-e087-4210-aeee-36bba9764a87"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "iso.org",
+      "cookies": {},
+      "id": "97ac3c87-518e-4914-aa25-93798a8fd43c"
+    },
+    {
+      "click": {
+        "optIn": "button#cookie-policy-button-accept",
+        "presence": "div#modal"
+      },
+      "domain": "ubuntu.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_cookies_accepted",
+            "value": "all"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "_cookies_accepted",
+            "value": "essential"
+          }
+        ]
+      },
+      "id": "b11001c6-7a9c-40a7-8595-3c8a9c1e7416"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "zdnet.com",
+      "cookies": {},
+      "id": "9652978e-31a3-4fe5-b609-11378a3b94bc"
+    },
+    {
+      "click": {
+        "optIn": "div#cookiePolicy-btn-close",
+        "presence": "div#cookiePolicy-layer"
+      },
+      "domain": "nvidia.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "CookiePolicy",
+            "value": "1"
+          }
+        ],
+        "optOut": []
+      },
+      "id": "2357b028-ab61-470f-8ccb-d3448c6963f9"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "mashable.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "zdconsent",
+            "value": "optin"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "zdconsent",
+            "value": "optout"
+          }
+        ]
+      },
+      "id": "e7053e53-8049-4d83-8e6b-c219cb754ae9"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "deloitte.com",
+      "cookies": {},
+      "id": "884a74d7-2e60-4968-8632-cd11be150b80"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "quizlet.com",
+      "cookies": {},
+      "id": "eada07a7-3862-4f2c-8770-c95f2bc81f1c"
+    },
+    {
+      "click": {
+        "optIn": "button#privacy-consent-button",
+        "presence": "div#privacy-consent"
+      },
+      "domain": "vox.com",
+      "cookies": {},
+      "id": "e552ade4-c254-4e8b-823f-8307e4b21fb3"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "gitlab.com",
+      "cookies": {},
+      "id": "4b401ac3-152a-44e4-915e-168a81c801bc"
+    },
+    {
+      "click": {
+        "optIn": "button#ccc-notify-accept",
+        "optOut": "button#ccc-notify-dismiss",
+        "presence": "div#ccc"
+      },
+      "domain": "ox.ac.uk",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "982a2a33-f052-4acd-936e-d3b0f7bf7596"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "constantcontact.com",
+      "cookies": {},
+      "id": "f87128de-0f85-4b36-afe2-61353c9b37dd"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "atlassian.com",
+      "cookies": {},
+      "id": "7619ab2f-8498-4441-82e1-658cd239bf7b"
+    },
+    {
+      "click": {
+        "optIn": "a.c-button",
+        "presence": "div#cookiebanner"
+      },
+      "domain": "psychologytoday.com",
+      "cookies": {},
+      "id": "fcd83d7a-0cbc-4cc4-ac1f-609a303ea5a3"
+    },
+    {
+      "click": {
+        "optIn": "button#didomi-notice-agree-button",
+        "presence": "div#didomi-popup"
+      },
+      "domain": "reverso.net",
+      "cookies": {},
+      "id": "687e2867-50d0-4b52-9f02-c73307dfa267"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "hdfcbank.com",
+      "cookies": {},
+      "id": "2445b704-0f4e-407c-a1d5-c1cab04e53fb"
+    },
+    {
+      "click": {
+        "optIn": "button.css-47sehv",
+        "presence": "div#qc-cmp2-ui"
+      },
+      "domain": "sciencedaily.com",
+      "cookies": {
+        "optOut": [
+          {
+            "name": "addtl_consent",
+            "value": "1~"
+          }
+        ]
+      },
+      "id": "00c9875b-bd80-41f2-a07e-aa3f4d0d7169"
+    },
+    {
+      "click": {
+        "optIn": "button.consent--accept",
+        "presence": "div.consent-banner-buttons"
+      },
+      "domain": "ring.com",
+      "cookies": {},
+      "id": "081717d3-32c8-40e4-8bc1-ddd5495dbddf"
+    },
+    {
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div#CXQnmb"
+      },
+      "domain": "google.com.tr",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "CONSENT",
+            "value": "PENDING"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "SOCS",
+            "value": "CAESHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiAovCbBg"
+          }
+        ]
+      },
+      "id": "45a03651-e68b-40a3-bd9d-0d776056d74a"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "bmj.com",
+      "cookies": {},
+      "id": "bf157881-d7bc-4ad9-a590-a9a47b3efc91"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button.onetrust-close-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "gofundme.com",
+      "cookies": {},
+      "id": "d92ecc0f-5f85-41b2-93c2-a9af60c4a753"
+    },
+    {
+      "click": {
+        "optIn": "a.accept-cookies",
+        "presence": "div.cookie-notice"
+      },
+      "domain": "evernote.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "a78db283-f6a6-4e80-83d1-65becec1df21"
+    },
+    {
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div#CXQnmb"
+      },
+      "domain": "google.com.au",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "CONSENT",
+            "value": "PENDING"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "SOCS",
+            "value": "CAESHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiAovCbBg"
+          }
+        ]
+      },
+      "id": "29ef5444-2685-40db-9d9b-abb4c782cb70"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "trendyol.com",
+      "cookies": {},
+      "id": "c74fb27a-9226-4813-8357-6ad081a5f614"
+    },
+    {
+      "click": {
+        "optIn": "span.cookiePolicy-close",
+        "presence": "div.cookiePolicy"
+      },
+      "domain": "gearbest.com",
+      "cookies": {},
+      "id": "0100a0ae-2e3a-4dcd-8761-596193f6be8d"
+    },
+    {
+      "click": {
+        "optIn": "button.cc-banner__button-accept",
+        "presence": "div.cc-banner__content"
+      },
+      "domain": "biomedcentral.com",
+      "cookies": {},
+      "id": "d5220250-697b-4b60-8284-f87e8ec2565c"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "media.net",
+      "cookies": {},
+      "id": "723fab73-ea52-48bb-8fb4-280b7af66f5b"
+    },
+    {
+      "click": {
+        "optIn": "span.b-policy-info__cross",
+        "presence": "div.b-policy-info"
+      },
+      "domain": "reg.ru",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookieAgree",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "783a1b6f-616d-4f9d-a84b-b0f7954e3e24"
+    },
+    {
+      "click": {
+        "optIn": "span.r5zwp6-3",
+        "presence": "div.rplgd-0"
+      },
+      "domain": "smallpdf.com",
+      "cookies": {},
+      "id": "bb1114eb-12ef-4465-8990-b33bbb270d3f"
+    },
+    {
+      "click": {
+        "optIn": "button#truste-consent-button",
+        "presence": "div#consent_blackbar"
+      },
+      "domain": "fortune.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cmapi_cookie_privacy",
+            "value": "permit 1,2,3"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cmapi_cookie_privacy",
+            "value": "permit 1 required"
+          }
+        ]
+      },
+      "id": "c0908337-da46-4155-8178-43e4a67693ec"
+    },
+    {
+      "click": {
+        "optIn": "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+        "optOut": "button#CybotCookiebotDialogBodyButtonDecline",
+        "presence": "div#CybotCookiebotDialog"
+      },
+      "domain": "weforum.org",
+      "cookies": {},
+      "id": "eeb1f1b9-f665-4125-af1d-efcc60955edc"
+    },
+    {
+      "click": {
+        "optIn": "button.css-tgfqsw",
+        "presence": "div#modal-host"
+      },
+      "domain": "medicalnewstoday.com",
+      "cookies": {},
+      "id": "2ce604ff-b40d-49c3-837d-b8be53705bcf"
+    },
+    {
+      "click": {
+        "optIn": "button#cookie-policy-btn",
+        "presence": "div.cookie"
+      },
+      "domain": "ucla.edu",
+      "cookies": {},
+      "id": "955c6f08-e07d-4b05-be04-5de69f49753b"
+    },
+    {
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div#CXQnmb"
+      },
+      "domain": "google.co.th",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "CONSENT",
+            "value": "PENDING"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "SOCS",
+            "value": "CAESHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiAovCbBg"
+          }
+        ]
+      },
+      "id": "c76220e6-bcc3-46e8-820d-e0ca07388bb4"
+    },
+    {
+      "click": {
+        "optIn": "button#_evidon-accept-button",
+        "optOut": "button#_evidon-decline-button",
+        "presence": "div#_evidon-message"
+      },
+      "domain": "playstation.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "eucookiepreference",
+            "value": "accept"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "eucookiepreference",
+            "value": "reject"
+          }
+        ]
+      },
+      "id": "23df4915-5954-41ea-8d5c-e76a1d98e70b"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "docker.com",
+      "cookies": {},
+      "id": "f9d93bc2-2946-4416-aea4-5096d055d69c"
+    },
+    {
+      "click": {
+        "optIn": "button#_evidon-banner-acceptbutton",
+        "presence": "div#_evidon-banner-content"
+      },
+      "domain": "lenovo.com",
+      "cookies": {},
+      "id": "21e686fb-7250-4fbc-ab5c-6a6bf67775d3"
+    },
+    {
+      "click": {
+        "optIn": "button.sp_choice_type_11",
+        "presence": "div.message-container"
+      },
+      "domain": "gizmodo.com",
+      "cookies": {},
+      "id": "83338cc2-e238-426e-96c1-05f24c81ff27"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "genius.com",
+      "cookies": {},
+      "id": "c9b66ca3-db42-40b2-8985-3b1f9f5f75e1"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "meetup.com",
+      "cookies": {},
+      "id": "520889dc-2e0e-4dd0-b95e-9705b07ad05e"
+    },
+    {
+      "click": {
+        "optIn": "a.button--default",
+        "presence": "div#cookie-notification"
+      },
+      "domain": "mdpi.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "mdpi_cookies_accepted",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "4f9c6403-4953-48aa-a8d7-d7acf177d437"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "avast.com",
+      "cookies": {},
+      "id": "6c00ba8e-0f76-4353-bc02-e15070486ac7"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "mckinsey.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "c3704560-1f19-4779-8bfd-9f8f01ebe1b9"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "bluehost.com",
+      "cookies": {},
+      "id": "13547ce7-5893-4214-bda9-6c925565f1d1"
+    },
+    {
+      "click": {
+        "optIn": "button.figma-mraqo7",
+        "optOut": "button.figma-lo1goc",
+        "presence": "div#gatsby-focus-wrapper"
+      },
+      "domain": "figma.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "e0dd9ba6-6514-4618-a405-3b6458c13272"
+    },
+    {
+      "click": {
+        "optIn": "button#adsk-eprivacy-yes-to-all",
+        "optOut": "button#adsk-eprivacy-privacy-decline-all-button",
+        "presence": "div#universal-footer-example"
+      },
+      "domain": "autodesk.com",
+      "cookies": {},
+      "id": "063caee7-0d21-43ee-aa45-e9d2bb796f67"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "jstor.org",
+      "cookies": {},
+      "id": "637b938a-bb9a-432c-9ebd-2654b8564306"
+    },
+    {
+      "click": {
+        "optIn": "button#_evidon-decline-button",
+        "presence": "div#_evidon-message"
+      },
+      "domain": "crunchyroll.com",
+      "cookies": {},
+      "id": "85aec7ab-1cc2-4651-b3fc-0cbae9a241f2"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "nba.com",
+      "cookies": {},
+      "id": "cb418cc5-17cf-4037-b942-5cd29e45b6bc"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button.onetrust-close-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "frontiersin.org",
+      "cookies": {},
+      "id": "3269e838-331c-43da-a954-e0c6ea92e4c6"
+    },
+    {
+      "click": {
+        "optIn": "button.eu-cookie-compliance-save-preferences-button",
+        "presence": "div.eu-cookie-compliance-banner"
+      },
+      "domain": "cam.ac.uk",
+      "cookies": {},
+      "id": "f5f827d0-60c9-4fe6-af97-a901d0d96ddc"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "hostgator.com",
+      "cookies": {},
+      "id": "0281a9d0-2dbc-40b4-9fc7-fb6d6aadc637"
+    },
+    {
+      "click": {
+        "optIn": "button.css-47sehv",
+        "presence": "div#qc-cmp2-container"
+      },
+      "domain": "timeanddate.com",
+      "cookies": {
+        "optOut": [
+          {
+            "name": "addtl_consent",
+            "value": "1~"
+          }
+        ]
+      },
+      "id": "3e7ceab1-6d33-4b33-bf2a-f9ae8cf4cea9"
+    },
+    {
+      "click": {
+        "optIn": "button.css-ZtxlD",
+        "optOut": "a.css-jMqFMB",
+        "presence": "div.css-fPpfoE"
+      },
+      "domain": "uber.com",
+      "cookies": {},
+      "id": "663e3527-0018-4851-912d-c75a9d610881"
+    },
+    {
+      "click": {
+        "optIn": "button#ccc-notify-accept",
+        "optOut": "button#ccc-notify-reject",
+        "presence": "div#ccc"
+      },
+      "domain": "tapad.com",
+      "cookies": {},
+      "id": "026010ef-311b-4c3e-aa1d-cb1470591c6a"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "doubleverify.com",
+      "cookies": {},
+      "id": "5fec3021-afad-4738-81ca-d7b00c989321"
+    },
+    {
+      "click": {
+        "optIn": "div.btn-ok",
+        "optOut": "div.btn-setting",
+        "presence": "div#cookie-policy-info"
+      },
+      "domain": "asus.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "isReadCookiePolicyDNT",
+            "value": "Yes"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "isReadCookiePolicyDNT",
+            "value": "No"
+          }
+        ]
+      },
+      "id": "8c949b75-4c7b-4559-8ade-780064af370a"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "wattpad.com",
+      "cookies": {},
+      "id": "15e3f022-d611-4a72-8e0f-eab360193e14"
+    },
+    {
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div#CXQnmb"
+      },
+      "domain": "google.com.sa",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "CONSENT",
+            "value": "PENDING"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "SOCS",
+            "value": "CAESHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiAxfWbBg"
+          }
+        ]
+      },
+      "id": "b558c39a-f79c-4d75-95db-10aa39c20af6"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "scientificamerican.com",
+      "cookies": {},
+      "id": "98c34a3d-a21e-4dfb-8a15-20c612c8652d"
+    },
+    {
+      "click": {
+        "optIn": "button#unic-agree",
+        "presence": "div.unic-bar"
+      },
+      "domain": "sharethrough.com",
+      "cookies": {},
+      "id": "d448486a-ad5c-45dd-b661-c22a82869036"
+    },
+    {
+      "click": {
+        "optIn": "button#consent-accept-button",
+        "presence": "div.36lcln-0"
+      },
+      "domain": "xing.com",
+      "cookies": {},
+      "id": "f82cabad-efa5-4637-8906-9fb842cd6556"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "aljazeera.com",
+      "cookies": {},
+      "id": "4895c100-b7be-427c-b8b5-389a2919b353"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button.onetrust-close-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "chegg.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "fd4ad9df-ba31-44b3-936c-219a84bf382b"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "sahibinden.com",
+      "cookies": {},
+      "id": "f9a01907-2ea5-4918-917c-cc40393918fc"
+    },
+    {
+      "click": {
+        "optIn": "button#CybotCookiebotDialogBodyButtonAccept",
+        "presence": "div#CybotCookiebotDialog"
+      },
+      "domain": "sectigo.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookieconsent_marketing",
+            "value": "true"
+          },
+          {
+            "name": "cookieconsent_preferences",
+            "value": "true"
+          },
+          {
+            "name": "cookieconsent_statistics",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "7078621c-2701-40e0-83f1-109c8ea0f82f"
+    },
+    {
+      "click": {
+        "optIn": "span#cookie-banner-close",
+        "presence": "div#cookie-banner"
+      },
+      "domain": "substack.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "hideCookieBanner",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "09f72241-e3be-4156-a8ac-ecf47145854f"
+    },
+    {
+      "click": {
+        "optIn": "a#et_cookie_consent_allow",
+        "presence": "div.et_cookie_consent"
+      },
+      "domain": "elegantthemes.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "et_cookies",
+            "value": "on"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "et_cookies",
+            "value": "off"
+          }
+        ]
+      },
+      "id": "ae4a00ba-e49c-4376-a5a7-67d9b647342d"
+    },
+    {
+      "click": {
+        "optIn": "a.cc-dismiss",
+        "presence": "div.cc-compliance"
+      },
+      "domain": "photobucket.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookieconsent_status",
+            "value": "dismiss"
+          }
+        ]
+      },
+      "id": "af7809cc-3e8d-4833-86e8-5efa1895baa5"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "pcmag.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "zdconsent",
+            "value": "optin"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "opt_out",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "a16e3e26-8b6f-4668-83e6-0b2e5b550003"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "vmware.com",
+      "cookies": {},
+      "id": "334e3353-4bbc-42ea-bced-0095ed320b68"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-banner-sdk"
+      },
+      "domain": "glassdoor.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "5cffed8a-81da-436d-aa1e-17397d991465"
+    },
+    {
+      "click": {
+        "optIn": "button.cookie-consent-banner-opt-out__action",
+        "presence": "div.cookie-consent-banner-opt-out"
+      },
+      "domain": "mercadolibre.com.ar",
+      "cookies": {},
+      "id": "b6fda273-20bf-4e49-8a2b-fe2afdcc12da"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "slate.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "false"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "8809db65-96cd-4ab5-be1a-cea416a4f34f"
+    },
+    {
+      "click": {
+        "optIn": "button.btn-success",
+        "presence": "div.vue-component"
+      },
+      "domain": "remove.bg",
+      "cookies": {
+        "optOut": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "86bc6c6f-c082-466f-ac77-994a2296fbb0"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "asana.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "cdc0af3b-87a3-4c10-acba-f036408e081f"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "thelancet.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "at_check",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "34fdbffe-9dce-4d8b-a636-f817fbe53793"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "arstechnica.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "463e030d-97aa-4720-8720-8770c5f8f758"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button.onetrust-close-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "roche.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "9f58fc9f-6bbe-49fd-8694-f6c40525675f"
+    },
+    {
+      "click": {
+        "optIn": "button#didomi-notice-agree-button",
+        "presence": "div#didomi-popup"
+      },
+      "domain": "softonic.com",
+      "cookies": {},
+      "id": "92f05ef5-ca30-4080-b8e8-b938e1e56020"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "rackspace.com",
+      "cookies": {},
+      "id": "03e782dc-129e-4712-87e9-1910c2a59242"
+    },
+    {
+      "click": {
+        "optIn": "button#truste-consent-button",
+        "presence": "div#truste-consent-track"
+      },
+      "domain": "rottentomatoes.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "notice_gdpr_prefs",
+            "value": "0,1,2:"
+          }
+        ]
+      },
+      "id": "6a3e6694-dc61-4ca2-ad61-d4960c419c91"
+    },
+    {
+      "click": {
+        "optIn": "button#modalAcceptAllBtn",
+        "optOut": "button#modalRejectAllFirstLayerBtn",
+        "presence": "div#cmp-modal"
+      },
+      "domain": "nokia.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "c18ccca7-1b7d-4022-b9ca-c725e6030c80"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "trendmicro.com",
+      "cookies": {},
+      "id": "b3edcf64-d267-4b22-bfc4-c047bf60ed39"
+    },
+    {
+      "click": {
+        "optIn": "button.closeButton",
+        "presence": "div.cookieBanner"
+      },
+      "domain": "anchor.fm",
+      "cookies": {},
+      "id": "475b40e3-18d5-457e-a084-76faa301c753"
+    },
+    {
+      "click": {
+        "optIn": "button.button-accept-cookie",
+        "presence": "div.banner-overlay"
+      },
+      "domain": "aboutcookies.org",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "analytics_accepted",
+            "value": "true"
+          },
+          {
+            "name": "cookie_accepted",
+            "value": "true"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cookies_denied",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "2de3ce99-ba76-417e-851c-87e0c4035180"
+    },
+    {
+      "click": {
+        "optIn": "button.css-47sehv",
+        "presence": "div#qc-cmp2-container"
+      },
+      "domain": "techradar.com",
+      "cookies": {
+        "optIn": [],
+        "optOut": [
+          {
+            "name": "addtl_consent",
+            "value": "1~"
+          }
+        ]
+      },
+      "id": "ad468e3e-e496-44c2-aa02-4996ff3ccf18"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "gartner.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "eb4534b2-0af8-4db9-84c0-675c4ed34a97"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button.onetrust-close-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "espncricinfo.com",
+      "cookies": {},
+      "id": "7eb35e95-7d09-46a6-8f3d-47449b0d5bb6"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "name.com",
+      "cookies": {},
+      "id": "809922f6-1648-4310-b10e-bd3ee0e77fdd"
+    },
+    {
+      "click": {
+        "optIn": "a.js-gdpr-cookie-acceptLink",
+        "presence": "div.widget-GdprCookieBanner"
+      },
+      "domain": "jamanetwork.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "CookieBanner_Closed",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "6026221f-dd61-493e-aea8-cdf38198f401"
+    },
+    {
+      "click": {
+        "optIn": "button.css-47sehv",
+        "presence": "div#qc-cmp2-container"
+      },
+      "domain": "livescience.com",
+      "cookies": {
+        "optOut": [
+          {
+            "name": "addtl_consent",
+            "value": "1~"
+          }
+        ]
+      },
+      "id": "3e610d4a-a720-4e34-952e-437c5e316d77"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "howstuffworks.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "gdpr_opt_in",
+            "value": "1"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "gdpr_opt_in",
+            "value": "0"
+          }
+        ]
+      },
+      "id": "0324650a-ad46-4c09-9970-a0af463ae633"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "namecheap.com",
+      "cookies": {},
+      "id": "788b8ec9-917f-4254-804c-f7096d82c151"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "dictionary.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "false"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "OneTrustWPCCPAGoogleOptOut",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "795a0777-6f3e-4c7b-ac15-28587b071b91"
+    },
+    {
+      "click": {
+        "optIn": "button#nhsuk-cookie-banner__link_accept_analytics",
+        "optOut": "button#nhsuk-cookie-banner__link_accept",
+        "presence": "div#nhsuk-cookie-banner"
+      },
+      "domain": "www.nhs.uk",
+      "cookies": {},
+      "id": "e6444889-fd2f-412a-b25d-41a6b6daaf3a"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "duolingo.com",
+      "cookies": {},
+      "id": "5aa3887e-5938-4f09-8b45-0272752bf4c3"
+    },
+    {
+      "click": {
+        "optIn": "button.button_b1lbbqqt",
+        "presence": "div.modalStyle_modrqv7"
+      },
+      "domain": "nikkei.com",
+      "cookies": {},
+      "id": "546792b9-f201-4e94-97f6-d5680abfe529"
+    },
+    {
+      "click": {
+        "optIn": "button.fc-primary-button",
+        "presence": "div.fc-consent-root"
+      },
+      "domain": "17track.net",
+      "cookies": {},
+      "id": "a620f10c-033a-47c1-ad2b-a8fd1df9e504"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "hm.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "eb2ff57f-369a-4ea2-8995-6cef06a55052"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "bitbucket.org",
+      "cookies": {},
+      "id": "bd1d2527-a7f3-4501-b0e3-6238c191af41"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "sophos.com",
+      "cookies": {},
+      "id": "e9525b86-df9b-4663-9441-0ed99b317af1"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "people.com",
+      "cookies": {},
+      "id": "4a800698-ebd1-456e-8429-a5bf6d9c4892"
+    },
+    {
+      "click": {
+        "optIn": "button.ch2-allow-all-btn",
+        "optOut": "button.ch2-deny-all-btn",
+        "presence": "div.ch2-container"
+      },
+      "domain": "semrush.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_tt_enable_cookie",
+            "value": "1"
+          }
+        ],
+        "optOut": []
+      },
+      "id": "2f54e492-0f33-4496-ab08-99af50bf6f22"
+    },
+    {
+      "click": {
+        "optIn": "a.cc-dismiss",
+        "presence": "div.cc-window"
+      },
+      "domain": "duke.edu",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookieconsent_status",
+            "value": "dismiss"
+          }
+        ]
+      },
+      "id": "d614e3e1-1282-4c56-801d-525263028933"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button.onetrust-close-btn-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "thawte.com",
+      "cookies": {},
+      "id": "bce31bd2-cc91-4e1d-af46-09d445ffdf3e"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "branch.io",
+      "cookies": {},
+      "id": "e76ad71c-512d-4db5-8ad7-ff4f4f30adcf"
+    },
+    {
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div#CXQnmb"
+      },
+      "domain": "google.com.ar",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "CONSENT",
+            "value": "PENDING"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "SOCS",
+            "value": "CAESHAgBEhJnd3NfMjAyMjExMTctMF9SQzIaAnJvIAEaBgiAl5WcBg"
+          }
+        ]
+      },
+      "id": "9422a971-5c8d-433e-a36a-98d9d7566b59"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "variety.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "OTAdditionalConsentString",
+            "value": "1~"
+          }
+        ]
+      },
+      "id": "1eedcd8c-2af6-426d-b096-24dc66ee7c8d"
+    },
+    {
+      "click": {
+        "optIn": "button#L2AGLb",
+        "optOut": "button#W0wltc",
+        "presence": "div#CXQnmb"
+      },
+      "domain": "google.co.kr",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "CONSENT",
+            "value": "PENDING"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "SOCS",
+            "value": "CAESHAgBEhJnd3NfMjAyMjExMTctMF9SQzIaAnJvIAEaBgiAl5WcBg"
+          }
+        ]
+      },
+      "id": "b5b44b02-d85b-488e-88fb-47c6e310556f"
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
+      "domain": "rollingstone.com",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_hjFirstSeen",
+            "value": "1"
+          }
+        ]
+      },
+      "id": "7bc5d0af-f57e-4299-994e-b52cef488b51"
+    },
+    {
+      "click": {
+        "optIn": "a#cookie_action_close_header",
+        "presence": "div#cookie-law-info-bar"
+      },
+      "domain": "usc.edu",
+      "cookies": {
+        "optIn": [
+          {
+            "name": "viewed_cookie_policy",
+            "value": "yes"
+          }
+        ]
+      },
+      "id": "5cedc12d-d79c-4be8-9e45-e98905147090"
     }
   ]
 }
