@@ -64,7 +64,7 @@ const ajv = new Ajv({ loadSchema, allErrors: true });
     exitWithError("Schema validation error");
   }
 
-  // 3. Check for duplicate rules (id or domain)
+  // 3. Check for duplicate rules (id or domains)
   const idSet = new Set();
   const domainSet = new Set();
 
@@ -74,14 +74,15 @@ const ajv = new Ajv({ loadSchema, allErrors: true });
       console.error(`Duplicate id ${rule.id} for rule #${i}`);
       foundDuplicates = true;
     }
-    // Allow * domain rules which are global rules.
-    if (domainSet.has(rule.domain) && rule.domain != "*") {
-      console.error(`Duplicate domain ${rule.domain} for rule #${i}`);
+    // This still allows for global rules which have an empty domains array.
+    let duplicateDomains = rule.domains.filter((d) => domainSet.has(d));
+    if (duplicateDomains.length) {
+      console.error(`Duplicate domain/s for rule #${i}`, duplicateDomains);
       foundDuplicates = true;
     }
 
     idSet.add(rule.id);
-    domainSet.add(rule.domain);
+    rule.domains.forEach((d) => domainSet.add(d));
   });
   if (foundDuplicates) {
     exitWithError("Found duplicate rules");
