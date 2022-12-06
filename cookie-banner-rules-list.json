@@ -213,26 +213,6 @@
     },
     {
       "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div.spoKVd"
-      },
-      "cookies": {
-        "optOut": [
-          { "name": "CONSENT", "path": "/", "value": "PENDING", "sameSite": 0 },
-          {
-            "name": "SOCS",
-            "path": "/",
-            "value": "CAESHAgBEhJnd3NfMjAyMjA4MTEtMF9SQzMaAmRlIAEaBgiA1JWYBg",
-            "sameSite": 0
-          }
-        ]
-      },
-      "id": "ffe76ba2-d6aa-47f4-ab85-9368feeb4519",
-      "domains": ["google.com", "google.fr", "google.de"]
-    },
-    {
-      "click": {
         "optIn": "div.uiLayer div > button + button[type=submit]",
         "optOut": "div.uiLayer div > button[type=submit]",
         "presence": "div.uiLayer"
@@ -566,32 +546,6 @@
     },
     {
       "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div#CXQnmb"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "SOCS",
-            "value": "CAISHAgBEhJnd3NfMjAyMjEwMDYtMF9SQzMaAnJvIAEaBgiAqp2aBg",
-            "isSecure": true
-          },
-          { "name": "CONSENT", "value": "PENDING" }
-        ],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjEwMDYtMF9SQzMaAnJvIAEaBgiAqp2aBg",
-            "isSecure": true
-          }
-        ]
-      },
-      "id": "4a947309-9a90-45bc-916c-b76bcd61bed1",
-      "domains": ["google.com.hk"]
-    },
-    {
-      "click": {
         "optIn": "button#onetrust-accept-btn-handler",
         "optOut": "button#onetrust-reject-all-handler",
         "presence": "div#onetrust-consent-sdk"
@@ -677,34 +631,6 @@
       },
       "id": "e5706488-f2e9-47bd-a178-4d569ca26ce8",
       "domains": ["etsy.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div.spoKVd"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "SOCS",
-            "value": "CAISHAgBEhJnd3NfMjAyMjEwMTAtMF9SQzIaAnJvIAEaBgiA2beaBg"
-          },
-          { "name": "CONSENT", "value": "PENDING" }
-        ],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjA5MjEtMF9SQzQaAnJvIAEaBgiA49iZBg"
-          },
-          {
-            "name": "CONSENT",
-            "value": "CAISHAgBEhJnd3NfMjAyMjEwMTAtMF9SQzIaAnJvIAEaBgiA2beaBg"
-          }
-        ]
-      },
-      "id": "9c252bbd-0ddc-4677-bab1-3946161dc819",
-      "domains": ["google.co.in"]
     },
     {
       "click": {
@@ -812,20 +738,45 @@
       "domains": [
         "google.at",
         "google.be",
-        "google.it",
-        "google.pt",
         "google.bg",
+        "google.ca",
+        "google.ch",
+        "google.co.in",
+        "google.co.jp",
+        "google.co.kr",
+        "google.co.th",
+        "google.co.uk",
+        "google.com.ar",
+        "google.com.au",
+        "google.com.br",
+        "google.com.hk",
+        "google.com.mx",
+        "google.com.sa",
+        "google.com.sg",
+        "google.com.tr",
+        "google.com.tw",
+        "google.com.ua",
+        "google.com",
+        "google.cz",
+        "google.de",
+        "google.dk",
+        "google.es",
+        "google.fi",
+        "google.fr",
         "google.gr",
+        "google.hr",
         "google.hu",
+        "google.ie",
+        "google.it",
         "google.nl",
+        "google.no",
+        "google.pl",
+        "google.pt",
         "google.ro",
         "google.rs",
-        "google.es",
-        "google.ca",
-        "google.sk",
+        "google.ru",
         "google.se",
-        "google.ch",
-        "google.dk"
+        "google.sk"
       ]
     },
     {
@@ -1122,24 +1073,6 @@
     },
     {
       "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div.spoKVd"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CONSENT", "value": "PENDING" }],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjEwMDMtMF9SQzEaAnJvIAEaBgiAtfiZBg"
-          }
-        ]
-      },
-      "id": "0c81f056-566c-4d00-9595-d68d4f3a87f1",
-      "domains": ["google.fi", "google.pl", "google.com.mx"]
-    },
-    {
-      "click": {
         "optIn": "button.fc-cta-consent",
         "presence": "div.fc-choice-dialog"
       },
@@ -1187,24 +1120,6 @@
       "cookies": { "optIn": [{ "name": "fucking-eu-cookies", "value": "1" }] },
       "id": "5cb47b97-2d77-4301-af71-0ec0b4aa0e9c",
       "domains": ["bazos.sk", "bazos.cz"]
-    },
-    {
-      "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div.spoKVd"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CONSENT", "value": "PENDING" }],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjEwMTktMF9SQzQaAmVuIAEaBgiAlOeaBg"
-          }
-        ]
-      },
-      "id": "f65d0b22-54eb-48d1-8034-05ae1e42b59f",
-      "domains": ["google.ie", "google.co.uk"]
     },
     {
       "click": {
@@ -1590,24 +1505,6 @@
     },
     {
       "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div.spoKVd"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CONSENT", "value": "PENDING" }],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjEwMDQtMF9SQzMaAnJvIAEaBgiA2P2ZBg"
-          }
-        ]
-      },
-      "id": "14df6f20-3dcd-4441-822b-d44b57d74136",
-      "domains": ["google.cz", "google.no", "google.ru"]
-    },
-    {
-      "click": {
         "optIn": "button#onetrust-accept-btn-handler",
         "presence": "div.banner-actions-container"
       },
@@ -1679,24 +1576,6 @@
       },
       "id": "d5ed805f-52a3-43e3-a648-d0a7ff64bbf3",
       "domains": ["heute.at"]
-    },
-    {
-      "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div.spoKVd"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CONSENT", "value": "PENDING" }],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjEwMDMtMF9SQzEaAnJvIAEaBgiA2P2ZBg"
-          }
-        ]
-      },
-      "id": "28c5edf5-a434-42f9-864a-675b87e0a547",
-      "domains": ["google.hr", "google.com.ua"]
     },
     {
       "click": {
@@ -3405,24 +3284,6 @@
       },
       "id": "21526202-012c-4e5f-a7ec-277686d867bb",
       "domains": ["sbb.ch"]
-    },
-    {
-      "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div.spoKVd"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CONSENT", "value": "PENDING" }],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjEwMDUtMF9SQzMaAnJvIAEaBgiA5JKaBg"
-          }
-        ]
-      },
-      "id": "d94083c4-089e-4da4-8649-a1744fa2f8dd",
-      "domains": ["google.com.br"]
     },
     {
       "click": {
@@ -6630,24 +6491,6 @@
     },
     {
       "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div.spoKVd"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CONSENT", "value": "PENDING" }],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiA89WbBg"
-          }
-        ]
-      },
-      "id": "f0f7561b-4dd7-4509-ae0b-a527db4181b7",
-      "domains": ["google.co.jp"]
-    },
-    {
-      "click": {
         "optIn": "button.welcome__button--accept",
         "optOut": "button.welcome__button--decline",
         "presence": "div.welcome__cookie-notice"
@@ -6762,24 +6605,6 @@
       "cookies": {},
       "id": "2e0b3da1-4072-4e1b-b561-939789c90f4d",
       "domains": ["oup.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div.spoKVd"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CONSENT", "value": "PENDING" }],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAISHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiAltubBg"
-          }
-        ]
-      },
-      "id": "41c1453f-f601-486f-a792-cfb1c9276e76",
-      "domains": ["google.com.tw"]
     },
     {
       "click": {
@@ -7026,24 +6851,6 @@
     },
     {
       "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div.spoKVd"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CONSENT", "value": "PENDING" }],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiA_-qbBg"
-          }
-        ]
-      },
-      "id": "58988b45-3e1f-4055-8f6d-fc3c9ae3601c",
-      "domains": ["google.com.sg"]
-    },
-    {
-      "click": {
         "optIn": "button.color-secondary",
         "presence": "div.footer_footer__ZK5Q_"
       },
@@ -7145,24 +6952,6 @@
       "cookies": {},
       "id": "081717d3-32c8-40e4-8bc1-ddd5495dbddf",
       "domains": ["ring.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div#CXQnmb"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CONSENT", "value": "PENDING" }],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiAovCbBg"
-          }
-        ]
-      },
-      "id": "45a03651-e68b-40a3-bd9d-0d776056d74a",
-      "domains": ["google.com.tr", "google.com.au", "google.co.th"]
     },
     {
       "click": { "optIn": "a.accept-cookies", "presence": "div.cookie-notice" },
@@ -7335,24 +7124,6 @@
       },
       "id": "8c949b75-4c7b-4559-8ade-780064af370a",
       "domains": ["asus.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div#CXQnmb"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CONSENT", "value": "PENDING" }],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjExMTUtMF9SQzEaAnJvIAEaBgiAxfWbBg"
-          }
-        ]
-      },
-      "id": "b558c39a-f79c-4d75-95db-10aa39c20af6",
-      "domains": ["google.com.sa"]
     },
     {
       "click": { "optIn": "button#unic-agree", "presence": "div.unic-bar" },
@@ -7597,24 +7368,6 @@
       },
       "id": "d614e3e1-1282-4c56-801d-525263028933",
       "domains": ["duke.edu"]
-    },
-    {
-      "click": {
-        "optIn": "button#L2AGLb",
-        "optOut": "button#W0wltc",
-        "presence": "div#CXQnmb"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CONSENT", "value": "PENDING" }],
-        "optOut": [
-          {
-            "name": "SOCS",
-            "value": "CAESHAgBEhJnd3NfMjAyMjExMTctMF9SQzIaAnJvIAEaBgiAl5WcBg"
-          }
-        ]
-      },
-      "id": "9422a971-5c8d-433e-a36a-98d9d7566b59",
-      "domains": ["google.com.ar", "google.co.kr"]
     },
     {
       "click": {
