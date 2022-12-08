@@ -3504,7 +3504,7 @@
     {
       "click": {
         "optIn": "button.cmp-intro_acceptAll",
-        "presence": "div.cmp-app_gdpr"
+        "presence": "div.cmp-popup_popup"
       },
       "cookies": {
         "optIn": [{ "name": "_gat_UA-4033697-1", "value": "1" }],
