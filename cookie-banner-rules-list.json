@@ -1411,7 +1411,7 @@
     {
       "click": {
         "optIn": "button#onetrust-accept-btn-handler",
-        "presence": "div#div#onetrust-consent-sdk"
+        "presence": "div#onetrust-consent-sdk"
       },
       "cookies": {
         "optOut": [
