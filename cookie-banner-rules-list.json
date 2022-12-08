@@ -203,9 +203,9 @@
     {
       "click": {
         "hide": "#onetrust-consent-sdk",
-        "optIn": "#accept-recommended-btn-handler",
-        "optOut": "button.save-preference-btn-handler",
-        "presence": "#onetrust-pc-sdk"
+        "optIn": "button#onetrust-accept-btn-handlerr",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
       },
       "cookies": {},
       "id": "a224a333-229d-4f1f-af68-41a25a152037",
