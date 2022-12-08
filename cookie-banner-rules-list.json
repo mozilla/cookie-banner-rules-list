@@ -4523,24 +4523,7 @@
         "optIn": "button#didomi-notice-agree-button",
         "presence": "div#didomi-host"
       },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPg1oEAPg1oEAAHABBENCkCsAP_AAAAAAAAAIsNf_X_db3tj-_59fvt0eYlf9dy-v-wjBhedh-0NyXvW-L0F02I7vF3ihogKOQgEsjJBIQclGKHcRUkw6okEgyGsYESUg5MAJqLEimETGwNYGE1bGURCOAIYrtsoPryymtuKev_1W2V-_-jUQzpJCS-i8IbtQ185xLmMyf0fn4jOfb-VO29853gAAAAEAAABIqADAAEEiCUAGAAIJEBoAMAAQSIKQAYAAgkQOgAwABBIghABgACCRASADAAEEiBEAGAAIJEDIAMAAQSI.f_gAAAAAAAAA"
-          },
-          {
-            "name": "cto_bundle",
-            "value": "1WCHFF93NHlTaFcwcDVNQ3VtRjV3cVN6TGw3a3FRUWtsRmpTSkR5aFdVaE9GN2w3ckxUU3JSVXpDRVZveFBaWkdnaWhwYlVqS1REc2Uwd05nRHRrUnp0ZXNodDU0YmZPS2xmb3l6ZktCUlF1OEVaWFowSlF4TWFpT09meEFXM2YxUGs5b0lMQ0RSMjJJSThLNFhVeDBhZzBaM0ElM0QlM0Q"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPg1oEAPg1oEAAHABBENCkCgAAAAAAAAAAAAAAAAAAEioAMAAQSIJQAYAAgkQGgAwABBIgpABgACCRA6ADAAEEiCEAGAAIJEBIAMAAQSIEQAYAAgkQMgAwABBIgA.YAAAAAAAAAAA"
-          }
-        ]
-      },
+      "cookies": {},
       "id": "7829c877-7241-4be1-aa6a-628e8d83f61d",
       "domains": ["20minutes.fr"]
     },
