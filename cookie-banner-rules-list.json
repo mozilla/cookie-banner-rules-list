@@ -2356,7 +2356,7 @@
     {
       "click": {
         "optIn": "button.cmp-intro_acceptAll",
-        "presence": "div.cmp-app_gdpr"
+        "presence": "div.cmp-popup_popup"
       },
       "cookies": {
         "optIn": [
