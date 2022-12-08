@@ -4144,24 +4144,7 @@
         "optIn": "button#didomi-notice-agree-button",
         "presence": "div#didomi-host"
       },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "cto_bundle",
-            "value": "g6Fn9V91SGNrTTNJT29qWlNqbjQlMkZ6eUpEJTJGNnhUbXhQRSUyQnZTR0ZSb0FxY0xVQmV4YVl2WkFpQWxkUHVtVG9IRGVMT3ppUm5tNWFEd0I5NVhmUW1vQXEyUk53cmhnY2tsVjNMNDlUd0twTGdSa3JxWTcweXVDd2RHRlJ3UG1UQVR1MkhrZQ"
-          },
-          {
-            "name": "euconsent-v2",
-            "value": "CPgyVIAPgyVIAAHABBENCkCsAP_AAAAAAAAAIltf_X_db3Nj-_5_fvt0eY1f9dy-v-wjDhedh-0NzXrW-L0F02I7vF3ihggKOQ4EshJBIQdlGKHcRUkw6okEgzGsYESUg4MAJqLEimETGwNYGE1bGURCOAIYrtsoPryymtuKev_1W2V-_-jUQzpJKS-i8IbtQ185xLmsyf0fn4jOP_-VO2997____4AAACQkAGAAIJEBoAMAAQSIEQAYAAgkQKgAwABBIgZABgACCRA6ADAAEEiCEAGAAIJEEoAMAAQSIKQAYAAgkQAA.f_gAAAAAAAAA"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPgyVIAPgyVIAAHABBENCkCgAAAAAAAAAAAAAAAAAAEhIAMAAQSIDQAYAAgkQIgAwABBIgVABgACCRAyADAAEEiB0AGAAIJEEIAMAAQSIJQAYAAgkQUgAwABBIgA.YAAAAAAAAAAA"
-          }
-        ]
-      },
+      "cookies": {},
       "id": "f3b09797-67d8-479d-a369-301955413d65",
       "domains": ["actu.fr"]
     },
