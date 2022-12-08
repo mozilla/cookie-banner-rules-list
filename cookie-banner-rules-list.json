@@ -5244,24 +5244,10 @@
     },
     {
       "click": {
-        "optIn": "button.fc-button",
-        "presence": "div.fc-footer-buttons-container"
+        "optIn": "div.banner-button",
+        "presence": "div.template-root"
       },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "cto_bundle",
-            "value": "ZzZAWF95S0xRTmVqSWZReEJxaTZhZloxWVBVblNZMzJubXhtTjlmdTJOdWo4Tk1uWXlNOGllM3dHWUpNZm85YVhnYmI5M3dDclZmUDZLUnB0Rkw3MGdrdzBPeHY3byUyQjE2d3h0SndxU2ZuVDg2TG81V25YNno1WE1MRWNaRXkxbEFKVWRlV1pIZVBQclM4VDA2aXVsJTJGeFpHc2JRJTNEJTNE"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "FCCDCF",
-            "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CPhJZsAPhJZsAEsABCENClCgAAAAAAAAACiQAAAOhQD2F2K2kKGkfjSUWYgQBCujIEIhUAABAECBIAAAAUgQAgFIIAiAAlACBAAAABAQAQCAgAQABAAAoACgAAAAAAAAAAAAAAQQAABAAIAAAAAAAAEAQAAIAARAAAAAAABEhCAAQQAkBAAAAAAAAAAAAAAAAAABAAA%22%2C%221~%22%2C%226210ED75-AF63-4379-A563-0C22C82F941A%22%5D%2Cnull%2Cnull%2C%5B%5D%5D"
-          },
-          { "name": "awxconsent", "value": "1" }
-        ]
-      },
+      "cookies": {},
       "id": "60f526aa-abb2-4930-bec4-7113af7481ae",
       "domains": ["accuweather.com"]
     },
