@@ -5111,8 +5111,7 @@
     {
       "click": {
         "optIn": "button#didomi-notice-agree-button",
-        "optOut": "span.didomi-continue-without-agreeing",
-        "presence": "div#didomi-host"
+        "presence": "div#didomi-popup"
       },
       "cookies": {},
       "id": "f52698f6-efc9-4a8d-a425-e0e147a98c42",
