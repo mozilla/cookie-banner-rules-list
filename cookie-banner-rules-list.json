@@ -19,6 +19,8 @@
       "id": "6c7366a0-4762-47b9-8eeb-04e86cc7a0cc",
       "domains": [
         "soundcloud.com",
+        "fastly.com",
+        "spotify.com",
         "digicert.com",
         "salesforce.com",
         "reuters.com",
@@ -78,15 +80,6 @@
       "cookies": {},
       "id": "4b835605-77e0-457a-8409-8d499ee1131c",
       "domains": ["gravatar.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "presence": "div#onetrust-banner-sdk"
-      },
-      "cookies": {},
-      "id": "c63efcc1-06e0-42c5-955f-f5a61fd0baa2",
-      "domains": ["fastly.com", "spotify.com"]
     },
     {
       "click": { "presence": "div#uhfCookieAlert" },
