@@ -19,6 +19,8 @@
       "id": "6c7366a0-4762-47b9-8eeb-04e86cc7a0cc",
       "domains": [
         "soundcloud.com",
+        "fastly.com",
+        "spotify.com",
         "digicert.com",
         "salesforce.com",
         "reuters.com",
@@ -78,15 +80,6 @@
       "cookies": {},
       "id": "4b835605-77e0-457a-8409-8d499ee1131c",
       "domains": ["gravatar.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "presence": "div#onetrust-banner-sdk"
-      },
-      "cookies": {},
-      "id": "c63efcc1-06e0-42c5-955f-f5a61fd0baa2",
-      "domains": ["fastly.com", "spotify.com"]
     },
     {
       "click": { "presence": "div#uhfCookieAlert" },
@@ -886,11 +879,11 @@
     {
       "click": {
         "optIn": "button.cmp-intro_acceptAll",
-        "presence": "div.cmp-app_gdpr"
+        "presence": "div.cmp-popup_popup"
       },
       "cookies": {},
       "id": "be15b898-a203-45cb-8200-b9b36d2af17b",
-      "domains": ["onet.pl"]
+      "domains": ["onet.pl", "fakt.pl", "plejada.pl", "medonet.pl"]
     },
     {
       "click": {
@@ -2235,7 +2228,7 @@
     {
       "click": {
         "optIn": "button.cmp-intro_acceptAll",
-        "presence": "div.cmp-app_gdpr"
+        "presence": "div.cmp-popup_popup"
       },
       "cookies": {
         "optIn": [
@@ -3186,28 +3179,6 @@
     },
     {
       "click": {
-        "optIn": "button.cmp-intro_acceptAll",
-        "presence": "div.cmp-app_gdpr"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "pubconsent",
-            "value": "npa%3D0%26vendorListVersion%3D155%26cmpTid%3D1746213%26publicationVersion%3D773%26customVendorsConsent%3D1"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "adpconsent",
-            "value": "CPgtEwDPgtE8ZEYACAENCbCgAIAAAAAAAB5YI8QAAR4AJMNW4gC7EscCbQMIoUQIwrCQqgUAEFAMLRBYAODgp2VgE-sIWACAUARgRAhxBRgwCAAQCAJCIAJAiwQCIAiAQAAgARAIQAETAILACwMAgABANCxQCgAECQgyICI5TAgIgSCglsrEEoK9DTCAOssAKDRGxUACJAABSAgJCwcAwRICXiyQJMUb5ACMEKAUSoAA.cAAAAbgAAIAA"
-          }
-        ]
-      },
-      "id": "09e39fcc-7a38-4679-9493-a320ed08c34a",
-      "domains": ["medonet.pl"]
-    },
-    {
-      "click": {
         "optIn": "button#didomi-notice-agree-button",
         "presence": "div#buttons"
       },
@@ -3361,23 +3332,6 @@
       },
       "id": "fe8a3adb-ce3c-4dd6-83db-772e71674da3",
       "domains": ["rabobank.nl"]
-    },
-    {
-      "click": {
-        "optIn": "button.cmp-intro_acceptAll",
-        "presence": "div.cmp-app_gdpr"
-      },
-      "cookies": {
-        "optIn": [{ "name": "_gat_UA-4033697-1", "value": "1" }],
-        "optOut": [
-          {
-            "name": "adpconsent",
-            "value": "CPgtaEHPgtaGrEYACAENCbCgAIAAAH_AAB5YI8QAAR4AJMNW4gC7EscCbQMIoUQIwrCQqgUAEFAMLRBYAODgp2VgE-sIWACAUARgRAhxBRgwCAAQCAJCIAJAiwQCIAiAQAAgARAIQAETAILACwMAgABANCxQCgAECQgyICI5TAgIgSCglsrEEoK9DTCAOssAKDRGxUACJAABSAgJCwcAwRICXiyQJMUb5ACMEKAUSoAA.cAAAAbgAAIAA"
-          }
-        ]
-      },
-      "id": "f192b6a8-1d6d-4448-b971-2794d0834356",
-      "domains": ["fakt.pl"]
     },
     {
       "click": {
@@ -4564,33 +4518,6 @@
       },
       "id": "2b12c85e-4ec0-4a3d-9cbe-9892db3f5850",
       "domains": ["napi.hu"]
-    },
-    {
-      "click": {
-        "optIn": "button.cmp-intro_acceptAll",
-        "presence": "div.cmp-app_gdpr"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "adpconsent",
-            "value": "CPhEEP0PhEEQ7EYACAENCkCsAP_AAH_AAB5YJENd_H__bX9v-f7_6ft0eY1f9_r37uQzDhfNs-8F3L_W_LwX_2E7NF36tq4KmR4ku1LBIUNtHMnUDUmxaokVrzHsak2cpzNKJ_BkknsZe2dYGF9vm5tj-QKZ7_5_d3f52T_9_9v-39z33913v3d_3-_13Ljd_5_9H_v_fR_bc_Kft_5-_8v8_____3_e______98EiACTDVuIAuxLHAm0DCKBECMKwkKoFABBQDC0QGADg4KdlYBPrCBAAgFAEYEQIcAUYEAgAAAgCQiACQIsEAAAIgEAAIAEQiEABAwCCgAsDAIAAQDQMUQoABAkIMiAiKUwICIEggJbKhBKC6Q0wgDrLACgkRsVAAiAAAVgACAsHAMESAlYsECTFG-QAjBCgFEqFagAAAA.fkAAAbgAAMAA"
-          },
-          {
-            "name": "pubconsent",
-            "value": "npa%3D0%26vendorListVersion%3D164%26cmpTid%3D1746213%26publicationVersion%3D778%26customVendorsConsent%3D1"
-          }
-        ],
-        "optOut": [
-          { "name": "_pbjs_userid_consent_data", "value": "6254855998752291" },
-          {
-            "name": "adpconsent",
-            "value": "CPhEDgsPhEDl_EYACAENCkCgAIAAAH_AAB5YJEQAASIAJMNW4gC7EscCbQMIoEQIwrCQqgUAEFAMLRAYAODgp2VgE-sIEACAUARgRAhwBRgQCAAACAJCIAJAiwQAAAiAQAAgARCIQAEDAIKACwMAgABANAxRCgAECQgyICIpTAgIgSCAlsqEEoLpDTCAOssAKCRGxUACIAABWAAICwcAwRICViwQJMUb5ACMEKAUSoVqAAAA.cAAAAbgAAIAA"
-          }
-        ]
-      },
-      "id": "e7bae4c3-fa09-43e1-92c6-6bcb3cd63b67",
-      "domains": ["plejada.pl"]
     },
     {
       "click": {
