@@ -195,17 +195,6 @@
     },
     {
       "click": {
-        "hide": "#onetrust-consent-sdk",
-        "optIn": "#accept-recommended-btn-handler",
-        "optOut": "button.save-preference-btn-handler",
-        "presence": "#onetrust-pc-sdk"
-      },
-      "cookies": {},
-      "id": "a224a333-229d-4f1f-af68-41a25a152037",
-      "domains": ["dhl.com"]
-    },
-    {
-      "click": {
         "optIn": "button#L2AGLb",
         "optOut": "button#W0wltc",
         "presence": "div.spoKVd"
@@ -497,6 +486,7 @@
       "cookies": {},
       "id": "0b42c238-b54d-4106-8d9a-81df5bc0b3ae",
       "domains": [
+        "dhl.com",
         "cloudflare.com",
         "webex.com",
         "indeed.com",
