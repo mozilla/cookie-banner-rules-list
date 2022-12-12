@@ -19,6 +19,7 @@
       "id": "6c7366a0-4762-47b9-8eeb-04e86cc7a0cc",
       "domains": [
         "soundcloud.com",
+        "gsp.ro",
         "fastly.com",
         "spotify.com",
         "digicert.com",
@@ -192,17 +193,6 @@
       },
       "id": "788ed05e-cf93-41a8-b2e5-c5571d855232",
       "domains": ["youtube.com"]
-    },
-    {
-      "click": {
-        "hide": "#onetrust-consent-sdk",
-        "optIn": "#accept-recommended-btn-handler",
-        "optOut": "button.save-preference-btn-handler",
-        "presence": "#onetrust-pc-sdk"
-      },
-      "cookies": {},
-      "id": "a224a333-229d-4f1f-af68-41a25a152037",
-      "domains": ["dhl.com"]
     },
     {
       "click": {
@@ -477,6 +467,7 @@
       "cookies": {},
       "id": "0b42c238-b54d-4106-8d9a-81df5bc0b3ae",
       "domains": [
+        "dhl.com",
         "cloudflare.com",
         "webex.com",
         "indeed.com",
@@ -1315,22 +1306,6 @@
       },
       "id": "8e8f6719-0350-4310-8cc1-c00bb51b72b0",
       "domains": ["abola.pt"]
-    },
-    {
-      "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "presence": "div#div#onetrust-consent-sdk"
-      },
-      "cookies": {
-        "optOut": [
-          {
-            "name": "eupubconsent-v2",
-            "value": "CPgcjsWPgcjsWAcABBENCjCgAAAAAH_AAChQJBNf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36tq4KuR4Eu3LBIUdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbOydYGH9_n1_z-ZKY7___f_7z_v-v___3____7-3f3__5___-__e_V__9zfn9_____9vP___9v-_9__________3_798EggCTDVuIAuxLHAm2jCKBECMKwkOoFABRQDC0QGEDq4KdlcBPrCBAAgFAEYEQIcQUYMAgAAAgCQiICQI8EAiAIgEAAIAFQiEABGwCCgAsDAIABQDQsUYoAhAkIMiAiKUwICJEgoJ7KhBKDvQ0whDrLACg0f8VCAiUAIVgRCQsHIcESAl4skCzFG-QAjBCgFEqFaAA.YAAAD_gAAAAA"
-          }
-        ]
-      },
-      "id": "13353fdd-5cd9-4254-b70b-c59e45077a89",
-      "domains": ["gsp.ro"]
     },
     {
       "click": {
@@ -3956,32 +3931,6 @@
     },
     {
       "click": {
-        "optIn": "button#didomi-notice-agree-button",
-        "presence": "div#didomi-host"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "cto_bundle",
-            "value": "g6Fn9V91SGNrTTNJT29qWlNqbjQlMkZ6eUpEJTJGNnhUbXhQRSUyQnZTR0ZSb0FxY0xVQmV4YVl2WkFpQWxkUHVtVG9IRGVMT3ppUm5tNWFEd0I5NVhmUW1vQXEyUk53cmhnY2tsVjNMNDlUd0twTGdSa3JxWTcweXVDd2RHRlJ3UG1UQVR1MkhrZQ"
-          },
-          {
-            "name": "euconsent-v2",
-            "value": "CPgyVIAPgyVIAAHABBENCkCsAP_AAAAAAAAAIltf_X_db3Nj-_5_fvt0eY1f9dy-v-wjDhedh-0NzXrW-L0F02I7vF3ihggKOQ4EshJBIQdlGKHcRUkw6okEgzGsYESUg4MAJqLEimETGwNYGE1bGURCOAIYrtsoPryymtuKev_1W2V-_-jUQzpJKS-i8IbtQ185xLmsyf0fn4jOP_-VO2997____4AAACQkAGAAIJEBoAMAAQSIEQAYAAgkQKgAwABBIgZABgACCRA6ADAAEEiCEAGAAIJEEoAMAAQSIKQAYAAgkQAA.f_gAAAAAAAAA"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPgyVIAPgyVIAAHABBENCkCgAAAAAAAAAAAAAAAAAAEhIAMAAQSIDQAYAAgkQIgAwABBIgVABgACCRAyADAAEEiB0AGAAIJEEIAMAAQSIJQAYAAgkQUgAwABBIgA.YAAAAAAAAAAA"
-          }
-        ]
-      },
-      "id": "f3b09797-67d8-479d-a369-301955413d65",
-      "domains": ["actu.fr"]
-    },
-    {
-      "click": {
         "optIn": "button.css-11sahre",
         "presence": "div.qc-cmp2-summary-buttons"
       },
@@ -4338,26 +4287,9 @@
         "optIn": "button#didomi-notice-agree-button",
         "presence": "div#didomi-host"
       },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPg1oEAPg1oEAAHABBENCkCsAP_AAAAAAAAAIsNf_X_db3tj-_59fvt0eYlf9dy-v-wjBhedh-0NyXvW-L0F02I7vF3ihogKOQgEsjJBIQclGKHcRUkw6okEgyGsYESUg5MAJqLEimETGwNYGE1bGURCOAIYrtsoPryymtuKev_1W2V-_-jUQzpJCS-i8IbtQ185xLmMyf0fn4jOfb-VO29853gAAAAEAAABIqADAAEEiCUAGAAIJEBoAMAAQSIKQAYAAgkQOgAwABBIghABgACCRASADAAEEiBEAGAAIJEDIAMAAQSI.f_gAAAAAAAAA"
-          },
-          {
-            "name": "cto_bundle",
-            "value": "1WCHFF93NHlTaFcwcDVNQ3VtRjV3cVN6TGw3a3FRUWtsRmpTSkR5aFdVaE9GN2w3ckxUU3JSVXpDRVZveFBaWkdnaWhwYlVqS1REc2Uwd05nRHRrUnp0ZXNodDU0YmZPS2xmb3l6ZktCUlF1OEVaWFowSlF4TWFpT09meEFXM2YxUGs5b0lMQ0RSMjJJSThLNFhVeDBhZzBaM0ElM0QlM0Q"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPg1oEAPg1oEAAHABBENCkCgAAAAAAAAAAAAAAAAAAEioAMAAQSIJQAYAAgkQGgAwABBIgpABgACCRA6ADAAEEiCEAGAAIJEBIAMAAQSIEQAYAAgkQMgAwABBIgA.YAAAAAAAAAAA"
-          }
-        ]
-      },
+      "cookies": {},
       "id": "7829c877-7241-4be1-aa6a-628e8d83f61d",
-      "domains": ["20minutes.fr"]
+      "domains": ["20minutes.fr", "actu.fr"]
     },
     {
       "click": {
@@ -4899,8 +4831,7 @@
     {
       "click": {
         "optIn": "button#didomi-notice-agree-button",
-        "optOut": "span.didomi-continue-without-agreeing",
-        "presence": "div#didomi-host"
+        "presence": "div#didomi-popup"
       },
       "cookies": {},
       "id": "f52698f6-efc9-4a8d-a425-e0e147a98c42",
@@ -5032,24 +4963,10 @@
     },
     {
       "click": {
-        "optIn": "button.fc-button",
-        "presence": "div.fc-footer-buttons-container"
+        "optIn": "div.policy-accept",
+        "presence": "div#privacy-policy-banner"
       },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "cto_bundle",
-            "value": "ZzZAWF95S0xRTmVqSWZReEJxaTZhZloxWVBVblNZMzJubXhtTjlmdTJOdWo4Tk1uWXlNOGllM3dHWUpNZm85YVhnYmI5M3dDclZmUDZLUnB0Rkw3MGdrdzBPeHY3byUyQjE2d3h0SndxU2ZuVDg2TG81V25YNno1WE1MRWNaRXkxbEFKVWRlV1pIZVBQclM4VDA2aXVsJTJGeFpHc2JRJTNEJTNE"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "FCCDCF",
-            "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CPhJZsAPhJZsAEsABCENClCgAAAAAAAAACiQAAAOhQD2F2K2kKGkfjSUWYgQBCujIEIhUAABAECBIAAAAUgQAgFIIAiAAlACBAAAABAQAQCAgAQABAAAoACgAAAAAAAAAAAAAAQQAABAAIAAAAAAAAEAQAAIAARAAAAAAABEhCAAQQAkBAAAAAAAAAAAAAAAAAABAAA%22%2C%221~%22%2C%226210ED75-AF63-4379-A563-0C22C82F941A%22%5D%2Cnull%2Cnull%2C%5B%5D%5D"
-          },
-          { "name": "awxconsent", "value": "1" }
-        ]
-      },
+      "cookies": {},
       "id": "60f526aa-abb2-4930-bec4-7113af7481ae",
       "domains": ["accuweather.com"]
     },
