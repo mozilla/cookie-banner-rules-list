@@ -4070,32 +4070,6 @@
     },
     {
       "click": {
-        "optIn": "button#didomi-notice-agree-button",
-        "presence": "div#didomi-host"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "cto_bundle",
-            "value": "g6Fn9V91SGNrTTNJT29qWlNqbjQlMkZ6eUpEJTJGNnhUbXhQRSUyQnZTR0ZSb0FxY0xVQmV4YVl2WkFpQWxkUHVtVG9IRGVMT3ppUm5tNWFEd0I5NVhmUW1vQXEyUk53cmhnY2tsVjNMNDlUd0twTGdSa3JxWTcweXVDd2RHRlJ3UG1UQVR1MkhrZQ"
-          },
-          {
-            "name": "euconsent-v2",
-            "value": "CPgyVIAPgyVIAAHABBENCkCsAP_AAAAAAAAAIltf_X_db3Nj-_5_fvt0eY1f9dy-v-wjDhedh-0NzXrW-L0F02I7vF3ihggKOQ4EshJBIQdlGKHcRUkw6okEgzGsYESUg4MAJqLEimETGwNYGE1bGURCOAIYrtsoPryymtuKev_1W2V-_-jUQzpJKS-i8IbtQ185xLmsyf0fn4jOP_-VO2997____4AAACQkAGAAIJEBoAMAAQSIEQAYAAgkQKgAwABBIgZABgACCRA6ADAAEEiCEAGAAIJEEoAMAAQSIKQAYAAgkQAA.f_gAAAAAAAAA"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPgyVIAPgyVIAAHABBENCkCgAAAAAAAAAAAAAAAAAAEhIAMAAQSIDQAYAAgkQIgAwABBIgVABgACCRAyADAAEEiB0AGAAIJEEIAMAAQSIJQAYAAgkQUgAwABBIgA.YAAAAAAAAAAA"
-          }
-        ]
-      },
-      "id": "f3b09797-67d8-479d-a369-301955413d65",
-      "domains": ["actu.fr"]
-    },
-    {
-      "click": {
         "optIn": "button.css-11sahre",
         "presence": "div.qc-cmp2-summary-buttons"
       },
@@ -4452,26 +4426,9 @@
         "optIn": "button#didomi-notice-agree-button",
         "presence": "div#didomi-host"
       },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPg1oEAPg1oEAAHABBENCkCsAP_AAAAAAAAAIsNf_X_db3tj-_59fvt0eYlf9dy-v-wjBhedh-0NyXvW-L0F02I7vF3ihogKOQgEsjJBIQclGKHcRUkw6okEgyGsYESUg5MAJqLEimETGwNYGE1bGURCOAIYrtsoPryymtuKev_1W2V-_-jUQzpJCS-i8IbtQ185xLmMyf0fn4jOfb-VO29853gAAAAEAAABIqADAAEEiCUAGAAIJEBoAMAAQSIKQAYAAgkQOgAwABBIghABgACCRASADAAEEiBEAGAAIJEDIAMAAQSI.f_gAAAAAAAAA"
-          },
-          {
-            "name": "cto_bundle",
-            "value": "1WCHFF93NHlTaFcwcDVNQ3VtRjV3cVN6TGw3a3FRUWtsRmpTSkR5aFdVaE9GN2w3ckxUU3JSVXpDRVZveFBaWkdnaWhwYlVqS1REc2Uwd05nRHRrUnp0ZXNodDU0YmZPS2xmb3l6ZktCUlF1OEVaWFowSlF4TWFpT09meEFXM2YxUGs5b0lMQ0RSMjJJSThLNFhVeDBhZzBaM0ElM0QlM0Q"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPg1oEAPg1oEAAHABBENCkCgAAAAAAAAAAAAAAAAAAEioAMAAQSIJQAYAAgkQGgAwABBIgpABgACCRA6ADAAEEiCEAGAAIJEBIAMAAQSIEQAYAAgkQMgAwABBIgA.YAAAAAAAAAAA"
-          }
-        ]
-      },
+      "cookies": {},
       "id": "7829c877-7241-4be1-aa6a-628e8d83f61d",
-      "domains": ["20minutes.fr"]
+      "domains": ["20minutes.fr", "actu.fr"]
     },
     {
       "click": {
