@@ -19,6 +19,7 @@
       "id": "6c7366a0-4762-47b9-8eeb-04e86cc7a0cc",
       "domains": [
         "soundcloud.com",
+        "gsp.ro",
         "fastly.com",
         "spotify.com",
         "digicert.com",
@@ -1390,22 +1391,6 @@
       },
       "id": "8e8f6719-0350-4310-8cc1-c00bb51b72b0",
       "domains": ["abola.pt"]
-    },
-    {
-      "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "presence": "div#div#onetrust-consent-sdk"
-      },
-      "cookies": {
-        "optOut": [
-          {
-            "name": "eupubconsent-v2",
-            "value": "CPgcjsWPgcjsWAcABBENCjCgAAAAAH_AAChQJBNf_X__b2_j-_5_f_t0eY1P9_7__-0zjhfdl-8N3f_X_L8X52M7vF36tq4KuR4Eu3LBIUdlHOHcTUmw6okVryPsbk2cr7NKJ7PEmnMbOydYGH9_n1_z-ZKY7___f_7z_v-v___3____7-3f3__5___-__e_V__9zfn9_____9vP___9v-_9__________3_798EggCTDVuIAuxLHAm2jCKBECMKwkOoFABRQDC0QGEDq4KdlcBPrCBAAgFAEYEQIcQUYMAgAAAgCQiICQI8EAiAIgEAAIAFQiEABGwCCgAsDAIABQDQsUYoAhAkIMiAiKUwICJEgoJ7KhBKDvQ0whDrLACg0f8VCAiUAIVgRCQsHIcESAl4skCzFG-QAjBCgFEqFaAA.YAAAD_gAAAAA"
-          }
-        ]
-      },
-      "id": "13353fdd-5cd9-4254-b70b-c59e45077a89",
-      "domains": ["gsp.ro"]
     },
     {
       "click": {
