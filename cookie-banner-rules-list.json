@@ -467,7 +467,9 @@
       "cookies": {},
       "id": "0b42c238-b54d-4106-8d9a-81df5bc0b3ae",
       "domains": [
+        "rottentomatoes.com",
         "dhl.com",
+        "nvidia.com",
         "cloudflare.com",
         "webex.com",
         "indeed.com",
@@ -5941,7 +5943,7 @@
       "click": {
         "optIn": "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
         "optOut": "button#CybotCookiebotDialogBodyButtonDecline",
-        "presence": "div#CybotCookiebotDialogTabContent"
+        "presence": "div#CybotCookiebotDialog"
       },
       "cookies": {},
       "id": "469218de-6bea-475f-be47-734a412b4fa7",
@@ -6073,7 +6075,7 @@
       "domains": ["eventbrite.com"]
     },
     {
-      "click": { "optIn": "button.MGGI9", "presence": "div._3V2rG" },
+      "click": { "optIn": "button.MGGI9", "presence": "div#ncmp__tool" },
       "cookies": {},
       "id": "489a59fb-1054-4d7a-ae1f-c6c561d2cd81",
       "domains": ["deviantart.com"]
@@ -6332,7 +6334,7 @@
       "click": {
         "optIn": "button.corgi__sc-140l2f3-1",
         "optOut": "button.corgi__sc-1k5bfrh-3",
-        "presence": "div.corgi__sc-p6yu06-0"
+        "presence": "div.bJyFEZ"
       },
       "cookies": {},
       "id": "1c3ab910-8635-4007-8ea3-8aeea0c56143",
@@ -6370,7 +6372,7 @@
     },
     {
       "click": {
-        "optIn": "button.jsx-3795857475",
+        "optIn": "span.flex-button",
         "presence": "section.jsx-539809080"
       },
       "cookies": {},
@@ -6504,18 +6506,6 @@
       },
       "id": "b11001c6-7a9c-40a7-8595-3c8a9c1e7416",
       "domains": ["ubuntu.com"]
-    },
-    {
-      "click": {
-        "optIn": "div#cookiePolicy-btn-close",
-        "presence": "div#cookiePolicy-layer"
-      },
-      "cookies": {
-        "optIn": [{ "name": "CookiePolicy", "value": "1" }],
-        "optOut": []
-      },
-      "id": "2357b028-ab61-470f-8ccb-d3448c6963f9",
-      "domains": ["nvidia.com"]
     },
     {
       "click": {
@@ -6675,21 +6665,11 @@
       "click": {
         "optIn": "button.figma-mraqo7",
         "optOut": "button.figma-lo1goc",
-        "presence": "div#gatsby-focus-wrapper"
+        "presence": "div.figma-uj8djv"
       },
       "cookies": { "optIn": [{ "name": "_tt_enable_cookie", "value": "1" }] },
       "id": "e0dd9ba6-6514-4618-a405-3b6458c13272",
       "domains": ["figma.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#adsk-eprivacy-yes-to-all",
-        "optOut": "button#adsk-eprivacy-privacy-decline-all-button",
-        "presence": "div#universal-footer-example"
-      },
-      "cookies": {},
-      "id": "063caee7-0d21-43ee-aa45-e9d2bb796f67",
-      "domains": ["autodesk.com"]
     },
     {
       "click": {
@@ -6751,7 +6731,7 @@
     {
       "click": {
         "optIn": "button#consent-accept-button",
-        "presence": "div.36lcln-0"
+        "presence": "div.sc-36lcln-0"
       },
       "cookies": {},
       "id": "f82cabad-efa5-4637-8906-9fb842cd6556",
@@ -6868,17 +6848,6 @@
       "cookies": { "optIn": [{ "name": "_hjFirstSeen", "value": "1" }] },
       "id": "9f58fc9f-6bbe-49fd-8694-f6c40525675f",
       "domains": ["roche.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#truste-consent-button",
-        "presence": "div#truste-consent-track"
-      },
-      "cookies": {
-        "optIn": [{ "name": "notice_gdpr_prefs", "value": "0,1,2:" }]
-      },
-      "id": "6a3e6694-dc61-4ca2-ad61-d4960c419c91",
-      "domains": ["rottentomatoes.com"]
     },
     {
       "click": {
