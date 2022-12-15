@@ -70,7 +70,8 @@
         "name.com",
         "duolingo.com",
         "bitbucket.org",
-        "sophos.com"
+        "sophos.com",
+        "rte.ie"
       ]
     },
     {
@@ -521,7 +522,8 @@
         "rackspace.com",
         "namecheap.com",
         "people.com",
-        "branch.io"
+        "branch.io",
+        "tv2.dk"
       ]
     },
     {
@@ -778,22 +780,6 @@
     },
     {
       "click": {
-        "optIn": "button#didomi-notice-agree-button",
-        "presence": "div#buttons"
-      },
-      "cookies": {},
-      "id": "fd22bda9-14dc-4777-92f0-971d474d4ee7",
-      "domains": [
-        "jutarnji.hr",
-        "orange.fr",
-        "vecernji.hr",
-        "sport.es",
-        "elespanol.com",
-        "in-pocasi.cz"
-      ]
-    },
-    {
-      "click": {
         "optIn": "button#almacmp-modalConfirmBtn",
         "presence": "div.almacmp-controls"
       },
@@ -882,16 +868,6 @@
     },
     {
       "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "optOut": "button#onetrust-reject-all-handler",
-        "presence": "div#onetrust-consent-sdk"
-      },
-      "cookies": { "optOut": [] },
-      "id": "bcaf0219-c4b8-4c03-aeed-6b7111e3bbf1",
-      "domains": ["tv2.dk"]
-    },
-    {
-      "click": {
         "optIn": "button#accept-all",
         "optOut": "button#accept-essential",
         "presence": "div.actions"
@@ -961,23 +937,21 @@
       },
       "cookies": {},
       "id": "af4c5b38-d210-472b-9a07-21cbe53c85ab",
-      "domains": ["marca.com", "24sata.hr", "elmundo.es", "lidovky.cz"]
-    },
-    {
-      "click": {
-        "optIn": "button#didomi-notice-agree-button",
-        "optOut": "button#didomi-notice-disagree-button",
-        "presence": "div#buttons"
-      },
-      "cookies": {},
-      "id": "83fdefbb-23f4-450f-a971-46651200e419",
       "domains": [
-        "krone.at",
-        "cas.sk",
-        "nova.cz",
-        "heureka.sk",
-        "free.fr",
-        "markiza.sk"
+        "marca.com",
+        "24sata.hr",
+        "elmundo.es",
+        "lidovky.cz",
+        "jutarnji.hr",
+        "orange.fr",
+        "vecernji.hr",
+        "sport.es",
+        "elespanol.com",
+        "in-pocasi.cz",
+        "20minutes.fr",
+        "actu.fr",
+        "hbvl.be",
+        "naszemiasto.pl"
       ]
     },
     {
@@ -1112,16 +1086,6 @@
       "cookies": {},
       "id": "ebbaf3a6-10bb-4cd3-8294-5b095984e21a",
       "domains": ["dagbladet.no", "sol.no"]
-    },
-    {
-      "click": {
-        "optIn": "button#didomi-notice-agree-button",
-        "optOut": "button#didomi-notice-disagree-button",
-        "presence": "div.didomi-popup-view"
-      },
-      "cookies": {},
-      "id": "b783a182-7f67-4b62-929c-5d9be04e9cb9",
-      "domains": ["willhaben.at"]
     },
     {
       "click": {
@@ -1379,15 +1343,6 @@
       },
       "id": "5be3ccda-f8fe-453b-8a53-0dc8143f7580",
       "domains": ["dnevnik.hr"]
-    },
-    {
-      "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "presence": "div.banner-actions-container"
-      },
-      "cookies": {},
-      "id": "93cf2378-0054-416b-9832-5a9073190b26",
-      "domains": ["rte.ie"]
     },
     {
       "click": {
@@ -2777,7 +2732,13 @@
       },
       "cookies": { "optIn": [{ "name": "_tt_enable_cookie", "value": "1" }] },
       "id": "a3b0e77d-a7fe-4f38-8015-e368c67ecbbf",
-      "domains": ["disneyplus.com", "criteo.com", "trustpilot.com", "hm.com"]
+      "domains": [
+        "disneyplus.com",
+        "criteo.com",
+        "trustpilot.com",
+        "hm.com",
+        "mailchimp.com"
+      ]
     },
     {
       "click": {
@@ -2914,16 +2875,6 @@
     },
     {
       "click": {
-        "optIn": "button#didomi-notice-agree-button",
-        "optOut": "button#didomi-notice-disagree-button",
-        "presence": "div#buttons"
-      },
-      "cookies": { "optOut": [] },
-      "id": "a9c6681d-65d3-4df0-970c-1cdd4aab6e5f",
-      "domains": ["francetvinfo.fr"]
-    },
-    {
-      "click": {
         "optIn": "button.css-1j8kkja",
         "presence": "div#qc-cmp2-container"
       },
@@ -2982,7 +2933,8 @@
         "euro.com.pl",
         "fiverr.com",
         "wired.com",
-        "asana.com"
+        "asana.com",
+        "glassdoor.com"
       ]
     },
     {
@@ -3996,15 +3948,6 @@
     },
     {
       "click": {
-        "optIn": "button#didomi-notice-agree-button",
-        "presence": "div#didomi-host"
-      },
-      "cookies": {},
-      "id": "7829c877-7241-4be1-aa6a-628e8d83f61d",
-      "domains": ["20minutes.fr", "actu.fr"]
-    },
-    {
-      "click": {
         "optIn": "button#onetrust-accept-btn-handler",
         "presence": "div#onetrust-consent-sdk"
       },
@@ -4690,7 +4633,19 @@
       },
       "cookies": {},
       "id": "690aa076-4a8b-48ec-b52c-1443d44ff008",
-      "domains": ["doctolib.fr", "tvnoviny.sk", "aukro.cz"]
+      "domains": [
+        "doctolib.fr",
+        "tvnoviny.sk",
+        "aukro.cz",
+        "krone.at",
+        "cas.sk",
+        "nova.cz",
+        "heureka.sk",
+        "free.fr",
+        "markiza.sk",
+        "willhaben.at",
+        "francetvinfo.fr"
+      ]
     },
     {
       "click": {
@@ -5347,14 +5302,6 @@
       "domains": ["elkjop.no"]
     },
     {
-      "click": {
-        "optIn": "button#didomi-notice-agree-button",
-        "presence": "div#buttons"
-      },
-      "id": "9fbf194d-4299-4857-b222-caf11ddf7c73",
-      "domains": ["naszemiasto.pl"]
-    },
-    {
       "click": { "optIn": "button.css-tzlaik", "presence": "div#qc-cmp2-ui" },
       "cookies": {
         "optIn": [{ "name": "__qca", "value": "P0-254962009-1666612455195" }],
@@ -5539,15 +5486,6 @@
       },
       "id": "9dc8b12d-5751-4d6f-9f06-f7d537f92971",
       "domains": ["gandul.ro"]
-    },
-    {
-      "click": {
-        "optIn": "button#didomi-notice-agree-button",
-        "presence": "div#didomi-host"
-      },
-      "cookies": { "optIn": [] },
-      "id": "e344934a-6dac-41e5-a883-d84a9a88fc0a",
-      "domains": ["hbvl.be"]
     },
     {
       "click": {
@@ -5998,19 +5936,6 @@
     },
     {
       "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "optOut": "button#onetrust-reject-all-handler",
-        "presence": "div#onetrust-consent-sdk"
-      },
-      "cookies": {
-        "optIn": [{ "name": "_tt_enable_cookie", "value": "1" }],
-        "optOut": []
-      },
-      "id": "341da955-59eb-410f-b39f-3a8406280d65",
-      "domains": ["mailchimp.com"]
-    },
-    {
-      "click": {
         "optIn": "button#truste-consent-button",
         "presence": "div#onetrust-consent-sdk"
       },
@@ -6170,19 +6095,6 @@
       "cookies": {},
       "id": "41001e78-302d-44da-bd82-a690d1968a9f",
       "domains": ["academia.edu"]
-    },
-    {
-      "click": {
-        "optIn": "button#onetrust-reject-all-handler",
-        "optOut": "button#onetrust-reject-all-handler",
-        "presence": "div#onetrust-consent-sdk"
-      },
-      "cookies": {
-        "optIn": [{ "name": "OneTrustWPCCPAGoogleOptOut", "value": "false" }],
-        "optOut": [{ "name": "OneTrustWPCCPAGoogleOptOut", "value": "true" }]
-      },
-      "id": "9d346f3f-60bd-4105-9479-96c62e78a7bf",
-      "domains": ["coursera.org"]
     },
     {
       "click": {
@@ -6664,15 +6576,6 @@
     },
     {
       "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "presence": "div#onetrust-banner-sdk"
-      },
-      "cookies": { "optIn": [{ "name": "_tt_enable_cookie", "value": "1" }] },
-      "id": "5cffed8a-81da-436d-aa1e-17397d991465",
-      "domains": ["glassdoor.com"]
-    },
-    {
-      "click": {
         "optIn": "button.cookie-consent-banner-opt-out__action",
         "presence": "div.cookie-consent-banner-opt-out"
       },
@@ -6691,7 +6594,7 @@
         "optOut": [{ "name": "OneTrustWPCCPAGoogleOptOut", "value": "true" }]
       },
       "id": "8809db65-96cd-4ab5-be1a-cea416a4f34f",
-      "domains": ["slate.com", "dictionary.com"]
+      "domains": ["slate.com", "dictionary.com", "coursera.org"]
     },
     {
       "click": {
