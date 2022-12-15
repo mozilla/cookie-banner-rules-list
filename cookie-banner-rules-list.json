@@ -173,12 +173,6 @@
       "domains": ["cnn.com", "vimeo.com"]
     },
     {
-      "click": { "optIn": "button.sp_choice_type_11", "presence": "body" },
-      "cookies": {},
-      "id": "d3d9bf51-2613-408a-afad-5d203fea7857",
-      "domains": ["privacy-mgmt.com"]
-    },
-    {
       "click": {},
       "cookies": {
         "optOut": [
@@ -658,28 +652,6 @@
       "cookies": {},
       "id": "aa245048-507c-11ed-bdc3-0242ac120002",
       "domains": ["wix.com"]
-    },
-    {
-      "click": {
-        "optIn": "button.sp_choice_type_11",
-        "presence": "div#notice"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPhZ4YAPhZ4YAAGABCENCmCsAP_AAELAACJwHmQHAAFAAVAAyABwAEAAKgAWgA0AB6AEWAJgAmgBVAC2AG4AQgAjgBRgCtAFyAXUAwIBtAD9ALZAXmAxkBkgDzAGBgDAAVABoAI4AXIBdQDAgDjIAYATABHALzCQCwAMgAcABAAEUAJgAVQBCACOANoAvMBkgqAGAEwARwC8x0AoADIAHAAQABFACYAFUAUYBtAF5gMkIQBQAMgBMACqAI4A2hKAOABkADgATAAqgCOAFGAvMpAKAAyABwAEAARQAmABVAFGAbQBeYDJAAAA.YAAAAAAAAAAA"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPhZ4YAPhZ4YAAGABBENCmCgAAAAAELAACJwAAAGBgDAAVABoAI4AXIBdQDAgAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
-      "id": "a72a4c14-1f68-40b0-aaf5-ee76b7acf4d6",
-      "domains": ["businessinsider.com"]
     },
     {
       "click": {
@@ -1636,38 +1608,6 @@
       },
       "id": "49e7697f-934b-4bde-a73c-9ceff9498046",
       "domains": ["dn.se"]
-    },
-    {
-      "click": {
-        "optIn": "button.sp_choice_type_11",
-        "presence": "div#notice"
-      },
-      "cookies": {
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPgejgAPgejgAAGABBDECkCgAAAAAAAAACJwAAAAAAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
-      "id": "ed3d78a5-57e8-42ec-a33e-75995a376c7e",
-      "domains": ["n-tv.de"]
-    },
-    {
-      "click": {
-        "optIn": "button.sp_choice_type_11",
-        "presence": "div#notice"
-      },
-      "cookies": {
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPgejgAPgejgAAGABBENCkCgAAAAAAAAACJwAAAAAAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
-      "id": "8ac3390c-65c2-4ac7-b0f5-af4d80a84dcf",
-      "domains": ["bergfex.at"]
     },
     {
       "click": {
@@ -3795,30 +3735,6 @@
     },
     {
       "click": {
-        "optIn": "button.sp_choice_type_11",
-        "presence": "div#notice"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "cto_bundle",
-            "value": "TUIyPl96bUdna01uanZUQTE0RXJYcFQ1SyUyQlVnSm9GMFVnTTUyd1FPNHF0NlRWZGJ4RGllTGNaV2ttWjlabmk4cnp0V3VUQVB6bVNocGFSYkdXaGJ2T3hUdTB5WGglMkZKcHclMkIyZnpYeGtwY29GU3NwQXFld2d4Z21jVGZVaFNCTHdwNTJudzhFaHcwNE00blpuYVJ0Qmk2TzZhc0ElM0QlM0Q"
-          },
-          { "name": "_pbjs_userid_consent_data", "value": "341412947006878" }
-        ],
-        "optOut": [
-          { "name": "_pbjs_userid_consent_data", "value": "341412947006878" },
-          {
-            "name": "cto_bundle",
-            "value": "9ukUO19oQVVSSmlnJTJGRE9ZMm1MOHZ6UFA5cXl5ODFLQ3BvT1g3d1hyWkMwODhMU1RpQThrUThpckxiREh6NG9HV2FZdWFhWTdkV3piN3lWVG5XcUppJTJCOEc0UFZjbmFKNlV3aDRKUjhTRndQTFAyUzJmM0g3WDJyWFNyYlB3NDRRTzklMkZGVWE3Zk00JTJGSzNCRE9QV2N2NEFhOHJQdyUzRCUzRA"
-          }
-        ]
-      },
-      "id": "39d68e2f-be40-44d6-9f62-c06f0918f831",
-      "domains": ["meczyki.pl"]
-    },
-    {
-      "click": {
         "optIn": "button.w-button-primary",
         "presence": "div.w-cookies-popup__footer"
       },
@@ -4153,28 +4069,6 @@
       },
       "id": "60ea2eca-10af-47d1-a240-cbdf44519e9d",
       "domains": ["aemet.es"]
-    },
-    {
-      "click": {
-        "optIn": "button.sp_choice_type_11",
-        "presence": "div#sp_message_container_617390"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPg_g4APg_g4AAGABCENClCgAP_AAH_AACJwI0Nd_X__bX9j-_5_6ft0eY1f9_r37uQzDgfFs-8F3L_W_LwX32E7NF36pq4KmR4EuzLBIQNlHMHUTUmwaokVrzHsak2cpyNKJ7JEknMZe2dYGHtPn9lD-YKY7_5___b52T-9_9_-39T3_8ff__d5_2v_-vDfV599jfn9fV_789LP___9v__8__________wRgAIMBAAgAAEEAEAAAAIQAAQACQAgAAABAABQBIAOCgACFgEAAIQACARAQgAAgBAQAwAAAQAAJAAgBACwQCAACAQAAgABAAAAEBAADACQEAAAEAJCBACAAECAgCAAA5CAAIACCAEIBAAAKJDACAOsoAABBABUAAJAAACAABCwMBwAICVCQABIACgACEEKAWMgLgBDACYAI4AZYBHACrgFbAScAmwBTYC0QFsALzAZGAzkBngDPgGugOUAdwA94CF4EQRECAABwAUABDADIAGWANkAfgBAACMAFPAKuAVkA1gB1QD5AIdASIAmwBOwCkQFNgLkAZGAycBnIDPgGugOUAdYA7gB7wEQQkGIABAAC4AKAAqABkADkAHgAgABgADKAGgAagA8gCGAIoATIAngCgAFUAN4AcwA9AB-AEIAIaARABEgCOAEsAJoAUsAtwC4AGGAMgAZYA2QB3gD2AHxAPsA_QCAAEDAIpARcBGACNAEcAJSAUEAp4BVwCsgFzAMUAaIA1gBtADcAHEAPQAfIBDoCIQEiAJlATYAnYBQ4CkYFNAU2Aq8BYoC0AFsALkAXeAvMBgwDDYGRgZIAycBlwDOQGfANIgawBrIDXQG3gN1AcFA5MDlAHLgOsAdwA8cB7QD3gIQgQvAhoBD0CH4EQQIhgRSCAAQANhoEgADgAuACGAGQAMsAbIA_ACAAEFAIwAU8Aq4BWYC0ALSAawA6oB8gEOgIqASIAmwBOwCkQFNgLkAZGAycBnIDPAGfANdAcoA6wB3AD3gIgioDIAFAAhgBMAC4AI4AZYBHACrwFoAWkBNgCmwFsALkAXmAyMBnIDPAGfANdAbkA5QB3AD3gIXgRBHQdwAFwAUABUADIAHIAPgBAAC6AGAAZQA0ADUAHgAPoAhgCKAEyAJ4AoABVgC4ALoAYgAzABvADmAHoAPwAhoBEAESAJYATAAmgBRgClgFiAWUAtwC4gGEAYYAyABlADRAGyAO8Ae0A-wD9AH-AQMAikBFgEYAI5ASkBKgCggFPAKuAVkAsUBaAFpALmAXWAvIC9AGKANoAbgA4gB1AD0AIdARCAioBF4CRAEqAJkATYAnYBQ8CmgKbAVYAq8BYoC2AFwALkAXaAu8BeYC-gGDAMNAYkAx6BkYGSAMnAZUAywBlwDMwGcgM-AaIA0gBqoDWAGugNvAbqA4uByYHKAOXAdYA7gB44D0gHtAPeAfWA_EB_oEAQINAQvAhpBDkEOgIegRBAikQgiAALAAoABkAFwAMQAagBDACYAFMAKoAXAAxABmADeAHoARwApYBYgFkAMIAd4A-wB_gEUAI4ASkAoIBQwCngFXAKzAWgBaQC5gGKANoAdQA9ACIQEiAJOASoAmyBTQFNgLFAWiAtgBcAC5AF2gMSAZGAycBnIDPAGfANEAaqA10BwADlAHWAO4AeOA94CFAELwIdAQ9AiCSghgAIAAWABQADIAHAAPwAwADEAHgARAAmABQACqAFwAMQAZgBDQCIAIkARwAowBSgCyAFuAMIAbIA7wB-AEcAKeAVcArMBaAFpALqAYoA3AB1AD5AIdARUAi8BIgCbAFUgLFAWwAu0BeYDIwGTgMsAZyAzwBnwDSAGsANdAbeA4AB1gDuAHtAPeAgeBC-CGgIagQ9AiCBFkpBYAAXABQAFQAMgAcgA-AEEAMAAygBoAGoAPIAhgCKAEyAJ4AoABSACqAGIAMwAcwA_ACGgEQARIAowBSwCxALIAW4AwgBlADRAGyAO-AfYB-gEWAIwARwAlIBQQChgFXAKyAVsAuYBeQDFAG0ANwAegBDoCLwEiAJOATYAnYBQ4CmwFigLQAWwAuABcgC7QF5gL6AYbAyMDJAGTgMsAZcAzkBngDPgGkQNYA1kBroDbwG6gOCgcmBygDlwHWAO4AeOA9oB7wEIQIXwQzBDQCHQEPYIgAiCBFIoABAD-AAA.YAAAAAAAAAAA"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPg_g4APg_g4AAGABBENClCgAAAAAH_AACJwAAARgAIMBAAgAAEEAEAAAAIQAAQACQAgAAABAABQBIAOCgACFgEAAIQACARAQgAAgBAQAwAAAQAAJAAgBACwQCAACAQAAgABAAAAEBAADACQEAAAEAJCBACAAECAgCAAA5CAAIACCAEIBAAAKJDACAOsoAABBABUAAJAAACAABCwMBwAICVCQABIACgACEEKACUAAgB_AAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
-      "id": "9b3af0be-6e22-425b-b34b-8a8120054ab1",
-      "domains": ["newsnow.co.uk"]
     },
     {
       "click": { "optIn": "button.blue", "presence": "div.cookie-popup" },
@@ -4737,28 +4631,6 @@
     },
     {
       "click": {
-        "optIn": "button.sp_choice_type_11",
-        "presence": "div.message-component"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "cto_bundle",
-            "value": "H_ot3V9VODlLa3ZoU1VNTllvTlcxa2JZQ1VXNiUyRnl1N3JBRDdVR0c0ZHBMJTJGdE9FbWJyTGFXU2t5UXlScXJkN3NhVkxYY3dkJTJGS2ZqM2NDNG95bTdyQ0Yzd3BHWkRUZ2ZuR3g0cWNtbzZDV2JqNjNSMUxsUiUyRjZzcmolMkIlMkZmajB6MXRrQ25uaw"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPhJZsAPhJZsAAGABBENClCgAAAAAAAAACJwAAAAAAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
-      "id": "75a18e16-cde2-4c20-9504-f64c91a4e75e",
-      "domains": ["news.sky.com"]
-    },
-    {
-      "click": {
         "optIn": "div.policy-accept",
         "presence": "div#privacy-policy-banner"
       },
@@ -5253,15 +5125,6 @@
       "cookies": { "optIn": [{ "name": "_tt_enable_cookie", "value": "1" }] },
       "id": "88e79126-8072-4079-aa60-1d71d9ddb65b",
       "domains": ["argos.co.uk"]
-    },
-    {
-      "click": {
-        "optIn": ".sp_choice_type_11",
-        "presence": ".message-container >  #notice",
-        "skipPresenceVisibilityCheck": true
-      },
-      "id": "58dd5020-ecc0-4fdc-813b-1009fa83794a",
-      "domains": ["gutekueche.at"]
     },
     {
       "click": {
@@ -6987,6 +6850,7 @@
       },
       "cookies": {},
       "domains": [
+        "privacy-mgmt.com",
         "independent.co.uk",
         "gizmodo.com",
         "oikotie.fi",
@@ -6997,7 +6861,9 @@
         "bloomberg.com",
         "t-online.de",
         "wetteronline.de",
-        "chip.de"
+        "chip.de",
+        "n-tv.de",
+        "newsnow.co.uk"
       ],
       "id": "d42bbaee-f96e-47e7-8e81-efc642518e97"
     },
