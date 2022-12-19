@@ -87,10 +87,22 @@ to_create = []
 to_update = []
 for r in source_records:
     record = records_by_id.pop(r["id"], None)
+
+    # Record does not exist, create it.
     if record is None:
         to_create.append(r)
-    elif not r == record:
+        continue
+
+    # Record exists, check if it matches the record from the repo.
+    # RemoteSettings includes meta-data fields which would always cause a
+    # mismatch when comparing records. Remove them before compare.
+    del record["last_modified"]
+    del record["schema"]
+
+    # Update the record on mismatch.
+    if r != record:
         to_update.append(r)
+
 # Delete the records missing from source.
 to_delete = records_by_id.values()
 

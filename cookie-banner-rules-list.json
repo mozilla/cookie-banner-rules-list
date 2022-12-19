@@ -6061,6 +6061,19 @@
       "cookies": {},
       "domains": ["aktuality.sk", "sky.it", "azet.sk"],
       "id": "ae8f7761-35ff-45b2-92df-7868ca288ad2"
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "OPTOUTMULTI_TYPE",
+            "value": "A"
+          }
+        ]
+      },
+      "id": "24fdb694-9d8f-4049-a2f1-583465e711a5",
+      "domains": ["autodesk.com"]
     }
   ]
 }
