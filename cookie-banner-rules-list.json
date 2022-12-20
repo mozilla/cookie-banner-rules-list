@@ -2524,22 +2524,6 @@
     },
     {
       "click": {
-        "optIn": "button.sp_choice_type_11",
-        "presence": "div.message-container"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPgrvQAPgrvQAAGABCENCkCgAAAAAAAAACJwAAAAAAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
-      "id": "53ff0950-4e4b-47ca-a0ed-03c8ce311260",
-      "domains": ["svd.se"]
-    },
-    {
-      "click": {
         "optIn": "button.css-78i25x",
         "presence": "div#qc-cmp2-container"
       },
@@ -4822,20 +4806,6 @@
       "domains": ["elcorteingles.es"]
     },
     {
-      "click": {
-        "optIn": "button.cmp-cta-accept",
-        "presence": "div.message-container"
-      },
-      "cookies": {
-        "optIn": [
-          { "name": "_sp_v1_opt", "value": "1:login|true:last_id|11:" }
-        ],
-        "optOut": []
-      },
-      "id": "f02321ca-b838-46dc-9ee9-c88d55cca7cc",
-      "domains": ["telegraph.co.uk"]
-    },
-    {
       "click": { "optIn": "a.cc-cookie-accept", "presence": "div.cc-cookies" },
       "cookies": {
         "optIn": [{ "name": "cc_cookie_accept", "value": "cc_cookie_accept" }]
@@ -6048,7 +6018,9 @@
         "wetteronline.de",
         "chip.de",
         "n-tv.de",
-        "newsnow.co.uk"
+        "newsnow.co.uk",
+        "svd.se",
+        "telegraph.co.uk"
       ],
       "id": "d42bbaee-f96e-47e7-8e81-efc642518e97"
     },
