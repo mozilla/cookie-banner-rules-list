@@ -144,12 +144,10 @@
       "domains": ["skype.com", "microsoft.com"]
     },
     {
-      "click": {
-        "optIn": ".acceptAll",
-        "optOut": ".rejectAll",
-        "presence": "div.truste_box_overlay_inner"
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "notice_gdpr_prefs", "value": "0:" }]
       },
-      "cookies": {},
       "id": "22d33421-6872-41bc-9316-adba6a9af18e",
       "domains": ["flickr.com"]
     },
