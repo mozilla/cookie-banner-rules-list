@@ -132,7 +132,6 @@
       "domains": ["gravatar.com"]
     },
     {
-      "click": { "presence": "div#uhfCookieAlert" },
       "cookies": {
         "optOut": [
           {
