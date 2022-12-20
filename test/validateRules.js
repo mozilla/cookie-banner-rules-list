@@ -88,5 +88,22 @@ const ajv = new Ajv({ loadSchema, allErrors: true });
     exitWithError("Found duplicate rules");
   }
 
+  // 4. Check for empty rules that have no click or cookie injection rule.
+  let foundEmptyRules = false;
+  ruleList.data.forEach((rule, i) => {
+    if (
+      !rule.cookies?.optIn?.length &&
+      !rule.cookies?.optOut?.length &&
+      !rule.click?.optIn &&
+      !rule.click?.optOut
+    ) {
+      console.error(`Empty rule rule #${i} id: ${rule.id}`);
+      foundEmptyRules = true;
+    }
+  });
+  if (foundEmptyRules) {
+    exitWithError("Found empty rules");
+  }
+
   console.info(`✅ ${RULE_LIST_FILE} is valid.`);
 })();
