@@ -133,7 +133,14 @@
     },
     {
       "click": { "presence": "div#uhfCookieAlert" },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "MSCC",
+            "value": "cid=qx7ft7mavj0leq4vylbl40vv-c1=1-c2=1-c3=1"
+          }
+        ]
+      },
       "id": "0c43a914-8bc7-4872-89f2-f1ad213d2a7f",
       "domains": ["skype.com"]
     },
@@ -253,7 +260,14 @@
         "optOut": "iv#uhfCookieAlert div > button + button",
         "presence": "div#uhfCookieAlert"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "MSCC",
+            "value": "cid=vz7sdffil6gnxdx9nkrm2y3o-c1=1-c2=1-c3=1"
+          }
+        ]
+      },
       "id": "caf8d44d-af29-47a9-aa66-ec4041655d33",
       "domains": ["microsoft.com"]
     },
