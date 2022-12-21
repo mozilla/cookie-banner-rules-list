@@ -861,9 +861,7 @@
       "cookies": {},
       "id": "af4c5b38-d210-472b-9a07-21cbe53c85ab",
       "domains": [
-        "marca.com",
         "24sata.hr",
-        "elmundo.es",
         "lidovky.cz",
         "jutarnji.hr",
         "orange.fr",
@@ -1456,22 +1454,6 @@
     },
     {
       "click": {
-        "optIn": "button#didomi-notice-agree-button",
-        "presence": "div#didomi-host"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "didomi_token",
-            "value": "eyJ1c2VyX2lkIjoiMTgzYzExNTEtYzFmNS02NGIxLTg3ZjEtZTA0ZWViMjBjZjdjIiwiY3JlYXRlZCI6IjIwMjItMTAtMTBUMDg6NDg6NTcuNDI5WiIsInVwZGF0ZWQiOiIyMDIyLTEwLTEwVDA4OjQ4OjU3LjQyOVoiLCJ2ZW5kb3JzIjp7ImVuYWJsZWQiOlsiZ29vZ2xlIiwiYzp5YWhvby1hZC1leGNoYW5nZSIsImM6eWFob28tYW5hbHl0aWNzIiwiYzp5YWhvby1hZC1tYW5hZ2VyLXBsdXMiLCJjOnBlcmZvcm1pb2N6IiwiYzpnb29nbGVhbmEtNFRYbkppZ1IiLCJjOmZ0dnByaW1hLUdNRTNLRkdSIl19LCJwdXJwb3NlcyI6eyJlbmFibGVkIjpbImZ0di1wcmltYSJdfSwidmVyc2lvbiI6MiwiYWMiOiJDWG1BRUFGa0V2SUEuQUFBQSJ9"
-          }
-        ]
-      },
-      "id": "bd685e6d-3260-4529-a4e6-acb116325ad4",
-      "domains": ["iprima.cz"]
-    },
-    {
-      "click": {
         "optIn": "button.css-hxv78t",
         "presence": "div.qc-cmp2-summary-buttons"
       },
@@ -2044,24 +2026,6 @@
       },
       "id": "1b1bdbb4-089c-45dc-9d42-e87a1fa85882",
       "domains": ["news247.gr"]
-    },
-    {
-      "click": {
-        "optIn": "button.iubenda-cs-accept-btn",
-        "optOut": "button.iubenda-cs-reject-btn",
-        "presence": "div#iubenda-cs-banner"
-      },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "cto_bundle",
-            "value": "5jZ-f19NNTIlMkJUWUJwNDBlYk9hcmJTMnJHT1BoeHF2dXFkUkZJWmtpOGJaQTZaWHBKR1dvazhjREx0VzZCNzVFUWFQSVdHTndiJTJGJTJGdDFFOHFBZk9yalhMSXM1QlZ3OXhqM1ZhSVclMkZEelkwVjExQ0t3WlZYSmJ1JTJGSmx2NlB4QUpmd0xWcDk"
-          }
-        ],
-        "optOut": [{ "name": "HPtestAB", "value": "4" }]
-      },
-      "id": "4e4fa6fd-4412-431a-8e1b-b7266920436a",
-      "domains": ["libero.it"]
     },
     {
       "click": {
@@ -3329,7 +3293,7 @@
       "click": {
         "optIn": "button.js_cookieBannerPermissionButton",
         "optOut": "span.js_cookieBannerProhibitionButton",
-        "presence": "div#cookieBanner"
+        "presence": "div.cookieBanner__container"
       },
       "cookies": {},
       "id": "c9adac7f-74db-4eab-9b97-114ff5954226",
@@ -4905,7 +4869,6 @@
         "chip.de",
         "n-tv.de",
         "newsnow.co.uk",
-        "svd.se",
         "telegraph.co.uk"
       ],
       "id": "d42bbaee-f96e-47e7-8e81-efc642518e97"
@@ -4994,6 +4957,18 @@
         "elperiodico.com",
         "dumpert.nl"
       ]
+    },
+    {
+      "cookies": {
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CPkVv0APkVv0AAHABBENCuCgAAAAAAAAAAAAAAAAAAEEoAMAAQSXDQAYAAgkuKgAwABBJcpABgACCS46ADAAEElyEAGAAIJLhIAMAAQSXGQAYAAgkuAA.YAAAAAAAAAAA"
+          }
+        ]
+      },
+      "id": "ec47c90f-8e92-469b-9a6d-311715557805",
+      "domains": ["iprima.cz", "elmundo.es", "marca.com"]
     }
   ]
 }
