@@ -4957,18 +4957,6 @@
         "elperiodico.com",
         "dumpert.nl"
       ]
-    },
-    {
-      "cookies": {
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CPkVv0APkVv0AAHABBENCuCgAAAAAAAAAAAAAAAAAAEEoAMAAQSXDQAYAAgkuKgAwABBJcpABgACCS46ADAAEElyEAGAAIJLhIAMAAQSXGQAYAAgkuAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
-      "id": "ec47c90f-8e92-469b-9a6d-311715557805",
-      "domains": ["iprima.cz", "elmundo.es", "marca.com"]
     }
   ]
 }
