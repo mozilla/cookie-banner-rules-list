@@ -141,7 +141,7 @@
         ]
       },
       "id": "0c43a914-8bc7-4872-89f2-f1ad213d2a7f",
-      "domains": ["skype.com", "microsoft.com"]
+      "domains": ["skype.com", "microsoft.com", "office.com"]
     },
     {
       "click": {},
@@ -205,7 +205,14 @@
         "optIn": ".js-accept-cookies",
         "presence": ".js-consent-banner"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "OptanonAlertBoxClosed",
+            "value": "2023-01-04T15:56:30.908Z"
+          }
+        ]
+      },
       "id": "71443ce9-15b8-4e07-b51b-1f2158521ea9",
       "domains": [
         "askubuntu.com",
@@ -400,13 +407,21 @@
       "domains": ["bundesregierung.de"]
     },
     {
-      "click": {},
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      },
       "cookies": { "optOut": [{ "name": "BCP", "value": "AD=0&AL=0&SM=0" }] },
       "id": "31dc6160-3495-4f4e-8c67-594527bd4051",
       "domains": ["bing.com"]
     },
     {
-      "click": {},
+      "click": {
+        "optIn": "button#acceptAllButton",
+        "optOut": "button#bannerDeclineButton",
+        "presence": "div#gdprCookieBanner"
+      },
       "cookies": {
         "optOut": [
           {
@@ -504,6 +519,8 @@
       "cookies": {},
       "id": "0b42c238-b54d-4106-8d9a-81df5bc0b3ae",
       "domains": [
+        "zoom.us",
+        "adobe.com",
         "rottentomatoes.com",
         "dhl.com",
         "nvidia.com",
@@ -588,19 +605,10 @@
     },
     {
       "click": {
-        "optIn": "button.accept-all",
-        "optOut": "button.reject-all",
-        "presence": "div.con-wizard"
+        "optIn": "button.primary",
+        "presence": "div#consent-page"
       },
-      "cookies": {
-        "optIn": [
-          {
-            "name": "EuConsent",
-            "value": "CPgyVIAPgyVIAAOACBROCkCoAP_AAH_AACiQJBNd_H__bX9n-f7_6ft0eY1f9_r37uQzDhfNk-8F3L_W_LwX_2E7NF36tq4KmR4ku1LBIUNtHMnUDUmxaokVrzHsak2cpzNKJ_BkknsZe2dYGF9vm5tj-QKZ7_5_d3f52T_9_9v-39z33913v3d93-_13LjdV5_9H_v9fR_bc_Kft_5-_8v8_____3_e______8EggCTDVuIAuxLHAm0DCKBECMKwkKoFABBQDC0QGADg4KdlYBPrCBAAgFAEYEQIcAUYEAgAAAgCQiACQIsEAAAIgEAAIAEQiEABAwCCgAsDAIAAQDQMUQoABAkIMiAiKUwICIEggJbKhBKC6Q0wgDrLACgkRsVAAiAAAUgACAsHAMESAlYsECTFG-QAjBCgFEqFaAGGgAwABBIIRABgACCQQqADAAEEgg",
-            "isSecure": true
-          }
-        ]
-      },
+      "cookies": {},
       "id": "2f9123b1-7d6b-460f-8da8-988f82238ec7",
       "domains": ["yahoo.com"]
     },
@@ -4957,6 +4965,15 @@
         "elperiodico.com",
         "dumpert.nl"
       ]
+    },
+    {
+      "click": {
+        "optIn": "button.NT2yCg",
+        "presence": "div.ae4Qmjw"
+      },
+      "cookies": {},
+      "id": "5a03b949-b86c-4ee5-9824-97fb59849cb8",
+      "domains": ["canva.com"]
     }
   ]
 }
