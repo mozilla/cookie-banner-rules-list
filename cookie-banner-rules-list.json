@@ -2,6 +2,34 @@
   "$schema": "./CookieBannerRuleList.schema.json",
   "data": [
     {
+      "id": "8ba09ef8-af72-4c7d-9b20-d3ae8d519f98",
+      "domains": [],
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button#onetrust-reject-all-handler",
+        "presence": "div#onetrust-consent-sdk"
+      }
+    },
+    {
+      "id": "70e0d2d0-8b49-4000-9566-f0823eb34aa5",
+      "domains": [],
+      "click": {
+        "optIn": "button#didomi-notice-agree-button",
+        "optOut": "button#didomi-notice-disagree-button",
+        "presence": "div#didomi-host"
+      }
+    },
+    {
+      "id": "f9a5d166-f7ba-4a89-a960-7d2dc404a4bc",
+      "domains": [],
+      "click": {
+        "optIn": ".sp_choice_type_11",
+        "presence": ".message-container > #notice",
+        "runContext": "child",
+        "skipPresenceVisibilityCheck": true
+      }
+    },
+    {
       "click": {
         "optIn": "button.btn-accept",
         "presence": "div#gdpr-new-container"
