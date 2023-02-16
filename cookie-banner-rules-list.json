@@ -46,6 +46,12 @@
       "cookies": {},
       "id": "6c7366a0-4762-47b9-8eeb-04e86cc7a0cc",
       "domains": [
+        "politico.com",
+        "quillbot.com",
+        "newyorker.com",
+        "upwork.com",
+        "slack.com",
+        "mediafax.ro",
         "proximus.be",
         "dn.no",
         "elisa.fi",
@@ -100,7 +106,6 @@
         "genius.com",
         "meetup.com",
         "jstor.org",
-        "wattpad.com",
         "vmware.com",
         "trendmicro.com",
         "name.com",
@@ -175,7 +180,7 @@
         ]
       },
       "id": "0c43a914-8bc7-4872-89f2-f1ad213d2a7f",
-      "domains": ["skype.com", "microsoft.com", "office.com"]
+      "domains": ["skype.com", "microsoft.com", "office.com", "xbox.com"]
     },
     {
       "click": {},
@@ -487,7 +492,10 @@
       "domains": ["wordpress.com"]
     },
     {
-      "click": {},
+      "click": {
+        "optIn": "span#banner-cookie--button",
+        "presence": "div#banner-cookie"
+      },
       "cookies": { "optIn": [{ "name": "cookie_banner", "value": "1" }] },
       "id": "84a097a3-5cd1-448a-afcf-4be950bc5756",
       "domains": ["bitly.com"]
@@ -544,6 +552,14 @@
       "cookies": {},
       "id": "0b42c238-b54d-4106-8d9a-81df5bc0b3ae",
       "domains": [
+        "hootsuite.com",
+        "wattpad.com",
+        "gamespot.com",
+        "apa.org",
+        "ign.com",
+        "opendns.com",
+        "epicgames.com",
+        "zendesk.com",
         "drei.at",
         "ikea.com",
         "search.ch",
@@ -582,7 +598,6 @@
         "usatoday.com",
         "cnet.com",
         "npr.org",
-        "slack.com",
         "binance.com",
         "linktr.ee",
         "time.com",
@@ -606,7 +621,6 @@
         "bluehost.com",
         "nba.com",
         "hostgator.com",
-        "doubleverify.com",
         "scientificamerican.com",
         "aljazeera.com",
         "sahibinden.com",
@@ -631,7 +645,6 @@
         "mashable.com",
         "chegg.com",
         "pcmag.com",
-        "roche.com",
         "variety.com"
       ]
     },
@@ -801,16 +814,6 @@
         "medonet.pl",
         "businessinsider.com.pl"
       ]
-    },
-    {
-      "click": {
-        "optIn": "button.fc-cta-consent",
-        "optOut": "button.fc-cta-do-not-consent",
-        "presence": "div.fc-footer-buttons-container"
-      },
-      "cookies": {},
-      "id": "a7a48015-5705-4f45-8abd-f7a1e38df511",
-      "domains": ["sme.sk"]
     },
     {
       "click": {
@@ -1015,12 +1018,6 @@
         "presence": "div.fc-footer-buttons-container"
       },
       "cookies": {
-        "optIn": [
-          {
-            "name": "cto_bundle",
-            "value": "vnzlCV9BeVNocGZHbWZaJTJCajMxUnJpJTJGN2NISUZWZDV4R3dBTWZ4c3JSTVIlMkI1N3VFd1lyaWU5SExMJTJGMGxUR2lJU1Q0aTVJcmNubW5JalBmJTJGQnVWQiUyRndmZnRKcFhWVno0Ym9OTzJud2l4JTJGUmdoQTJCVkpkbW02TGkzWHZTZHclMkJNYUdDQnpNNWZnJTJGdTV1bU13OExyJTJCTFBtNUhJZyUzRCUzRA"
-          }
-        ],
         "optOut": [
           {
             "name": "FCCDCF",
@@ -2560,6 +2557,7 @@
       "cookies": {},
       "id": "690aa076-4a8b-48ec-b52c-1443d44ff008",
       "domains": [
+        "theconversation.com",
         "doctolib.fr",
         "pravda.sk",
         "hnonline.sk",
@@ -2812,11 +2810,11 @@
       "click": {
         "optIn": "button.fc-cta-consent",
         "optOut": "button.fc-cta-do-not-consent",
-        "presence": "div.fc-footer-buttons-container"
+        "presence": "div.fc-consent-root"
       },
       "cookies": {},
       "id": "12552893-278a-43e6-83ba-1db5267b3d27",
-      "domains": ["coolinarika.com"]
+      "domains": ["coolinarika.com", "ndtv.com"]
     },
     {
       "click": {
@@ -2896,6 +2894,7 @@
       "cookies": {},
       "id": "5fd67d61-aaa7-4431-af6f-0f1c31c849fc",
       "domains": [
+        "sme.sk",
         "ripost.hu",
         "fanatik.ro",
         "net.hr",
@@ -2928,8 +2927,7 @@
         "evz.ro",
         "gandul.ro",
         "kurir.rs",
-        "capital.ro",
-        "techradar.com"
+        "capital.ro"
       ]
     },
     {
@@ -3219,11 +3217,15 @@
       "cookies": {},
       "id": "0ea140ac-da2b-4c9f-b277-431a8c959a6d",
       "domains": [
+        "blackboard.com",
+        "roche.com",
+        "mlb.com",
+        "apnews.com",
+        "qualtrics.com",
         "tim.it",
         "nationalgeographic.com",
         "gofundme.com",
         "frontiersin.org",
-        "espncricinfo.com",
         "espn.com",
         "thawte.com",
         "digicert.com"
@@ -3231,7 +3233,7 @@
     },
     {
       "click": {
-        "optIn": "button.accept-button",
+        "optOut": "button.accept-button",
         "presence": "div.gdpr-content"
       },
       "cookies": {},
@@ -3249,11 +3251,11 @@
     },
     {
       "click": {
-        "optIn": "button.button-close",
-        "presence": "div#cookie-disclaimer"
+        "optIn": "button.primary",
+        "presence": "div#camus-cookie-disclaimer"
       },
       "cookies": {
-        "optIn": [{ "name": "accepts-milenio-cookies", "value": "true" }]
+        "optIn": [{ "name": "accepts-cookies", "value": "true" }]
       },
       "id": "befe1d72-f33a-4e63-be43-236bedc3b49a",
       "domains": ["milenio.com"]
@@ -3275,10 +3277,7 @@
         "optIn": "button#accept_all_cookies",
         "presence": "section#cookie_consent"
       },
-      "cookies": {
-        "optIn": [{ "name": "cookie_policy_level", "value": "ALL" }],
-        "optOut": [{ "name": "cookie_policy_level", "value": "BASE" }]
-      },
+      "cookies": {},
       "id": "80d51057-06fe-4469-be50-0438c9165020",
       "domains": ["telekom.hu"]
     },
@@ -3296,7 +3295,7 @@
       "click": {
         "optIn": "button#cookie-accept-all-secondary",
         "optOut": "button.CookieConsentSecondary__RejectAllButton-sc-12do1ry-2",
-        "presence": "div.CookieConsentSecondary__Container-sc-12do1ry-0"
+        "presence": "div.ModalInner__Backdrop-sc-1ghkydj-1"
       },
       "cookies": {},
       "id": "9ea83ecf-3e82-4976-80e7-86872d7e4aeb",
@@ -3339,9 +3338,9 @@
         "optIn": "button.cc-banner__button-accept",
         "presence": "section.cc-banner"
       },
-      "cookies": { "optIn": [{ "name": "_hjFirstSeen", "value": "1" }] },
+      "cookies": {},
       "id": "9ab30eae-9592-47b1-b46e-7640c4316f14",
-      "domains": ["springer.com"]
+      "domains": ["springer.com", "nature.com"]
     },
     {
       "click": { "optIn": "button.fZYtinTR", "presence": "div.CoZ9Nu8Z" },
@@ -3409,7 +3408,7 @@
       "domains": ["eventbrite.com"]
     },
     {
-      "click": { "optIn": "button.MGGI9", "presence": "div#ncmp__tool" },
+      "click": { "optIn": "button.MGGI9", "presence": "div._3V2rG" },
       "cookies": {},
       "id": "489a59fb-1054-4d7a-ae1f-c6c561d2cd81",
       "domains": ["deviantart.com"]
@@ -3449,7 +3448,7 @@
       },
       "cookies": {},
       "id": "f6f48ce2-0487-4003-b1c7-dfcd37def8d7",
-      "domains": ["scribd.com"]
+      "domains": ["scribd.com", "chicagotribune.com"]
     },
     {
       "click": { "optIn": "button.css-quk35p", "presence": "div.css-103nllw" },
@@ -3460,10 +3459,10 @@
     {
       "click": {
         "optIn": "button#truste-consent-button",
-        "presence": "div#onetrust-consent-sdk"
+        "optOut": "button#truste-consent-required",
+        "presence": "div#truste-consent-content"
       },
       "cookies": {
-        "optIn": [{ "name": "_tt_enable_cookie", "value": "1" }],
         "optOut": [{ "name": "notice_gdpr_prefs", "value": "0:" }]
       },
       "id": "b17a2376-ae8b-40de-9b6f-61efdf25f862",
@@ -3523,7 +3522,7 @@
     },
     {
       "click": { "optIn": "button.css-1k3tyyb", "presence": "div#qc-cmp2-ui" },
-      "cookies": { "optOut": [{ "name": "addtl_consent", "value": "1~" }] },
+      "cookies": {},
       "id": "43f34378-73c3-4851-a948-e073908edddd",
       "domains": ["theatlantic.com"]
     },
@@ -3565,8 +3564,8 @@
     {
       "click": { "optIn": "div#gdpr_accept", "presence": "div#gdpr" },
       "cookies": {
-        "optIn": [{ "name": "gdpr_cpp_opt_out", "value": "1" }],
-        "optOut": [{ "name": "gdpr_accept", "value": "1" }]
+        "optIn": [{ "name": "gdpr_accept", "value": "1" }],
+        "optOut": [{ "name": "gdpr_cpp_opt_out", "value": "1" }]
       },
       "id": "90b68b2d-46eb-4500-8cfd-9ee794653aaa",
       "domains": ["wikihow.com"]
@@ -3576,7 +3575,7 @@
         "optIn": "div.zbc-cta-accept",
         "presence": "div.zbottom-cookie-container"
       },
-      "cookies": { "optIn": [{ "name": "has_js", "value": "1" }] },
+      "cookies": {},
       "id": "3656dd64-5840-4918-adc8-caa723503f20",
       "domains": ["zoho.com"]
     },
@@ -3603,7 +3602,7 @@
         "optIn": "button.eu-cookie-compliance-default-button",
         "presence": "div.cookies"
       },
-      "cookies": { "optIn": [{ "name": "cookie-agreed", "value": "2" }] },
+      "cookies": {},
       "id": "689fe5d6-7792-4475-98fc-71aa1715d0d9",
       "domains": ["unesco.org"]
     },
@@ -3623,16 +3622,14 @@
         "optOut": "button#truste-consent-required",
         "presence": "div#truste-consent-track"
       },
-      "cookies": {
-        "optIn": [{ "name": "cmapi_cookie_privacy", "value": "permit 1,2,3" }]
-      },
+      "cookies": {},
       "id": "b8e927a8-e0fc-4e7b-ad60-edca983accd3",
-      "domains": ["box.com"]
+      "domains": ["box.com", "ea.com"]
     },
     {
       "click": {
-        "optIn": "a.a8c-cookie-banner-ok-button",
-        "presence": "div.a8c-cookie-banner"
+        "optIn": "a.a8c-cookie-banner__accept-all-button",
+        "presence": "form.a8c-cookie-banner"
       },
       "cookies": {},
       "id": "9a5038c6-31da-40e5-94d8-6eea3ecfa9ec",
@@ -3694,7 +3691,7 @@
     },
     {
       "click": { "optIn": "button.css-1k47zha", "presence": "div#qc-cmp2-ui" },
-      "cookies": { "optOut": [{ "name": "addtl_consent", "value": "1~" }] },
+      "cookies": {},
       "id": "6c246e7d-2a12-4b13-94b4-d2908cd64aad",
       "domains": ["9gag.com"]
     },
@@ -3712,14 +3709,7 @@
         "optIn": "button#truste-consent-button",
         "presence": "div#truste-consent-track"
       },
-      "cookies": {
-        "optIn": [
-          { "name": "cmapi_cookie_privacy", "value": "permit 1,2,3,4" }
-        ],
-        "optOut": [
-          { "name": "cmapi_cookie_privacy", "value": "permit 1 required" }
-        ]
-      },
+      "cookies": {},
       "id": "30a2b81a-b5a6-4c49-818d-de34ecddafbe",
       "domains": ["mi.com"]
     },
@@ -3788,12 +3778,6 @@
       "domains": ["psychologytoday.com"]
     },
     {
-      "click": { "optIn": "button.css-47sehv", "presence": "div#qc-cmp2-ui" },
-      "cookies": { "optOut": [{ "name": "addtl_consent", "value": "1~" }] },
-      "id": "00c9875b-bd80-41f2-a07e-aa3f4d0d7169",
-      "domains": ["sciencedaily.com"]
-    },
-    {
       "click": {
         "optIn": "button.consent--accept",
         "presence": "div.consent-banner-buttons"
@@ -3846,20 +3830,9 @@
         "optIn": "button#truste-consent-button",
         "presence": "div#consent_blackbar"
       },
-      "cookies": {
-        "optIn": [{ "name": "cmapi_cookie_privacy", "value": "permit 1,2,3" }],
-        "optOut": [
-          { "name": "cmapi_cookie_privacy", "value": "permit 1 required" }
-        ]
-      },
+      "cookies": {},
       "id": "c0908337-da46-4155-8178-43e4a67693ec",
       "domains": ["fortune.com"]
-    },
-    {
-      "click": { "optIn": "button.css-tgfqsw", "presence": "div#modal-host" },
-      "cookies": {},
-      "id": "2ce604ff-b40d-49c3-837d-b8be53705bcf",
-      "domains": ["medicalnewstoday.com"]
     },
     {
       "click": {
@@ -3876,10 +3849,7 @@
         "optOut": "button#_evidon-decline-button",
         "presence": "div#_evidon-message"
       },
-      "cookies": {
-        "optIn": [{ "name": "eucookiepreference", "value": "accept" }],
-        "optOut": [{ "name": "eucookiepreference", "value": "reject" }]
-      },
+      "cookies": {},
       "id": "23df4915-5954-41ea-8d5c-e76a1d98e70b",
       "domains": ["playstation.com"]
     },
@@ -3909,7 +3879,7 @@
         "optOut": "button.figma-lo1goc",
         "presence": "div.figma-uj8djv"
       },
-      "cookies": { "optIn": [{ "name": "_tt_enable_cookie", "value": "1" }] },
+      "cookies": {},
       "id": "e0dd9ba6-6514-4618-a405-3b6458c13272",
       "domains": ["figma.com"]
     },
@@ -3924,7 +3894,7 @@
     },
     {
       "click": {
-        "optIn": "button.eu-cookie-compliance-save-preferences-button",
+        "optOut": "button.eu-cookie-compliance-save-preferences-button",
         "presence": "div.eu-cookie-compliance-banner"
       },
       "cookies": {},
@@ -3957,10 +3927,7 @@
         "optOut": "div.btn-setting",
         "presence": "div#cookie-policy-info"
       },
-      "cookies": {
-        "optIn": [{ "name": "isReadCookiePolicyDNT", "value": "Yes" }],
-        "optOut": [{ "name": "isReadCookiePolicyDNT", "value": "No" }]
-      },
+      "cookies": {},
       "id": "8c949b75-4c7b-4559-8ade-780064af370a",
       "domains": ["asus.com"]
     },
@@ -3984,13 +3951,7 @@
         "optIn": "button#CybotCookiebotDialogBodyButtonAccept",
         "presence": "div#CybotCookiebotDialog"
       },
-      "cookies": {
-        "optIn": [
-          { "name": "cookieconsent_marketing", "value": "true" },
-          { "name": "cookieconsent_preferences", "value": "true" },
-          { "name": "cookieconsent_statistics", "value": "true" }
-        ]
-      },
+      "cookies": {},
       "id": "7078621c-2701-40e0-83f1-109c8ea0f82f",
       "domains": ["sectigo.com"]
     },
@@ -4029,7 +3990,7 @@
         "optIn": "button.btn-success",
         "presence": "div.vue-component"
       },
-      "cookies": { "optOut": [{ "name": "_hjFirstSeen", "value": "1" }] },
+      "cookies": {},
       "id": "86bc6c6f-c082-466f-ac77-994a2296fbb0",
       "domains": ["remove.bg"]
     },
@@ -4112,10 +4073,7 @@
         "optOut": "button.ch2-deny-all-btn",
         "presence": "div.ch2-container"
       },
-      "cookies": {
-        "optIn": [{ "name": "_tt_enable_cookie", "value": "1" }],
-        "optOut": []
-      },
+      "cookies": {},
       "id": "2f54e492-0f33-4496-ab08-99af50bf6f22",
       "domains": ["semrush.com"]
     },
@@ -4146,6 +4104,8 @@
       },
       "cookies": {},
       "domains": [
+        "thetimes.co.uk",
+        "qz.com",
         "privacy-mgmt.com",
         "independent.co.uk",
         "gizmodo.com",
@@ -4253,7 +4213,7 @@
     {
       "click": {
         "optIn": "button.NT2yCg",
-        "presence": "div.ae4Qmjw"
+        "presence": "div.e4Qmjw"
       },
       "cookies": {},
       "id": "5a03b949-b86c-4ee5-9824-97fb59849cb8",
@@ -4613,7 +4573,7 @@
       },
       "cookies": {},
       "id": "d96f380c-c76f-47d8-a1f7-bd4063792ade",
-      "domains": ["pik.bg", "prosport.ro"]
+      "domains": ["pik.bg", "prosport.ro", "sciencedaily.com"]
     },
     {
       "click": {
@@ -4797,6 +4757,251 @@
       },
       "id": "e63a688a-7eca-49b1-9b0f-bebae773a6ec",
       "domains": ["anwb.nl"]
+    },
+    {
+      "click": {
+        "optIn": "button.shared-module_w-full_3cBSk",
+        "presence": "div#consent-modal-yr73k"
+      },
+      "cookies": {
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CPmmxEAPmmxEADhADBPLC1CgAAAAAAAAAB5YAAAAAAAA"
+          }
+        ]
+      },
+      "id": "d0b8bc2c-c633-4628-aa39-e840060efc2e",
+      "domains": ["se.pl"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "OPTOUTCONSENT", "value": "1:1&2:0&3:0&4:0" }]
+      },
+      "id": "522a2d72-8131-406e-b058-b27ec07808fc",
+      "domains": ["vodafone.pt"]
+    },
+    {
+      "click": {
+        "optIn": "div#cookiescript_accept",
+        "optOut": "div#cookiescript_reject ",
+        "presence": "div#cookiescript_injected"
+      },
+      "cookies": {},
+      "id": "7f8a8bfd-343c-4fa5-969b-35a0690f6f4f",
+      "domains": ["idealmedia.io"]
+    },
+    {
+      "click": {
+        "optIn": "div.link-buttonstyles__BxpButton-sc-1utqn26-1",
+        "presence": "div.UiCookieBannerstyles__BannerContainer-sc-1f2iash-0"
+      },
+      "cookies": {},
+      "id": "dba50586-334f-45ad-8890-4f2879e06c5a",
+      "domains": ["trello.com"]
+    },
+    {
+      "click": {
+        "optIn": "a.cookieBarConsentButton",
+        "presence": "div#cookieBar"
+      },
+      "cookies": {},
+      "id": "259f5d9f-b127-47c2-a42e-161cb70a0a81",
+      "domains": ["pki.goog"]
+    },
+    {
+      "click": {
+        "optIn": "button.css-11uejzu",
+        "presence": "div#qc-cmp2-container"
+      },
+      "cookies": {},
+      "id": "e9d772f8-92fd-4e0e-b742-0bfd6555877e",
+      "domains": ["huffpost.com"]
+    },
+    {
+      "click": {
+        "optIn": "button.py-12",
+        "optOut": "button.text-blurple ",
+        "presence": "div.duet--cta--cookie-banner"
+      },
+      "cookies": {},
+      "id": "323bae6b-e146-4318-b8ba-1f819c0cfc53",
+      "domains": ["theverge.com"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optIn": [{ "name": "cookiesAccepted", "value": "essential" }]
+      },
+      "id": "647013d0-7a3f-4e80-8c26-00f3389ba551",
+      "domains": ["onlyfans.com"]
+    },
+    {
+      "click": {
+        "optIn": "button#cookie-accept",
+        "presence": "div.banner"
+      },
+      "cookies": {},
+      "id": "73c5220c-3cdb-446b-b2f6-ce9e0f1d9a8b",
+      "domains": ["tandfonline.com"]
+    },
+    {
+      "click": {
+        "optIn": "button.banner-lgpd-consent__accept",
+        "presence": "div.banner-lgpd-consent-container"
+      },
+      "cookies": {},
+      "id": "a491dd76-8759-4c10-a4fa-2e87b1034f23",
+      "domains": ["uol.com.br"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optIn": [{ "name": "uw_marketo_opt_in", "value": "true" }],
+        "optOut": [{ "name": "mkto_opt_out", "value": "id:true" }]
+      },
+      "id": "1de8aa61-94f1-49b4-a05d-d19a57829c71",
+      "domains": ["washington.edu"]
+    },
+    {
+      "click": {
+        "optIn": "button.css-2wu0d3",
+        "presence": "div#qc-cmp2-container"
+      },
+      "cookies": {},
+      "id": "a4186ce7-bb7a-4c55-aec6-34f265943367",
+      "domains": ["buzzfeed.com"]
+    },
+    {
+      "click": {
+        "optIn": "button.cky-btn-accept",
+        "optOut": "button.cky-btn-reject",
+        "presence": "div.cky-consent-bar"
+      },
+      "cookies": {},
+      "id": "b3b80b81-90f0-497f-b78c-53b611d4dfaf",
+      "domains": ["hugedomains.com"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookieconsent_status", "value": "deny" }]
+      },
+      "id": "8f401b10-02b6-4e05-88fa-c37012d4c8c0",
+      "domains": ["rubiconproject.com"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optIn": [
+          { "name": "trackingconsent", "value": "{\"marketingenabled\":true}" }
+        ],
+        "optOut": [
+          { "name": "trackingconsent", "value": "{\"marketingenabled\":false}" }
+        ]
+      },
+      "id": "c213b36a-4893-46e2-bb0e-f98a03d58287",
+      "domains": ["abc.net.au"]
+    },
+    {
+      "click": {
+        "optIn": "button#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+        "presence": "div#CookieBanner"
+      },
+      "cookies": {},
+      "id": "6efa8f4a-97a3-4677-8cde-8727f270d267",
+      "domains": ["jotform.com"]
+    },
+    {
+      "click": {
+        "optIn": "button.bcpConsentButton",
+        "presence": "div.bcpNotificationBar"
+      },
+      "cookies": {},
+      "id": "990f03a5-c180-407b-9a0e-f6db1278330d",
+      "domains": ["inc.com"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optIn": [{ "name": "cookiePolicy", "value": "accept" }]
+      },
+      "id": "a327ad8a-daa9-4d7c-abb5-0f3e3f3c59db",
+      "domains": ["pnas.org"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "consent",
+            "value": "{\"Marketing\":false,\"created_time\":\"2023-02-14T12:27:52.910Z\"}"
+          }
+        ]
+      },
+      "id": "67702151-14e2-41c7-af4b-1f22de8185a5",
+      "domains": ["science.org"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CPnLBYAPnLBYABEACBENC3CgAAAAAH_AAAIwJNNf_X__b2_je_5_f_t0eY1P936__-wjjhfdk-8N3f_W_L8X52M7vF36tqoKuRYku3JBIUdlGOHcRUmw6okVpyPsbk2cq7NKJ7PEmnMbOydYGG1_nV5j-QKYp___fv7z_t-q_v_____-7-3Xz__ZX_-u9vO9V9_9xfmt7f3u_9rOf9_Vv-99_1d_3v-39_3f799z-HcEm2v_r__t7_3_f9___26PMav-_9___aZxwvu2_eG7v_r_l-L_7Gd3i79W18FXI8SXbtgkKO2jnTuJqTY9USq15n2NybOV9mlE_nyTT2NvbOsDD-_z-_5_slM9___v__9__________________________________________________________________-____AA"
+          }
+        ]
+      },
+      "id": "ba7e149e-6879-48a1-b394-c646eb8bb17f",
+      "domains": ["gsmarena.com"]
+    },
+    {
+      "click": {
+        "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": "button.onetrust-close-btn-handler",
+        "presence": "div#onetrust-banner-sdk"
+      },
+      "cookies": {},
+      "id": "b7b481e3-57cb-41a7-bc38-da8c1afa118f",
+      "domains": ["espncricinfo.com"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optIn": [{ "name": "ks-cookie-consent", "value": "allow" }],
+        "optOut": [{ "name": "ks-cookie-consent", "value": "deny" }]
+      },
+      "id": "08513283-d50d-4a85-93fc-cd0568b09976",
+      "domains": ["roku.com"]
+    },
+    {
+      "click": {
+        "optIn": "button.gdpr-banner__accept",
+        "presence": "div.gdpr-banner"
+      },
+      "cookies": {},
+      "id": "68aff357-d47c-4dc2-b7fa-27ac4b982257",
+      "domains": ["scmp.com"]
+    },
+    {
+      "click": {
+        "optIn": "a.cc-dismiss",
+        "presence": "div.cc-window"
+      },
+      "cookies": {},
+      "id": "28bee54e-47d3-4192-8044-0bef6870a7c1",
+      "domains": ["braze.com"]
+    },
+    {
+      "click": {
+        "optIn": "a#cookie-allow-all",
+        "optOut": "a#cookie-necessary-only",
+        "presence": "div#cookiebanner"
+      },
+      "cookies": {},
+      "id": "ca37bf31-bf4e-4172-bf7e-91baca32c9e2",
+      "domains": ["adjust.com"]
     }
   ]
 }
