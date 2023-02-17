@@ -399,7 +399,8 @@
       },
       "cookies": {},
       "id": "e7112653-2ab3-4ddf-b0b1-396052c2f001",
-      "domains": ["instagram.com"]
+      "domains": ["instagram.com"],
+      "filter_expression": "env.appinfo.OS != 'Android'"
     },
     {
       "click": {},
