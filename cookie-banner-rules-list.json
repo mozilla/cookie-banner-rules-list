@@ -4111,7 +4111,6 @@
         "independent.co.uk",
         "gizmodo.com",
         "e24.no",
-        "oikotie.fi",
         "thesun.co.uk",
         "thesun.ie",
         "focus.de",
@@ -4126,6 +4125,40 @@
         "theguardian.com"
       ],
       "id": "d42bbaee-f96e-47e7-8e81-efc642518e97"
+    },
+    {
+      "click": {
+        "optIn": ".sp_choice_type_11",
+        "presence": ".message-container > #notice",
+        "runContext": "child",
+        "skipPresenceVisibilityCheck": true
+      },
+      "cookies": {},
+      "domains": [
+        "hln.be",
+        "nu.nl",
+        "vg.no",
+        "aftonbladet.se",
+        "ad.nl",
+        "finn.no",
+        "sporza.be",
+        "derstandard.at",
+        "tori.fi",
+        "vrt.be",
+        "spiegel.de",
+        "aftenposten.no",
+        "vglive.no",
+        "oikotie.fi",
+        "klart.se",
+        "zeit.de",
+        "gala.fr",
+        "volkskrant.nl",
+        "tek.no",
+        "omni.se",
+        "dpgmediagroup.com",
+        "economist.com"
+      ],
+      "id": "c58a0bac-3a5f-43af-93e9-8b5462a6bcb5"
     },
     {
       "click": {
