@@ -2,7 +2,60 @@
   "$schema": "./CookieBannerRuleList.schema.json",
   "data": [
     {
-      "id": "8ba09ef8-af72-4c7d-9b20-d3ae8d519f98",
+      "id": "trustarcbar",
+      "domains": [],
+      "click": {
+        "optIn": "#truste-consent-button",
+        "optOut": "#truste-consent-required",
+        "presence": "#truste-consent-content, .truste-consent-content, #truste-consent-track"
+      }
+    },
+    {
+      "id": "quantcast",
+      "domains": [],
+      "click": {
+        "optIn": ".qc-cmp2-buttons-desktop button[mode=\"primary\"], .qc-cmp2-summary-buttons button[mode=\"primary\"]",
+        "presence": ".qc-cmp2-container"
+      }
+    },
+    {
+      "id": "borlabs",
+      "domains": [],
+      "click": {
+        "optIn": "#CookieBoxSaveButton",
+        "optOut": "._brlbs-refuse-btn a",
+        "presence": "#BorlabsCookieBox"
+      }
+    },
+    {
+      "id": "consentmanager.net",
+      "domains": [],
+      "click": {
+        "optIn": "#cmpwelcomebtnyes a",
+        "optOut": "#cmpwelcomebtnno a",
+        "presence": "#cmpbox"
+      }
+    },
+    {
+      "id": "cookiebot",
+      "domains": [],
+      "click": {
+        "optIn": "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll",
+        "optOut": "#CybotCookiebotDialogBodyButtonDecline",
+        "presence": "#CybotCookiebotDialog"
+      }
+    },
+    {
+      "id": "complianz",
+      "domains": [],
+      "click": {
+        "optIn": ".cmplz-btn.cmplz-accept",
+        "optOut": ".cmplz-btn.cmplz-deny",
+        "presence": "#cmplz-cookiebanner-container"
+      }
+    },
+    {
+      "id": "onetrust",
       "domains": [],
       "click": {
         "optIn": "button#onetrust-accept-btn-handler",
@@ -11,7 +64,7 @@
       }
     },
     {
-      "id": "70e0d2d0-8b49-4000-9566-f0823eb34aa5",
+      "id": "didomi",
       "domains": [],
       "click": {
         "optIn": "button#didomi-notice-agree-button",
@@ -20,7 +73,7 @@
       }
     },
     {
-      "id": "f9a5d166-f7ba-4a89-a960-7d2dc404a4bc",
+      "id": "sourcepoint",
       "domains": [],
       "click": {
         "optIn": ".sp_choice_type_11",
