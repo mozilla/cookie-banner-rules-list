@@ -342,9 +342,9 @@
     },
     {
       "click": {
-        "optIn": "div.uiLayer div > button + button[type=submit]",
-        "optOut": "div.uiLayer div > button[type=submit]",
-        "presence": "div.uiLayer"
+        "optIn": "button[data-cookiebanner=\"accept_button\"]",
+        "optOut": "button[data-cookiebanner=\"accept_only_essential_button\"]",
+        "presence": "div[data-testid=\"cookie-policy-manage-dialog\"]"
       },
       "cookies": {},
       "id": "d1d8ba36-ced7-4453-8b17-2e051e0ab1eb",
@@ -577,7 +577,13 @@
         "optOut": [
           {
             "name": "cookie-consent",
-            "value": "{%22ga%22:false%2C%22af%22:false%2C%22fbp%22:false%2C%22lip%22:false%2C%22bing%22:false%2C%22ttads%22:false%2C%22reddit%22:false%2C%22version%22:%22v8%22}"
+            "value": "{%22ga%22:false%2C%22af%22:false%2C%22fbp%22:false%2C%22lip%22:false%2C%22bing%22:false%2C%22ttads%22:false%2C%22reddit%22:false%2C%22criteo%22:false%2C%22version%22:%22v9%22}"
+          }
+        ],
+        "optIn": [
+          {
+            "name": "cookie-consent",
+            "value": "{%22ga%22:true%2C%22af%22:true%2C%22fbp%22:true%2C%22lip%22:true%2C%22bing%22:true%2C%22ttads%22:true%2C%22reddit%22:true%2C%22criteo%22:true%2C%22version%22:%22v9%22}"
           }
         ]
       },
