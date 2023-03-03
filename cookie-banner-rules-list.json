@@ -289,9 +289,9 @@
     },
     {
       "click": {
-        "optIn": "div.uiLayer div > button + button[type=submit]",
-        "optOut": "div.uiLayer div > button[type=submit]",
-        "presence": "div.uiLayer"
+        "optIn": "button[data-cookiebanner=\"accept_button\"]",
+        "optOut": "button[data-cookiebanner=\"accept_only_essential_button\"]",
+        "presence": "div[data-testid=\"cookie-policy-manage-dialog\"]"
       },
       "cookies": {},
       "id": "d1d8ba36-ced7-4453-8b17-2e051e0ab1eb",
