@@ -28,7 +28,7 @@
       }
     },
     {
-      "id": "consentmanager.net",
+      "id": "consentmanagernet",
       "domains": [],
       "click": {
         "optIn": "#cmpwelcomebtnyes a",
