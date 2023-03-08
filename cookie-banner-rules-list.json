@@ -711,7 +711,8 @@
     },
     {
       "click": {
-        "optIn": "button.primary",
+        "optOut": "button.accept-all",
+        "optIn": "button.reject-all",
         "presence": "div#consent-page"
       },
       "cookies": {},
