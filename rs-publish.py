@@ -74,7 +74,7 @@ source_records = json.loads(
 ).get("data")
 
 client = Client(
-    server_url=os.getenv("SERVER", "https://settings.dev.mozaws.net/v1/"),
+    server_url=os.getenv("SERVER", "https://remote-settings-dev.allizom.org/v1/"),
     bucket=BUCKET,
     collection=COLLECTION,
     auth=tuple(AUTH.split(":", 1)) if ":" in AUTH else BearerTokenAuth(AUTH),
