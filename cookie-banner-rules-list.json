@@ -347,7 +347,7 @@
       },
       "cookies": {},
       "id": "d1d8ba36-ced7-4453-8b17-2e051e0ab1eb",
-      "domains": ["facebook.com"]
+      "domains": ["facebook.com", "messenger.com"]
     },
     {
       "cookies": {
