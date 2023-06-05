@@ -292,25 +292,32 @@
       "domains": ["azure.microsoft.com"]
     },
     {
-      "click": {
-        "optIn": ".js-accept-cookies",
-        "presence": ".js-consent-banner"
-      },
+      "id": "71443ce9-15b8-4e07-b51b-1f2158521ea9",
+      "domains": [
+        "askubuntu.com",
+        "mathoverflow.net",
+        "serverfault.com",
+        "stackapps.com",
+        "stackexchange.com",
+        "stackoverflow.blog",
+        "stackoverflow.co",
+        "stackoverflow.com",
+        "stackoverflowteams.com",
+        "superuser.com"
+      ],
       "cookies": {
         "optOut": [
           {
             "name": "OptanonAlertBoxClosed",
-            "value": "2023-01-04T15:56:30.908Z"
+            "value": "2030-01-01T00:00:00.000Z"
           }
         ]
       },
-      "id": "71443ce9-15b8-4e07-b51b-1f2158521ea9",
-      "domains": [
-        "askubuntu.com",
-        "serverfault.com",
-        "stackexchange.com",
-        "stackoverflow.com"
-      ]
+      "click": {
+        "presence": ".js-consent-banner",
+        "optOut": ".js-reject-cookies",
+        "optIn": ".js-accept-cookies"
+      }
     },
     {
       "click": {
@@ -347,7 +354,7 @@
       },
       "cookies": {},
       "id": "d1d8ba36-ced7-4453-8b17-2e051e0ab1eb",
-      "domains": ["facebook.com", "messenger.com"]
+      "domains": ["facebook.com", "messenger.com", "oculus.com"]
     },
     {
       "cookies": {
