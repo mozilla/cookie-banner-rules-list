@@ -5278,9 +5278,10 @@
         "optIn": "#footer_tc_privacy_button",
         "optOut": "#footer_tc_privacy_button_2",
         "presence": ".tc-privacy-wrapper.tc-privacy-override.tc-privacy-wrapper"
-     },
-     {
-       "cookies": {
+      }
+    },
+    {
+      "cookies": {
         "optOut": [
           {
             "name": "cb",
