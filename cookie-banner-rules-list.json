@@ -5279,6 +5279,24 @@
         "optOut": "#footer_tc_privacy_button_2",
         "presence": ".tc-privacy-wrapper.tc-privacy-override.tc-privacy-wrapper"
       }
+    },
+    {
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cb",
+            "value": "1_2055_07_11_2-3"
+          }
+        ],
+        "optIn": [
+          {
+            "name": "cb",
+            "value": "1_2055_07_11_"
+          }
+        ]
+      },
+      "id": "C232EAB8-F55A-436A-8033-478746D05D98",
+      "domains": ["threads.net"]
     }
   ]
 }
