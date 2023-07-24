@@ -5272,7 +5272,15 @@
       }
     },
     {
-      "cookies": {
+      "id": "cc818b41-7b46-46d3-9b17-cf924cbe87d1",
+      "domains": ["arte.tv"],
+      "click": {
+        "optIn": "#footer_tc_privacy_button",
+        "optOut": "#footer_tc_privacy_button_2",
+        "presence": ".tc-privacy-wrapper.tc-privacy-override.tc-privacy-wrapper"
+     },
+     {
+       "cookies": {
         "optOut": [
           {
             "name": "cb",
