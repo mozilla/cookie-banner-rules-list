@@ -1128,7 +1128,6 @@
         "ladepeche.fr",
         "marmiton.org",
         "poslovni.hr",
-        "reverso.net",
         "softonic.com",
         "sydsvenskan.se",
         "telecinco.es",
@@ -5297,6 +5296,22 @@
       },
       "id": "C232EAB8-F55A-436A-8033-478746D05D98",
       "domains": ["threads.net"]
+    },
+    {
+      "id": "05157ed1-12c2-4f84-9dff-718fae5bc096",
+      "domains": ["reverso.net"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CRolnUARolnUAAHABBENDHCgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#didomi-popup",
+        "optIn": "#didomi-notice-agree-button"
+      }
     }
   ]
 }
