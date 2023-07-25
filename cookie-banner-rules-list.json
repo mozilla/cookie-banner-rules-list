@@ -5311,7 +5311,7 @@
       "click": {
         "presence": "#didomi-popup",
         "optIn": "#didomi-notice-agree-button"
-      } 
+      }
     }
   ]
 }
