@@ -5312,6 +5312,26 @@
         "presence": "#didomi-popup",
         "optIn": "#didomi-notice-agree-button"
       }
+    },
+    {
+      "id": "f462b0ee-4d17-4dcb-a951-1a23249227f6",
+      "domains": ["ups.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "HASSEENNOTICE",
+            "value": "TRUE"
+          },
+          {
+            "name": "CONSENTMGR",
+            "value": "c1:0%7Cc3:0%7Cc5:0%7Cc6:0%7Cc7:0%7Cc8:0"
+          }
+        ]
+      },
+      "click": {
+        "optIn": ".implicit_privacy_prompt > .close_btn_thick",
+        "presence": ".implicit_privacy_prompt"
+      }
     }
   ]
 }
