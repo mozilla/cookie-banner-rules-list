@@ -334,11 +334,16 @@
       "click": {},
       "cookies": {
         "optOut": [
-          { "name": "CONSENT", "path": "/", "value": "PENDING", "sameSite": 0 },
+          {
+            "name": "CONSENT",
+            "path": "/",
+            "value": "PENDING+742",
+            "sameSite": 0
+          },
           {
             "name": "SOCS",
             "path": "/",
-            "value": "CAESEwgDEgk0Njk1NTcxMzUaAmVuIAEaBgiA1JWYBg",
+            "value": "CAESNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwOTEyLjA4X3AwGgJlbiACGgYIgOCTqAY",
             "sameSite": 0
           }
         ]
