@@ -5337,6 +5337,18 @@
         "optIn": ".implicit_privacy_prompt > .close_btn_thick",
         "presence": ".implicit_privacy_prompt"
       }
+    },
+    {
+      "id": "d4f2492e-c801-4687-84c8-e2cd17b4f115",
+      "domains": ["check24.de"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "c24consent",
+            "value": "f"
+          }
+        ]
+      }
     }
   ]
 }
