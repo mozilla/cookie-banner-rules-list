@@ -1275,25 +1275,20 @@
     },
     {
       "click": {
-        "optIn": "button#gdpr-banner-accept",
-        "presence": "div.jsx-1433135011"
+        "optIn": "#gdpr-banner-accept",
+        "presence": "#gdpr-banner-container"
       },
       "cookies": {
-        "optIn": [
-          {
-            "name": "cto_bundle",
-            "value": "74wav19heDMyZkEyQlhqdVlDMWhRa1pLWUJhSjAyQjVCb3FrNUtQak5DJTJGTDBLcjRRQ1lmdHl2NEZyJTJCdFdta2FCczdnTjI2blh4STNVZWswRmJoWXEyUzlOczdCcE54WXljcWRRNnhDZFNvQW4yQmQyZEphZ2FvZ3J6JTJCU09jWkFrZE1uQXZaQktmZTg5MVp0VUowazZLQlJidXclM0QlM0Q"
-          }
-        ],
+        "optIn": [],
         "optOut": [
           {
             "name": "ekConsentTcf2",
-            "value": "{%22customVersion%22:3%2C%22encodedConsentString%22:%22CPgcl9uPgcl9uE1ABADECQCgAAAAAAAAAAYgIUwMAAcABLACmAH6AiwCMAFGALaAYAAz4BrwDpAHkASKAlcBMgCrAFhALqAXeAvoBggDBgGJAMvAZ8A0YBpIDTQGqwNoA2kBuYDggHHgOUAc2A50Bz4DtgHcgO8AeCA-2B-AH4wP1A_YCCIEFAIPAQpAAAASUgAwABBGIlABgACCMRCADAAEEYh0AGAAIIxDIAMAAQRiFQAYAAgjEIgAwABBGINABgACCMQSADAAEEYg%22%2C%22googleConsentGiven%22:false%2C%22consentInterpretation%22:{%22googleAdvertisingFeaturesAllowed%22:false%2C%22googleAnalyticsAllowed%22:false%2C%22infonlineAllowed%22:false%2C%22theAdexAllowed%22:false}}"
+            "value": "{%22customVersion%22:6%2C%22encodedConsentString%22:%22CPzMR3KPzMR3KE1ABADEC4CgAAAAAAAAAAYgJNwLgAXAA4ACWAFMAPwAzYCLAIuAZ8A14B0gD7AI8ASKAlcBMgCmwFhALqAXeAvoBggDBgGfANGAaaA1UBtADggHHgOUAc6A58B2wDuQHggPJAfaA_YCCIEFAI0gR2Aj6BIiCSIJJgSbAAAASMgAwABBKEdABgACCUJCADAAEEoSUAGAAIJQlIAMAAQShCQAYAAglCGgAwABBKERABgACCUIqADAAEEoQA%22%2C%22googleConsentGiven%22:false%2C%22consentInterpretation%22:{%22googleAdvertisingFeaturesAllowed%22:false%2C%22googleAnalyticsAllowed%22:false%2C%22infonlineAllowed%22:false%2C%22theAdexAllowed%22:false%2C%22criteoAllowed%22:false%2C%22facebookAllowed%22:false%2C%22amazonAdvertisingAllowed%22:false%2C%22rtbHouseAllowed%22:false}}"
           }
         ]
       },
       "id": "dbc0dde3-600b-40ab-ab8b-b07e3e3c7af8",
-      "domains": ["ebay-kleinanzeigen.de"]
+      "domains": ["kleinanzeigen.de"]
     },
     {
       "click": {
