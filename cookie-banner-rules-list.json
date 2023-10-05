@@ -59,7 +59,7 @@
       "domains": [],
       "click": {
         "optIn": "button#onetrust-accept-btn-handler",
-        "optOut": "button#onetrust-reject-all-handler",
+        "optOut": ".ot-pc-refuse-all-handler, #onetrust-reject-all-handler",
         "presence": "div#onetrust-consent-sdk"
       }
     },
@@ -94,11 +94,124 @@
     {
       "click": {
         "optIn": "button#onetrust-accept-btn-handler",
+        "optOut": ".ot-pc-refuse-all-handler, #onetrust-reject-all-handler",
         "presence": "div#onetrust-consent-sdk"
       },
       "cookies": {},
       "id": "6c7366a0-4762-47b9-8eeb-04e86cc7a0cc",
       "domains": [
+        "espncricinfo.com",
+        "speedtest.net",
+        "name.com",
+        "blackboard.com",
+        "roche.com",
+        "mlb.com",
+        "apnews.com",
+        "qualtrics.com",
+        "tim.it",
+        "nationalgeographic.com",
+        "gofundme.com",
+        "frontiersin.org",
+        "espn.com",
+        "thawte.com",
+        "digicert.com",
+        "hotjar.com",
+        "marriott.com",
+        "hootsuite.com",
+        "wattpad.com",
+        "gamespot.com",
+        "apa.org",
+        "opendns.com",
+        "epicgames.com",
+        "zendesk.com",
+        "drei.at",
+        "ikea.com",
+        "search.ch",
+        "centrum.sk",
+        "zoom.us",
+        "pluska.sk",
+        "hp.com",
+        "ceskatelevize.cz",
+        "telenet.be",
+        "quora.com",
+        "adobe.com",
+        "rottentomatoes.com",
+        "dhl.com",
+        "dhl.de",
+        "nvidia.com",
+        "cloudflare.com",
+        "webex.com",
+        "indeed.com",
+        "discord.com",
+        "sport.ro",
+        "hotnews.ro",
+        "ricardo.ch",
+        "stirileprotv.ro",
+        "1177.se",
+        "meinbezirk.at",
+        "orange.ro",
+        "ica.se",
+        "flashscore.pl",
+        "kuleuven.be",
+        "tutti.ch",
+        "post.at",
+        "rezultati.com",
+        "nbg.gr",
+        "behance.net",
+        "zemanta.com",
+        "grammarly.com",
+        "usatoday.com",
+        "cnet.com",
+        "npr.org",
+        "binance.com",
+        "linktr.ee",
+        "time.com",
+        "cisco.com",
+        "udemy.com",
+        "shutterstock.com",
+        "investopedia.com",
+        "cbsnews.com",
+        "okta.com",
+        "appsflyer.com",
+        "typepad.com",
+        "calendly.com",
+        "verisign.com",
+        "outbrain.com",
+        "zdnet.com",
+        "deloitte.com",
+        "hdfcbank.com",
+        "media.net",
+        "docker.com",
+        "avast.com",
+        "bluehost.com",
+        "nba.com",
+        "hostgator.com",
+        "scientificamerican.com",
+        "aljazeera.com",
+        "sahibinden.com",
+        "rackspace.com",
+        "namecheap.com",
+        "people.com",
+        "branch.io",
+        "tv2.dk",
+        "disneyplus.com",
+        "criteo.com",
+        "trustpilot.com",
+        "hm.com",
+        "mailchimp.com",
+        "surveymonkey.com",
+        "mckinsey.com",
+        "rollingstone.com",
+        "slate.com",
+        "dictionary.com",
+        "coursera.org",
+        "msn.com",
+        "allaboutcookies.org",
+        "mashable.com",
+        "chegg.com",
+        "pcmag.com",
+        "variety.com",
+        "cnn.com",
         "barnesandnoble.com",
         "politico.com",
         "quillbot.com",
@@ -215,6 +328,16 @@
     },
     {
       "click": {
+        "optIn": ".qc-cmp2-summary-buttons > :nth-child(3)",
+        "optOut": ".qc-cmp2-summary-buttons > :nth-child(2)",
+        "presence": "#qc-cmp2-container"
+      },
+      "cookies": {},
+      "id": "FB43FF71-9546-43D1-8B52-D208D1347095",
+      "domains": ["ign.com"]
+    },
+    {
+      "click": {
         "optIn": ".a8c-cookie-banner-accept-all-button",
         "presence": ".a8c-cookie-banner"
       },
@@ -318,17 +441,6 @@
         "optOut": ".js-reject-cookies",
         "optIn": ".js-accept-cookies"
       }
-    },
-    {
-      "click": {
-        "hide": "div#onetrust-consent-sdk",
-        "optIn": "button#onetrust-accept-btn-handler",
-        "optOut": "button#onetrust-reject-all-handler",
-        "presence": "div#onetrust-banner-sdk"
-      },
-      "cookies": {},
-      "id": "3dde4bbf-a1fa-458d-afb1-e2ae5f459217",
-      "domains": ["cnn.com", "vimeo.com"]
     },
     {
       "click": {},
@@ -613,113 +725,6 @@
       },
       "id": "c5243e7c-eb86-4a9d-947c-7129e99fbd72",
       "domains": ["reddit.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "optOut": "button#onetrust-reject-all-handler",
-        "presence": "div#onetrust-consent-sdk"
-      },
-      "cookies": {},
-      "id": "0b42c238-b54d-4106-8d9a-81df5bc0b3ae",
-      "domains": [
-        "hotjar.com",
-        "marriott.com",
-        "hootsuite.com",
-        "wattpad.com",
-        "gamespot.com",
-        "apa.org",
-        "ign.com",
-        "opendns.com",
-        "epicgames.com",
-        "zendesk.com",
-        "drei.at",
-        "ikea.com",
-        "search.ch",
-        "centrum.sk",
-        "zoom.us",
-        "pluska.sk",
-        "hp.com",
-        "ceskatelevize.cz",
-        "telenet.be",
-        "quora.com",
-        "adobe.com",
-        "rottentomatoes.com",
-        "dhl.com",
-        "nvidia.com",
-        "cloudflare.com",
-        "webex.com",
-        "indeed.com",
-        "discord.com",
-        "sport.ro",
-        "hotnews.ro",
-        "ricardo.ch",
-        "stirileprotv.ro",
-        "1177.se",
-        "meinbezirk.at",
-        "orange.ro",
-        "ica.se",
-        "flashscore.pl",
-        "kuleuven.be",
-        "tutti.ch",
-        "post.at",
-        "rezultati.com",
-        "nbg.gr",
-        "behance.net",
-        "zemanta.com",
-        "grammarly.com",
-        "usatoday.com",
-        "cnet.com",
-        "npr.org",
-        "binance.com",
-        "linktr.ee",
-        "time.com",
-        "cisco.com",
-        "udemy.com",
-        "shutterstock.com",
-        "investopedia.com",
-        "cbsnews.com",
-        "okta.com",
-        "appsflyer.com",
-        "typepad.com",
-        "calendly.com",
-        "verisign.com",
-        "outbrain.com",
-        "zdnet.com",
-        "deloitte.com",
-        "hdfcbank.com",
-        "media.net",
-        "docker.com",
-        "avast.com",
-        "bluehost.com",
-        "nba.com",
-        "hostgator.com",
-        "scientificamerican.com",
-        "aljazeera.com",
-        "sahibinden.com",
-        "rackspace.com",
-        "namecheap.com",
-        "people.com",
-        "branch.io",
-        "tv2.dk",
-        "disneyplus.com",
-        "criteo.com",
-        "trustpilot.com",
-        "hm.com",
-        "mailchimp.com",
-        "surveymonkey.com",
-        "mckinsey.com",
-        "rollingstone.com",
-        "slate.com",
-        "dictionary.com",
-        "coursera.org",
-        "msn.com",
-        "allaboutcookies.org",
-        "mashable.com",
-        "chegg.com",
-        "pcmag.com",
-        "variety.com"
-      ]
     },
     {
       "click": {
@@ -1275,25 +1280,20 @@
     },
     {
       "click": {
-        "optIn": "button#gdpr-banner-accept",
-        "presence": "div.jsx-1433135011"
+        "optIn": "#gdpr-banner-accept",
+        "presence": "#gdpr-banner-container"
       },
       "cookies": {
-        "optIn": [
-          {
-            "name": "cto_bundle",
-            "value": "74wav19heDMyZkEyQlhqdVlDMWhRa1pLWUJhSjAyQjVCb3FrNUtQak5DJTJGTDBLcjRRQ1lmdHl2NEZyJTJCdFdta2FCczdnTjI2blh4STNVZWswRmJoWXEyUzlOczdCcE54WXljcWRRNnhDZFNvQW4yQmQyZEphZ2FvZ3J6JTJCU09jWkFrZE1uQXZaQktmZTg5MVp0VUowazZLQlJidXclM0QlM0Q"
-          }
-        ],
+        "optIn": [],
         "optOut": [
           {
             "name": "ekConsentTcf2",
-            "value": "{%22customVersion%22:3%2C%22encodedConsentString%22:%22CPgcl9uPgcl9uE1ABADECQCgAAAAAAAAAAYgIUwMAAcABLACmAH6AiwCMAFGALaAYAAz4BrwDpAHkASKAlcBMgCrAFhALqAXeAvoBggDBgGJAMvAZ8A0YBpIDTQGqwNoA2kBuYDggHHgOUAc2A50Bz4DtgHcgO8AeCA-2B-AH4wP1A_YCCIEFAIPAQpAAAASUgAwABBGIlABgACCMRCADAAEEYh0AGAAIIxDIAMAAQRiFQAYAAgjEIgAwABBGINABgACCMQSADAAEEYg%22%2C%22googleConsentGiven%22:false%2C%22consentInterpretation%22:{%22googleAdvertisingFeaturesAllowed%22:false%2C%22googleAnalyticsAllowed%22:false%2C%22infonlineAllowed%22:false%2C%22theAdexAllowed%22:false}}"
+            "value": "{%22customVersion%22:6%2C%22encodedConsentString%22:%22CPzMR3KPzMR3KE1ABADEC4CgAAAAAAAAAAYgJNwLgAXAA4ACWAFMAPwAzYCLAIuAZ8A14B0gD7AI8ASKAlcBMgCmwFhALqAXeAvoBggDBgGfANGAaaA1UBtADggHHgOUAc6A58B2wDuQHggPJAfaA_YCCIEFAI0gR2Aj6BIiCSIJJgSbAAAASMgAwABBKEdABgACCUJCADAAEEoSUAGAAIJQlIAMAAQShCQAYAAglCGgAwABBKERABgACCUIqADAAEEoQA%22%2C%22googleConsentGiven%22:false%2C%22consentInterpretation%22:{%22googleAdvertisingFeaturesAllowed%22:false%2C%22googleAnalyticsAllowed%22:false%2C%22infonlineAllowed%22:false%2C%22theAdexAllowed%22:false%2C%22criteoAllowed%22:false%2C%22facebookAllowed%22:false%2C%22amazonAdvertisingAllowed%22:false%2C%22rtbHouseAllowed%22:false}}"
           }
         ]
       },
       "id": "dbc0dde3-600b-40ab-ab8b-b07e3e3c7af8",
-      "domains": ["ebay-kleinanzeigen.de"]
+      "domains": ["kleinanzeigen.de"]
     },
     {
       "click": {
@@ -1917,16 +1917,6 @@
       "cookies": {},
       "id": "21593dac-f469-4206-87d9-044e6d69404b",
       "domains": ["mirror.co.uk"]
-    },
-    {
-      "click": {
-        "optIn": "#accept-recommended-btn-handler",
-        "optOut": "#confirm-choices-handler",
-        "presence": "#onetrust-pc-sdk",
-        "hide": "#onetrust-consent-sdk"
-      },
-      "id": "6dddbd1c-6c99-4085-abf7-8aa15d230701",
-      "domains": ["dhl.de"]
     },
     {
       "click": {
@@ -3407,30 +3397,6 @@
     },
     {
       "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "optOut": "button.onetrust-close-btn-handler",
-        "presence": "div#onetrust-consent-sdk"
-      },
-      "cookies": {},
-      "id": "0ea140ac-da2b-4c9f-b277-431a8c959a6d",
-      "domains": [
-        "name.com",
-        "blackboard.com",
-        "roche.com",
-        "mlb.com",
-        "apnews.com",
-        "qualtrics.com",
-        "tim.it",
-        "nationalgeographic.com",
-        "gofundme.com",
-        "frontiersin.org",
-        "espn.com",
-        "thawte.com",
-        "digicert.com"
-      ]
-    },
-    {
-      "click": {
         "optOut": "button.accept-button",
         "presence": "div.gdpr-content"
       },
@@ -3702,15 +3668,6 @@
       "cookies": {},
       "id": "1e504f8f-4377-4de7-90e4-cbbfaa30f54d",
       "domains": ["kaspersky.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "presence": "div#onetrust-consent-sdk"
-      },
-      "cookies": { "optIn": [{ "name": "zdconsent", "value": "optin" }] },
-      "id": "597dab25-1433-4bed-92c2-d10e6a85b188",
-      "domains": ["speedtest.net"]
     },
     {
       "click": {
@@ -5194,16 +5151,6 @@
       },
       "id": "ba7e149e-6879-48a1-b394-c646eb8bb17f",
       "domains": ["gsmarena.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "optOut": "button.onetrust-close-btn-handler",
-        "presence": "div#onetrust-banner-sdk"
-      },
-      "cookies": {},
-      "id": "b7b481e3-57cb-41a7-bc38-da8c1afa118f",
-      "domains": ["espncricinfo.com"]
     },
     {
       "click": {},
