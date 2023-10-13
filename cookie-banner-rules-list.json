@@ -194,7 +194,6 @@
         "people.com",
         "branch.io",
         "tv2.dk",
-        "disneyplus.com",
         "criteo.com",
         "trustpilot.com",
         "hm.com",
@@ -323,7 +322,9 @@
         "vol.at",
         "plotek.pl",
         "nypost.com",
-        "howstuffworks.com"
+        "howstuffworks.com",
+        "otto.de",
+        "kaufland.de"
       ]
     },
     {
@@ -2883,25 +2884,20 @@
     },
     {
       "click": {
-        "optIn": "button.dl_cookieBanner--buttonAll",
-        "optOut": "button.dl_cookieBanner--buttonSelected",
-        "presence": "div#dl_cookieBanner"
-      },
-      "cookies": {},
-      "id": "e3968548-ebca-4d6b-b8cf-5707e90fb612",
-      "domains": ["deepl.com"]
-    },
-    {
-      "click": {
-        "optIn": "button.js_cookieBannerPermissionButton",
-        "optOut": "span.js_cookieBannerProhibitionButton",
-        "presence": "section#cookieBanner"
+        "optIn": "button[data-testid=\"cookie-banner-strict-accept-all\"]",
+        "optOut": "button[data-testid=\"cookie-banner-strict-accept-selected\"]",
+        "presence": "div[data-testid=\"dl-cookieBanner\"]"
       },
       "cookies": {
-        "optOut": [{ "name": "cb", "value": "0" }]
+        "optOut": [
+          {
+            "name": "privacySettings",
+            "value": "%7B%22v%22%3A%221%22%2C%22t%22%3A111697155200%2C%22m%22%3A%22STRICT%22%2C%22consent%22%3A%5B%22NECESSARY%22%5D%7D"
+          }
+        ]
       },
-      "id": "c9adac7f-74db-4eab-9b97-114ff5954226",
-      "domains": ["otto.de"]
+      "id": "e3968548-ebca-4d6b-b8cf-5707e90fb612",
+      "domains": ["deepl.com"]
     },
     {
       "click": {
@@ -3325,7 +3321,7 @@
       },
       "cookies": {},
       "id": "3203ac4e-2454-4022-90fb-d4f51467ce20",
-      "domains": ["zalando.ch", "zalando.dk", "zalando.be"]
+      "domains": ["zalando.ch", "zalando.dk", "zalando.be", "zalando.de"]
     },
     {
       "click": { "optIn": "a.cookies-agree", "presence": "div.cookies-notify" },
@@ -4284,7 +4280,13 @@
         "n-tv.de",
         "newsnow.co.uk",
         "telegraph.co.uk",
-        "theguardian.com"
+        "theguardian.com",
+        "faz.net",
+        "sueddeutsche.de",
+        "rtl.de",
+        "gutefrage.net",
+        "express.de",
+        "tvspielfilm.de"
       ],
       "id": "d42bbaee-f96e-47e7-8e81-efc642518e97"
     },
@@ -4318,7 +4320,13 @@
         "tek.no",
         "omni.se",
         "dpgmediagroup.com",
-        "economist.com"
+        "economist.com",
+        "chefkoch.de",
+        "sport1.de",
+        "tagesspiegel.de",
+        "stern.de",
+        "sport.de",
+        "giga.de"
       ],
       "id": "c58a0bac-3a5f-43af-93e9-8b5462a6bcb5"
     },
@@ -5296,6 +5304,90 @@
           }
         ]
       }
+    },
+    {
+      "id": "7BA8E4AF-438A-40FE-8941-F921AA1FEA2A",
+      "domains": ["ecosia.org"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "ECCC",
+            "value": "e"
+          }
+        ]
+      },
+      "click": {
+        "optIn": "button[data-test-id=\"cookie-notice-accept\"]",
+        "optOut": "button[data-test-id=\"cookie-notice-reject\"]",
+        "presence": ".cookie-notice"
+      }
+    },
+    {
+      "click": {
+        "optIn": ".cmpboxbtnyes",
+        "optOut": ".cmpboxbtnsave",
+        "presence": "#cmpwrapper"
+      },
+      "id": "1D4DDA28-C6FC-489F-B2F3-07EAAB4F5AFE",
+      "domains": ["gls-pakete.de"]
+    },
+    {
+      "cookies": {
+        "optOut": [
+          {
+            "name": "consent_status",
+            "value": "false"
+          }
+        ],
+        "optIn": [
+          {
+            "name": "consent_status",
+            "value": "true"
+          }
+        ]
+      },
+      "id": "3BD1F0DA-BABB-4F75-9B56-C92A1CFD114B",
+      "domains": ["immobilienscout24.de"]
+    },
+    {
+      "cookies": {
+        "optOut": [
+          {
+            "name": "CONSENTMGR",
+            "value": "c1:1%7Cc2:0%7Cc3:0%7Cc4:0%7Cc5:0%7Cc6:0%7Cc7:0%7Cc8:0%7Cc9:0%7Cc10:0%7Cc11:0%7Cc12:0%7Cc13:0%7Cc14:0%7Cc15:0%7Cts:111697211775123%7Cconsent:true"
+          },
+          { "name": "request_consent_v", "value": "3" }
+        ]
+      },
+      "id": "D4AD5843-DDBD-4D93-BFBA-F53DD8B53111",
+      "domains": ["bahn.de"]
+    },
+    {
+      "cookies": {},
+      "click": {
+        "presence": "#dip-consent",
+        "optIn": "#dip-consent-summary-accept-all",
+        "optOut": "#dip-consent-summary-reject-all"
+      },
+      "id": "B85F7D67-D6D4-40EE-8472-A32B6CD01E0E",
+      "domains": ["vodafone.de"]
+    },
+    {
+      "click": {
+        "presence": "#__tealiumGDPRecModal",
+        "optIn": "#consentAcceptAll",
+        "optOut": "#rejectAll"
+      },
+      "id": "8907164E-17D8-4D27-B0A3-EDDA59F53DBE",
+      "domains": ["telekom.com", "telekom.de"]
+    },
+    {
+      "click": {
+        "presence": "div[data-tracking-opt-in-overlay=\"true\"]",
+        "optIn": "div[data-tracking-opt-in-accept=\"true\"]"
+      },
+      "id": "D168AF87-F481-4AD7-BE78-28A59F798406",
+      "domains": ["fandom.com"]
     }
   ]
 }
