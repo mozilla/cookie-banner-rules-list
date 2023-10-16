@@ -324,7 +324,8 @@
         "nypost.com",
         "howstuffworks.com",
         "otto.de",
-        "kaufland.de"
+        "kaufland.de",
+        "lidl.de"
       ]
     },
     {
@@ -345,18 +346,6 @@
       "cookies": {},
       "id": "4b835605-77e0-457a-8409-8d499ee1131c",
       "domains": ["gravatar.com"]
-    },
-    {
-      "cookies": {
-        "optOut": [
-          {
-            "name": "MSCC",
-            "value": "cid=qx7ft7mavj0leq4vylbl40vv-c1=1-c2=1-c3=1"
-          }
-        ]
-      },
-      "id": "0c43a914-8bc7-4872-89f2-f1ad213d2a7f",
-      "domains": ["skype.com", "microsoft.com", "office.com", "xbox.com"]
     },
     {
       "click": {},
@@ -4287,6 +4276,7 @@
         "thesun.ie",
         "focus.de",
         "bild.de",
+        "computerbild.de",
         "bloomberg.com",
         "t-online.de",
         "wetteronline.de",
@@ -4300,7 +4290,8 @@
         "rtl.de",
         "gutefrage.net",
         "express.de",
-        "tvspielfilm.de"
+        "tvspielfilm.de",
+        "finanzen.net"
       ],
       "id": "d42bbaee-f96e-47e7-8e81-efc642518e97"
     },
@@ -4329,6 +4320,7 @@
         "oikotie.fi",
         "klart.se",
         "zeit.de",
+        "gala.de",
         "gala.fr",
         "volkskrant.nl",
         "tek.no",
@@ -4842,10 +4834,27 @@
     },
     {
       "click": {
-        "optIn": "button.js-cb_accept",
-        "presence": "div.__cookies"
+        "presence": "[data-module=\"cookieBanner\"]",
+        "optIn": "button.cb_accept"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookieChoice",
+            "value": "\"PRIVACY\"",
+            "host": "ok.ru",
+            "unsetValue": "\"\""
+          }
+        ],
+        "optIn": [
+          {
+            "name": "cookieChoice",
+            "value": "\"PRIVACY,1,2,3\"",
+            "host": "ok.ru",
+            "unsetValue": "\"\""
+          }
+        ]
+      },
       "id": "384b70c3-2458-4dc9-ac6f-d9c5e90cc62a",
       "domains": ["ok.ru"]
     },
@@ -5402,6 +5411,43 @@
       },
       "id": "D168AF87-F481-4AD7-BE78-28A59F798406",
       "domains": ["fandom.com"]
+    },
+    {
+      "click": {
+        "presence": "#mms-consent-portal-container",
+        "optOut": "button[data-test=\"pwa-consent-layer-deny-all\"]",
+        "optIn": "button[data-test=\"pwa-consent-layer-accept-all\"]"
+      },
+      "cookies": {
+        "optOut": [
+          {
+            "name": "pwaconsent",
+            "value": "v:1.0~required:1&clf:1,cli:1,gfb:1,gtm:1,jot:1,ocx:1|comfort:0&baz:0,cne:0,con:0,fix:0,gfa:0,goa:0,gom:0,grc:0,grv:0,inm:0,lib:0,lob:0,opt:0,orc:0,ore:0,pcl:0,sen:0,sis:0,spe:0,sst:0,swo:0,twi:0,usw:0,usz:0,yte:0|marketing:0&cri:0,eam:0,fab:0,fbc:0,fcm:0,gac:0,gad:0,gcl:0,gcm:0,gdv:0,gos:0,gse:0,msb:0,omp:0,pin:0,ttd:0,twt:0|"
+          }
+        ]
+      },
+      "id": "2A2B8102-D276-4ECE-AFBD-005E8E917D18",
+      "domains": ["mediamarkt.de", "saturn.de"]
+    },
+    {
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookie_consent",
+            "value": "denied"
+          },
+          {
+            "name": "marketing_consent",
+            "value": "denied"
+          },
+          {
+            "name": "personalization_consent",
+            "value": "denied"
+          }
+        ]
+      },
+      "id": "A04DD123-A10F-4665-9C2B-2FB5CC293F42",
+      "domains": ["arbeitsagentur.de"]
     }
   ]
 }
