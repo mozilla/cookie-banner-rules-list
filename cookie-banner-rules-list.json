@@ -2892,7 +2892,7 @@
         "optOut": [
           {
             "name": "privacySettings",
-            "value": "%7B%22v%22%3A%221%22%2C%22t%22%3A111697155200%2C%22m%22%3A%22STRICT%22%2C%22consent%22%3A%5B%22NECESSARY%22%5D%7D"
+            "value": "%7B%22v%22%3A%221%22%2C%22t%22%3A4127362064%2C%22m%22%3A%22STRICT%22%2C%22consent%22%3A%5B%22NECESSARY%22%5D%7D"
           }
         ]
       },
@@ -3321,7 +3321,21 @@
       },
       "cookies": {},
       "id": "3203ac4e-2454-4022-90fb-d4f51467ce20",
-      "domains": ["zalando.ch", "zalando.dk", "zalando.be", "zalando.de"]
+      "domains": [
+        "zalando.ch",
+        "zalando.dk",
+        "zalando.be",
+        "zalando.de",
+        "zalando.at",
+        "zalando.co.uk",
+        "zalando.com",
+        "zalando.cz",
+        "zalando.ee",
+        "zalando.es",
+        "zalando.fi",
+        "zalando.fr",
+        "zalando.hr"
+      ]
     },
     {
       "click": { "optIn": "a.cookies-agree", "presence": "div.cookies-notify" },
