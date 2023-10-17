@@ -325,7 +325,8 @@
         "howstuffworks.com",
         "otto.de",
         "kaufland.de",
-        "lidl.de"
+        "lidl.de",
+        "tripadvisor.de"
       ]
     },
     {
@@ -383,16 +384,6 @@
       "cookies": {},
       "id": "7f82a27a-eaf8-4c16-b15e-66b5efe62fa2",
       "domains": ["dropbox.com"]
-    },
-    {
-      "click": {
-        "optIn": ".cmpboxbtnyes",
-        "optOut": ".cmpboxbtnno",
-        "presence": "div#cmpbox"
-      },
-      "cookies": {},
-      "id": "77424a06-c47f-4b06-9925-e4d5afc7c61a",
-      "domains": ["mail.ru"]
     },
     {
       "click": {
@@ -1131,7 +1122,9 @@
         "softonic.com",
         "sydsvenskan.se",
         "telecinco.es",
-        "giphy.com"
+        "giphy.com",
+        "filmstarts.de",
+        "moviepilot.de"
       ]
     },
     {
@@ -2726,17 +2719,6 @@
     },
     {
       "click": {
-        "optIn": "div.policy-accept",
-        "presence": "div#privacy-policy-banner"
-      },
-      "cookies": {
-        "optIn": [{ "name": ".AspNet.Consent", "value": "yes" }]
-      },
-      "id": "60f526aa-abb2-4930-bec4-7113af7481ae",
-      "domains": ["accuweather.com"]
-    },
-    {
-      "click": {
         "optIn": "button#didomi-notice-agree-button",
         "optOut": "button#didomi-notice-disagree-button",
         "presence": "div#didomi-host"
@@ -4291,7 +4273,11 @@
         "gutefrage.net",
         "express.de",
         "tvspielfilm.de",
-        "finanzen.net"
+        "finanzen.net",
+        "tag24.de",
+        "kino.de",
+        "heise.de",
+        "bunte.de"
       ],
       "id": "d42bbaee-f96e-47e7-8e81-efc642518e97"
     },
@@ -4332,7 +4318,8 @@
         "tagesspiegel.de",
         "stern.de",
         "sport.de",
-        "giga.de"
+        "giga.de",
+        "handelsblatt.com"
       ],
       "id": "c58a0bac-3a5f-43af-93e9-8b5462a6bcb5"
     },
@@ -4619,15 +4606,6 @@
     },
     {
       "click": {
-        "optIn": "a.cmptxt_btn_yes",
-        "presence": "div#cmpbox"
-      },
-      "cookies": {},
-      "id": "3ecc13da-b0ee-487a-9af2-8cb166cf30ba",
-      "domains": ["blic.rs"]
-    },
-    {
-      "click": {
         "optIn": "div.gdpr-trigger",
         "presence": "div#gdpr"
       },
@@ -4821,16 +4799,6 @@
       "cookies": {},
       "id": "407fe21e-7730-47f9-b83f-51d19dddc700",
       "domains": ["aliexpress.ru"]
-    },
-    {
-      "click": {
-        "optIn": "a.cmptxt_btn_yes",
-        "optOut": "a.cmptxt_btn_no",
-        "presence": "div#cmpbox"
-      },
-      "cookies": {},
-      "id": "e735b61a-3a3f-418e-b2ff-93e3f8984d1b",
-      "domains": ["hrt.hr"]
     },
     {
       "click": {
@@ -5448,6 +5416,50 @@
       },
       "id": "A04DD123-A10F-4665-9C2B-2FB5CC293F42",
       "domains": ["arbeitsagentur.de"]
+    },
+    {
+      "id": "E46708B7-B378-4AA5-A700-12D7221537A0",
+      "domains": ["adac.de"],
+      "click": {
+        "optIn": "#cmpwelcomebtnyes a",
+        "optOut": "#cmpwelcomebtnno a",
+        "presence": "#cmpbox"
+      }
+    },
+    {
+      "id": "EA3C8C1C-8B1A-46A4-8631-750ECC29425A",
+      "domains": ["mail.ru", "blic.rs", "hrt.hr", "eventim.de"],
+      "click": {
+        "optIn": "#cmpwelcomebtnyes a",
+        "presence": "#cmpbox"
+      }
+    },
+    {
+      "id": "02BB875E-D588-4C12-9BE8-FD467C050B86",
+      "domains": ["obi.de"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "obiConsent",
+            "value": "c1-1|c2-0|c3-0|c4-0|c5-0|ts-4127464398701|consent-true"
+          },
+          { "name": "miCookieOptOut", "value": "1" }
+        ]
+      },
+      "click": {
+        "optOut": ".js-disc-cp-deny-all",
+        "optIn": ".js-disc-cp-accept-all",
+        "presence": ".disc-cp-modal__modal"
+      }
+    },
+    {
+      "id": "10B17126-C30B-4EE5-9CF5-A4CAFD361AEB",
+      "domains": ["accuweather.com"],
+      "click": {
+        "optOut": ".fc-cta-do-not-consent",
+        "optIn": ".fc-cta-consent",
+        "presence": ".fc-dialog-container"
+      }
     }
   ]
 }
