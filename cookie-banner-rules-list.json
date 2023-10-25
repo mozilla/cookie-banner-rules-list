@@ -5016,8 +5016,8 @@
     },
     {
       "click": {
-        "optIn": "button.py-12",
-        "optOut": "button.text-blurple ",
+        "optIn": "div.duet--cta--cookie-banner button.py-12",
+        "optOut": "div.duet--cta--cookie-banner button.text-blurple",
         "presence": "div.duet--cta--cookie-banner"
       },
       "cookies": {},
