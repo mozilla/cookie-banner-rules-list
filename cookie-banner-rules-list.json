@@ -5460,6 +5460,30 @@
         "optIn": ".fc-cta-consent",
         "presence": ".fc-dialog-container"
       }
+    },
+    {
+      "id": "dea34d82-9c05-4c08-9262-18a7f62be91e",
+      "domains": ["netcup.de"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "js-cookie-opt-in__consent",
+            "value": "needed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a8222cf2-8f6c-48df-8215-05a15d4ac592",
+      "domains": ["hetzner.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "CookieConsentDeclined",
+            "value": "1"
+          }
+        ]
+      }
     }
   ]
 }
