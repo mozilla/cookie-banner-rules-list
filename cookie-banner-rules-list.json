@@ -5484,6 +5484,14 @@
           }
         ]
       }
+    },
+    {
+      "id": "0c1f9dfe-0796-4498-9433-4a5578c5a254",
+      "domains": ["engadget.com", "yahoo.com", "techcrunch.com"],
+      "click": {
+        "optOut": "#login-form-gpc-donotallow",
+        "presence": "#consent-gpc-popUp"
+      }
     }
   ]
 }
