@@ -97,7 +97,14 @@
         "optOut": ".ot-pc-refuse-all-handler, #onetrust-reject-all-handler",
         "presence": "div#onetrust-consent-sdk"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "OptanonAlertBoxClosed",
+            "value": "2030-01-01T00:00:00.000Z"
+          }
+        ]
+      },
       "id": "6c7366a0-4762-47b9-8eeb-04e86cc7a0cc",
       "domains": [
         "espncricinfo.com",
@@ -326,7 +333,9 @@
         "otto.de",
         "kaufland.de",
         "lidl.de",
-        "tripadvisor.de"
+        "tripadvisor.de",
+        "panasonic.com",
+        "safeway.com"
       ]
     },
     {
