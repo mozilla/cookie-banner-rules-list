@@ -3614,7 +3614,7 @@
       "click": {
         "optIn": ".dialog-actions-accept-btn",
         "optOut": ".dialog-actions-decline-btn",
-        "presence": ".dialog-content-wrapper"
+        "presence": "[data-testid=\"cookie-dialog-root\"]"
       },
       "cookies": {
         "optIn": [{ "name": "sq", "value": "3" }],
