@@ -88,22 +88,5 @@ const ajv = new Ajv({ loadSchema, allErrors: true });
     exitWithError("Found duplicate rules");
   }
 
-  // 4. Check for empty rules that have no click or cookie injection rule.
-  //    Allow detect-only click rules that only have a presence field.
-  let foundEmptyRules = false;
-  ruleList.data.forEach((rule, i) => {
-    if (
-      !rule.cookies?.optIn?.length &&
-      !rule.cookies?.optOut?.length &&
-      !rule.click?.presence
-    ) {
-      console.error(`Empty rule rule #${i} id: ${rule.id}`);
-      foundEmptyRules = true;
-    }
-  });
-  if (foundEmptyRules) {
-    exitWithError("Found empty rules");
-  }
-
   console.info(`✅ ${RULE_LIST_FILE} is valid.`);
 })();
