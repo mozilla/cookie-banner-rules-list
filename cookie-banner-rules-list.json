@@ -5495,6 +5495,22 @@
       }
     },
     {
+      "id": "f7633fd9-05a0-4c21-b9e7-acfcd5df5234",
+      "domains": ["vegetology.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookieNotification",
+            "value": "true"
+          }
+        ]
+      },
+      "click": {
+        "optIn": "div[data-name=\"comp-banner\"] button[aria-label=\"Dismiss\"]",
+        "presence": "div[data-name=\"comp-banner\"]"
+      }
+    },
+    {
       "id": "14ea41fa-68ac-4c12-b906-7d2a259d5fb7",
       "domains": ["openwrt.org"],
       "cookies": {
