@@ -10,6 +10,9 @@ const { exit } = require("process");
 
 const RULE_LIST_FILE = "cookie-banner-rules-list.json";
 
+// ID of the rule which contains sites where the mechanism is disabled.
+const RULE_ID_DISABLED = "disabled";
+
 let fetch;
 
 /**
@@ -90,9 +93,12 @@ const ajv = new Ajv({ loadSchema, allErrors: true });
 
   // 4. Check for empty rules that have no click or cookie injection rule.
   //    Allow detect-only click rules that only have a presence field.
+  //    Also allow the "disabled" rule which contains all sites the mechanism is
+  //    disabled for.
   let foundEmptyRules = false;
   ruleList.data.forEach((rule, i) => {
     if (
+      rule.id !== RULE_ID_DISABLED &&
       !rule.cookies?.optIn?.length &&
       !rule.cookies?.optOut?.length &&
       !rule.click?.presence
