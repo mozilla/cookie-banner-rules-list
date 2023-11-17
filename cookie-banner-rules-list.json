@@ -68,7 +68,6 @@
       "domains": [],
       "click": {
         "optIn": "button#didomi-notice-agree-button",
-        "optOut": "button#didomi-notice-disagree-button",
         "presence": "div#didomi-host"
       }
     },
