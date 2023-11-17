@@ -5492,6 +5492,63 @@
           }
         ]
       }
+    },
+    {
+      "id": "f7633fd9-05a0-4c21-b9e7-acfcd5df5234",
+      "domains": ["vegetology.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookieNotification",
+            "value": "true"
+          }
+        ]
+      },
+      "click": {
+        "optIn": "div[data-name=\"comp-banner\"] button[aria-label=\"Dismiss\"]",
+        "presence": "div[data-name=\"comp-banner\"]"
+      }
+    },
+    {
+      "id": "14ea41fa-68ac-4c12-b906-7d2a259d5fb7",
+      "domains": ["openwrt.org"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookielaw",
+            "value": "1"
+          }
+        ]
+      },
+      "click": {
+        "optIn": ".cookielaw-banner .btn-default",
+        "presence": ".cookielaw-banner"
+      }
+    },
+    {
+      "id": "a029bf7e-3274-4877-967e-e7517457ac18",
+      "domains": ["project529.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookies_ok",
+            "value": "false"
+          }
+        ]
+      },
+      "click": {
+        "optOut": "#cancel",
+        "presence": "#gdpr",
+        "hide": "section[aria-label=\"GDPR\"]"
+      }
+    },
+    {
+      "id": "87cbcbb6-b531-4c9c-889a-aaa5678c06c5",
+      "domains": ["traderjoes.com"],
+      "click": {
+        "optOut": ".CookiesAlert_cookiesAlert__3qSl1 .Button_button__3Me73",
+        "presence": ".CookiesAlert_cookiesAlert__3qSl1"
+      }
     }
   ]
 }
