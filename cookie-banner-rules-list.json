@@ -58,9 +58,9 @@
       "id": "onetrust",
       "domains": [],
       "click": {
-        "optIn": "button#onetrust-accept-btn-handler",
-        "optOut": ".ot-pc-refuse-all-handler, #onetrust-reject-all-handler",
-        "presence": "div#onetrust-consent-sdk"
+        "optIn": ".banner-actions-container > #onetrust-accept-btn-handler, #onetrust-button-group > #onetrust-accept-btn-handler, .onetrust-banner-options > #onetrust-accept-btn-handler",
+        "optOut": ".banner-actions-container > #onetrust-reject-all-handler, #onetrust-button-group > #onetrust-reject-all-handler, .onetrust-banner-options > #onetrust-reject-all-handler",
+        "presence": "#onetrust-consent-sdk"
       }
     },
     {
@@ -96,7 +96,14 @@
         "optOut": ".ot-pc-refuse-all-handler, #onetrust-reject-all-handler",
         "presence": "div#onetrust-consent-sdk"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "OptanonAlertBoxClosed",
+            "value": "2030-01-01T00:00:00.000Z"
+          }
+        ]
+      },
       "id": "6c7366a0-4762-47b9-8eeb-04e86cc7a0cc",
       "domains": [
         "espncricinfo.com",
@@ -325,7 +332,9 @@
         "otto.de",
         "kaufland.de",
         "lidl.de",
-        "tripadvisor.de"
+        "tripadvisor.de",
+        "panasonic.com",
+        "safeway.com"
       ]
     },
     {
