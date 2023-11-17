@@ -5495,6 +5495,23 @@
       }
     },
     {
+      "id": "a029bf7e-3274-4877-967e-e7517457ac18",
+      "domains": ["project529.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookies_ok",
+            "value": "false"
+          }
+        ]
+      },
+      "click": {
+        "optOut": "#cancel",
+        "presence": "#gdpr",
+        "hide": "section[aria-label=\"GDPR\"]"
+      }
+    },
+    {
       "id": "87cbcbb6-b531-4c9c-889a-aaa5678c06c5",
       "domains": ["traderjoes.com"],
       "click": {
