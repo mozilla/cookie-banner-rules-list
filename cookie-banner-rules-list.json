@@ -82,6 +82,10 @@
       }
     },
     {
+      "id": "disabled",
+      "domains": ["tumblr.com", "paypal.com"]
+    },
+    {
       "click": {
         "optIn": "button.btn-accept",
         "presence": "div#gdpr-new-container"
@@ -607,23 +611,6 @@
       "domains": ["bing.com"]
     },
     {
-      "click": {
-        "optIn": "button#acceptAllButton",
-        "optOut": "button#bannerDeclineButton",
-        "presence": "div#gdprCookieBanner"
-      },
-      "cookies": {
-        "optOut": [
-          {
-            "name": "cookie_prefs",
-            "value": "T%3D0%2CP%3D0%2CF%3D0%2Ctype%3Dexplicit_banner"
-          }
-        ]
-      },
-      "id": "3f1e21e7-327f-42de-ac40-25da7f4fa7c9",
-      "domains": ["paypal.com"]
-    },
-    {
       "click": {},
       "cookies": {
         "optOut": [
@@ -665,17 +652,6 @@
       "cookies": { "optOut": [{ "name": "gdpr", "value": "1" }] },
       "id": "37319f5d-9484-4da8-aee1-570a78688da3",
       "domains": ["yandex.com", "yandex.ru", "ya.ru", "kinopoisk.ru"]
-    },
-    {
-      "click": {},
-      "cookies": {
-        "optOut": [
-          { "name": "euconsent-v2", "value": "1" },
-          { "name": "euconsent-v2-noniab", "value": "AAYA" }
-        ]
-      },
-      "id": "e8f941e6-ac56-4dec-b682-a75e8bd52aae",
-      "domains": ["tumblr.com"]
     },
     {
       "click": {},
