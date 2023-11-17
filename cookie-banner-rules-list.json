@@ -83,7 +83,17 @@
     },
     {
       "id": "disabled",
-      "domains": ["tumblr.com", "paypal.com"]
+      "domains": [
+        "tumblr.com",
+        "paypal.com",
+        "amazon.se",
+        "amazon.fr",
+        "amazon.nl",
+        "amazon.es",
+        "amazon.co.uk",
+        "amazon.de",
+        "amazon.it"
+      ]
     },
     {
       "click": {
@@ -2426,24 +2436,6 @@
       "cookies": {},
       "id": "eb274e15-29fe-4004-9e6d-27046bd0b82d",
       "domains": ["td.com"]
-    },
-    {
-      "click": {
-        "optIn": "span.a-button-inner",
-        "optOut": "a#sp-cc-rejectall-link",
-        "presence": "form#sp-cc"
-      },
-      "cookies": {},
-      "id": "1653780d-92d7-4677-acb0-6427a7bbdeba",
-      "domains": [
-        "amazon.se",
-        "amazon.fr",
-        "amazon.nl",
-        "amazon.es",
-        "amazon.co.uk",
-        "amazon.de",
-        "amazon.it"
-      ]
     },
     {
       "click": {
