@@ -118,6 +118,10 @@
         "roche.com",
         "apnews.com",
         "nationalgeographic.com",
+        "frontiersin.org",
+        "espn.com",
+        "thawte.com",
+        "digicert.com",
         "hotjar.com",
         "marriott.com",
         "hootsuite.com",
@@ -225,6 +229,7 @@
         "rtlnieuws.nl",
         "buienradar.be",
         "viaplay.se",
+        "instructure.com",
         "antena3.ro",
         "statista.com",
         "pixabay.com",
@@ -244,13 +249,7 @@
         "heute.at",
         "mtvuutiset.fi",
         "buienradar.nl",
-        "suomi24.fi",
-        "sbb.ch",
-        "atg.se",
         "nypost.com",
-        "otto.de",
-        "kaufland.de",
-        "lidl.de",
         "panasonic.com",
         "safeway.com"
       ]
@@ -269,10 +268,6 @@
         "mlb.com",
         "qualtrics.com",
         "tim.it",
-        "frontiersin.org",
-        "espn.com",
-        "thawte.com",
-        "digicert.com",
         "hotnews.ro",
         "mashable.com",
         "pcmag.com",
@@ -297,7 +292,6 @@
         "olx.pt",
         "sportal.bg",
         "gazeta.pl",
-        "instructure.com",
         "romaniatv.net",
         "teamviewer.com",
         "ted.com",
@@ -318,6 +312,7 @@
         "euro.com.pl",
         "wired.com",
         "arstechnica.com",
+        "gartner.com",
         "thelancet.com",
         "weebly.com",
         "irishtimes.com",
@@ -326,6 +321,9 @@
         "sport.pl",
         "novini.bg",
         "stiripesurse.ro",
+        "suomi24.fi",
+        "sbb.ch",
+        "atg.se",
         "ziare.com",
         "irishexaminer.com",
         "tripadvisor.it",
@@ -341,7 +339,12 @@
         "vol.at",
         "plotek.pl",
         "howstuffworks.com",
-        "tripadvisor.de"
+        "tripadvisor.de",
+        "otto.de",
+        "kaufland.de",
+        "lidl.de",
+        "lidl.cz",
+        "rightmove.co.uk"
       ]
     },
     {
@@ -5293,25 +5296,6 @@
       }
     },
     {
-      "id": "536f8027-111f-4798-a9ef-745b30fe65c8",
-      "domains": ["met.ie"],
-      "click": {
-        "optOut": ".cky-btn.cky-btn-reject",
-        "optIn": ".cky-btn.cky-btn-accept",
-        "presence": ".cky-consent-bar"
-      },
-      "cookies": {}
-    },
-    {
-      "id": "9f5f0c06-5221-45b2-a174-7d70fd128eb3",
-      "domains": ["rts.ch"],
-      "click": {
-        "optOut": "[data-testid=\"uc-deny-all-button\"]",
-        "optIn": "[data-testid=\"uc-accept-all-button\"]",
-        "presence": "#usercentrics-root"
-      }
-    },
-    {
       "id": "f7633fd9-05a0-4c21-b9e7-acfcd5df5234",
       "domains": ["vegetology.com"],
       "cookies": {
@@ -5366,6 +5350,25 @@
       "click": {
         "optOut": ".CookiesAlert_cookiesAlert__3qSl1 .Button_button__3Me73",
         "presence": ".CookiesAlert_cookiesAlert__3qSl1"
+      }
+    },
+    {
+      "id": "536f8027-111f-4798-a9ef-745b30fe65c8",
+      "domains": ["met.ie"],
+      "click": {
+        "optOut": ".cky-btn.cky-btn-reject",
+        "optIn": ".cky-btn.cky-btn-accept",
+        "presence": ".cky-consent-bar"
+      },
+      "cookies": {}
+    },
+    {
+      "id": "9f5f0c06-5221-45b2-a174-7d70fd128eb3",
+      "domains": ["rts.ch"],
+      "click": {
+        "optOut": "[data-testid=\"uc-deny-all-button\"]",
+        "optIn": "[data-testid=\"uc-accept-all-button\"]",
+        "presence": "#usercentrics-root"
       },
       "cookies": {}
     },
