@@ -318,6 +318,7 @@
         "euro.com.pl",
         "wired.com",
         "arstechnica.com",
+        "gartner.com",
         "thelancet.com",
         "weebly.com",
         "irishtimes.com",
@@ -325,11 +326,6 @@
         "otomoto.pl",
         "sport.pl",
         "novini.bg",
-<<<<<<< HEAD
-=======
-        "suomi24.fi",
-        "sbb.ch",
->>>>>>> 870f5b7 (made the revisions based on comments)
         "stiripesurse.ro",
         "ziare.com",
         "irishexaminer.com",
@@ -397,10 +393,9 @@
     },
     {
       "click": {
-        "optIn": "#accept_all_cookies_button",
-        "optOut": "#decline_cookies_button",
-        "presence": "#ccpa_consent_banner",
-        "runContext": "child"
+        "optIn": ".evidon-banner-acceptbutton",
+        "optOut": ".evidon-banner-declinebutton",
+        "presence": "div.evidon-banner"
       },
       "cookies": {},
       "id": "7f82a27a-eaf8-4c16-b15e-66b5efe62fa2",
@@ -561,9 +556,9 @@
     },
     {
       "click": {
-        "optIn": "#cookie-disclosure-accept",
-        "optOut": "#cookie-disclosure-reject",
-        "presence": "#cookie-disclosure"
+        "optIn": "button.btn-accept",
+        "optOut": "button.btn-reject",
+        "presence": "div#cookie-disclosure"
       },
       "cookies": {},
       "id": "6037802d-9a37-4df2-bf35-9ad60c478725",
@@ -571,10 +566,24 @@
     },
     {
       "click": {
-        "presence": "#bbccookies",
-        "optIn": "#bbccookies-continue-button"
+        "optIn": "div[role=dialog] > div > button",
+        "optOut": "div[role=dialog] > div > button + button",
+        "presence": "#scrollview + div"
       },
       "cookies": {},
+      "id": "e7112653-2ab3-4ddf-b0b1-396052c2f001",
+      "domains": ["instagram.com"],
+      "filter_expression": "env.appinfo.OS != 'Android'"
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [
+          { "name": "ckns_explicit", "value": "2" },
+          { "name": "ckns_policy", "value": "000" },
+          { "name": "ckns_privacy", "value": "july2019" }
+        ]
+      },
       "id": "e9a07bcd-28b5-4034-a663-c017e6a8208e",
       "domains": ["bbc.com", "bbc.co.uk"]
     },
@@ -1103,14 +1112,6 @@
         "telecinco.es",
         "giphy.com",
         "filmstarts.de",
-        "funda.nl",
-        "idnes.cz",
-        "aktualne.cz",
-        "blesk.cz",
-        "centrum.cz",
-        "denik.cz",
-        "csfd.cz",
-        "hn.cz",
         "moviepilot.de"
       ]
     },
@@ -1150,7 +1151,14 @@
         "optIn": "button.fc-cta-consent",
         "presence": "div.fc-footer-buttons-container"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "FCCDCF",
+            "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CPgbQkAPgbQkAEsABCBGCjCgAAAAAAAAAAIwAAAOhQD2F2K2kKEkfjSUWYAQBCujIEIBUAAAAECBIAAAAUgQAgFIIAgAAlACAAAAABAQAQCAgAQABAAAoACgACAAAAAAAAAAAAQQAABAAIAAAAAAAAEAQAAAAAQAAAAAAABEhCAAQQAEAAAAAAAAAAAAAAAAAAABAAA.YAAAAAAAAAA%22%2C%221~%22%2C%22FA11CE3A-809E-4B87-BFDE-13E9DE22F419%22%5D%2Cnull%2Cnull%2C%5B%5D%5D"
+          }
+        ]
+      },
       "id": "97ba1ec3-c8e7-45a0-845f-c732b71bd213",
       "domains": ["24chasa.bg"]
     },
@@ -1224,7 +1232,14 @@
         "optIn": "button.fc-cta-consent",
         "presence": "div.fc-footer-buttons"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "FCCDCF",
+            "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CPgbQkAPgbQkAEsABCPTCjCgAAAAAAAAAB6YAAARbY7-N262v7O8fnfUebo0Rq-r-Uv1cBmHCOLRo4BOX8t-VgH-sJ2ALt0aVgRMjxJZqQCQgISAJOICpNi0RKqWiGQQAkxRAaQQ2DJILYy8sCgIJofFxKCsAUzy9zcSM7zklvx3Tf9v7lut77r_iZet8HfpfG39xbbNtba8AJzwcE4ZqSVr16d-d__pmclAAA%22%2C%221~%22%2C%22862FB90F-02B3-4D6C-AFCB-6D85B90158EA%22%5D%2Cnull%2Cnull%2C%5B%5D%5D"
+          }
+        ]
+      },
       "id": "8e8f6719-0350-4310-8cc1-c00bb51b72b0",
       "domains": ["abola.pt"]
     },
@@ -1305,7 +1320,14 @@
         "optIn": "button#accept-ufti",
         "presence": "div.Modal__Content-sc-1sm9281-2"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "ufti",
+            "value": "%7B%22facebook%22%3Afalse%2C%22google%22%3Afalse%2C%22version%22%3A2%7D"
+          }
+        ]
+      },
       "id": "12b031c4-abfd-4156-a83c-5e8418f4a866",
       "domains": ["blocket.se"]
     },
@@ -1330,7 +1352,14 @@
         "optIn": "button.fc-cta-consent",
         "presence": "div.fc-footer-buttons-container"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "FCCDCF",
+            "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CPgejgAPgejgAEsABCBGCkCgAAAAAAAAAAIwAAAOhQD2F2K2kKEkfjSUWYAQBCujIEIhUAAAAECBIAAAAUgQAgFIIAgAAlACAAAAABAQAQCAgAQABAAAoACgAAAAAAAAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQAAAAAAABEhCAAQQAEAAAAAAAAAAAAAAAAAAABAAA.YAAAAAAAAAA%22%2C%221~%22%2C%22B14550D2-2C81-4087-B1D1-A35C539B751B%22%5D%2Cnull%2Cnull%2C%5B%5D%5D"
+          }
+        ]
+      },
       "id": "1dbf0b53-df44-472c-a126-13740e9d2e39",
       "domains": ["plovdiv24.bg"]
     },
@@ -1372,7 +1401,14 @@
         "optIn": "button#gdpr-consent-banner-accept-button",
         "presence": "div.gdpr-consent-modal-footer"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "MpTCString",
+            "value": "CPggWskPggWskE0ACCNLBiCgAAAAAAAAABpYAAAO8gFgA4AM-AwQBt4DcQG5gN8AdiA7YB3IDvAAAAAA.YAAAAAAAAYAA"
+          }
+        ]
+      },
       "id": "2cb11bb1-1d52-45c7-a764-9d2e2be6c310",
       "domains": ["marktplaats.nl"]
     },
@@ -1388,6 +1424,7 @@
     {
       "click": {
         "optIn": "button#minf-privacy-accept-btn-screen1-id",
+        "optOut": "button#minf-privacy-open-modal-btn-id",
         "presence": "div.minf-privacy-rationale"
       },
       "cookies": {},
@@ -1433,12 +1470,13 @@
     },
     {
       "click": {
-        "optIn": "#iubenda-cs-accept-btn iubenda-cs-btn-primary",
+        "optIn": "button.iubenda-cs-accept-btn",
+        "optOut": "button.iubenda-cs-close-btn",
         "presence": "div#iubenda-cs-banner"
       },
       "cookies": {},
       "id": "2625ca4e-dd77-4e72-a6d0-c959f3575ad8",
-      "domains": ["3bmeteo.com"]
+      "domains": ["3bmeteo.com", "ansa.it"]
     },
     {
       "click": { "optIn": "button", "presence": "div.gdprcookie" },
@@ -1484,6 +1522,28 @@
     },
     {
       "click": {
+        "optIn": "button#gdpr-consent-banner-accept-button",
+        "presence": "div.gdpr-consent-banner"
+      },
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cto_bundle",
+            "value": "6LSRR19vaVVnVjdSWHlPZmtPSzM0bmIlMkJ4OVVFVDNDNm9MMTZ3WVYzUHhsTm1OTjZpZ0poOEl1bVNFWGp5VXB5ZSUyQnJ3RENpM25WN1QzeUxQckxjSmlyelhydmdRRzg1RlpmRXNsaE1tSGZDSXEzJTJGNG5MbEF1ZiUyQkZTVWgxbnR1bGQzRW0wdFpyakhINVM4SXpkbk9PJTJGdXQ4SE1nJTNEJTNE"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "rbzid",
+            "value": "9B4wIoP8rsa+1YSv57XFo/uUSV+sZUNn9YHPdzFdQ9vj99CJquEXFnM9Icin8eAg4s61utnrutr/pbB4VnjxhdpAYo9E4+hvwG1ldnRSNgrgH67CESdXEK8ui4aWrxYINvbBwjSgrFpKg31SfphpXBJ+Rn2DUGX8HsLFm6gd0Erqfm1LGPuP0KbsVo+XacG5fDA4pTQ8CorfGyH8TTH9hIe9NozfxGveJAX7VoPFDpH7+Vmj9DlOUQ4kVR80UIhm"
+          }
+        ]
+      },
+      "id": "7626055f-07fb-4e9b-8df3-73c0b4b2e1de",
+      "domains": ["2dehands.be"]
+    },
+    {
+      "click": {
         "optIn": "button.fc-cta-consent",
         "presence": "div.fc-footer-buttons-container"
       },
@@ -1520,6 +1580,23 @@
       "domains": ["watson.ch"]
     },
     {
+      "click": {
+        "optIn": "button.optanon-allow-all",
+        "presence": "div.optanon-alert-box-wrapper"
+      },
+      "cookies": {
+        "optIn": [{ "name": "beta_optin", "value": "N:27:-1" }],
+        "optOut": [
+          {
+            "name": "OptanonConsent",
+            "value": "isIABGlobal=false&datestamp=Mon+Oct+10+2022+12%3A22%3A59+GMT%2B0300+(Eastern+European+Summer+Time)&version=5.11.0&landingPath=NotLandingPage&groups=1%3A1%2C3%3A0%2C4%3A0&consentId=46d31f45-9548-49c1-8ff5-d2df4784f238"
+          }
+        ]
+      },
+      "id": "9319d649-88db-4b21-a276-664cfc9090a7",
+      "domains": ["rightmove.co.uk"]
+    },
+    {
       "click": { "optIn": "a.close-accept", "presence": "div.woahbar" },
       "cookies": {},
       "id": "3cfb8e27-c0b3-46c0-bee2-f4eef9c2a548",
@@ -1550,18 +1627,9 @@
         "orange.fr",
         "meteofrance.com",
         "subito.it",
-        "hasznaltauto.hu"
+        "hasznaltauto.hu",
+        "orange.sk"
       ]
-    },
-    {
-      "click": {
-        "optIn": "#didomi-notice-agree-button",
-        "optOut": ".didomi-continue-without-agreeing",
-        "presence": "div#didomi-notice"
-      },
-      "cookies": {},
-      "id": "688d29a8-e1c7-4d62-b3d4-53b451ff5a48",
-      "domains": ["orange.sk", "hnonline.sk"]
     },
     {
       "click": {
@@ -1833,11 +1901,18 @@
     },
     {
       "click": {
-        "optIn": ".css-ofc9r3",
-        "optOut": ".css-1jlb8eq",
-        "presence": "#qc-cmp2-container"
+        "optIn": "button.css-ofc9r3",
+        "presence": "div.qc-cmp2-summary-buttons"
       },
-      "cookies": {},
+      "cookies": {
+        "optIn": [
+          {
+            "name": "policy",
+            "value": "[\"performance\",\"advertising\",\"essential\"]"
+          }
+        ],
+        "optOut": [{ "name": "addtl_consent", "value": "1" }]
+      },
       "id": "690ce1d3-e595-4181-a109-8f55c1039c81",
       "domains": ["car.gr"]
     },
@@ -1936,10 +2011,10 @@
         "presence": "div#consent-info"
       },
       "cookies": {
-        "optIn": [
+        "optOut": [
           {
             "name": "cookiesconsent",
-            "value": "eyJwZXJzb25hbGFkIjp0cnVlLCJsYXN0dmlzaXRlZCI6dHJ1ZX0"
+            "value": "{\"personalad\":false,\"lastvisited\":false}"
           }
         ]
       },
@@ -1965,10 +2040,17 @@
     },
     {
       "click": {
-        "optIn": ".css-2rlcm4",
-        "presence": "#qc-cmp2-container"
+        "optIn": "button.fc-cta-consent",
+        "presence": "div.fc-footer-buttons"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "FCCDCF",
+            "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CPgrvQAPgrvQAEsABCHUCkCgAAAAAAAAAA6gAAAOhQD2F2K2kKEkfjSUWYAQBCujIEIhUAAAAEKBIAAAAUgQAgFIIAgABlACEAAAABAQAQCAgAQABAAAoICgAAAAAAAAAAAAAAQQAABAAIAAAAAAAAEAQAAIAAQgAAAAAABEhCAAQQAEAAAAAAAAAAAAAAAAAAABAAA.YAAAAAAAAAA%22%2C%221~%22%2C%22BE54AC19-BDB4-438E-8831-5753F1812A3D%22%5D%2Cnull%2Cnull%2C%5B%5D%5D"
+          }
+        ]
+      },
       "id": "a1d99e05-e32c-4cf1-931c-25c8baf538ae",
       "domains": ["borsonline.hu"]
     },
@@ -2024,11 +2106,21 @@
       "domains": ["meteo.be"]
     },
     {
-      "click": {
-        "optIn": "a.wscrOk",
-        "presence": "div.wscrBannerContent"
+      "click": { "optIn": "a.wscrOk", "presence": "div.wscrBannerContent" },
+      "cookies": {
+        "optIn": [
+          {
+            "name": "wscrCookieConsentShared",
+            "value": "1=true&2=true&3=true&4=true&5=true&visitor=03bfbe89-44d7-4da3-ad3f-a1a8a8285257&version=20221005-001"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "wscrCookieConsentShared",
+            "value": "1=true&2=false&3=false&4=false&5=false&visitor=5698152c-e2fd-4076-b411-f8baed432e40&version=20221005-001"
+          }
+        ]
       },
-      "cookies": {},
       "id": "fe09c786-b60e-455e-abd6-212c8878f06a",
       "domains": ["nordea.com"]
     },
@@ -2078,7 +2170,20 @@
         "optIn": "button.fc-cta-consent",
         "presence": "div.fc-footer-buttons-container"
       },
-      "cookies": {},
+      "cookies": {
+        "optIn": [
+          {
+            "name": "FCNEC",
+            "value": "%5B%5B%22AKsRol8dX3obOP7yDUss1XiFtDeudrjxUqYpP-rhMQ4efd-tCsA-zwr0QEIFFzJqFPlqONzKSl_dmYl2Hz5ExOkq0Ddboia9nRAZW9HKJKqbq84FAUkt7fH8n_ttCQMi3xDh6FUQi3u0z8HbAboNtASE5TTkNhan1w%3D%3D%22%5D%2Cnull%2C%5B%5D%5D"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "FCCDCF",
+            "value": "%5Bnull%2Cnull%2Cnull%2C%5B%22CPgvCMAPgvCMAEsABCHRCkCgAAAAAAAAAA6IAAARTY7-N262v7O8fnfUebo0Rq-r-Uv1cBmHCOLRo4BOX8t-VgH-sJ2ALt0aVgRMjxJZqQCQgISAJOICpNi0RIqWiGQQAkxRAaQQ2DJILYy8sCgIJIfFxKCsAUzy9zcSM7zklvx3Tf9v7lut7rrfiZet8HLoXGz9xbaNtbe8AIywcE4ZqSVrxaZ-d__pmcAA.YAAAAAAAAAA%22%2C%221~%22%2C%228B9BF72F-C252-4FA2-A91E-8632E50EC476%22%5D%2Cnull%2Cnull%2C%5B%5D%5D"
+          }
+        ]
+      },
       "id": "1d9f6559-cbc8-4cdb-b5f5-ca24844621d3",
       "domains": ["rtl.hr"]
     },
@@ -2097,7 +2202,22 @@
         "optIn": "button.css-1kpvtti",
         "presence": "div#qc-cmp2-container"
       },
-      "cookies": {},
+      "cookies": {
+        "optIn": [
+          { "name": "cookie_consent", "value": "true" },
+          {
+            "name": "cto_bundle",
+            "value": "kjdgil90b1NYZk11R2FLSXNXTVpjSngzd3VTQUNpY1dzVWxvMGMzZkYlMkJCSENrblpmT2hkdlNLUEF4aGNJeFBrTiUyRmdXRm9aa2lSTVo4elFLbzJGZG56dkpocGN0T2dVV2hYMCUyQllGSkJWYnR1cjNEdnhDS2ZlVVcyMUR0U1BHU2V2SHRIZQ"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CPgvCMAPgvCMAAKAsBNLCkCgAAAAAH_AABpYAAASIAJMNW4gC7MscGbQMIoEQIwrCQqgUAEFAMLRAYAODgp2VgE-sIEACAUARgRAhwBRgQCAAASAJCIAJAiwQAAAiAQAAgARCIQAMDAILACwMAgABANAxRCgAECQgyICIpTAgKgSCAlsqEEoLpDTCAOssAKCRGxUACIJARWAAICwcAwRICViwQJMUb5ACMEKAUSoVqIAAAAA.YAAAAAAAAAAA"
+          },
+          { "name": "addtl_consent", "value": "1~" }
+        ]
+      },
       "id": "17c60799-e59b-475f-8007-fec046609121",
       "domains": ["voetbalprimeur.nl"]
     },
@@ -2149,11 +2269,21 @@
     },
     {
       "click": {
-        "optIn": ".css-1e382ig",
-        "optOut": ".css-7gbax3",
-        "presence": "#qc-cmp2-container"
+        "optIn": "button.fc-cta-consent",
+        "presence": "div.fc-footer-buttons"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cto_bundle",
+            "value": "DkANH185MkxWWGtYemZxZzZibU9McFE1NE1GNGVDeXN6aWFyJTJCWVJLaXNtTjgyTXlpa0I0JTJGT1lXazBRODJhMTJsdTQ3THBDdHRaRWkwZFZUNlFkNGFNa2NTaTlzS3E1RmF1djBTcGN5SFozTTBPcFglMkZMNDVHJTJCek94JTJCQ1dYNjklMkZMUFlmdQ"
+          },
+          {
+            "name": "euconsent-v2",
+            "value": "CPgyVIAPgyVIAAKAsAELCkCsAP_AAH_AAAyIJDtd_H__bW9r-f5_aft0eY1P9_r37uQzDhfNk-8F3L_W_LwX52E7NF36tq4KmR4ku1LBIUNlHMHUDUmwaokVryHsak2cpzNKJ7BEknMZOydYGF9vmxtj-QKY7_5_d3bx2D-t_9v239z3z81Xn3d53-_03LCdV5_9Dfn9fR_bc9KPt_58v8v8_____3_e__3_7994JEAEmGrcQBdmWODNoGEUCIEYVhIVQKACCgGFogMAHBwU7KwCfWECABAKAIwIgQ4AowIBAAAJAEhEAEgRYIAAARAIAAQAIhEIAGBgEFgBYGAQAAgGgYohQACBIQZEBEUpgQFQJBAa2VCCUF0hphAHWWAFBIjYqABEEgIrAAEBYOAYIkBKxYIEmKN8gBGCFAKJUK1EAAAA.f_gAAAAAAAAA"
+          }
+        ]
+      },
       "id": "da1104e6-0ce0-4956-bd53-fd13c5c2c90b",
       "domains": ["nemzetisport.hu"]
     },
@@ -2194,7 +2324,7 @@
         "optOut": [
           {
             "name": "CookieConsent",
-            "value": "{stamp:%277wlvZfVgG/Pfkj1y6Hfoz636NePkdUWVOV+lQLpJefS1O2ny+RqIdg==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:5%2Cutc:1699462925195%2Ciab2:%27CP07BsAP07BsACGABBENDeCgAAAAAH_AAAAAAAAS4gGgAgABkAEQAJ4AbwA_AEWAJ2AYoBMgC8wGCAS4AAAA.YAAAAAAAAAAA%27%2Cgacm:%271~%27%2Cregion:%27de%27}"
+            "value": "{stamp:%27m3maYSZu/SYJKH8MjsFeXQqfJ6HEoUz/rOOar/5mBa4CquRWj+4qYw==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cver:3%2Cutc:1665654078504%2Ciab2:%27CPgyVIAPgyVIACGABBENCkCgAAAAAH_AAAAAAAALzgFAAgABkAEQAJ4AfgCLAGKANoAmQBeYAwYAOACAAGQARAAngGKANoAvMUADAMUAbQBeYwAEAYoBeZQAMADIAIgATwCLAGKANoSABABEANoQAAgG0AAA.YAAAAAAAAAAA%27%2Cgacm:%271~%27%2Cregion:%27ro%27}"
           }
         ]
       },
@@ -2568,6 +2698,7 @@
       "domains": [
         "doctolib.fr",
         "pravda.sk",
+        "hnonline.sk",
         "topky.sk",
         "zoznam.sk",
         "tvnoviny.sk",
@@ -2820,6 +2951,16 @@
     },
     {
       "click": {
+        "optIn": "button.cookie-alert-extended-button",
+        "optOut": "button.cookie-alert-decline-button",
+        "presence": "dialog#CybotCookiebotDialog"
+      },
+      "cookies": {},
+      "id": "2d287029-5751-4194-8ac4-cc7c91b649ad",
+      "domains": ["lidl.cz"]
+    },
+    {
+      "click": {
         "optIn": "button.iubenda-cs-accept-btn",
         "presence": "div#iubenda-cs-banner"
       },
@@ -2892,8 +3033,7 @@
         "net.hr",
         "freemail.hu",
         "marica.bg",
-        "dn.pt",
-        "imhd.sk"
+        "dn.pt"
       ]
     },
     {
@@ -2998,6 +3138,16 @@
     },
     {
       "click": {
+        "optIn": "button.fc-cta-consent",
+        "optOut": "button.fc-cta-do-not-consent",
+        "presence": "div.fc-dialog-container"
+      },
+      "cookies": {},
+      "id": "ff596e06-7834-4f75-b2a7-ccb39fad8925",
+      "domains": ["imhd.sk"]
+    },
+    {
+      "click": {
         "optIn": "a#cookies-agree",
         "presence": "div.cookies-buttons"
       },
@@ -3044,9 +3194,8 @@
     },
     {
       "click": {
-        "optIn": "#pt-accept-all",
-        "optOut": ".pt-k2L",
-        "presence": ".pt-VnJ"
+        "optOut": "button.css-2y11ar",
+        "presence": "div#qc-cmp2-container"
       },
       "cookies": {},
       "id": "794449a7-94aa-402a-a32c-3859bec7eff8",
@@ -3565,9 +3714,9 @@
     },
     {
       "click": {
-        "optIn": "[data-testid=\"cookie-wall-accept\"]",
-        "optOut": "[data-testid=\"cookie-wall-reject\"]",
-        "presence": "[data-testid=\"cookie-wall-modal\"]"
+        "optIn": "button.corgi__sc-140l2f3-1",
+        "optOut": "button.corgi__sc-1k5bfrh-3",
+        "presence": "div.bJyFEZ"
       },
       "cookies": {},
       "id": "1c3ab910-8635-4007-8ea3-8aeea0c56143",
@@ -3612,9 +3761,8 @@
     },
     {
       "click": {
-        "optIn": ".dialog-actions-accept-btn",
-        "optOut": ".dialog-actions-decline-btn",
-        "presence": "[data-testid=\"cookie-dialog-root\"]"
+        "optIn": "span#hf_cookie_text_cookieAccept",
+        "presence": "div.pre-cookie-modal-body"
       },
       "cookies": {
         "optIn": [{ "name": "sq", "value": "3" }],
@@ -3841,9 +3989,9 @@
     },
     {
       "click": {
-        "optIn": ".css-15sam98",
-        "optOut": ".css-1tpwlwl",
-        "presence": ".css-1243dq3"
+        "optIn": "button.figma-mraqo7",
+        "optOut": "button.figma-1lvfxnf",
+        "presence": "div.figma-rmmjza"
       },
       "cookies": {},
       "id": "e0dd9ba6-6514-4618-a405-3b6458c13272",
@@ -3962,9 +4110,9 @@
     },
     {
       "click": {
-        "optIn": ".agree-button.eu-cookie-compliance-default-button",
-        "optOut": ".eu-cookie-compliance-default-button.eu-cookie-compliance-reject-button",
-        "presence": ".eu-cookie-compliance-banner.eu-cookie-compliance-banner-info.eu-cookie-compliance-banner--categories"
+        "optIn": "button#modalAcceptAllBtn",
+        "optOut": "button#modalRejectAllFirstLayerBtn",
+        "presence": "div#cmp-modal"
       },
       "cookies": { "optIn": [{ "name": "_hjFirstSeen", "value": "1" }] },
       "id": "c18ccca7-1b7d-4022-b9ca-c725e6030c80",
@@ -4116,7 +4264,6 @@
         "nu.nl",
         "vg.no",
         "aftonbladet.se",
-        "voetbalzone.nl",
         "ad.nl",
         "finn.no",
         "sporza.be",
@@ -4142,7 +4289,6 @@
         "stern.de",
         "sport.de",
         "giga.de",
-        "2dehands.be",
         "handelsblatt.com"
       ],
       "id": "c58a0bac-3a5f-43af-93e9-8b5462a6bcb5"
@@ -4191,16 +4337,22 @@
         "orf.at",
         "expressen.se",
         "nieuwsblad.be",
+        "idnes.cz",
         "independent.ie",
         "telegraaf.nl",
         "as.com",
         "njuskalo.hr",
         "slobodnadalmacija.hr",
+        "aktualne.cz",
         "dnevnik.hr",
         "nova.bg",
         "mundodeportivo.com",
         "dn.se",
+        "blesk.cz",
         "ouest-france.fr",
+        "centrum.cz",
+        "denik.cz",
+        "csfd.cz",
         "standaard.be",
         "heureka.cz",
         "bfmtv.com",
@@ -4216,6 +4368,7 @@
         "gloria.hr",
         "huffingtonpost.es",
         "rtl.be",
+        "hn.cz",
         "gong.bg",
         "okdiario.com",
         "dhnet.be",
@@ -4263,18 +4416,13 @@
     {
       "click": {
         "optIn": "button.osano-cm-accept-all",
-        "optOut": ".osano-cm-denyAll",
         "presence": "div.osano-cm-dialog__buttons"
       },
       "cookies": {
         "optOut": [
           {
             "name": "osano_consentmanager",
-            "value": "L4Iw2hjgGqOMf2loNomB_36ZyLsqV8mAt_uNR24kLwoYU_P5toPrdi0UDvh3PeeovKUuw_Qu255Sd4SSh3gxIXo7zpAlBMnP3LSIUqUMQL5AeLtHmVXHvikZjI4je6_uN3VEELj3QdbPQp5AGEqOB5EcBNMZHA2Ikzodk6jMpTnP2eZIWDu8PWOJmdBK4KK3YI0GDvIRTq43yaZ5xtBOPY7U1xADPGNDk4s0dHdtE-0XSaRSndnVNagdGdnLfFLeKLfSG5Ks_btmdqHfCD1J3m06tVQGuR3TTKXM_rJGn1njzczdoF_qgVSh15XlJQPP4dmpKoFPUXxU_qngz1legDWJAKWOjw-EEy14twNoHmswqE8q3qiH_tN9HSfbBarSus1wswfR4xOEwREqZamf0T4HThBE0FZelh9cuh8DUcYUWm-cuVOYCxsN_2bLmrV0MbtnE2Z-hUXZxJgNYtk9gYHIW1xOZG6lfKH5C6SbppoHJNl2l_oqg4Wx6AYxRRiHWeDlyCXhMF7hQYZuzoLO5FgfacTOuA8E6phGD1ls3lM0dWVz"
-          },
-          {
-            "name": "osano_consentmanager_uuid",
-            "value": "4d857063-d822-4d6e-8e7a-3db2041d95c5"
+            "value": "YsI6iYzib6nSBOK6D61-a6M0e1Cgk0B-MFLyyCSPPQ-GfL4knxA8syVY4wEmm3isBY6aDBQm2FGawF-2ou-zYT-hd5u78BRUjnQWaBnz9067nHpfBEIAnrgNH_unK6ew1HdgSLm-Y3_zOPFRQjVqFiC9Bdw3bcfqkdAJ6LzJ7arDUdh5ElFZpnBk5JsAeech5COxlZnJ8niJ4_4T3KO99S87PK3GK-SnwCvGHM02U9xoD3TeMNCTvi87ToGdcqfHEnCeLaExAXVrX7_RRXjc_UBOFmw="
           }
         ]
       },
@@ -4545,11 +4693,15 @@
       "domains": ["smhi.se"]
     },
     {
-      "click": {
-        "optIn": ".qxOn2zvg.e1sXLPUy",
-        "presence": ".ulheJb0a"
+      "click": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CPl3Ye8Pl3Ye8ExAAAENCzCgAAAAAAPAAAAAJNQAASbAJMNW4gC7EscCbQMIoEQIwrCQigUAEFAMLRAQAODgp2VgE-sIEACAUARgRAhwBRgQCAAACAJCIAJAiwQAAAiAQAAgAQCIQAEDAIKACwMAgABANAxRCgAECQAyICIpTAgIgSCAlsqEEoLpDTCAKssAKARGwUACIAABWAAICwcAwRICViwQJMQbZACMEKAUSoVqCT00AAAA.YAAAAAAAAAAA"
+          }
+        ]
       },
-      "cookies": {},
       "id": "0caa99d5-2b67-44e1-bd45-509d8e785071",
       "domains": ["wykop.pl"]
     },
@@ -4583,9 +4735,9 @@
     },
     {
       "click": {
-        "optIn": ".sc-1olg58b-0.bXsYmb.sc-1olg58b-1.KXemC",
-        "optOut": ".sc-1olg58b-0.jHiTgL.sc-1olg58b-1.sc-1hth3pd-7.KXemC.kSupJA",
-        "presence": ".sc-mgoo3k-0.jFxlDH"
+        "optIn": "button.gNAFlQ",
+        "optOut": "button.icQuAi",
+        "presence": "div.jQiNXQ"
       },
       "cookies": {},
       "id": "cc78c082-2dc6-4287-9a7c-168c591810fd",
@@ -4627,7 +4779,7 @@
         "optOut": [
           {
             "name": "cookieChoice",
-            "value": "PRIVACY",
+            "value": "\"PRIVACY\"",
             "host": "ok.ru",
             "unsetValue": "\"\""
           }
@@ -4692,11 +4844,8 @@
       "domains": ["ria.com"]
     },
     {
-      "click": {
-        "optIn": ".fc-button-label",
-        "presence": ".fc-consent-root"
-      },
-      "cookies": {},
+      "click": {},
+      "cookies": { "optOut": [{ "name": "CONSENT", "value": "y" }] },
       "id": "ff5b2d52-6cc0-47e5-a515-4a31c9207b81",
       "domains": ["framar.bg"]
     },
@@ -4900,16 +5049,12 @@
       "domains": ["hugedomains.com"]
     },
     {
-      "click": {
-        "optIn": ".cc-btn.cc-allow",
-        "optOut": ".cc-btn.cc-deny",
-        "presence": ".cc-window.cc-banner"
-      },
+      "click": {},
       "cookies": {
         "optOut": [{ "name": "cookieconsent_status", "value": "deny" }]
       },
       "id": "8f401b10-02b6-4e05-88fa-c37012d4c8c0",
-      "domains": ["magnite.com"]
+      "domains": ["rubiconproject.com"]
     },
     {
       "click": {},
@@ -4962,6 +5107,19 @@
       },
       "id": "67702151-14e2-41c7-af4b-1f22de8185a5",
       "domains": ["science.org"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CPnLBYAPnLBYABEACBENC3CgAAAAAH_AAAIwJNNf_X__b2_je_5_f_t0eY1P936__-wjjhfdk-8N3f_W_L8X52M7vF36tqoKuRYku3JBIUdlGOHcRUmw6okVpyPsbk2cq7NKJ7PEmnMbOydYGG1_nV5j-QKYp___fv7z_t-q_v_____-7-3Xz__ZX_-u9vO9V9_9xfmt7f3u_9rOf9_Vv-99_1d_3v-39_3f799z-HcEm2v_r__t7_3_f9___26PMav-_9___aZxwvu2_eG7v_r_l-L_7Gd3i79W18FXI8SXbtgkKO2jnTuJqTY9USq15n2NybOV9mlE_nyTT2NvbOsDD-_z-_5_slM9___v__9__________________________________________________________________-____AA"
+          }
+        ]
+      },
+      "id": "ba7e149e-6879-48a1-b394-c646eb8bb17f",
+      "domains": ["gsmarena.com"]
     },
     {
       "click": {},
@@ -5298,25 +5456,6 @@
       }
     },
     {
-      "id": "536f8027-111f-4798-a9ef-745b30fe65c8",
-      "domains": ["met.ie"],
-      "click": {
-        "optOut": ".cky-btn.cky-btn-reject",
-        "optIn": ".cky-btn.cky-btn-accept",
-        "presence": ".cky-consent-bar"
-      },
-      "cookies": {}
-    },
-    {
-      "id": "9f5f0c06-5221-45b2-a174-7d70fd128eb3",
-      "domains": ["rts.ch"],
-      "click": {
-        "optOut": "[data-testid=\"uc-deny-all-button\"]",
-        "optIn": "[data-testid=\"uc-accept-all-button\"]",
-        "presence": "#usercentrics-root"
-      }
-    },
-    {
       "id": "f7633fd9-05a0-4c21-b9e7-acfcd5df5234",
       "domains": ["vegetology.com"],
       "cookies": {
@@ -5371,17 +5510,7 @@
       "click": {
         "optOut": ".CookiesAlert_cookiesAlert__3qSl1 .Button_button__3Me73",
         "presence": ".CookiesAlert_cookiesAlert__3qSl1"
-      },
-      "cookies": {}
-    },
-    {
-      "id": "0AB3A01E-10A9-4509-9350-6EF61AB223F3",
-      "domains": ["elsevier.com"],
-      "click": {
-        "optIn": "[data-testid=\"accept-all-cookies-button\"]",
-        "presence": "[data-testid=\"cookie-banner\"]"
-      },
-      "cookies": {}
+      }
     }
   ]
 }
