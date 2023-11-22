@@ -4264,18 +4264,7 @@
         "optOut": ".osano-cm-denyAll",
         "presence": "div.osano-cm-dialog__buttons"
       },
-      "cookies": {
-        "optOut": [
-          {
-            "name": "osano_consentmanager",
-            "value": "L4Iw2hjgGqOMf2loNomB_36ZyLsqV8mAt_uNR24kLwoYU_P5toPrdi0UDvh3PeeovKUuw_Qu255Sd4SSh3gxIXo7zpAlBMnP3LSIUqUMQL5AeLtHmVXHvikZjI4je6_uN3VEELj3QdbPQp5AGEqOB5EcBNMZHA2Ikzodk6jMpTnP2eZIWDu8PWOJmdBK4KK3YI0GDvIRTq43yaZ5xtBOPY7U1xADPGNDk4s0dHdtE-0XSaRSndnVNagdGdnLfFLeKLfSG5Ks_btmdqHfCD1J3m06tVQGuR3TTKXM_rJGn1njzczdoF_qgVSh15XlJQPP4dmpKoFPUXxU_qngz1legDWJAKWOjw-EEy14twNoHmswqE8q3qiH_tN9HSfbBarSus1wswfR4xOEwREqZamf0T4HThBE0FZelh9cuh8DUcYUWm-cuVOYCxsN_2bLmrV0MbtnE2Z-hUXZxJgNYtk9gYHIW1xOZG6lfKH5C6SbppoHJNl2l_oqg4Wx6AYxRRiHWeDlyCXhMF7hQYZuzoLO5FgfacTOuA8E6phGD1ls3lM0dWVz"
-          },
-          {
-            "name": "osano_consentmanager_uuid",
-            "value": "4d857063-d822-4d6e-8e7a-3db2041d95c5"
-          }
-        ]
-      },
+      "cookies": {},
       "id": "23710ccf-85e6-450e-953d-7ffc3f80bbf0",
       "domains": ["slideshare.net"]
     },
