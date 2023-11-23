@@ -5369,6 +5369,15 @@
         "presence": "[data-testid=\"cookie-banner\"]"
       },
       "cookies": {}
+    },
+    {
+      "id": "91484461-01AD-4D78-9ED8-D17C688F47E7",
+      "domains": ["zdf.de"],
+      "click": {
+        "optOut": "#zdf-cmp-deny-btn",
+        "presence": ".zdf-cmp-modal-content"
+      },
+      "cookies": {}
     }
   ]
 }
