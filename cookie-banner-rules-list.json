@@ -406,13 +406,13 @@
     },
     {
       "click": {
-        "optIn": "div.uiLayer div > button[type=submit]",
-        "optOut": "div.uiLayer div > button + button[type=submit]",
-        "presence": "div#cookie-banner"
+        "optIn": "div._2j0fmugLb1FgYz6KPuB91w  > button",
+        "optOut": "div._2j0fmugLb1FgYz6KPuB91w  > button + button",
+        "presence": "div#cookie-banner, #wcpConsentBannerCtrl"
       },
       "cookies": {},
       "id": "f899d35e-20af-4cfb-9856-143a80b86ba9",
-      "domains": ["azure.microsoft.com"]
+      "domains": ["microsoft.com", "office.com"]
     },
     {
       "id": "71443ce9-15b8-4e07-b51b-1f2158521ea9",
