@@ -5378,6 +5378,15 @@
         "presence": ".zdf-cmp-modal-content"
       },
       "cookies": {}
+    },
+    {
+      "id": "0EAF9E99-36C6-4165-87BE-A62EF1751E1D",
+      "domains": ["sparda-hessen.de"],
+      "click": {
+        "optOut": "#tmart-cookie-layer-only-necessary",
+        "presence": ".cookieLayer"
+      },
+      "cookies": {}
     }
   ]
 }
