@@ -5387,6 +5387,14 @@
         "presence": ".cookieLayer"
       },
       "cookies": {}
+    },
+    {
+      "id": "aa077f01-0574-4f1b-ad1b-3225c4dc59f7",
+      "domains": ["mindfactory.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookies_accepted", "value": "false" }]
+      }
     }
   ]
 }
