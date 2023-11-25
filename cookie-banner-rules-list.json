@@ -82,15 +82,6 @@
       }
     },
     {
-      "id": "osano",
-      "domains": [],
-      "click": {
-        "optIn": ".osano-cm-accept-all",
-        "optOut": ".osano-cm-denyAll",
-        "presence": ".osano-cm-dialog"
-      }
-    },
-    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
