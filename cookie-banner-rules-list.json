@@ -5387,6 +5387,15 @@
         "presence": ".cookieLayer"
       },
       "cookies": {}
+    },
+    {
+      "id": "2c73714d-0e9b-41a1-ad12-6bd15ddade67",
+      "domains": ["computerbase.de"],
+      "click": {
+        "optIn": "button#cookie-consent-button",
+        "presence": "dialog.consent"
+      },
+      "cookies": {}
     }
   ]
 }
