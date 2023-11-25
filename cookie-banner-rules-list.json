@@ -5387,6 +5387,16 @@
         "presence": ".cookieLayer"
       },
       "cookies": {}
+    },
+    {
+      "id": "312f32e1-a6bf-4e87-b7a6-7480345823cf",
+      "domains": ["startnext.com"],
+      "click": {
+        "optOut": "button.js-cookie-decline",
+        "optIn": "button.js-cookie-accept",
+        "presence": "div#toast-container"
+      },
+      "cookies": {}
     }
   ]
 }
