@@ -82,6 +82,15 @@
       }
     },
     {
+      "id": "civic",
+      "domains": [],
+      "click": {
+        "optIn": "#ccc-recommended-settings",
+        "optOut": "#ccc-reject-settings",
+        "presence": "#ccc-module"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
