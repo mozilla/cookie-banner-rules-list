@@ -5424,6 +5424,14 @@
         "presence": "div#cookieconsent"
       },
       "cookies": {}
+    },
+    {
+      "id": "c19b1009-d609-438c-8d7c-82fc7144eeaa",
+      "domains": ["onleihe.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "onleiheTracking", "value": "false" }]
+      }
     }
   ]
 }
