@@ -5387,6 +5387,16 @@
         "presence": ".cookieLayer"
       },
       "cookies": {}
+    },
+    {
+      "id": "31d9971f-e23d-4dd9-a891-99a85d97ad19",
+      "domains": ["lieferando.de"],
+      "click": {
+        "optOut": "button[data-qa=\"privacy-settings-action-close\"]",
+        "optIn": "button[data-qa=\"privacy-settings-action-info\"]",
+        "presence": "[data-qa=\"privacy-settings\"]"
+      },
+      "cookies": {}
     }
   ]
 }
