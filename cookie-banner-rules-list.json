@@ -5424,6 +5424,14 @@
         "presence": "div#cookieconsent"
       },
       "cookies": {}
+    },
+    {
+      "id": "0ae7f461-8705-4222-b8ee-afa03e5150ff",
+      "domains": ["vrn.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "hidecookie", "value": "true" }]
+      }
     }
   ]
 }
