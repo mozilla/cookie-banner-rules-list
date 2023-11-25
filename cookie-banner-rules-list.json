@@ -5387,6 +5387,16 @@
         "presence": ".cookieLayer"
       },
       "cookies": {}
+    },
+    {
+      "id": "efc6f62d-8d53-4f52-9dd3-172d9b04f5de",
+      "domains": ["lancom-systems.de"],
+      "click": {
+        "optOut": "button.cm-btn-accept",
+        "optIn": "button.cm-btn-accept-all",
+        "presence": "div#klaro"
+      },
+      "cookies": {}
     }
   ]
 }
