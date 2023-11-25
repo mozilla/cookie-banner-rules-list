@@ -5424,6 +5424,14 @@
         "presence": "div#cookieconsent"
       },
       "cookies": {}
+    },
+    {
+      "id": "ca62d977-4e2e-48ab-a186-055f9f3277e4",
+      "domains": ["grundstoff.net"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookieDeclined", "value": "1" }]
+      }
     }
   ]
 }
