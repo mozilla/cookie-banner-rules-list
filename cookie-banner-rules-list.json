@@ -4252,10 +4252,18 @@
     },
     {
       "click": {
-        "optIn": "button.text-jalapeño-70",
-        "presence": "section.bottom-0"
+        "optIn": "button[data-component-name=\"consent\"]",
+        "optOut": "button[data-component-name=\"reject\"]",
+        "presence": ".cookie-notice-banner"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "privacy_signal",
+            "value": "x"
+          }
+        ]
+      },
       "id": "531324c9-83ba-4ba3-a488-3ebde87b10af",
       "domains": ["shopify.com"]
     },
