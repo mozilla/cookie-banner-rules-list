@@ -5424,6 +5424,14 @@
         "presence": "div#cookieconsent"
       },
       "cookies": {}
+    },
+    {
+      "id": "58226c30-e975-42f3-99e4-ca140b91e96c",
+      "domains": ["thw.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookiebanner", "value": "closed" }]
+      }
     }
   ]
 }
