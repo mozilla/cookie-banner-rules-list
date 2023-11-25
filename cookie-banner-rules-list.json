@@ -5387,6 +5387,19 @@
         "presence": ".cookieLayer"
       },
       "cookies": {}
+    },
+    {
+      "id": "0fbacecc-fbda-4e4b-883f-9424790ccc74",
+      "domains": ["huk24.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [
+          { "name": "consent_functional", "value": "DENY" },
+          { "name": "consent_marketing", "value": "DENY" },
+          { "name": "consent_technical", "value": "ALLOW" },
+          { "name": "consent_version", "value": "2.6" }
+        ]
+      }
     }
   ]
 }
