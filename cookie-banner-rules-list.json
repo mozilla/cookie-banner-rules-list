@@ -5387,6 +5387,16 @@
         "presence": ".cookieLayer"
       },
       "cookies": {}
+    },
+    {
+      "id": "63b5c74c-67ae-47f2-b0ba-10c03132ad6f",
+      "domains": ["karlsruhe.de"],
+      "click": {
+        "optOut": "button.cm-btn-danger",
+        "optIn": "button.cm-btn-success",
+        "presence": "div#klaro"
+      },
+      "cookies": {}
     }
   ]
 }
