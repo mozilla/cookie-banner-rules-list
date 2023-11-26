@@ -5396,6 +5396,15 @@
         "presence": ".cookieLayer"
       },
       "cookies": {}
+    },
+    {
+      "click": {
+        "optIn": "button.iubenda-cs-accept-btn",
+        "presence": "div#iubenda-cs-banner"
+      },
+      "cookies": {},
+      "id": "8e55f0f4-262f-4d35-a461-47afea6e9069",
+      "domains": ["ansa.it"]
     }
   ]
 }
