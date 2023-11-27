@@ -5423,6 +5423,16 @@
         "optIn": "button#cookie-consent-button",
         "presence": "dialog.consent"
       }
+    },
+    {
+      "id": "b81fc066-5cdd-4af6-b288-49de860e369a",
+      "domains": ["reichelt.de"],
+      "click": {
+        "optOut": "button#cookiecancel",
+        "optIn": "button#cookieok",
+        "presence": "div#cookieconsent"
+      },
+      "cookies": {}
     }
   ]
 }
