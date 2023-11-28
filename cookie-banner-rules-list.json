@@ -5424,6 +5424,14 @@
         "presence": "div#cookieconsent"
       },
       "cookies": {}
+    },
+    {
+      "id": "cdd5646d-06b3-4fdf-8530-b7d8a93f03df",
+      "domains": ["korodrogerie.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookie-preference", "value": "1" }]
+      }
     }
   ]
 }
