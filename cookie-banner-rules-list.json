@@ -5426,6 +5426,23 @@
       "cookies": {}
     },
     {
+      "id": "31d9971f-e23d-4dd9-a891-99a85d97ad19",
+      "domains": ["lieferando.de", "just-eat.ch"],
+      "click": {
+        "optOut": "button[data-qa=\"privacy-settings-action-close\"]",
+        "optIn": "button[data-qa=\"privacy-settings-action-info\"]",
+        "presence": "[data-qa=\"privacy-settings\"]"
+      }
+    },
+    {
+      "id": "aa077f01-0574-4f1b-ad1b-3225c4dc59f7",
+      "domains": ["mindfactory.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookies_accepted", "value": "false" }]
+      }
+    },
+    {
       "click": {
         "optIn": "button.cl-consent__btn",
         "optOut": "button.cl-consent__close-link",
