@@ -5441,6 +5441,16 @@
       "cookies": {
         "optOut": [{ "name": "cookies_accepted", "value": "false" }]
       }
+    },
+    {
+      "click": {
+        "optIn": "button.cl-consent__btn",
+        "optOut": "button.cl-consent__close-link",
+        "presence": "div#cl-consent"
+      },
+      "cookies": {},
+      "id": "342bd7ca-6502-4df7-bd3a-0b884b51aaa7",
+      "domains": ["hdblog.it", "hdmotori.it"]
     }
   ]
 }
