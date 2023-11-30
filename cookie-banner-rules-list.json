@@ -5388,6 +5388,7 @@
       },
       "cookies": {}
     },
+    {
       "click": {
         "optIn": "button.iubenda-cs-accept-btn",
         "presence": "div#iubenda-cs-banner"
