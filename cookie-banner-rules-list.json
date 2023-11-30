@@ -5498,6 +5498,16 @@
       "cookies": {
         "optOut": [{ "name": "hidecookie", "value": "true" }]
       }
+    },
+    {
+      "id": "18b1dd86-aee5-4697-b601-4fa320a75dbe",
+      "domains": ["strato.de"],
+      "click": {
+        "optOut": "#consentDisagree",
+        "optIn": ".consentAgree",
+        "presence": "div.consent"
+      },
+      "cookies": {}
     }
   ]
 }
