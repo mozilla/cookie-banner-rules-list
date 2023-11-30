@@ -4097,7 +4097,8 @@
         "tag24.de",
         "kino.de",
         "heise.de",
-        "bunte.de"
+        "bunte.de",
+        "golem.de"
       ],
       "id": "d42bbaee-f96e-47e7-8e81-efc642518e97"
     },
@@ -5387,6 +5388,107 @@
         "presence": ".cookieLayer"
       },
       "cookies": {}
+    },
+    {
+      "click": {
+        "optIn": "button.iubenda-cs-accept-btn",
+        "presence": "div#iubenda-cs-banner"
+      },
+      "cookies": {},
+      "id": "8e55f0f4-262f-4d35-a461-47afea6e9069",
+      "domains": ["ansa.it"]
+    },
+    {
+      "id": "efc6f62d-8d53-4f52-9dd3-172d9b04f5de",
+      "domains": ["lancom-systems.de"],
+      "click": {
+        "optOut": "button.cm-btn-accept",
+        "optIn": "button.cm-btn-accept-all",
+        "presence": "div#klaro"
+      },
+      "cookies": {}
+    },
+    {
+      "id": "2c73714d-0e9b-41a1-ad12-6bd15ddade67",
+      "domains": ["computerbase.de"],
+      "click": {
+        "optIn": "button#cookie-consent-button",
+        "presence": "dialog.consent"
+      }
+    },
+    {
+      "id": "b81fc066-5cdd-4af6-b288-49de860e369a",
+      "domains": ["reichelt.de"],
+      "click": {
+        "optOut": "button#cookiecancel",
+        "optIn": "button#cookieok",
+        "presence": "div#cookieconsent"
+      },
+      "cookies": {}
+    },
+    {
+      "id": "31d9971f-e23d-4dd9-a891-99a85d97ad19",
+      "domains": ["lieferando.de", "just-eat.ch"],
+      "click": {
+        "optOut": "button[data-qa=\"privacy-settings-action-close\"]",
+        "optIn": "button[data-qa=\"privacy-settings-action-info\"]",
+        "presence": "[data-qa=\"privacy-settings\"]"
+      }
+    },
+    {
+      "id": "aa077f01-0574-4f1b-ad1b-3225c4dc59f7",
+      "domains": ["mindfactory.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookies_accepted", "value": "false" }]
+      }
+    },
+    {
+      "click": {
+        "optIn": "button.cl-consent__btn",
+        "optOut": "button.cl-consent__close-link",
+        "presence": "div#cl-consent"
+      },
+      "cookies": {},
+      "id": "342bd7ca-6502-4df7-bd3a-0b884b51aaa7",
+      "domains": ["hdblog.it", "hdmotori.it"]
+    },
+    {
+      "id": "cdd5646d-06b3-4fdf-8530-b7d8a93f03df",
+      "domains": ["korodrogerie.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookie-preference", "value": "1" }]
+      }
+    },
+    {
+      "id": "58226c30-e975-42f3-99e4-ca140b91e96c",
+      "domains": ["thw.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookiebanner", "value": "closed" }]
+      }
+    },
+    {
+      "id": "0fbacecc-fbda-4e4b-883f-9424790ccc74",
+      "domains": ["huk24.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [
+          { "name": "consent_functional", "value": "DENY" },
+          { "name": "consent_marketing", "value": "DENY" },
+          { "name": "consent_technical", "value": "ALLOW" },
+          { "name": "consent_version", "value": "2.6" }
+        ]
+      }
+    },
+    {
+      "id": "0ae7f461-8705-4222-b8ee-afa03e5150ff",
+      "domains": ["vrn.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "hidecookie", "value": "true" }]
+      }
     },
     {
       "id": "18b1dd86-aee5-4697-b601-4fa320a75dbe",
