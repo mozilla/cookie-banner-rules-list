@@ -4256,14 +4256,7 @@
         "optOut": "button[data-component-name=\"reject\"]",
         "presence": ".cookie-notice-banner"
       },
-      "cookies": {
-        "optOut": [
-          {
-            "name": "privacy_signal",
-            "value": "x"
-          }
-        ]
-      },
+      "cookies": {},
       "id": "531324c9-83ba-4ba3-a488-3ebde87b10af",
       "domains": ["shopify.com"]
     },
