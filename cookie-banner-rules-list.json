@@ -5388,6 +5388,42 @@
       },
       "cookies": {}
     },
+      "click": {
+        "optIn": "button.iubenda-cs-accept-btn",
+        "presence": "div#iubenda-cs-banner"
+      },
+      "cookies": {},
+      "id": "8e55f0f4-262f-4d35-a461-47afea6e9069",
+      "domains": ["ansa.it"]
+    },
+    {
+      "id": "efc6f62d-8d53-4f52-9dd3-172d9b04f5de",
+      "domains": ["lancom-systems.de"],
+      "click": {
+        "optOut": "button.cm-btn-accept",
+        "optIn": "button.cm-btn-accept-all",
+        "presence": "div#klaro"
+      },
+      "cookies": {}
+    },
+    {
+      "id": "2c73714d-0e9b-41a1-ad12-6bd15ddade67",
+      "domains": ["computerbase.de"],
+      "click": {
+        "optIn": "button#cookie-consent-button",
+        "presence": "dialog.consent"
+      }
+    },
+    {
+      "id": "b81fc066-5cdd-4af6-b288-49de860e369a",
+      "domains": ["reichelt.de"],
+      "click": {
+        "optOut": "button#cookiecancel",
+        "optIn": "button#cookieok",
+        "presence": "div#cookieconsent"
+      },
+      "cookies": {}
+    },
     {
       "id": "31d9971f-e23d-4dd9-a891-99a85d97ad19",
       "domains": ["lieferando.de"],
@@ -5395,8 +5431,7 @@
         "optOut": "button[data-qa=\"privacy-settings-action-close\"]",
         "optIn": "button[data-qa=\"privacy-settings-action-info\"]",
         "presence": "[data-qa=\"privacy-settings\"]"
-      },
-      "cookies": {}
+      }
     }
   ]
 }
