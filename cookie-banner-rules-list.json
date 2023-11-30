@@ -5487,7 +5487,7 @@
       "domains": ["vrn.de"],
       "click": {},
       "cookies": {
-      "optOut": [{ "name": "hidecookie", "value": "true" }]
+        "optOut": [{ "name": "hidecookie", "value": "true" }]
       }
     }
   ]
