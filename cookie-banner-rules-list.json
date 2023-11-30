@@ -5460,6 +5460,14 @@
       "cookies": {},
       "id": "342bd7ca-6502-4df7-bd3a-0b884b51aaa7",
       "domains": ["hdblog.it", "hdmotori.it"]
+    },
+    {
+      "id": "cdd5646d-06b3-4fdf-8530-b7d8a93f03df",
+      "domains": ["korodrogerie.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookie-preference", "value": "1" }]
+      }
     }
   ]
 }
