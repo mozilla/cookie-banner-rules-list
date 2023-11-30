@@ -5471,6 +5471,14 @@
       }
     },
     {
+      "id": "58226c30-e975-42f3-99e4-ca140b91e96c",
+      "domains": ["thw.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookiebanner", "value": "closed" }]
+      }
+    },
+    {
       "id": "0fbacecc-fbda-4e4b-883f-9424790ccc74",
       "domains": ["huk24.de"],
       "click": {},
