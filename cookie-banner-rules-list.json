@@ -5535,6 +5535,16 @@
       "cookies": {
         "optOut": [{ "name": "cookieDeclined", "value": "1" }]
       }
+    },
+    {
+      "id": "5bdcb3ce-6270-4270-af7b-d1fdef5cecb4",
+      "domains": ["deezer.com"],
+      "click": {
+        "optOut": "button[data-testid=\"gdpr-btn-refuse-all\"]",
+        "optIn": "button[data-testid=\"gdpr-btn-accept-all\"]",
+        "presence": "[data-testid=\"cookie-banner\"]"
+      },
+      "cookies": {}
     }
   ]
 }
