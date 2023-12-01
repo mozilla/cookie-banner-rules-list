@@ -5535,6 +5535,15 @@
       "cookies": {
         "optOut": [{ "name": "cookieDeclined", "value": "1" }]
       }
+    },
+    {
+      "id": "5aa2d4df-2a5d-4abf-bb5a-bd714951f790",
+      "domains": ["thomann.de"],
+      "click": {
+        "optOut": "button.js-decline-all-cookies",
+        "presence": "div.cookie-consent-spice"
+      },
+      "cookies": {}
     }
   ]
 }
