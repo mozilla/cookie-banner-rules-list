@@ -5535,6 +5535,14 @@
       "cookies": {
         "optOut": [{ "name": "cookieDeclined", "value": "1" }]
       }
+    },
+    {
+      "id": "61dfb6a1-21b4-4f95-aa6d-946eb09f8511",
+      "domains": ["raspberrypi.com"],
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookiebanner_accepted", "value": "1" }]
+      }
     }
   ]
 }
