@@ -82,6 +82,24 @@
       }
     },
     {
+      "id": "civiccookiecontrolbar",
+      "domains": [],
+      "click": {
+        "optIn": "#ccc-notify-accept",
+        "optOut": "#ccc-notify-reject",
+        "presence": "#ccc-notify"
+      }
+    },
+    {
+      "id": "civiccookiecontrolsidepane",
+      "domains": [],
+      "click": {
+        "optIn": "#ccc-recommended-settings",
+        "optOut": "#ccc-reject-settings",
+        "presence": "#cc-panel"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
@@ -2923,16 +2941,6 @@
     },
     {
       "click": {
-        "optIn": "button#ccc-recommended-settings",
-        "optOut": "button#ccc-reject-settings",
-        "presence": "div#ccc"
-      },
-      "cookies": {},
-      "id": "9e4d932a-eaf9-44e4-a3ac-55861d66a7c3",
-      "domains": ["metoffice.gov.uk"]
-    },
-    {
-      "click": {
         "optIn": "button#kc-acceptAndHide",
         "presence": "div#kconsent"
       },
@@ -3718,16 +3726,6 @@
       "domains": ["vox.com"]
     },
     {
-      "click": {
-        "optIn": "button#ccc-notify-accept",
-        "optOut": "button#ccc-notify-dismiss",
-        "presence": "div#ccc"
-      },
-      "cookies": { "optIn": [{ "name": "_hjFirstSeen", "value": "1" }] },
-      "id": "982a2a33-f052-4acd-936e-d3b0f7bf7596",
-      "domains": ["ox.ac.uk"]
-    },
-    {
       "click": { "optIn": "a.c-button", "presence": "div#cookiebanner" },
       "cookies": {},
       "id": "fcd83d7a-0cbc-4cc4-ac1f-609a303ea5a3",
@@ -3874,16 +3872,6 @@
       "cookies": {},
       "id": "663e3527-0018-4851-912d-c75a9d610881",
       "domains": ["uber.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#ccc-notify-accept",
-        "optOut": "button#ccc-notify-reject",
-        "presence": "div#ccc"
-      },
-      "cookies": {},
-      "id": "026010ef-311b-4c3e-aa1d-cb1470591c6a",
-      "domains": ["tapad.com"]
     },
     {
       "click": {
