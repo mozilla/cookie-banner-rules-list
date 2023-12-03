@@ -5571,6 +5571,6 @@
       "cookies": {
         "optIn": [{ "name": "cookiebanner_accepted", "value": "1" }]
       }
-    }  
+    }
   ]
 }
