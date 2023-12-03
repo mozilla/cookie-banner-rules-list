@@ -5537,12 +5537,40 @@
       }
     },
     {
+      "id": "bcf09922-64d7-4879-974a-119e8bd05fee",
+      "domains": ["voelkner.de"],
+      "click": {
+        "optOut": "button[data-cookie_consent=\"0\"]",
+        "optIn": "button[data-cookie_consent=\"1\"]",
+        "presence": "#js_reveal_cookie_content"
+      },
+      "cookies": {}
+    },
+    {
+      "id": "5bdcb3ce-6270-4270-af7b-d1fdef5cecb4",
+      "domains": ["deezer.com"],
+      "click": {
+        "optOut": "button[data-testid=\"gdpr-btn-refuse-all\"]",
+        "optIn": "button[data-testid=\"gdpr-btn-accept-all\"]",
+        "presence": "[data-testid=\"cookie-banner\"]"
+      }
+    },
+    {
+      "id": "5aa2d4df-2a5d-4abf-bb5a-bd714951f790",
+      "domains": ["thomann.de"],
+      "click": {
+        "optOut": "button.js-decline-all-cookies",
+        "presence": "div.cookie-consent-spice"
+      },
+      "cookies": {}
+    },
+    {
       "id": "61dfb6a1-21b4-4f95-aa6d-946eb09f8511",
       "domains": ["raspberrypi.com"],
       "click": {},
       "cookies": {
         "optIn": [{ "name": "cookiebanner_accepted", "value": "1" }]
       }
-    }
+    }  
   ]
 }
