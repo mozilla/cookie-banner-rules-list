@@ -5572,6 +5572,14 @@
         "presence": "div.cookie-consent-spice"
       },
       "cookies": {}
+    },
+    {
+      "id": "61dfb6a1-21b4-4f95-aa6d-946eb09f8511",
+      "domains": ["raspberrypi.com"],
+      "click": {},
+      "cookies": {
+        "optIn": [{ "name": "cookiebanner_accepted", "value": "1" }]
+      }
     }
   ]
 }
