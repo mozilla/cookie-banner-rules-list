@@ -5535,6 +5535,16 @@
       "cookies": {
         "optOut": [{ "name": "cookieDeclined", "value": "1" }]
       }
+    },
+    {
+      "id": "bcf09922-64d7-4879-974a-119e8bd05fee",
+      "domains": ["voelkner.de"],
+      "click": {
+        "optOut": "button[data-cookie_consent=\"0\"]",
+        "optIn": "button[data-cookie_consent=\"1\"]",
+        "presence": "#js_reveal_cookie_content"
+      },
+      "cookies": {}
     }
   ]
 }
