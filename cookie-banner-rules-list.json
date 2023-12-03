@@ -5541,7 +5541,7 @@
       "domains": ["raspberrypi.com"],
       "click": {},
       "cookies": {
-        "optOut": [{ "name": "cookiebanner_accepted", "value": "1" }]
+        "optIn": [{ "name": "cookiebanner_accepted", "value": "1" }]
       }
     }
   ]
