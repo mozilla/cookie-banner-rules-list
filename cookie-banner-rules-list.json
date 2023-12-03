@@ -5572,7 +5572,7 @@
         "optIn": [{ "name": "cookiebanner_accepted", "value": "1" }]
       }
     },
-    {      
+    {
       "id": "4710a874-0ff4-4072-8476-36a22d7f698e",
       "domains": ["happycow.net"],
       "click": {},
