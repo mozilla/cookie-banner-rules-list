@@ -5264,7 +5264,7 @@
     },
     {
       "id": "dea34d82-9c05-4c08-9262-18a7f62be91e",
-      "domains": ["netcup.de"],
+      "domains": ["netcup.de", "netcup-news.de", "netcup-sonderangebote.de"],
       "cookies": {
         "optOut": [
           {
