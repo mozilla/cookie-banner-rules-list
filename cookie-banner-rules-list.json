@@ -5580,6 +5580,390 @@
         "optOut": [{ "name": "happycow-cookie-policy", "value": "0" }],
         "optIn": [{ "name": "happycow-cookie-policy", "value": "1" }]
       }
+    },
+    {
+      "id": "3bf04e3c-efe8-49af-bf80-506f12ba2da4",
+      "domains": ["akyga.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookiesPrivacyPolicy",
+            "value": "1"
+          },
+          {
+            "name": "cookiesPrivacyPolicyExtended",
+            "value": "1"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cookiesPrivacyPolicy",
+            "value": "1"
+          },
+          {
+            "name": "cookiesPrivacyPolicyExtended",
+            "value": "0"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#cookiesPrivacyPolicyContainerWrapper",
+        "optOut": "#cookiesPrivacyPolicyDenyBtn",
+        "optIn": "#cookiesPrivacyPolicyAllowBtn"
+      }
+    },
+    {
+      "id": "de38e8a0-25d2-42d2-974d-04684e54b7ce",
+      "domains": ["bequiet.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_CookiePolicyHint",
+            "value": "true"
+          },
+          {
+            "name": "cookie_functional",
+            "value": "on"
+          },
+          {
+            "name": "cookie_marketing",
+            "value": "on"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "_CookiePolicyHint",
+            "value": "true"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".cookie-banner",
+        "optOut": "#cookie-accept-technical",
+        "optIn": ".cookie-accept"
+      }
+    },
+    {
+      "id": "32fc1292-e26f-49c8-8de8-c41966c0bd34",
+      "domains": ["creative.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookieSettings",
+            "value": "%7B%22necessary%22%3Atrue%2C%22analytics%22%3Atrue%2C%22thirdParty%22%3Atrue%2C%22dismissed%22%3Atrue%7D"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cookieSettings",
+            "value": "%7B%22necessary%22%3Atrue%2C%22analytics%22%3Afalse%2C%22thirdParty%22%3Afalse%2C%22dismissed%22%3Atrue%7D"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".ck-notiz",
+        "optIn": "[name=\"accept\"]"
+      }
+    },
+    {
+      "id": "c8cb50a3-7604-4de0-a0ac-c2e7b0ad45c0",
+      "domains": [
+        "dreammachines.by",
+        "dreammachines.eu",
+        "dreammachines.io",
+        "dreammachines.nl",
+        "dreammachines.pl",
+        "dreammachines.ru"
+      ],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookiesconsent",
+            "value": "true"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cookiesconsent",
+            "value": "internal"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#qkies_info",
+        "optOut": "#Cookies_consent_internal_btn",
+        "optIn": "#Cookies_consent_btn"
+      }
+    },
+    {
+      "id": "04e919eb-13c2-4b37-bf7f-888767888640",
+      "domains": ["endorfy.com", "silentiumpc.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "viewed_cookie_policy",
+            "value": "yes"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#cookie-law-info-bar",
+        "optIn": "#wt-cli-accept-all-btn"
+      }
+    },
+    {
+      "id": "f7aa3175-3c2a-4458-b822-da0bd57c2524",
+      "domains": [
+        "cablexpert.be",
+        "cablexpert.com",
+        "cablexpert.de",
+        "cablexpert.gr",
+        "cablexpert.nl",
+        "energenie.com",
+        "gembird.be",
+        "gembird.com",
+        "gembird.com.pl",
+        "gembird.es",
+        "gembird.nl",
+        "gembird3.com",
+        "gembird3.nl",
+        "gmb-online.nl",
+        "gmb.nl"
+      ],
+      "click": {
+        "presence": "#Footer_Cookie",
+        "optOut": "#Footer_butCancel",
+        "optIn": "#Footer_butAccept"
+      }
+    },
+    {
+      "id": "c79fc6da-0143-46a0-abfc-debbd4d05f4b",
+      "domains": ["gainward.com", "palit.com"],
+      "click": {
+        "presence": "#pp_info",
+        "optOut": "[value=\"Reject\"]",
+        "optIn": "[value=\"Accept\"]"
+      }
+    },
+    {
+      "id": "6c9b123a-ec42-4128-91a2-a4cdd65059bc",
+      "domains": ["seasonic.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookiepermission",
+            "value": "yes"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cookiepermission",
+            "value": "no"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#cp-overlay",
+        "optOut": "#cp-no",
+        "optIn": "#cp-yes"
+      }
+    },
+    {
+      "id": "d01204bd-8a94-4e6e-8ce4-d155b0681053",
+      "domains": ["synology.cn", "synology.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "syno_confirm_v4_answer",
+            "value": "{\"necessary\":true,\"performance\":true,\"functionality\":true,\"targeting\":true}"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "syno_confirm_v4_answer",
+            "value": "{\"necessary\":true,\"performance\":false,\"functionality\":false,\"targeting\":false}"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".syno_cookie_element",
+        "optIn": ".btn_accept"
+      }
+    },
+    {
+      "id": "9034f6e4-09ca-42a2-a8da-4f65968b8b36",
+      "domains": ["teamgroupinc.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "privacy",
+            "value": "{\"necessary\":\"ok\",\"functional\":\"ok\",\"marketing\":\"ok\"}"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "privacy",
+            "value": "{\"necessary\":\"ok\"}"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".privacyArea",
+        "optIn": ".acceptAll"
+      }
+    },
+    {
+      "id": "48e9b863-c642-4a7a-9ee5-c085d337233e",
+      "domains": ["tp-link.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "tp_privacy_base",
+            "value": "1"
+          },
+          {
+            "name": "tp_privacy_marketing",
+            "value": "1"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "tp_privacy_base",
+            "value": "1"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#tp-cookie",
+        "optIn": ".tp-cookie-accept-all"
+      }
+    },
+    {
+      "id": "5e0387bb-1f19-4f61-b587-49d995a691c9",
+      "domains": ["transcend-info.com"],
+      "click": {
+        "presence": "#legal_notice",
+        "optOut": "[onclick*=\"cookie_Disagree()\"]",
+        "optIn": "[onclick*=\"cookie_Agree()\"]"
+      }
+    },
+    {
+      "id": "3c0e4924-29ee-4d9a-99ec-e4805a7ffed9",
+      "domains": [
+        "verbatim-europe.co.uk",
+        "verbatim-europe.cz",
+        "verbatim.ae",
+        "verbatim.bg",
+        "verbatim.co.il",
+        "verbatim.com.hr",
+        "verbatim.com.pt",
+        "verbatim.com.tr",
+        "verbatim.de",
+        "verbatim.dk",
+        "verbatim.es",
+        "verbatim.fi",
+        "verbatim.fr",
+        "verbatim.gr",
+        "verbatim.hu",
+        "verbatim.it",
+        "verbatim.net.pl",
+        "verbatim.ro",
+        "verbatim.ru",
+        "verbatim.se"
+      ],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_youtube_vimeo_vid",
+            "value": "allow"
+          },
+          {
+            "name": "cookieControllerStatus",
+            "value": "allow"
+          },
+          {
+            "name": "functionalCookieStatus",
+            "value": "allow"
+          },
+          {
+            "name": "googleAnalyticsCookieStatus",
+            "value": "allow"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "_youtube_vimeo_vid",
+            "value": "deny"
+          },
+          {
+            "name": "cookieControllerStatus",
+            "value": "deny"
+          },
+          {
+            "name": "functionalCookieStatus",
+            "value": "deny"
+          },
+          {
+            "name": "googleAnalyticsCookieStatus",
+            "value": "deny"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#cc-window",
+        "optOut": "#btn-rejectAllCookie",
+        "optIn": "#btn-allowAllCookie"
+      }
+    },
+    {
+      "id": "4159a3d2-f331-4d56-b051-a753c7e1308a",
+      "domains": ["zotac.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookieconsent_status",
+            "value": "dismiss"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cookieconsent_status",
+            "value": "deny"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".cc-window",
+        "optOut": ".cc-deny",
+        "optIn": ".cc-dismiss"
+      }
+    },
+    {
+      "id": "351f17c2-54b7-4a43-a425-b53bf5950b2e",
+      "domains": ["zyxel.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookie-agreed",
+            "value": "2"
+          },
+          {
+            "name": "cookie-agreed-version",
+            "value": "1.0.0"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cookie-agreed",
+            "value": "0"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".eu-cookie-compliance-banner",
+        "optOut": ".decline-button",
+        "optIn": ".agree-button"
+      }
     }
   ]
 }
