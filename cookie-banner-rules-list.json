@@ -5995,6 +5995,42 @@
         "optOut": ".cc-dismiss",
         "optIn": ".cc-allow"
       }
+    },
+    {
+      "id": "92361e84-664e-46b3-ae55-95bc185dc88e",
+      "domains": [
+        "adoptium.net",
+        "eclipse-ee4j.github.io",
+        "eclipse.dev",
+        "eclipse.org",
+        "glassfish.org",
+        "jakarta.ee",
+        "mbse-capella.org",
+        "oniroproject.org",
+        "open-vsx.org",
+        "openmdm.org",
+        "osgi.org",
+        "planeteclipse.org"
+      ],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "eclipse_cookieconsent_status",
+            "value": "allow"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "eclipse_cookieconsent_status",
+            "value": "deny"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".cc-window",
+        "optOut": ".cc-deny",
+        "optIn": ".cc-allow"
+      }
     }
   ]
 }
