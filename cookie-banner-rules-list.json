@@ -5966,6 +5966,37 @@
       }
     },
     {
+      "id": "ddff9528-161c-471e-bd2d-ba4d874a3931",
+      "domains": ["nazwa.pl"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "polityka15",
+            "value": "security_storage%3Dtrue%26functionality_storage%3Dtrue%26analytics_storage%3Dtrue%26personalization_storage%3Dtrue%26ad_storage%3Dtrue"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "polityka15",
+            "value": "security_storage%3Dtrue%26functionality_storage%3Dfalse%26analytics_storage%3Dfalse%26personalization_storage%3Dfalse%26ad_storage%3Dfalse"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".new-policy-box",
+        "optIn": ".modal-box__buttons--save-all"
+      }
+    },
+    {
+      "id": "f1849b07-95e8-4ae0-a99d-24df5abbb3cb",
+      "domains": ["dell.com", "delltechnologies.com"],
+      "click": {
+        "presence": ".cc-window",
+        "optOut": ".cc-dismiss",
+        "optIn": ".cc-allow"
+      }
+    },
+    {
       "id": "92361e84-664e-46b3-ae55-95bc185dc88e",
       "domains": [
         "adoptium.net",
