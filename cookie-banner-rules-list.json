@@ -3955,6 +3955,28 @@
     {
       "id": "8c949b75-4c7b-4559-8ade-780064af370a",
       "domains": ["asus.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "isReadCookiePolicyDNT",
+            "value": "Yes"
+          },
+          {
+            "name": "isReadCookiePolicyDNTAa",
+            "value": "true"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "isReadCookiePolicyDNT",
+            "value": "No"
+          },
+          {
+            "name": "isReadCookiePolicyDNTAa",
+            "value": "false"
+          }
+        ]
+      },
       "click": {
         "presence": "#cookie-policy-info",
         "optOut": ".btn-reject",
