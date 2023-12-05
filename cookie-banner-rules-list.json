@@ -5964,6 +5964,15 @@
         "optOut": ".decline-button",
         "optIn": ".agree-button"
       }
+    },
+    {
+      "id": "04afc564-14b2-4c56-b72d-47a26e121f3b",
+      "domains": ["action.com"],
+      "click": {
+        "presence": "#cookiebanner",
+        "optOut": "#CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll",
+        "optIn": "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"
+      }
     }
   ]
 }
