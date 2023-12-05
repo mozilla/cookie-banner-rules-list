@@ -5964,6 +5964,15 @@
         "optOut": ".decline-button",
         "optIn": ".agree-button"
       }
+    },
+    {
+      "id": "f1849b07-95e8-4ae0-a99d-24df5abbb3cb",
+      "domains": ["dell.com", "delltechnologies.com"],
+      "click": {
+        "presence": ".cc-window",
+        "optOut": ".cc-dismiss",
+        "optIn": ".cc-allow"
+      }
     }
   ]
 }
