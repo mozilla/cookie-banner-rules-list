@@ -82,6 +82,15 @@
       }
     },
     {
+      "id": "cookiescript",
+      "domains": [],
+      "click": {
+        "presence": "#cookiescript_injected",
+        "optOut": "#cookiescript_reject",
+        "optIn": "#cookiescript_accept"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
@@ -4828,16 +4837,6 @@
       },
       "id": "522a2d72-8131-406e-b058-b27ec07808fc",
       "domains": ["vodafone.pt"]
-    },
-    {
-      "click": {
-        "optIn": "div#cookiescript_accept",
-        "optOut": "div#cookiescript_reject ",
-        "presence": "div#cookiescript_injected"
-      },
-      "cookies": {},
-      "id": "7f8a8bfd-343c-4fa5-969b-35a0690f6f4f",
-      "domains": ["idealmedia.io"]
     },
     {
       "click": {
