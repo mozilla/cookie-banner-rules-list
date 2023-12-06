@@ -6040,6 +6040,15 @@
         "optOut": "#CybotCookiebotDialogBodyLevelButtonLevelOptinDeclineAll",
         "optIn": "#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll"
       }
+    },
+    {
+      "id": "4CE0ADCF-E232-4F3B-981B-CA83A0C40874",
+      "domains": ["cbinsights.com"],
+      "click": {
+        "optIn": ".CookieBanner_buttonContainer__NOZxH:nth-child(1) button",
+        "optOut": ".CookieBanner_buttonContainer__NOZxH:nth-child(2) button",
+        "presence": ".CookieBanner_cookieBanner__R_BOh"
+      }
     }
   ]
 }
