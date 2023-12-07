@@ -251,13 +251,17 @@
         "buienradar.nl",
         "nypost.com",
         "panasonic.com",
-        "safeway.com"
+        "safeway.com",
+        "otto.de",
+        "kaufland.de",
+        "lidl.de",
+        "lidl.cz",
+        "rightmove.co.uk"
       ]
     },
     {
       "click": {
         "optIn": "#onetrust-accept-btn-handler",
-        "optOut": "#onetrust-reject-all-handler",
         "presence": "div#onetrust-consent-sdk"
       },
       "cookies": {},
@@ -340,12 +344,7 @@
         "vol.at",
         "plotek.pl",
         "howstuffworks.com",
-        "tripadvisor.de",
-        "otto.de",
-        "kaufland.de",
-        "lidl.de",
-        "lidl.cz",
-        "rightmove.co.uk"
+        "tripadvisor.de"
       ]
     },
     {
