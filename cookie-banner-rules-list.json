@@ -257,6 +257,7 @@
     {
       "click": {
         "optIn": "#onetrust-accept-btn-handler",
+        "optOut": "#onetrust-reject-all-handler",
         "presence": "div#onetrust-consent-sdk"
       },
       "cookies": {},
