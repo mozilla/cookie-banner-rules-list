@@ -4148,12 +4148,20 @@
     },
     {
       "click": {
+        "optIn": ".sp_choice_type_11",
         "optOut": ".sp_choice_type_13",
         "presence": ".message-container > #notice",
         "runContext": "child"
       },
       "cookies": {},
-      "domains": ["aktuality.sk", "sky.it", "azet.sk"],
+      "domains": [
+        "aktuality.sk",
+        "sky.it",
+        "azet.sk",
+        "privacy-mgmt.com",
+        "bbc.co.uk",
+        "bbc.com"
+      ],
       "id": "ae8f7761-35ff-45b2-92df-7868ca288ad2"
     },
     {
