@@ -6049,6 +6049,15 @@
         "optOut": ".CookieBanner_buttonContainer__NOZxH:nth-child(2) button",
         "presence": ".CookieBanner_cookieBanner__R_BOh"
       }
+    },
+    {
+      "id": "50105C82-FEDE-424E-884D-430FA7BCBED",
+      "domains": ["ondo.finance"],
+      "click": {
+        "optIn": "button[data-testid=\"allow-all-cookies-button\"]",
+        "optOut": "div[data-testid=\"cookie-popover\"] button:nth-child(2)",
+        "presence": "div[data-testid=\"cookie-popover\"]"
+      }
     }
   ]
 }
