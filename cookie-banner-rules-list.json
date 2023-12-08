@@ -3640,12 +3640,6 @@
       "domains": ["worldbank.org"]
     },
     {
-      "click": { "optIn": "a.cc-dismiss", "presence": "div.cc-banner" },
-      "cookies": {},
-      "id": "4ec563ab-ef41-4aa7-8da6-58227000fe1d",
-      "domains": ["ieee.org"]
-    },
-    {
       "click": { "optIn": "button.css-1k47zha", "presence": "div#qc-cmp2-ui" },
       "cookies": {},
       "id": "6c246e7d-2a12-4b13-94b4-d2908cd64aad",
