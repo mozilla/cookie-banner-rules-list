@@ -6050,6 +6050,15 @@
         "optOut": ".CookieBanner_buttonContainer__NOZxH:nth-child(2) button",
         "presence": ".CookieBanner_cookieBanner__R_BOh"
       }
+    },
+    {
+      "id": "ccm19",
+      "click": {
+        "optIn": ".ccm--save-settings",
+        "optOut": ".ccm--decline-cookies",
+        "presence": "#ccm-widget"
+      },
+      "domains": []
     }
   ]
 }
