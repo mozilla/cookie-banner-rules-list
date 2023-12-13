@@ -1603,7 +1603,8 @@
         "orange.fr",
         "meteofrance.com",
         "subito.it",
-        "hasznaltauto.hu"
+        "hasznaltauto.hu",
+        "zdnet.de"
       ]
     },
     {
@@ -2975,7 +2976,7 @@
       },
       "cookies": {},
       "id": "9e4d932a-eaf9-44e4-a3ac-55861d66a7c3",
-      "domains": ["metoffice.gov.uk"]
+      "domains": ["metoffice.gov.uk", "footballmanager.com", "sigames.com"]
     },
     {
       "click": {
@@ -3686,12 +3687,6 @@
       "domains": ["worldbank.org"]
     },
     {
-      "click": { "optIn": "a.cc-dismiss", "presence": "div.cc-banner" },
-      "cookies": {},
-      "id": "4ec563ab-ef41-4aa7-8da6-58227000fe1d",
-      "domains": ["ieee.org"]
-    },
-    {
       "click": { "optIn": "button.css-1k47zha", "presence": "div#qc-cmp2-ui" },
       "cookies": {},
       "id": "6c246e7d-2a12-4b13-94b4-d2908cd64aad",
@@ -4314,7 +4309,7 @@
       },
       "cookies": {},
       "id": "23710ccf-85e6-450e-953d-7ffc3f80bbf0",
-      "domains": ["slideshare.net"]
+      "domains": ["slideshare.net", "ieee.org", "linuxfoundation.eu"]
     },
     {
       "click": {
