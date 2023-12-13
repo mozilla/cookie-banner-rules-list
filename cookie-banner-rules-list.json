@@ -6081,6 +6081,36 @@
         "optOut": ".CookieBanner_buttonContainer__NOZxH:nth-child(2) button",
         "presence": ".CookieBanner_cookieBanner__R_BOh"
       }
+    },
+    {
+      "id": "8005fd7b-26ec-43c0-ad94-1c6834cc7905",
+      "domains": ["teamspeak.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookieControl",
+            "value": "true"
+          },
+          {
+            "name": "cookieControlPrefs",
+            "value": "[\"analytics\",\"marketing\"]"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cookieControl",
+            "value": "true"
+          },
+          {
+            "name": "cookieControlPrefs",
+            "value": "[]"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#gdpr-cookie-message",
+        "optIn": "#gdpr-cookie-accept"
+      }
     }
   ]
 }
