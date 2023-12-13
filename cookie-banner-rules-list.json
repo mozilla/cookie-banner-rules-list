@@ -4931,7 +4931,32 @@
         "optOut": [{ "name": "cookieconsent_status", "value": "deny" }]
       },
       "id": "8f401b10-02b6-4e05-88fa-c37012d4c8c0",
-      "domains": ["magnite.com"]
+      "domains": [
+        "magnite.com",
+        "omv.com",
+        "omv.at",
+        "omv.bg",
+        "omv.de",
+        "omv.nz",
+        "omv.no",
+        "omv.ro",
+        "omv.co.rs",
+        "omv.sk",
+        "omv.cz",
+        "omv.tn",
+        "omv.ae",
+        "omv.hu",
+        "omv-gas.com",
+        "omv-gas.at",
+        "omv-gas.be",
+        "omv-gas.de",
+        "omv-gas.hu",
+        "omv-gas.nl",
+        "omv-gas.com.tr",
+        "omvpetrom.com",
+        "petrom.ro",
+        "petrom.md"
+      ]
     },
     {
       "click": {},
