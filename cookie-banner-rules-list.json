@@ -6146,6 +6146,15 @@
         "optOut": "div[data-testid=\"cookie-popover\"] button:nth-child(2)",
         "presence": "div[data-testid=\"cookie-popover\"]"
       }
+    },
+    {
+      "id": "5B57603A-0CE0-4511-B324-18D34F60EC51",
+      "domains": ["androidpolice.com"],
+      "click": {
+        "optIn": "button.fcQwZX",
+        "optOut": "button.fLZgds",
+        "presence": ".kDNyTh.hbTFXs"
+      }
     }
   ]
 }
