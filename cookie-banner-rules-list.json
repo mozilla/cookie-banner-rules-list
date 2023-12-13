@@ -6137,6 +6137,15 @@
         "presence": "#gdpr-cookie-message",
         "optIn": "#gdpr-cookie-accept"
       }
+    },
+    {
+      "id": "50105C82-FEDE-424E-884D-430FA7BCBED",
+      "domains": ["ondo.finance"],
+      "click": {
+        "optIn": "button[data-testid=\"allow-all-cookies-button\"]",
+        "optOut": "div[data-testid=\"cookie-popover\"] button:nth-child(2)",
+        "presence": "div[data-testid=\"cookie-popover\"]"
+      }
     }
   ]
 }
