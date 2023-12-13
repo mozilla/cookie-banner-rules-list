@@ -6054,7 +6054,8 @@
       "id": "5B57603A-0CE0-4511-B324-18D34F60EC51",
       "domains": ["androidpolice.com"],
       "click": {
-        "optIn": "button.fLZgds",
+        "optIn": "button.fcQwZX",
+        "optOut": "button.fLZgds",
         "presence": ".kDNyTh.hbTFXs"
       }
     }
