@@ -118,10 +118,7 @@
         "roche.com",
         "apnews.com",
         "nationalgeographic.com",
-        "frontiersin.org",
         "espn.com",
-        "thawte.com",
-        "digicert.com",
         "hotjar.com",
         "marriott.com",
         "hootsuite.com",
@@ -210,16 +207,13 @@
         "dictionary.com",
         "coursera.org",
         "msn.com",
-        "allaboutcookies.org",
         "chegg.com",
         "variety.com",
         "cnn.com",
-        "slack.com",
         "proximus.be",
         "adevarul.ro",
         "cnbc.com",
         "oe24.at",
-        "salesforce.com",
         "reuters.com",
         "booking.com",
         "bluewin.ch",
@@ -229,11 +223,9 @@
         "rtlnieuws.nl",
         "buienradar.be",
         "viaplay.se",
-        "instructure.com",
         "antena3.ro",
         "statista.com",
         "pixabay.com",
-        "prnewswire.com",
         "constantcontact.com",
         "atlassian.com",
         "bmj.com",
@@ -242,16 +234,60 @@
         "vmware.com",
         "bitbucket.org",
         "viaplay.no",
-        "fiverr.com",
         "asana.com",
-        "glassdoor.com",
         "freepik.com",
         "heute.at",
         "mtvuutiset.fi",
         "buienradar.nl",
         "nypost.com",
         "panasonic.com",
-        "safeway.com"
+        "safeway.com",
+        "amd.com",
+        "atg.se",
+        "brother.de",
+        "brother.eu",
+        "brother.fr",
+        "corsair.com",
+        "crucial.com",
+        "dc.com",
+        "dn.no",
+        "epson.de",
+        "epson.es",
+        "epson.eu",
+        "epson.fr",
+        "epson.it",
+        "evga.com",
+        "fortnite.com",
+        "fujitsu.com",
+        "global.canon",
+        "gpuopen.com",
+        "info.lidl",
+        "inpost.es",
+        "inpost.eu",
+        "inpost.it",
+        "intel.com",
+        "kaufland.de",
+        "lg.com",
+        "lidl.co.uk",
+        "lidl.com",
+        "lidl.cz",
+        "lidl.de",
+        "lidl.fr",
+        "lidl.it",
+        "lidl.pl",
+        "lifewire.com",
+        "logitech.com",
+        "micron.com",
+        "mythomson.com",
+        "oki.com",
+        "otto.de",
+        "razer.com",
+        "rightmove.co.uk",
+        "sbb.ch",
+        "seagate.com",
+        "soundcloud.com",
+        "trello.com",
+        "unrealengine.com"
       ]
     },
     {
@@ -279,8 +315,6 @@
         "mediafax.ro",
         "elisa.fi",
         "blick.ch",
-        "dn.no",
-        "soundcloud.com",
         "tvn24.pl",
         "olx.pl",
         "olx.bg",
@@ -322,8 +356,6 @@
         "novini.bg",
         "stiripesurse.ro",
         "suomi24.fi",
-        "sbb.ch",
-        "atg.se",
         "ziare.com",
         "irishexaminer.com",
         "tripadvisor.it",
@@ -340,11 +372,34 @@
         "plotek.pl",
         "howstuffworks.com",
         "tripadvisor.de",
-        "otto.de",
-        "kaufland.de",
-        "lidl.de",
-        "lidl.cz",
-        "rightmove.co.uk"
+        "acer.com",
+        "allaboutcookies.org",
+        "bankier.pl",
+        "brother.co.uk",
+        "brother.es",
+        "brother.it",
+        "digicert.com",
+        "epson.co.uk",
+        "fiverr.com",
+        "frontiersin.org",
+        "glassdoor.com",
+        "global.brother",
+        "gq-magazine.co.uk",
+        "ingka.com",
+        "inpost.pl",
+        "instructure.com",
+        "komputronik.pl",
+        "mediaexpert.pl",
+        "oleole.pl",
+        "ookla.com",
+        "otodom.pl",
+        "play.pl",
+        "prnewswire.com",
+        "salesforce.com",
+        "slack.com",
+        "thawte.com",
+        "ui.com",
+        "uisp.com"
       ]
     },
     {
@@ -1548,7 +1603,8 @@
         "orange.fr",
         "meteofrance.com",
         "subito.it",
-        "hasznaltauto.hu"
+        "hasznaltauto.hu",
+        "zdnet.de"
       ]
     },
     {
@@ -1560,15 +1616,6 @@
       "cookies": {},
       "id": "688d29a8-e1c7-4d62-b3d4-53b451ff5a48",
       "domains": ["orange.sk", "hnonline.sk"]
-    },
-    {
-      "click": {
-        "optIn": "button.is-primary",
-        "presence": "div.cookie-wrapper"
-      },
-      "cookies": { "optIn": [{ "name": "cookies", "value": "1" }] },
-      "id": "82e304ba-5ca0-457d-8db3-8da8769d032d",
-      "domains": ["mediaexpert.pl"]
     },
     {
       "click": { "optIn": "a.cmptxt_btn_yes", "presence": "div.cmpboxinner" },
@@ -2930,7 +2977,7 @@
       },
       "cookies": {},
       "id": "9e4d932a-eaf9-44e4-a3ac-55861d66a7c3",
-      "domains": ["metoffice.gov.uk"]
+      "domains": ["metoffice.gov.uk", "footballmanager.com", "sigames.com"]
     },
     {
       "click": {
@@ -3641,12 +3688,6 @@
       "domains": ["worldbank.org"]
     },
     {
-      "click": { "optIn": "a.cc-dismiss", "presence": "div.cc-banner" },
-      "cookies": {},
-      "id": "4ec563ab-ef41-4aa7-8da6-58227000fe1d",
-      "domains": ["ieee.org"]
-    },
-    {
       "click": { "optIn": "button.css-1k47zha", "presence": "div#qc-cmp2-ui" },
       "cookies": {},
       "id": "6c246e7d-2a12-4b13-94b4-d2908cd64aad",
@@ -4269,7 +4310,7 @@
       },
       "cookies": {},
       "id": "23710ccf-85e6-450e-953d-7ffc3f80bbf0",
-      "domains": ["slideshare.net"]
+      "domains": ["slideshare.net", "ieee.org", "linuxfoundation.eu"]
     },
     {
       "click": {
@@ -4797,15 +4838,6 @@
       "cookies": {},
       "id": "7f8a8bfd-343c-4fa5-969b-35a0690f6f4f",
       "domains": ["idealmedia.io"]
-    },
-    {
-      "click": {
-        "optIn": "div.link-buttonstyles__BxpButton-sc-1utqn26-1",
-        "presence": "div.UiCookieBannerstyles__BannerContainer-sc-1f2iash-0"
-      },
-      "cookies": {},
-      "id": "dba50586-334f-45ad-8890-4f2879e06c5a",
-      "domains": ["trello.com"]
     },
     {
       "click": {
@@ -6049,6 +6081,36 @@
         "optIn": ".CookieBanner_buttonContainer__NOZxH:nth-child(1) button",
         "optOut": ".CookieBanner_buttonContainer__NOZxH:nth-child(2) button",
         "presence": ".CookieBanner_cookieBanner__R_BOh"
+      }
+    },
+    {
+      "id": "8005fd7b-26ec-43c0-ad94-1c6834cc7905",
+      "domains": ["teamspeak.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cookieControl",
+            "value": "true"
+          },
+          {
+            "name": "cookieControlPrefs",
+            "value": "[\"analytics\",\"marketing\"]"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cookieControl",
+            "value": "true"
+          },
+          {
+            "name": "cookieControlPrefs",
+            "value": "[]"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#gdpr-cookie-message",
+        "optIn": "#gdpr-cookie-accept"
       }
     }
   ]
