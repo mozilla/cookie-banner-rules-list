@@ -1548,7 +1548,8 @@
         "orange.fr",
         "meteofrance.com",
         "subito.it",
-        "hasznaltauto.hu"
+        "hasznaltauto.hu",
+        "zdnet.de"
       ]
     },
     {
@@ -2929,7 +2930,7 @@
       },
       "cookies": {},
       "id": "9e4d932a-eaf9-44e4-a3ac-55861d66a7c3",
-      "domains": ["metoffice.gov.uk"]
+      "domains": ["metoffice.gov.uk", "footballmanager.com", "sigames.com"]
     },
     {
       "click": {
