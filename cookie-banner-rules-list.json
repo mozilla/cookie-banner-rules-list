@@ -6155,6 +6155,23 @@
         "optOut": "button.fLZgds",
         "presence": ".kDNyTh.hbTFXs"
       }
+    },
+    {
+      "id": "769dcf5b-afd1-438d-940d-3069ff4b2f51",
+      "domains": ["paydirekt.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "paydirektCookieAllowed",
+            "value": "false"
+          },
+          {
+            "name": "paydirektCookieAllowedPWS",
+            "value": "{%22necessary%22:true,%22analytics%22:false}"
+          }
+        ]
+      }
     }
   ]
 }
