@@ -6155,6 +6155,15 @@
         "optOut": "button.fLZgds",
         "presence": ".kDNyTh.hbTFXs"
       }
+    },
+    {
+      "id": "5FF5EEB9-1045-4ACF-8A12-0630B71063F6",
+      "domains": ["hfm-frankfurt.de"],
+      "click": {
+        "optIn": "[data-cookieman-accept-all]",
+        "optOut": "[data-cookieman-accept-none]",
+        "presence": "#cookieman-modal"
+      }
     }
   ]
 }
