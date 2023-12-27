@@ -431,11 +431,18 @@
     },
     {
       "click": {
-        "optIn": ".cck-actions div > button",
-        "optOut": ".cck-actions div > button + button",
-        "presence": "div#cookie-consent-banner"
+        "optIn": ".btn-accept-cookies",
+        "optOut": ".btn-refuse-cookies",
+        "presence": ".cookie-section"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cck1",
+            "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Afalse%2C%22closed%22%3Atrue%7D"
+          }
+        ]
+      },
       "id": "0c74749a-8c53-4bb0-b31a-ab2f89b7f493",
       "domains": ["europa.eu"]
     },
