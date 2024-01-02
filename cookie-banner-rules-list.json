@@ -605,8 +605,9 @@
     },
     {
       "click": {
-        "optIn": "button#truste-consent-button",
-        "presence": "div#truste-consent-track"
+        "optIn": ".root__OblK1:not(.secondaryButton__N1rJw)",
+        "optOut": ".root__OblK1.secondaryButton__N1rJw",
+        "presence": ".root__XMKIj"
       },
       "cookies": {},
       "id": "30293090-f064-473a-ae0f-cd390507c1c7",
