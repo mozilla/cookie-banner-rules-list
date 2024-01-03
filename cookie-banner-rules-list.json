@@ -4946,6 +4946,7 @@
         "omv.tn",
         "omv.ae",
         "omv.hu",
+        "omv.si",
         "omv-gas.com",
         "omv-gas.at",
         "omv-gas.be",
@@ -4953,9 +4954,14 @@
         "omv-gas.hu",
         "omv-gas.nl",
         "omv-gas.com.tr",
+        "omv-gas-storage.com",
         "omvpetrom.com",
         "petrom.ro",
-        "petrom.md"
+        "petrom.md",
+        "avanti.at",
+        "avanti-tankstellen.de",
+        "diskonttanken.at",
+        "tocimceneje.si"
       ]
     },
     {
@@ -6154,6 +6160,23 @@
         "optIn": "button.fcQwZX",
         "optOut": "button.fLZgds",
         "presence": ".kDNyTh.hbTFXs"
+      }
+    },
+    {
+      "id": "769dcf5b-afd1-438d-940d-3069ff4b2f51",
+      "domains": ["paydirekt.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "paydirektCookieAllowed",
+            "value": "false"
+          },
+          {
+            "name": "paydirektCookieAllowedPWS",
+            "value": "{%22necessary%22:true,%22analytics%22:false}"
+          }
+        ]
       }
     }
   ]
