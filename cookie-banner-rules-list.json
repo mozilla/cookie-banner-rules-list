@@ -4951,6 +4951,7 @@
         "omv.tn",
         "omv.ae",
         "omv.hu",
+        "omv.si",
         "omv-gas.com",
         "omv-gas.at",
         "omv-gas.be",
@@ -4958,9 +4959,14 @@
         "omv-gas.hu",
         "omv-gas.nl",
         "omv-gas.com.tr",
+        "omv-gas-storage.com",
         "omvpetrom.com",
         "petrom.ro",
-        "petrom.md"
+        "petrom.md",
+        "avanti.at",
+        "avanti-tankstellen.de",
+        "diskonttanken.at",
+        "tocimceneje.si"
       ]
     },
     {
@@ -5437,7 +5443,7 @@
     },
     {
       "id": "91484461-01AD-4D78-9ED8-D17C688F47E7",
-      "domains": ["zdf.de"],
+      "domains": ["zdf.de", "3sat.de"],
       "click": {
         "optOut": "#zdf-cmp-deny-btn",
         "presence": ".zdf-cmp-modal-content"
@@ -6159,6 +6165,32 @@
         "optIn": "button.fcQwZX",
         "optOut": "button.fLZgds",
         "presence": ".kDNyTh.hbTFXs"
+      }
+    },
+    {
+      "id": "769dcf5b-afd1-438d-940d-3069ff4b2f51",
+      "domains": ["paydirekt.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "paydirektCookieAllowed",
+            "value": "false"
+          },
+          {
+            "name": "paydirektCookieAllowedPWS",
+            "value": "{%22necessary%22:true,%22analytics%22:false}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5FF5EEB9-1045-4ACF-8A12-0630B71063F6",
+      "domains": ["hfm-frankfurt.de"],
+      "click": {
+        "optIn": "[data-cookieman-accept-all]",
+        "optOut": "[data-cookieman-accept-none]",
+        "presence": "#cookieman-modal"
       }
     }
   ]
