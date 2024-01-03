@@ -431,9 +431,9 @@
     },
     {
       "click": {
-        "optIn": ".btn-accept-cookies",
-        "optOut": ".btn-refuse-cookies",
-        "presence": ".cookie-section"
+        "optIn": "[href=\"#accept\"]",
+        "optOut": "[href=\"#refuse\"]",
+        "presence": "div#cookie-consent-banner"
       },
       "cookies": {
         "optOut": [
