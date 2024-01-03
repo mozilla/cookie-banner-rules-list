@@ -431,11 +431,18 @@
     },
     {
       "click": {
-        "optIn": ".cck-actions div > button",
-        "optOut": ".cck-actions div > button + button",
+        "optIn": "[href=\"#accept\"]",
+        "optOut": "[href=\"#refuse\"]",
         "presence": "div#cookie-consent-banner"
       },
-      "cookies": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cck1",
+            "value": "%7B%22cm%22%3Atrue%2C%22all1st%22%3Afalse%2C%22closed%22%3Atrue%7D"
+          }
+        ]
+      },
       "id": "0c74749a-8c53-4bb0-b31a-ab2f89b7f493",
       "domains": ["europa.eu"]
     },
@@ -2574,7 +2581,12 @@
       },
       "cookies": {},
       "id": "65638975-8222-425c-9be0-3f41a51db13c",
-      "domains": ["giallozafferano.it", "virgilio.it", "upfit.de"]
+      "domains": [
+        "giallozafferano.it",
+        "virgilio.it",
+        "upfit.de",
+        "treedom.net"
+      ]
     },
     {
       "click": {
@@ -2625,7 +2637,19 @@
         "markiza.sk",
         "willhaben.at",
         "francetvinfo.fr",
-        "france24.com"
+        "france24.com",
+        "opodo.at",
+        "opodo.ch",
+        "opodo.co.uk",
+        "opodo.de",
+        "opodo.dk",
+        "opodo.fi",
+        "opodo.fr",
+        "opodo.it",
+        "opodo.nl",
+        "opodo.no",
+        "opodo.pl",
+        "opodo.pt"
       ]
     },
     {
@@ -4947,6 +4971,7 @@
         "omv.tn",
         "omv.ae",
         "omv.hu",
+        "omv.si",
         "omv-gas.com",
         "omv-gas.at",
         "omv-gas.be",
@@ -4954,9 +4979,14 @@
         "omv-gas.hu",
         "omv-gas.nl",
         "omv-gas.com.tr",
+        "omv-gas-storage.com",
         "omvpetrom.com",
         "petrom.ro",
-        "petrom.md"
+        "petrom.md",
+        "avanti.at",
+        "avanti-tankstellen.de",
+        "diskonttanken.at",
+        "tocimceneje.si"
       ]
     },
     {
@@ -5433,7 +5463,7 @@
     },
     {
       "id": "91484461-01AD-4D78-9ED8-D17C688F47E7",
-      "domains": ["zdf.de"],
+      "domains": ["zdf.de", "3sat.de"],
       "click": {
         "optOut": "#zdf-cmp-deny-btn",
         "presence": ".zdf-cmp-modal-content"
@@ -6155,6 +6185,32 @@
         "optIn": "button.fcQwZX",
         "optOut": "button.fLZgds",
         "presence": ".kDNyTh.hbTFXs"
+      }
+    },
+    {
+      "id": "769dcf5b-afd1-438d-940d-3069ff4b2f51",
+      "domains": ["paydirekt.de"],
+      "click": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": "paydirektCookieAllowed",
+            "value": "false"
+          },
+          {
+            "name": "paydirektCookieAllowedPWS",
+            "value": "{%22necessary%22:true,%22analytics%22:false}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5FF5EEB9-1045-4ACF-8A12-0630B71063F6",
+      "domains": ["hfm-frankfurt.de"],
+      "click": {
+        "optIn": "[data-cookieman-accept-all]",
+        "optOut": "[data-cookieman-accept-none]",
+        "presence": "#cookieman-modal"
       }
     }
   ]
