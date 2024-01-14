@@ -6212,6 +6212,14 @@
         "optOut": "[data-cookieman-accept-none]",
         "presence": "#cookieman-modal"
       }
+    },
+    {
+      "id": "7D7FA535-719F-4637-8DE0-9F90B17AD7A7",
+      "domains": ["gamestar.de"],
+      "click": {
+        "optIn": ".cmp-accept",
+        "presence": "#cmp-modal"
+      }
     }
   ]
 }
