@@ -6212,6 +6212,15 @@
         "optOut": "[data-cookieman-accept-none]",
         "presence": "#cookieman-modal"
       }
+    },
+    {
+      "id": "43AD2B6B-A57B-4F7A-9D76-E32E696DDC10",
+      "domains": ["dpd.com"],
+      "click": {
+        "optIn": "#popin_tc_privacy_button",
+        "optOut": "#popin_tc_privacy_button_3",
+        "presence": "#popin_tc_privacy_container_button"
+      }
     }
   ]
 }
