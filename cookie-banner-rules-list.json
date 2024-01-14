@@ -6212,6 +6212,15 @@
         "optOut": "[data-cookieman-accept-none]",
         "presence": "#cookieman-modal"
       }
+    },
+    {
+      "id": "5DC4F89B-2A66-4B91-AE73-87954F3A0B4A",
+      "domains": ["comdirect.de"],
+      "click": {
+        "optIn": "#privacy-init-wall-button-accept",
+        "optOut": "#privacy-init-wall-button-deny",
+        "presence": "#privacy-init-wall"
+      }
     }
   ]
 }
