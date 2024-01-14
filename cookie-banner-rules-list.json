@@ -6212,6 +6212,15 @@
         "optOut": "[data-cookieman-accept-none]",
         "presence": "#cookieman-modal"
       }
+    },
+    {
+      "id": "C553BBDC-632F-4F18-AA7D-D6C090E7A7A2",
+      "domains": ["1und1.de"],
+      "click": {
+        "optIn": "#consent_wall_optin",
+        "optOut": "#consent_wall_optout",
+        "presence": "#consent-wall"
+      }
     }
   ]
 }
