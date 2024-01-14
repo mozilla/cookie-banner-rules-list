@@ -6212,6 +6212,14 @@
         "optOut": "[data-cookieman-accept-none]",
         "presence": "#cookieman-modal"
       }
+    },
+    {
+      "id": "3FD9FDA8-5F69-46C4-BA33-35FE3C804B4C",
+      "domains": ["stepstone.de"],
+      "click": {
+        "optIn": "#ccmgt_explicit_accept",
+        "presence": "#GDPRConsentManagerContainer"
+      }
     }
   ]
 }
