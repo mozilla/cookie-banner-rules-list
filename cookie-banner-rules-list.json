@@ -6212,6 +6212,22 @@
         "optOut": "[data-cookieman-accept-none]",
         "presence": "#cookieman-modal"
       }
+    },
+    {
+      "id": "02c3c5e1-03a6-426a-b00b-fa34f62322fd",
+      "domains": ["thenextweb.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "__tnw_cookieConsent",
+            "value": "ad_storage=denied&analytics_storage=denied"
+          }
+        ]
+      },
+      "click": {
+        "optIn": ".cookie-consent-banner__btn-primary",
+        "presence": "#cookie-consent-banner"
+      }
     }
   ]
 }
