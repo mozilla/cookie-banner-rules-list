@@ -6219,7 +6219,7 @@
       "click": {
         "optIn": "#popin_tc_privacy_button",
         "optOut": "#popin_tc_privacy_button_3",
-        "presence": "#popin_tc_privacy_container_button"
+        "presence": "#tc-privacy-wrapper"
       }
     }
   ]
