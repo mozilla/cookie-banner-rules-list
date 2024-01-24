@@ -287,7 +287,14 @@
         "seagate.com",
         "soundcloud.com",
         "trello.com",
-        "unrealengine.com"
+        "unrealengine.com",
+        "askubuntu.com",
+        "mathoverflow.net",
+        "serverfault.com",
+        "stackapps.com",
+        "stackexchange.com",
+        "stackoverflow.com",
+        "superuser.com"
       ]
     },
     {
@@ -479,16 +486,9 @@
     {
       "id": "71443ce9-15b8-4e07-b51b-1f2158521ea9",
       "domains": [
-        "askubuntu.com",
-        "mathoverflow.net",
-        "serverfault.com",
-        "stackapps.com",
-        "stackexchange.com",
         "stackoverflow.blog",
         "stackoverflow.co",
-        "stackoverflow.com",
-        "stackoverflowteams.com",
-        "superuser.com"
+        "stackoverflowteams.com"
       ],
       "cookies": {
         "optOut": [
