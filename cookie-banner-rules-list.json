@@ -6227,6 +6227,15 @@
         "optOut": "#privacy-init-wall-button-deny",
         "presence": "#privacy-init-wall"
       }
+    },
+    {
+      "id": "7AF1C34C-750E-44FC-A3C4-31FB61EBF71B",
+      "domains": ["deskmodder.de"],
+      "click": {
+        "optIn": "#cookiescript_accept",
+        "optOut": "#cookiescript_reject",
+        "presence": "#cookiescript_injected_wrapper"
+      }
     }
   ]
 }
