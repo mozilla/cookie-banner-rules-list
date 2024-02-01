@@ -6160,9 +6160,9 @@
       "id": "7AF1C34C-750E-44FC-A3C4-31FB61EBF71B",
       "domains": ["deskmodder.de"],
       "click": {
-        "optIn": ".cm-btn-accept",
-        "optOut": ".cm-btn-decline",
-        "presence": ".cm-klaro"
+        "optIn": "#cookiescript_accept",
+        "optOut": "#cookiescript_reject",
+        "presence": "#cookiescript_injected_wrapper"
       }
     }
   ]
