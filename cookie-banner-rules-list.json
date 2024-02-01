@@ -287,7 +287,14 @@
         "seagate.com",
         "soundcloud.com",
         "trello.com",
-        "unrealengine.com"
+        "unrealengine.com",
+        "askubuntu.com",
+        "mathoverflow.net",
+        "serverfault.com",
+        "stackapps.com",
+        "stackexchange.com",
+        "stackoverflow.com",
+        "superuser.com"
       ]
     },
     {
@@ -479,16 +486,9 @@
     {
       "id": "71443ce9-15b8-4e07-b51b-1f2158521ea9",
       "domains": [
-        "askubuntu.com",
-        "mathoverflow.net",
-        "serverfault.com",
-        "stackapps.com",
-        "stackexchange.com",
         "stackoverflow.blog",
         "stackoverflow.co",
-        "stackoverflow.com",
-        "stackoverflowteams.com",
-        "superuser.com"
+        "stackoverflowteams.com"
       ],
       "cookies": {
         "optOut": [
@@ -3953,14 +3953,13 @@
       "domains": ["tapad.com"]
     },
     {
-      "click": {
-        "optIn": "div.btn-ok",
-        "optOut": "div.btn-setting",
-        "presence": "div#cookie-policy-info"
-      },
-      "cookies": {},
       "id": "8c949b75-4c7b-4559-8ade-780064af370a",
-      "domains": ["asus.com"]
+      "domains": ["asus.com"],
+      "click": {
+        "presence": "#cookie-policy-info",
+        "optOut": ".btn-reject",
+        "optIn": ".btn-ok"
+      }
     },
     {
       "click": { "optIn": "button#unic-agree", "presence": "div.unic-bar" },
