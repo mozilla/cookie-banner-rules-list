@@ -6217,7 +6217,7 @@
       "id": "46FECFD3-2384-450A-8CCC-53BCFE65DF4C",
       "domains": ["autoscout24.at", "autoscout24.de"],
       "click": {
-        "optIn": "button[data-testid=\"as24-cmp-accept-all-button\"]",
+        "optIn": "[data-testid=\"as24-cmp-accept-all-button\"]",
         "presence": "#as24-cmp-popup"
       }
     }
