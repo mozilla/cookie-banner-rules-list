@@ -6212,6 +6212,15 @@
         "optOut": "[data-cookieman-accept-none]",
         "presence": "#cookieman-modal"
       }
+    },
+    {
+      "id": "0132691F-247B-4CB9-BF9B-0EB61B7435F3",
+      "domains": ["withings.com"],
+      "click": {
+        "optIn": "#cookieBtnAll",
+        "optOut": "#cookieBtnContinue",
+        "presence": ".cookie_consent_withings"
+      }
     }
   ]
 }
