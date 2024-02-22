@@ -6296,6 +6296,14 @@
         "optOut": ".ccm--decline-cookies",
         "presence": "#ccm-widget"
       }
+    },
+    {
+      "id": "E220B441-CAE6-4E4B-9F5D-BA167AE06812",
+      "domains": ["kicker.de"],
+      "click": {
+        "optIn": ".kick__data-grid__main .kick__btn",
+        "presence": "#kick__logi-container"
+      }
     }
   ]
 }
