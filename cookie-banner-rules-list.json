@@ -660,7 +660,63 @@
         ]
       },
       "id": "84f68b1a-18a2-478c-bc8e-9ec32d4e3e80",
-      "domains": ["bundesregierung.de"]
+      "domains": ["bundesfinanzministerium.de", "bundesregierung.de"]
+    },
+    {
+      "click": {
+        "presence": ".c-privacy-protection-banner",
+        "optOut": "button[data-js-item=\"privacy-protection-default\"]"
+      },
+      "cookies": {},
+      "id": "52ad1edd-5696-482c-855d-a8d669f9e7f5",
+      "domains": ["bundeswehr.de"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "cookiehint", "value": "{\"matomo\":0}" }]
+      },
+      "id": "1ae88c1b-2b26-49b2-98d0-f6b14a85e376",
+      "domains": ["dataport.de"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "dp-cookie-consent", "value": "false" }]
+      },
+      "id": "a70791ff-0001-4238-b68f-9ba8f1c00c96",
+      "domains": ["bob-sh.de", "bolapla-sh.de"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "BayernMatomo", "value": "deaktiviert" }]
+      },
+      "id": "07228673-9d62-4c00-b18d-37e0fcfd37e7",
+      "domains": ["bayern.de"]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "gsbbanner", "value": "closed" }]
+      },
+      "id": "b2a17900-dc1f-4273-bb0e-10e73c6f63bd",
+      "domains": [
+        "bmbf.de",
+        "bmj.de",
+        "bva.bund.de",
+        "bundesrechnungshof.de",
+        "schleswig-holstein.de",
+        "zoll.de"
+      ]
+    },
+    {
+      "click": {},
+      "cookies": {
+        "optOut": [{ "name": "isTrackingConsentGiven", "value": "false" }]
+      },
+      "id": "431be341-e09a-4fb5-beac-3c4366caaaa0",
+      "domains": ["bund.de"]
     },
     {
       "click": {
@@ -3251,7 +3307,7 @@
         "optIn": [{ "name": "cookieconsent_status", "value": "dismiss" }]
       },
       "id": "5371fb3e-3242-4864-9443-62116afe5f3c",
-      "domains": ["021.rs", "photobucket.com"]
+      "domains": ["021.rs", "photobucket.com", "brandenburg.de"]
     },
     {
       "click": {
@@ -4961,6 +5017,7 @@
       "id": "8f401b10-02b6-4e05-88fa-c37012d4c8c0",
       "domains": [
         "magnite.com",
+        "mecklenburg-vorpommern.de",
         "omv.com",
         "omv.at",
         "omv.bg",
@@ -5563,7 +5620,7 @@
     },
     {
       "id": "58226c30-e975-42f3-99e4-ca140b91e96c",
-      "domains": ["thw.de"],
+      "domains": ["thw.de", "service.bund.de"],
       "click": {},
       "cookies": {
         "optOut": [{ "name": "cookiebanner", "value": "closed" }]
