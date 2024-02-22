@@ -6261,6 +6261,15 @@
         "optIn": "[data-testid=\"as24-cmp-accept-all-button\"]",
         "presence": "#as24-cmp-popup"
       }
+    },
+    {
+      "id": "45AEAD27-6328-4B26-A235-4EA4D74A829E",
+      "domains": ["jw.org"],
+      "click": {
+        "optIn": ".lnc-acceptCookiesButton",
+        "optOut": ".lnc-declineCookiesButton",
+        "presence": ".lnc-firstRunPopup"
+      }
     }
   ]
 }
