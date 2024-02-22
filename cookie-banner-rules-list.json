@@ -698,32 +698,6 @@
     {
       "click": {},
       "cookies": {
-        "optOut": [
-          {
-            "name": "cookiesjsr",
-            "value": "%7B%22base%22%3Afalse%2C%22facebook%22%3Afalse%2C%22flockler%22%3Afalse%2C%22instagram%22%3Afalse%2C%22twitter%22%3Afalse%2C%22youtube%22%3Afalse%7D"
-          }
-        ]
-      },
-      "id": "96c842ff-8784-4df0-84c6-ba81bb0256aa",
-      "domains": ["land.nrw"]
-    },
-    {
-      "click": {},
-      "cookies": {
-        "optOut": [
-          {
-            "name": "CookieConsent",
-            "value": "{stamp:%27beO4WltZSHxohOgvsv7BFDChEJazIzKKr5U2u5ifzvvw7yZR7JLyRw==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:2%2Cutc:1706268810165%2Cregion:%27de%27}"
-          }
-        ]
-      },
-      "id": "e33a5987-342f-4909-8d9c-173ad37c3a65",
-      "domains": ["bremen.de", "koeln.de"]
-    },
-    {
-      "click": {},
-      "cookies": {
         "optOut": [{ "name": "gsbbanner", "value": "closed" }]
       },
       "id": "b2a17900-dc1f-4273-bb0e-10e73c6f63bd",
@@ -742,7 +716,7 @@
         "optOut": [{ "name": "isTrackingConsentGiven", "value": "false" }]
       },
       "id": "431be341-e09a-4fb5-beac-3c4366caaaa0",
-      "domains": ["verwaltung.bund.de"]
+      "domains": ["bund.de"]
     },
     {
       "click": {
