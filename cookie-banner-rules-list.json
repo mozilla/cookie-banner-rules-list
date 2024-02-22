@@ -6366,7 +6366,6 @@
       "click": {
         "optIn": ".kick__data-grid__main .kick__btn",
         "presence": "#kick__logi-container"
-
       }
     },
     {
