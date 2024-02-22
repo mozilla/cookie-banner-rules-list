@@ -6367,6 +6367,15 @@
         "optIn": ".kick__data-grid__main .kick__btn",
         "presence": "#kick__logi-container"
       }
+    },
+    {
+      "id": "0132691F-247B-4CB9-BF9B-0EB61B7435F3",
+      "domains": ["withings.com"],
+      "click": {
+        "optIn": "#cookieBtnAll",
+        "optOut": "#cookieBtnContinue",
+        "presence": ".cookie_consent_withings"
+      }
     }
   ]
 }
