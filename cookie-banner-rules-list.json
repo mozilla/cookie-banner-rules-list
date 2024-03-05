@@ -107,7 +107,7 @@
     {
       "click": {
         "optIn": "button#onetrust-accept-btn-handler",
-        "optOut": ".ot-pc-refuse-all-handler, #onetrust-reject-all-handler",
+        "optOut": ".ot-pc-refuse-all-handler, #onetrust-reject-all-handler, .onetrust-close-btn-handler",
         "presence": "div#onetrust-consent-sdk"
       },
       "cookies": {},
@@ -294,7 +294,10 @@
         "stackapps.com",
         "stackexchange.com",
         "stackoverflow.com",
-        "superuser.com"
+        "superuser.com",
+        "fnac.com",
+        "fnac.be",
+        "fnac.pt"
       ]
     },
     {
