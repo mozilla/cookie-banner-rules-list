@@ -6098,33 +6098,6 @@
       }
     },
     {
-      "id": "351f17c2-54b7-4a43-a425-b53bf5950b2e",
-      "domains": ["zyxel.com"],
-      "cookies": {
-        "optIn": [
-          {
-            "name": "cookie-agreed",
-            "value": "2"
-          },
-          {
-            "name": "cookie-agreed-version",
-            "value": "1.0.0"
-          }
-        ],
-        "optOut": [
-          {
-            "name": "cookie-agreed",
-            "value": "0"
-          }
-        ]
-      },
-      "click": {
-        "presence": ".eu-cookie-compliance-banner",
-        "optOut": ".decline-button",
-        "optIn": ".agree-button"
-      }
-    },
-    {
       "id": "ddff9528-161c-471e-bd2d-ba4d874a3931",
       "domains": ["nazwa.pl"],
       "cookies": {
