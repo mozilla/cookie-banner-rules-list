@@ -6008,28 +6008,7 @@
     },
     {
       "id": "3c0e4924-29ee-4d9a-99ec-e4805a7ffed9",
-      "domains": [
-        "verbatim-europe.co.uk",
-        "verbatim-europe.cz",
-        "verbatim.ae",
-        "verbatim.bg",
-        "verbatim.co.il",
-        "verbatim.com.hr",
-        "verbatim.com.pt",
-        "verbatim.com.tr",
-        "verbatim.de",
-        "verbatim.dk",
-        "verbatim.es",
-        "verbatim.fi",
-        "verbatim.fr",
-        "verbatim.gr",
-        "verbatim.hu",
-        "verbatim.it",
-        "verbatim.net.pl",
-        "verbatim.ro",
-        "verbatim.ru",
-        "verbatim.se"
-      ],
+      "domains": ["verbatim.co.il"],
       "cookies": {
         "optIn": [
           {
@@ -6148,7 +6127,7 @@
     },
     {
       "id": "f1849b07-95e8-4ae0-a99d-24df5abbb3cb",
-      "domains": ["dell.com", "delltechnologies.com"],
+      "domains": ["dell.com", "dell.eu", "delltechnologies.com"],
       "click": {
         "presence": ".cc-window",
         "optOut": ".cc-dismiss",
@@ -6159,7 +6138,6 @@
       "id": "92361e84-664e-46b3-ae55-95bc185dc88e",
       "domains": [
         "adoptium.net",
-        "eclipse-ee4j.github.io",
         "eclipse.dev",
         "eclipse.org",
         "glassfish.org",
@@ -6302,12 +6280,12 @@
       }
     },
     {
-      "id": "43AD2B6B-A57B-4F7A-9D76-E32E696DDC10",
-      "domains": ["dpd.com"],
+      "id": "43ad2b6b-a57b-4f7a-9d76-e32e696ddc10",
+      "domains": ["dpd.com", "dpdgroup.com"],
       "click": {
-        "optIn": "#popin_tc_privacy_button",
+        "presence": "#tc-privacy-wrapper",
         "optOut": "#popin_tc_privacy_button_3",
-        "presence": "#tc-privacy-wrapper"
+        "optIn": "#popin_tc_privacy_button"
       }
     },
     {
