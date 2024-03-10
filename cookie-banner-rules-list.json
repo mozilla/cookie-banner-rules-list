@@ -526,14 +526,19 @@
       "domains": ["youtube.com"]
     },
     {
-      "click": {
-        "optIn": "button[data-cookiebanner=\"accept_button\"]",
-        "optOut": "button[data-cookiebanner=\"accept_only_essential_button\"]",
-        "presence": "div[data-testid=\"cookie-policy-manage-dialog\"]"
-      },
-      "cookies": {},
       "id": "d1d8ba36-ced7-4453-8b17-2e051e0ab1eb",
-      "domains": ["facebook.com", "messenger.com", "oculus.com"]
+      "domains": [
+        "facebook.com",
+        "messenger.com",
+        "meta.com",
+        "oculus.com",
+        "workplace.com"
+      ],
+      "click": {
+        "presence": "[data-testid=\"cookie-policy-manage-dialog\"]",
+        "optOut": "[data-cookiebanner=\"accept_only_essential_button\"]",
+        "optIn": "[data-cookiebanner=\"accept_button\"]"
+      }
     },
     {
       "cookies": {
