@@ -6383,6 +6383,15 @@
         "optOut": "#cookieBtnContinue",
         "presence": ".cookie_consent_withings"
       }
+    },
+    {
+      "id": "1B309A53-16B4-4BBE-91F4-86260A15B8E7",
+      "domains": ["creditmutuel.fr"],
+      "click": {
+        "optIn": ".ei_btn_typ_validate",
+        "optOut": ".ei_lb_btnskip",
+        "presence": "#cookieLB"
+      }
     }
   ]
 }
