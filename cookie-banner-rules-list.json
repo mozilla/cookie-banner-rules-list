@@ -6267,7 +6267,7 @@
     },
     {
       "id": "7AF1C34C-750E-44FC-A3C4-31FB61EBF71B",
-      "domains": ["deskmodder.de"],
+      "domains": ["deskmodder.de", "zyxel.com"],
       "click": {
         "optIn": "#cookiescript_accept",
         "optOut": "#cookiescript_reject",
