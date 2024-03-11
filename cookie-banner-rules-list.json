@@ -1199,7 +1199,6 @@
         "actu.fr",
         "hbvl.be",
         "naszemiasto.pl",
-        "leboncoin.fr",
         "rtbf.be",
         "20minutos.es",
         "sudinfo.be",
@@ -1670,7 +1669,13 @@
         "meteofrance.com",
         "subito.it",
         "hasznaltauto.hu",
-        "zdnet.de"
+        "zdnet.de",
+        "intersport.fr",
+        "decathlon.fr",
+        "leboncoin.fr",
+        "boursorama.com",
+        "boursobank.com",
+        "intermarche.com"
       ]
     },
     {
@@ -4204,7 +4209,6 @@
         "focus.de",
         "bild.de",
         "computerbild.de",
-        "bloomberg.com",
         "t-online.de",
         "wetteronline.de",
         "chip.de",
@@ -4282,7 +4286,7 @@
         "runContext": "child"
       },
       "cookies": {},
-      "domains": ["aktuality.sk", "sky.it", "azet.sk"],
+      "domains": ["aktuality.sk", "sky.it", "azet.sk", "bloomberg.com"],
       "id": "ae8f7761-35ff-45b2-92df-7868ca288ad2"
     },
     {
@@ -5856,7 +5860,7 @@
     },
     {
       "id": "04e919eb-13c2-4b37-bf7f-888767888640",
-      "domains": ["silentiumpc.com"],
+      "domains": ["krux.tech", "silentiumpc.com", "spcgear.com"],
       "cookies": {
         "optOut": [
           {
@@ -6330,6 +6334,15 @@
       "click": {
         "optIn": "#popin_tc_privacy_button",
         "optOut": "#popin_tc_privacy_button_3",
+        "presence": "#tc-privacy-wrapper"
+      }
+    },
+    {
+      "id": "3030D307-A610-4F3D-B589-D2BE133850D7",
+      "domains": ["but.fr"],
+      "click": {
+        "optIn": "#popin_tc_privacy_button",
+        "optOut": "#popin_tc_privacy_button_2",
         "presence": "#tc-privacy-wrapper"
       }
     },
