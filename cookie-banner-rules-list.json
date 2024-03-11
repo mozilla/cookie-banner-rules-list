@@ -6310,6 +6310,15 @@
       }
     },
     {
+      "id": "3030D307-A610-4F3D-B589-D2BE133850D7",
+      "domains": ["but.fr"],
+      "click": {
+        "optIn": "#popin_tc_privacy_button",
+        "optOut": "#popin_tc_privacy_button_2",
+        "presence": "#tc-privacy-wrapper"
+      }
+    },
+    {
       "id": "3FD9FDA8-5F69-46C4-BA33-35FE3C804B4C",
       "domains": ["stepstone.de"],
       "click": {
