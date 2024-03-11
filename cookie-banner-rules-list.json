@@ -5860,7 +5860,7 @@
     },
     {
       "id": "04e919eb-13c2-4b37-bf7f-888767888640",
-      "domains": ["endorfy.com", "krux.tech", "silentiumpc.com", "spcgear.com"],
+      "domains": ["krux.tech", "silentiumpc.com", "spcgear.com"],
       "cookies": {
         "optOut": [
           {
@@ -5872,6 +5872,29 @@
       "click": {
         "presence": "#cookie-law-info-bar",
         "optIn": "#wt-cli-accept-all-btn"
+      }
+    },
+    {
+      "id": "1be1e4d7-bcad-4fc8-a348-ae64af8bcac7",
+      "domains": ["endorfy.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "moove_gdpr_popup",
+            "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%221%22%2C%22advanced%22%3A%221%22%7D"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "moove_gdpr_popup",
+            "value": "%7B%22strict%22%3A%221%22%2C%22thirdparty%22%3A%220%22%2C%22advanced%22%3A%220%22%7D"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#moove_gdpr_cookie_info_bar",
+        "optOut": ".moove-gdpr-infobar-reject-btn",
+        "optIn": ".moove-gdpr-infobar-allow-all"
       }
     },
     {
