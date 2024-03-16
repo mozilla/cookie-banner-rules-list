@@ -3120,6 +3120,16 @@
     },
     {
       "click": {
+        "optIn": "button#footer_tc_privacy_button_3",
+        "optOut": "button#footer_tc_privacy_button_2",
+        "presence": "div#tc-privacy-wrapper"
+      },
+      "cookies": {},
+      "id": "6c1ebd2b-867a-40a5-8184-0ead733eae69",
+      "domains": ["labanquepostale.fr"]
+    },
+    {
+      "click": {
         "optIn": "button.css-fz9f1h",
         "presence": "div#qc-cmp2-container"
       },
