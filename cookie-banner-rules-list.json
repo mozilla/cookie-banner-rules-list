@@ -6423,6 +6423,15 @@
         "optOut": ".ei_lb_btnskip",
         "presence": "#cookieLB"
       }
+    },
+    {
+      "id": "4A767353-98B9-4284-857A-D98DC3ECDFE1",
+      "domains": ["ldlc.com", "ldlc.pro", "materiel.net"],
+      "click": {
+        "optIn": "#cookieConsentAcceptButton",
+        "optOut": "#cookieConsentRefuseButton",
+        "presence": "#cookieConsentBanner"
+      }
     }
   ]
 }
