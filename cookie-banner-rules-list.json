@@ -1689,7 +1689,16 @@
         "leboncoin.fr",
         "boursorama.com",
         "boursobank.com",
-        "intermarche.com"
+        "intermarche.com",
+        "bricomarche.com",
+        "entrepot-du-bricolage.fr",
+        "lesnumeriques.com",
+        "seloger.com",
+        "societe.com",
+        "manomano.fr",
+        "pagesjaunes.fr",
+        "sncf-connect.com",
+        "largus.fr"
       ]
     },
     {
@@ -2727,7 +2736,9 @@
         "opodo.no",
         "opodo.pl",
         "opodo.pt",
-        "radiofrance.fr"
+        "radiofrance.fr",
+        "rfi.fr",
+        "blablacar.fr"
       ]
     },
     {
