@@ -3110,7 +3110,7 @@
       },
       "cookies": {},
       "id": "1871561d-65f8-4972-8e8a-84fa9eb704b4",
-      "domains": ["cdiscount.com"]
+      "domains": ["cdiscount.com", "laposte.net", "laposte.fr"]
     },
     {
       "click": {
