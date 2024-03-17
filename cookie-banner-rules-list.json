@@ -1924,6 +1924,15 @@
     },
     {
       "click": {
+        "optIn": "button.orejime-Notice-saveButton",
+        "optOut": "button.orejime-Notice-declineButton",
+        "presence": "div.orejime-Notice"
+      },
+      "id": "7293dc4c-1d3d-4236-84a6-3c5cb3def55a",
+      "domains": ["service-public.fr"]
+    },
+    {
+      "click": {
         "optIn": "button#popin_tc_privacy_button_2",
         "presence": "div#popin_tc_privacy_container_button"
       },
