@@ -6441,6 +6441,15 @@
         "optOut": "#cookieConsentRefuseButton",
         "presence": "#cookieConsentBanner"
       }
+    },
+    {
+      "id": "BC3582FC-C5FA-4743-85E8-7E46F67629AB",
+      "domains": ["rueducommerce.fr"],
+      "click": {
+        "optIn": "#rgpd-btn-index-accept",
+        "optOut": "#rgpd-btn-index-continue",
+        "presence": "#modalTpl"
+      }
     }
   ]
 }
