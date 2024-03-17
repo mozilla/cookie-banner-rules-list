@@ -585,7 +585,7 @@
       },
       "cookies": {},
       "id": "1e6d35e7-b907-4f5c-a09a-9f3336ef6e61",
-      "domains": ["ebay.com", "ebay.de", "ebay.co.uk"]
+      "domains": ["ebay.com", "ebay.de", "ebay.co.uk", "ebay.it"]
     },
     {
       "click": {
@@ -2286,16 +2286,6 @@
       "cookies": {},
       "id": "da1104e6-0ce0-4956-bd53-fd13c5c2c90b",
       "domains": ["nemzetisport.hu"]
-    },
-    {
-      "click": {
-        "optIn": "button#gdpr-banner-accept",
-        "optOut": "button#gdpr-banner-decline",
-        "presence": "div.gdpr-banner__wrapper"
-      },
-      "cookies": {},
-      "id": "0bee4c78-484e-4f21-8585-f089bc7618f5",
-      "domains": ["ebay.it"]
     },
     {
       "click": {
