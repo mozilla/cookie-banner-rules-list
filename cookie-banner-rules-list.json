@@ -6366,6 +6366,15 @@
       }
     },
     {
+      "id": "9022E9FE-2DC2-48DD-BE4A-EFA8A2C81E2B",
+      "domains": ["laredoute.fr"],
+      "click": {
+        "optIn": "#popin_tc_privacy_button_2",
+        "optOut": "#optout_link",
+        "presence": "#tc-privacy-wrapper"
+      }
+    },
+    {
       "id": "3FD9FDA8-5F69-46C4-BA33-35FE3C804B4C",
       "domains": ["stepstone.de"],
       "click": {
