@@ -585,7 +585,25 @@
       },
       "cookies": {},
       "id": "1e6d35e7-b907-4f5c-a09a-9f3336ef6e61",
-      "domains": ["ebay.com", "ebay.de", "ebay.co.uk", "ebay.it"]
+      "domains": [
+        "ebay.com",
+        "ebay.de",
+        "ebay.co.uk",
+        "ebay.it",
+        "ebay.com.au",
+        "ebay.ca",
+        "ebay.fr",
+        "ebay.es",
+        "ebay.at",
+        "ebay.ch",
+        "ebay.com.hk",
+        "ebay.com.sg",
+        "ebay.com.my",
+        "ebay.ie",
+        "ebay.pl",
+        "ebay.be",
+        "ebay.nl"
+      ]
     },
     {
       "click": {
