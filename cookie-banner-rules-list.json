@@ -2347,14 +2347,7 @@
         "optOut": "button#CybotCookiebotDialogBodyButtonDecline",
         "presence": "div#CybotCookiebotDialog"
       },
-      "cookies": {
-        "optOut": [
-          {
-            "name": "CookieConsent",
-            "value": "{stamp:%277wlvZfVgG/Pfkj1y6Hfoz636NePkdUWVOV+lQLpJefS1O2ny+RqIdg==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:5%2Cutc:1699462925195%2Ciab2:%27CP07BsAP07BsACGABBENDeCgAAAAAH_AAAAAAAAS4gGgAgABkAEQAJ4AbwA_AEWAJ2AYoBMgC8wGCAS4AAAA.YAAAAAAAAAAA%27%2Cgacm:%271~%27%2Cregion:%27de%27}"
-          }
-        ]
-      },
+      "cookies": {},
       "id": "1006f951-cd51-47cc-9527-5036cef4b85a",
       "domains": ["politiken.dk"]
     },
