@@ -6381,7 +6381,7 @@
     },
     {
       "id": "17B1F270-F499-451C-AED5-5C737106F003",
-      "domains": ["ovhcloud.com"],
+      "domains": ["ovh.com", "ovhcloud.com", "ovhtelecom.fr"],
       "click": {
         "optIn": "#header_tc_privacy_button_3",
         "optOut": "#header_tc_privacy_button",
