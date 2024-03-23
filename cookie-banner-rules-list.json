@@ -6354,7 +6354,13 @@
     },
     {
       "id": "98D89E26-F4B6-4C2D-BABF-4295B922E433",
-      "domains": ["fortuneo.fr", "lcl.fr", "enedis.fr", "tf1.fr"],
+      "domains": [
+        "bouyguestelecom.fr",
+        "enedis.fr",
+        "fortuneo.fr",
+        "lcl.fr",
+        "tf1.fr"
+      ],
       "click": {
         "optIn": "#popin_tc_privacy_button_3",
         "optOut": "#popin_tc_privacy_button_2",
