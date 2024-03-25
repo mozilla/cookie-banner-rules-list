@@ -559,6 +559,33 @@
       }
     },
     {
+      "id": "9d29b82d-c438-4003-8573-54e1ad6fa031",
+      "domains": ["instagram.com"],
+      "click": {
+        "presence": "[role=\"dialog\"]",
+        "optOut": "[role=\"dialog\"] button + button",
+        "optIn": "[role=\"dialog\"] button:has(+ button)"
+      }
+    },
+    {
+      "id": "c232eab8-f55a-436a-8033-478746d05d98",
+      "domains": ["threads.net"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "cb",
+            "value": "1_2055_07_11_"
+          }
+        ],
+        "optOut": [
+          {
+            "name": "cb",
+            "value": "1_2055_07_11_2-3"
+          }
+        ]
+      }
+    },
+    {
       "cookies": {
         "optOut": [
           {
@@ -2347,14 +2374,7 @@
         "optOut": "button#CybotCookiebotDialogBodyButtonDecline",
         "presence": "div#CybotCookiebotDialog"
       },
-      "cookies": {
-        "optOut": [
-          {
-            "name": "CookieConsent",
-            "value": "{stamp:%277wlvZfVgG/Pfkj1y6Hfoz636NePkdUWVOV+lQLpJefS1O2ny+RqIdg==%27%2Cnecessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:5%2Cutc:1699462925195%2Ciab2:%27CP07BsAP07BsACGABBENDeCgAAAAAH_AAAAAAAAS4gGgAgABkAEQAJ4AbwA_AEWAJ2AYoBMgC8wGCAS4AAAA.YAAAAAAAAAAA%27%2Cgacm:%271~%27%2Cregion:%27de%27}"
-          }
-        ]
-      },
+      "cookies": {},
       "id": "1006f951-cd51-47cc-9527-5036cef4b85a",
       "domains": ["politiken.dk"]
     },
@@ -5241,24 +5261,6 @@
         "optOut": "#footer_tc_privacy_button_2",
         "presence": ".tc-privacy-wrapper.tc-privacy-override.tc-privacy-wrapper"
       }
-    },
-    {
-      "cookies": {
-        "optOut": [
-          {
-            "name": "cb",
-            "value": "1_2055_07_11_2-3"
-          }
-        ],
-        "optIn": [
-          {
-            "name": "cb",
-            "value": "1_2055_07_11_"
-          }
-        ]
-      },
-      "id": "C232EAB8-F55A-436A-8033-478746D05D98",
-      "domains": ["threads.net"]
     },
     {
       "id": "05157ed1-12c2-4f84-9dff-718fae5bc096",
