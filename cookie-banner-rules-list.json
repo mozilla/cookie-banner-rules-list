@@ -294,7 +294,8 @@
         "stackapps.com",
         "stackexchange.com",
         "stackoverflow.com",
-        "superuser.com"
+        "superuser.com",
+        "carrefour.fr"
       ]
     },
     {
@@ -417,7 +418,15 @@
       },
       "cookies": {},
       "id": "2d821158-5945-4134-a078-56c6da4f678d",
-      "domains": ["fnac.be", "fnac.ch", "fnac.com", "fnac.pt"]
+      "domains": [
+        "e.leclerc",
+        "fnac.be",
+        "fnac.ch",
+        "fnac.com",
+        "fnac.pt",
+        "leclercdrive.fr",
+        "mondialrelay.fr"
+      ]
     },
     {
       "click": {
@@ -1716,7 +1725,16 @@
         "leboncoin.fr",
         "boursorama.com",
         "boursobank.com",
-        "intermarche.com"
+        "intermarche.com",
+        "bricomarche.com",
+        "entrepot-du-bricolage.fr",
+        "lesnumeriques.com",
+        "seloger.com",
+        "societe.com",
+        "manomano.fr",
+        "pagesjaunes.fr",
+        "sncf-connect.com",
+        "largus.fr"
       ]
     },
     {
@@ -1933,6 +1951,15 @@
       },
       "id": "98fcb883-013a-4858-a181-28c87e399c42",
       "domains": ["belgium.be"]
+    },
+    {
+      "click": {
+        "optIn": "button.orejime-Notice-saveButton",
+        "optOut": "button.orejime-Notice-declineButton",
+        "presence": "div.orejime-Notice"
+      },
+      "id": "7293dc4c-1d3d-4236-84a6-3c5cb3def55a",
+      "domains": ["service-public.fr"]
     },
     {
       "click": {
@@ -2734,6 +2761,7 @@
         "markiza.sk",
         "willhaben.at",
         "francetvinfo.fr",
+        "france.tv",
         "france24.com",
         "opodo.at",
         "opodo.ch",
@@ -2747,7 +2775,10 @@
         "opodo.no",
         "opodo.pl",
         "opodo.pt",
-        "radiofrance.fr"
+        "radiofrance.fr",
+        "rfi.fr",
+        "blablacar.fr",
+        "6play.fr"
       ]
     },
     {
@@ -3119,7 +3150,17 @@
       },
       "cookies": {},
       "id": "1871561d-65f8-4972-8e8a-84fa9eb704b4",
-      "domains": ["cdiscount.com"]
+      "domains": ["cdiscount.com", "laposte.net", "laposte.fr"]
+    },
+    {
+      "click": {
+        "optIn": "button#footer_tc_privacy_button_3",
+        "optOut": "button#footer_tc_privacy_button_2",
+        "presence": "div#tc-privacy-wrapper"
+      },
+      "cookies": {},
+      "id": "6c1ebd2b-867a-40a5-8184-0ead733eae69",
+      "domains": ["labanquepostale.fr"]
     },
     {
       "click": {
@@ -5214,7 +5255,7 @@
     },
     {
       "id": "cc818b41-7b46-46d3-9b17-cf924cbe87d1",
-      "domains": ["arte.tv"],
+      "domains": ["arte.tv", "urssaf.fr"],
       "click": {
         "optIn": "#footer_tc_privacy_button",
         "optOut": "#footer_tc_privacy_button_2",
@@ -6297,7 +6338,7 @@
     },
     {
       "id": "43ad2b6b-a57b-4f7a-9d76-e32e696ddc10",
-      "domains": ["dpd.com", "dpdgroup.com"],
+      "domains": ["dpd.com", "dpdgroup.com", "edf.fr", "totalenergies.fr"],
       "click": {
         "presence": "#tc-privacy-wrapper",
         "optOut": "#popin_tc_privacy_button_3",
@@ -6315,10 +6356,43 @@
     },
     {
       "id": "98D89E26-F4B6-4C2D-BABF-4295B922E433",
-      "domains": ["fortuneo.fr", "lcl.fr"],
+      "domains": [
+        "bouyguestelecom.fr",
+        "enedis.fr",
+        "fortuneo.fr",
+        "lcl.fr",
+        "tf1.fr"
+      ],
       "click": {
         "optIn": "#popin_tc_privacy_button_3",
         "optOut": "#popin_tc_privacy_button_2",
+        "presence": "#tc-privacy-wrapper"
+      }
+    },
+    {
+      "id": "5D50AA8D-D00E-4A51-8D32-64965A0575CA",
+      "domains": ["quechoisir.org", "quechoisirensemble.fr"],
+      "click": {
+        "optIn": "#popin_tc_privacy_button_2",
+        "optOut": "#popin_tc_privacy_button",
+        "presence": "#tc-privacy-wrapper"
+      }
+    },
+    {
+      "id": "9022E9FE-2DC2-48DD-BE4A-EFA8A2C81E2B",
+      "domains": ["laredoute.fr"],
+      "click": {
+        "optIn": "#popin_tc_privacy_button_2",
+        "optOut": "#optout_link",
+        "presence": "#tc-privacy-wrapper"
+      }
+    },
+    {
+      "id": "17B1F270-F499-451C-AED5-5C737106F003",
+      "domains": ["ovh.com", "ovhcloud.com", "ovhtelecom.fr"],
+      "click": {
+        "optIn": "#header_tc_privacy_button_3",
+        "optOut": "#header_tc_privacy_button",
         "presence": "#tc-privacy-wrapper"
       }
     },
@@ -6397,6 +6471,24 @@
         "optIn": ".ei_btn_typ_validate",
         "optOut": ".ei_lb_btnskip",
         "presence": "#cookieLB"
+      }
+    },
+    {
+      "id": "4A767353-98B9-4284-857A-D98DC3ECDFE1",
+      "domains": ["ldlc.com", "ldlc.pro", "materiel.net"],
+      "click": {
+        "optIn": "#cookieConsentAcceptButton",
+        "optOut": "#cookieConsentRefuseButton",
+        "presence": "#cookieConsentBanner"
+      }
+    },
+    {
+      "id": "BC3582FC-C5FA-4743-85E8-7E46F67629AB",
+      "domains": ["rueducommerce.fr"],
+      "click": {
+        "optIn": "#rgpd-btn-index-accept",
+        "optOut": "#rgpd-btn-index-continue",
+        "presence": "#modalTpl"
       }
     }
   ]
