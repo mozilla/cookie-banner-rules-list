@@ -6490,6 +6490,23 @@
         "optOut": "#rgpd-btn-index-continue",
         "presence": "#modalTpl"
       }
+    },
+    {
+      "id": "B8CB497B-9E12-49A7-BA2A-B7842CAEDFC3",
+      "domains": ["yazio.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cc_cookie",
+            "value": "{\"level\":[\"necessary\"],\"revision\":0,\"data\":null,\"rfc_cookie\":false}"
+          }
+        ]
+      },
+      "click": {
+        "optIn": "#c-bns #c-p-bn",
+        "optOut": "#c-bns button.grey",
+        "presence": "#cm"
+      }
     }
   ]
 }
