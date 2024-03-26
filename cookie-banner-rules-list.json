@@ -559,15 +559,6 @@
       }
     },
     {
-      "id": "9d29b82d-c438-4003-8573-54e1ad6fa031",
-      "domains": ["instagram.com"],
-      "click": {
-        "presence": "[role=\"dialog\"]",
-        "optOut": "[role=\"dialog\"] button + button",
-        "optIn": "[role=\"dialog\"] button:has(+ button)"
-      }
-    },
-    {
       "id": "c232eab8-f55a-436a-8033-478746d05d98",
       "domains": ["threads.net"],
       "cookies": {
