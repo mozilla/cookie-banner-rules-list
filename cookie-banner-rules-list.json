@@ -6498,6 +6498,15 @@
         "optOut": "#c-bns button.grey",
         "presence": "#cm"
       }
+    },
+    {
+      "id": "7b2e3401-697f-440a-b418-8477fcf2cfeb",
+      "domains": ["canalplus.com"],
+      "click": {
+        "optIn": "#accept-btn",
+        "optOut": "#decline-btn",
+        "presence": "#privacy-manager-popin"
+      }
     }
   ]
 }
