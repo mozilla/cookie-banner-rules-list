@@ -971,7 +971,14 @@
       },
       "cookies": {},
       "id": "019c0709-e9ef-4b0d-94bf-958d251a51b5",
-      "domains": ["issuu.com", "dobrenoviny.sk", "voetbal24.be", "weforum.org"]
+      "domains": [
+        "intermarche.be",
+        "intermarche.pl",
+        "intermarche.pt",
+        "issuu.com",
+        "voetbal24.be",
+        "weforum.org"
+      ]
     },
     {
       "click": {
