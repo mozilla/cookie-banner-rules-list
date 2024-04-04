@@ -300,6 +300,14 @@
         "soundcloud.com",
         "trello.com",
         "unrealengine.com",
+        "vodafone.al",
+        "vodafone.co.uk",
+        "vodafone.es",
+        "vodafone.gr",
+        "vodafone.hu",
+        "vodafone.ie",
+        "vodafone.nl",
+        "vodafone.ro",
         "askubuntu.com",
         "mathoverflow.net",
         "serverfault.com",
@@ -419,7 +427,9 @@
         "slack.com",
         "thawte.com",
         "ui.com",
-        "uisp.com"
+        "uisp.com",
+        "vodafone.com.tr",
+        "vodafone.it"
       ]
     },
     {
@@ -1603,14 +1613,84 @@
       "domains": ["gsis.gr"]
     },
     {
-      "click": {
-        "optIn": "button.t_cm_ec_continue_button",
-        "optOut": "button.t_cm_ec_reject_button",
-        "presence": "div.t_cm_ec_modal_footer"
-      },
-      "cookies": {},
       "id": "a4cb7b9f-0a47-4fc8-ac4c-5e9d0d598531",
-      "domains": ["vodafone.com"]
+      "domains": ["vodafone.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "CONSENTMGR",
+            "value": "c1:0%7Cc2:0%7Cc3:0%7Cc4:0%7Cc5:0%7Cc6:0%7Cc7:0%7Cc8:0%7Cc9:0%7Cc10:0%7Cc11:0%7Cc12:0%7Cc13:0%7Cc14:0%7Cc15:0%7Cts:2524608000000%7Cconsent:false"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#__tealiumGDPRecModal",
+        "optOut": ".t_cm_ec_reject_button",
+        "optIn": ".t_cm_ec_continue_button"
+      }
+    },
+    {
+      "id": "ba7bde95-93ff-43fd-845f-b8a396b46480",
+      "domains": ["vodafone.cz"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "vfconsents",
+            "value": "\"cvx:5|vt:2524608000000|vn:1|ci:1|funa:o|mktg:o|cond:1|dldt:2524608000000|cvd:5|cvu:5|cdd:2524608000000|vind:1\""
+          }
+        ]
+      },
+      "click": {
+        "presence": ".vfcc__overlay",
+        "optOut": "[value=\"saveNecessarily\"]",
+        "optIn": "[value=\"allowAll\"]"
+      }
+    },
+    {
+      "id": "b85f7d67-d6d4-40ee-8472-a32b6cd01e0e",
+      "domains": ["vodafone.de"],
+      "click": {
+        "presence": "#dip-consent",
+        "optOut": "#dip-consent-summary-reject-all",
+        "optIn": "#dip-consent-summary-accept-all"
+      }
+    },
+    {
+      "id": "723c6f57-2399-4a6c-bd5e-83650d2db861",
+      "domains": ["vodafone.pf"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cpnb_cookiesSettings",
+            "value": "%7B%22required-cookies%22%3A1%2C%22analytical-cookies%22%3A0%2C%22social-media-cookies%22%3A0%2C%22targeted-advertising-cookies%22%3A0%7D"
+          },
+          {
+            "name": "cpnbCookiesDeclined",
+            "value": "1"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#cpnb",
+        "optOut": "#cpnb-decline-btn",
+        "optIn": "#cpnb-accept-btn"
+      }
+    },
+    {
+      "id": "522a2d72-8131-406e-b058-b27ec07808fc",
+      "domains": ["vodafone.pt"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "OPTOUTCONSENT",
+            "value": "1:1&2:0&3:0&4:0"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#cookiesModal",
+        "optIn": ".ebu-cookies-layer__modal-buttons > .confirm"
+      }
     },
     {
       "click": {
@@ -4412,14 +4492,13 @@
       "domains": ["17track.net"]
     },
     {
+      "id": "305b6c0d-5b66-4b3f-bf0f-fb85db21fe60",
+      "domains": ["cookiehub.com", "semrush.com", "vodafone.is"],
       "click": {
-        "optIn": "button.ch2-allow-all-btn",
-        "optOut": "button.ch2-deny-all-btn",
-        "presence": "div.ch2-container"
-      },
-      "cookies": {},
-      "id": "2f54e492-0f33-4496-ab08-99af50bf6f22",
-      "domains": ["semrush.com"]
+        "presence": ".ch2-dialog",
+        "optOut": ".ch2-deny-all-btn",
+        "optIn": ".ch2-allow-all-btn"
+      }
     },
     {
       "click": { "optIn": "a.cc-dismiss", "presence": "div.cc-window" },
@@ -5171,14 +5250,6 @@
       "domains": ["se.pl"]
     },
     {
-      "click": {},
-      "cookies": {
-        "optOut": [{ "name": "OPTOUTCONSENT", "value": "1:1&2:0&3:0&4:0" }]
-      },
-      "id": "522a2d72-8131-406e-b058-b27ec07808fc",
-      "domains": ["vodafone.pt"]
-    },
-    {
       "click": {
         "optIn": "div#cookiescript_accept",
         "optOut": "div#cookiescript_reject ",
@@ -5576,16 +5647,6 @@
       },
       "id": "D4AD5843-DDBD-4D93-BFBA-F53DD8B53111",
       "domains": ["bahn.de"]
-    },
-    {
-      "cookies": {},
-      "click": {
-        "presence": "#dip-consent",
-        "optIn": "#dip-consent-summary-accept-all",
-        "optOut": "#dip-consent-summary-reject-all"
-      },
-      "id": "B85F7D67-D6D4-40EE-8472-A32B6CD01E0E",
-      "domains": ["vodafone.de"]
     },
     {
       "click": {
