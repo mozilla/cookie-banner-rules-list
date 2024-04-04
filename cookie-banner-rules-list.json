@@ -5408,11 +5408,16 @@
       "domains": ["fandom.com"]
     },
     {
-      "click": {
-        "presence": "#mms-consent-portal-container",
-        "optOut": "button[data-test=\"pwa-consent-layer-deny-all\"]",
-        "optIn": "button[data-test=\"pwa-consent-layer-accept-all\"]"
-      },
+      "id": "2a2b8102-d276-4ece-afbd-005e8e917d18",
+      "domains": [
+        "mediamarkt.at",
+        "mediamarkt.be",
+        "mediamarkt.de",
+        "mediamarkt.es",
+        "mediamarkt.nl",
+        "mediamarkt.pl",
+        "saturn.de"
+      ],
       "cookies": {
         "optOut": [
           {
@@ -5421,8 +5426,28 @@
           }
         ]
       },
-      "id": "2A2B8102-D276-4ECE-AFBD-005E8E917D18",
-      "domains": ["mediamarkt.de", "saturn.de"]
+      "click": {
+        "presence": "[data-test=\"mms-privacy-layer\"]",
+        "optOut": "[data-test=\"pwa-consent-layer-deny-all\"]",
+        "optIn": "#pwa-consent-layer-accept-all-button"
+      }
+    },
+    {
+      "id": "6f85da65-e44e-4d58-b87c-3e31861de3e0",
+      "domains": ["mediamarktsaturn.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookiesjsr",
+            "value": "%7B%22functional%22%3Afalse%2C%22recaptcha%22%3Afalse%2C%22video%22%3Afalse%7D"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".cookiesjsr-banner",
+        "optOut": ".denyAll",
+        "optIn": ".allowAll"
+      }
     },
     {
       "cookies": {
