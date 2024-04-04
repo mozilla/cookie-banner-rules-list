@@ -999,6 +999,7 @@
         "intersport.pl",
         "intersport.si",
         "issuu.com",
+        "telekom.ro",
         "voetbal24.be",
         "weforum.org"
       ]
@@ -2916,13 +2917,13 @@
       "domains": ["avanza.se"]
     },
     {
-      "click": {
-        "optIn": "button#consent_prompt_submit",
-        "presence": "div#__tealiumGDPRecModal"
-      },
-      "cookies": {},
       "id": "c40f3982-0372-4cdd-8aea-c150afd8328e",
-      "domains": ["post.ch"]
+      "domains": ["magenta.at", "post.ch", "rts.ch"],
+      "click": {
+        "presence": "#focus-lock-id",
+        "optOut": "[data-testid=\"uc-deny-all-button\"]",
+        "optIn": "[data-testid=\"uc-accept-all-button\"]"
+      }
     },
     {
       "click": {
@@ -3702,15 +3703,6 @@
       },
       "id": "8e9824be-3535-4d17-8e64-ae9628a0611d",
       "domains": ["capital.gr"]
-    },
-    {
-      "click": {
-        "optIn": "button#accept_all_cookies",
-        "presence": "section#cookie_consent"
-      },
-      "cookies": {},
-      "id": "80d51057-06fe-4469-be50-0438c9165020",
-      "domains": ["telekom.hu"]
     },
     {
       "click": {
@@ -5545,7 +5537,7 @@
     },
     {
       "id": "83ad4c2f-e59a-4295-a342-5db40fb81763",
-      "domains": ["decathlon.si"],
+      "domains": ["decathlon.si", "t-mobile.pl"],
       "cookies": {
         "optOut": [
           {
@@ -5649,13 +5641,123 @@
       "domains": ["bahn.de"]
     },
     {
+      "id": "2f9c701b-8b1f-4f44-82cc-e79d717e390f",
+      "domains": ["deutschetelekomitsolutions.sk"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookies",
+            "value": "%7B%22submitted%22%3A%222050-01-01T00%3A00%3A00Z%22%2C%22consent%22%3A%7B%22statistics%22%3Afalse%2C%22marketing%22%3Afalse%7D%7D"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#modals",
+        "optOut": "#modals #decline-all",
+        "optIn": "#modals #accept-all"
+      }
+    },
+    {
+      "id": "8907164e-17d8-4d27-b0a3-edda59f53dbe",
+      "domains": [
+        "magentacloud.de",
+        "magentasport.de",
+        "t-systems.com",
+        "t-systems.jobs",
+        "telekom-hauptstadtrepraesentanz.com",
+        "telekom.com",
+        "telekom.de",
+        "telekom.jobs"
+      ],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "CONSENTMGR",
+            "value": "c1:0%7Cc3:0%7Cc7:0%7Cts:2524608000000%7Cconsent:false"
+          }
+        ]
+      },
       "click": {
         "presence": "#__tealiumGDPRecModal",
-        "optIn": "#consentAcceptAll",
-        "optOut": "#rejectAll"
+        "optOut": "#rejectAll",
+        "optIn": "#consentAcceptAll"
+      }
+    },
+    {
+      "id": "2858c963-0a13-4c5b-b7e8-c3f9b79c5b8d",
+      "domains": ["telekom.mk"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookieConsent",
+            "value": "%7B%22strictlyNecessary%22%3Atrue%2C%22marketing%22%3Afalse%2C%22statistics%22%3Afalse%2C%22preferences%22%3Afalse%7D"
+          },
+          {
+            "name": "gdpr",
+            "value": "0"
+          }
+        ]
       },
-      "id": "8907164E-17D8-4D27-B0A3-EDDA59F53DBE",
-      "domains": ["telekom.com", "telekom.de"]
+      "click": {
+        "presence": "#cookiesModal",
+        "optOut": "#cookiesModal #required-cookies-btn",
+        "optIn": "#cookiesModal #all-cookies-btn"
+      }
+    },
+    {
+      "id": "7b4506b2-1c6f-4afc-ab5f-892331cabad3",
+      "domains": ["telekom.sk"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookieConsent",
+            "value": "%7B%22strictlyNecessary%22:true,%22preferences%22:false,%22marketing%22:false,%22statistics%22:false%7D"
+          },
+          {
+            "name": "cookieConsentVersion",
+            "value": "V3"
+          },
+          {
+            "name": "purpose_cookie",
+            "value": "1"
+          },
+          {
+            "name": "receiver_cookie",
+            "value": "14"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#gdpr-component",
+        "optOut": "#rejectAllQuick",
+        "optIn": "#acceptAllQuick"
+      }
+    },
+    {
+      "id": "c7f03541-c93e-4939-a640-7c686d595986",
+      "domains": ["t-mobile.cz"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cocos",
+            "value": "%7B%22funkcni%22%3Afalse%2C%22statisticke%22%3Afalse%2C%22reklamni%22%3Afalse%7D"
+          },
+          {
+            "name": "cookieConsent",
+            "value": "%7B%22preferences%22%3Afalse%2C%22statistics%22%3Afalse%2C%22marketing%22%3Afalse%7D"
+          },
+          {
+            "name": "corec",
+            "value": "%7B%22youtube%22%3Afalse%2C%22rtbhouse%22%3Afalse%2C%22google_recaptcha%22%3Atrue%2C%22foxentry_funkcni%22%3Afalse%2C%22tmobile_nezbytne%22%3Atrue%2C%22linkedin%22%3Afalse%2C%22medallia%22%3Afalse%2C%22tmobile_funkcni%22%3Afalse%2C%22tealium%22%3Afalse%2C%22adform%22%3Afalse%2C%22xaxis%22%3Afalse%2C%22twitter%22%3Afalse%2C%22appnexus%22%3Afalse%2C%22gemius%22%3Afalse%2C%22exponea%22%3Afalse%2C%22hotjar%22%3Afalse%2C%22tmobile_reklamni%22%3Afalse%2C%22facebook%22%3Afalse%2C%22inspectlet%22%3Afalse%2C%22cloudflare%22%3Afalse%2C%22google_ads%22%3Afalse%2C%22bing%22%3Afalse%2C%22foxentry_reklamni%22%3Afalse%2C%22clarity%22%3Afalse%2C%22seznam%22%3Afalse%2C%22tmobile_statisticke%22%3Afalse%2C%22google_analytics%22%3Afalse%2C%22rejectAllDate%22%3A%222024-03-28%22%7D"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#gdpr-component",
+        "runContext": "child",
+        "optOut": "#rejectAllQuick",
+        "optIn": "#acceptAllQuick"
+      }
     },
     {
       "click": {
@@ -5866,16 +5968,6 @@
         "optOut": ".cky-btn.cky-btn-reject",
         "optIn": ".cky-btn.cky-btn-accept",
         "presence": ".cky-consent-bar"
-      },
-      "cookies": {}
-    },
-    {
-      "id": "9f5f0c06-5221-45b2-a174-7d70fd128eb3",
-      "domains": ["rts.ch"],
-      "click": {
-        "optOut": "[data-testid=\"uc-deny-all-button\"]",
-        "optIn": "[data-testid=\"uc-accept-all-button\"]",
-        "presence": "#usercentrics-root"
       },
       "cookies": {}
     },
