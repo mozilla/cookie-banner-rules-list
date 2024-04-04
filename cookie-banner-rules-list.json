@@ -1885,6 +1885,7 @@
         "lesechos.fr",
         "numerama.com",
         "jofogas.hu",
+        "orange.com",
         "orange.fr",
         "meteofrance.com",
         "subito.it",
@@ -1919,6 +1920,7 @@
         "decathlon.mt",
         "decathlon.nl",
         "decathlon.yoga",
+        "orange.pl",
         "quechua.fr"
       ],
       "cookies": {
@@ -1937,7 +1939,13 @@
     },
     {
       "id": "5da98b86-9a16-47ec-8607-046744d93396",
-      "domains": ["decathlon.cz", "decathlon.it", "hnonline.sk", "orange.sk"],
+      "domains": [
+        "decathlon.cz",
+        "decathlon.it",
+        "hnonline.sk",
+        "orange.md",
+        "orange.sk"
+      ],
       "cookies": {
         "optOut": [
           {
@@ -2999,6 +3007,23 @@
         "optOut": [
           {
             "name": "euconsent-v2",
+            "value": "CXgyJwAXgyJwAAHABBENAtEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#didomi-popup",
+        "optOut": "#didomi-notice-disagree-button",
+        "optIn": "#didomi-notice-agree-button"
+      }
+    },
+    {
+      "id": "49719e34-a29a-4604-ae3c-b9835e286473",
+      "domains": ["orange-business.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "consentiab",
             "value": "CXgyJwAXgyJwAAHABBENAtEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
           }
         ]
@@ -5520,6 +5545,7 @@
         "decathlon.lt",
         "decathlon.lv",
         "decathlon.se",
+        "orange.lu",
         "reverso.net"
       ],
       "cookies": {
@@ -7106,6 +7132,68 @@
         "presence": "#modal-cookie-info",
         "optOut": ".no-agree > a",
         "optIn": ".cookie-agree"
+      }
+    },
+    {
+      "id": "2172b091-8b03-4f66-b20c-08c14e21c0aa",
+      "domains": ["orange.be"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "CONSENTMGR",
+            "value": "c1:0%7Cc6:0%7Cc9:0%7Cts:2524608000000%7Cconsent:false"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#__tealiumGDPRecModal",
+        "optIn": "#consent_prompt_submit"
+      }
+    },
+    {
+      "id": "1626f70d-7761-467c-b3ed-56e324786902",
+      "domains": ["orange.es"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "CONSENTMGR",
+            "value": "c1:0%7Cc2:0%7Cc3:0%7Cc4:0%7Cc5:0%7Cc6:0%7Cc7:0%7Cc8:0%7Cc9:0%7Cc10:0%7Cc11:0%7Cc12:0%7Cc13:0%7Cc14:0%7Cc15:0%7Cts:2524608000000%7Cconsent:false"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#__tealiumGDPRecModal",
+        "optOut": "#consent_optout",
+        "optIn": "#consent_optin"
+      }
+    },
+    {
+      "id": "2e026e27-1356-40c8-a25c-24fbe4bf8af4",
+      "domains": ["orange.jobs"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "consent",
+            "value": "bypass"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".fancybox-type-html",
+        "optOut": ".js-consent-bypass-button",
+        "optIn": ".js-consent-all-submit"
+      }
+    },
+    {
+      "id": "24350444-6b01-46a5-b8a4-99f4d417f08f",
+      "domains": ["orange.sn"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "orange_cookieconsent_dismissed",
+            "value": "no"
+          }
+        ]
       }
     }
   ]
