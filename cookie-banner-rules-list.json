@@ -2829,10 +2829,41 @@
         "radiofrance.fr",
         "rfi.fr",
         "rtl.fr",
-        "blablacar.fr",
         "6play.fr",
         "marianne.net"
       ]
+    },
+    {
+      "id": "3b20cf84-991e-4155-8620-4e897d703530",
+      "domains": [
+        "blablacar.be",
+        "blablacar.co.uk",
+        "blablacar.cz",
+        "blablacar.de",
+        "blablacar.es",
+        "blablacar.fr",
+        "blablacar.hr",
+        "blablacar.hu",
+        "blablacar.it",
+        "blablacar.nl",
+        "blablacar.pl",
+        "blablacar.pt",
+        "blablacar.ro",
+        "blablacar.sk"
+      ],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CXgyJwAXgyJwAAHABBENAtEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#didomi-popup",
+        "optOut": "#didomi-notice-disagree-button",
+        "optIn": "#didomi-notice-agree-button"
+      }
     },
     {
       "click": {
@@ -6612,6 +6643,26 @@
         "optIn": "#accept-btn",
         "optOut": "#decline-btn",
         "presence": "#privacy-manager-popin"
+      }
+    },
+    {
+      "id": "2f4e1235-a360-46ca-bf26-8b09645ee3d5",
+      "domains": [
+        "blablacar.com.br",
+        "blablacar.com.tr",
+        "blablacar.com.ua",
+        "blablacar.in",
+        "blablacar.mx",
+        "blablacar.rs",
+        "blablacar.ru"
+      ],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "_cookies_v2",
+            "value": "1"
+          }
+        ]
       }
     }
   ]
