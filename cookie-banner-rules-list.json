@@ -6220,7 +6220,7 @@
         "optOut": [
           {
             "name": "__tnw_cookieConsent",
-            "value": "ad_storage=denied&analytics_storage=denied"
+            "value": "{%22ad_storage%22:%22denied%22%2C%22analytics_storage%22:%22denied%22}"
           }
         ]
       },
