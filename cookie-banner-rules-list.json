@@ -2769,7 +2769,8 @@
         "radiofrance.fr",
         "rfi.fr",
         "blablacar.fr",
-        "6play.fr"
+        "6play.fr",
+        "marianne.net"
       ]
     },
     {
@@ -4352,7 +4353,13 @@
         "runContext": "child"
       },
       "cookies": {},
-      "domains": ["aktuality.sk", "sky.it", "azet.sk", "bloomberg.com"],
+      "domains": [
+        "aktuality.sk",
+        "sky.it",
+        "azet.sk",
+        "bloomberg.com",
+        "formula1.com"
+      ],
       "id": "ae8f7761-35ff-45b2-92df-7868ca288ad2"
     },
     {
