@@ -5380,7 +5380,8 @@
     {
       "click": {
         "presence": "div[data-tracking-opt-in-overlay=\"true\"]",
-        "optIn": "div[data-tracking-opt-in-accept=\"true\"]"
+        "optIn": "div[data-tracking-opt-in-accept=\"true\"]",
+        "optOut": "div[data-tracking-opt-in-reject=\"true\"]"
       },
       "id": "D168AF87-F481-4AD7-BE78-28A59F798406",
       "domains": ["fandom.com"]
