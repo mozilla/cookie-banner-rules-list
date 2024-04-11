@@ -426,7 +426,8 @@
         "fnac.com",
         "fnac.pt",
         "leclercdrive.fr",
-        "mondialrelay.fr"
+        "mondialrelay.fr",
+        "pasteur.fr"
       ]
     },
     {
@@ -2769,8 +2770,10 @@
         "opodo.pt",
         "radiofrance.fr",
         "rfi.fr",
+        "rtl.fr",
         "blablacar.fr",
-        "6play.fr"
+        "6play.fr",
+        "marianne.net"
       ]
     },
     {
@@ -4353,7 +4356,13 @@
         "runContext": "child"
       },
       "cookies": {},
-      "domains": ["aktuality.sk", "sky.it", "azet.sk", "bloomberg.com"],
+      "domains": [
+        "aktuality.sk",
+        "sky.it",
+        "azet.sk",
+        "bloomberg.com",
+        "formula1.com"
+      ],
       "id": "ae8f7761-35ff-45b2-92df-7868ca288ad2"
     },
     {
@@ -6353,7 +6362,8 @@
         "enedis.fr",
         "fortuneo.fr",
         "lcl.fr",
-        "tf1.fr"
+        "tf1.fr",
+        "tf1info.fr"
       ],
       "click": {
         "optIn": "#popin_tc_privacy_button_3",
@@ -6498,6 +6508,15 @@
         "optIn": "#c-bns #c-p-bn",
         "optOut": "#c-bns button.grey",
         "presence": "#cm"
+      }
+    },
+    {
+      "id": "7b2e3401-697f-440a-b418-8477fcf2cfeb",
+      "domains": ["canalplus.com"],
+      "click": {
+        "optIn": "#accept-btn",
+        "optOut": "#decline-btn",
+        "presence": "#privacy-manager-popin"
       }
     }
   ]
