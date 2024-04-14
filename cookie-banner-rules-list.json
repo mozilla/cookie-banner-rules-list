@@ -584,6 +584,10 @@
           {
             "name": "d_prefs",
             "value": "MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw"
+          },
+          {
+            "name": "twtr_pixel_opt_in",
+            "value": "N"
           }
         ],
         "optIn": [
