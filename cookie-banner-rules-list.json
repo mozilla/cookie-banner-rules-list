@@ -2055,7 +2055,7 @@
         ]
       },
       "id": "850ca0e7-372f-4c9f-bfbd-76d38a076cf7",
-      "domains": ["credit-agricole.fr", "sparkasse.at"]
+      "domains": ["sparkasse.at"]
     },
     {
       "click": {
@@ -6685,6 +6685,98 @@
             "value": "1"
           }
         ]
+      }
+    },
+    {
+      "id": "1f0a3536-5b09-426a-b6e6-b902c556cb8a",
+      "domains": ["credit-agricole.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookie_manager",
+            "value": "!atinternet=false!recaptcha=false!addthis=false!linkedin=false!twitter=false!ezplatform=true!youtube=false!hidebanner=true"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#tarteaucitronAlertBig",
+        "optOut": ".deny",
+        "optIn": ".accept"
+      }
+    },
+    {
+      "id": "1e12c729-34ff-4aa5-9317-d19309affd2c",
+      "domains": ["credit-agricole.de"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookie_manager",
+            "value": "!atinternet=false!recaptcha=false!addthis=false!twitter=false!ezplatform=true!youtube=false!hidebanner=true"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#tarteaucitronWelcome",
+        "optOut": ".deny",
+        "optIn": ".allow"
+      }
+    },
+    {
+      "id": "f643be2a-b805-4ab0-9e67-929419e5c7c7",
+      "domains": ["credit-agricole.fr"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "TC_PRIVACY",
+            "value": "1%40006%7C86%7C3315%40%40%402524608000000%2C2524608000000%2C2524608000000%40"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#tc-privacy-wrapper",
+        "optOut": "#popin_tc_privacy_button_3",
+        "optIn": "#popin_tc_privacy_button_2"
+      }
+    },
+    {
+      "id": "1944a25e-6f16-434d-8c59-0493ba587fe7",
+      "domains": ["credit-agricole.it"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookie_manager_cookie_marketing_enabled",
+            "value": "false"
+          },
+          {
+            "name": "cookie_manager_cookie_necessary_enabled",
+            "value": "true"
+          },
+          {
+            "name": "cookie_manager_cookie_statistic_enabled",
+            "value": "false"
+          },
+          {
+            "name": "cookie_manager_policy_accepted",
+            "value": "true"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5050fb9c-fd8a-44c2-817c-23d95f494190",
+      "domains": ["credit-agricole.pl"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "ppms_privacy_7bd68a14-fbc6-44f1-9d8b-1cf0cf5eb0bb",
+            "value": "{%22consents%22:{%22analytics%22:{%22status%22:0%2C%22updatedAt%22:%222050-01-01T00:00:00.000Z%22}%2C%22ab_testing_and_personalization%22:{%22status%22:0%2C%22updatedAt%22:%222050-01-01T00:00:00.000Z%22}%2C%22remarketing%22:{%22status%22:0%2C%22updatedAt%22:%222050-01-01T00:00:00.000Z%22}}%2C%22domain%22:{%22normalized%22:%22credit-agricole.pl%22%2C%22isWildcard%22:true%2C%22pattern%22:%22*.credit-agricole.pl%22}}"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#ppms_cm_popup_overlay",
+        "optOut": "#ppms_cm_reject-all",
+        "optIn": "#ppms_cm_agree-to-all"
       }
     }
   ]
