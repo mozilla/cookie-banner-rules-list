@@ -794,15 +794,42 @@
       "domains": ["bing.com"]
     },
     {
-      "click": {},
+      "id": "069f4d94-8031-4b83-b8f9-89752c5c1353",
+      "domains": [
+        "chollometro.com",
+        "dealabs.com",
+        "hotukdeals.com",
+        "mydealz.de",
+        "pepper.com",
+        "pepper.it",
+        "pepper.pl",
+        "preisjaeger.at"
+      ],
       "cookies": {
         "optOut": [
-          { "name": "cookie_policy_agreement", "value": "3" },
-          { "name": "dont-track", "value": "1" }
+          {
+            "name": "cookie_policy_agreement",
+            "value": "3"
+          },
+          {
+            "name": "dont-track",
+            "value": "1"
+          },
+          {
+            "name": "f_c",
+            "value": "0"
+          },
+          {
+            "name": "g_p",
+            "value": "0"
+          }
         ]
       },
-      "id": "069f4d94-8031-4b83-b8f9-89752c5c1353",
-      "domains": ["mydealz.de"]
+      "click": {
+        "presence": "[data-t=\"cookiesMessage\"]",
+        "optOut": "[data-t=\"continueWithoutAcceptingBtn\"]",
+        "optIn": "[data-t=\"acceptAllBtn\"]"
+      }
     },
     {
       "click": {},
