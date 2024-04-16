@@ -86,13 +86,16 @@
       "domains": [
         "tumblr.com",
         "paypal.com",
-        "amazon.se",
-        "amazon.fr",
-        "amazon.nl",
-        "amazon.es",
         "amazon.co.uk",
+        "amazon.com.be",
+        "amazon.com.tr",
         "amazon.de",
-        "amazon.it"
+        "amazon.es",
+        "amazon.fr",
+        "amazon.it",
+        "amazon.nl",
+        "amazon.pl",
+        "amazon.se"
       ]
     },
     {
