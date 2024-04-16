@@ -858,10 +858,38 @@
       "domains": ["bitly.com"]
     },
     {
-      "click": {},
-      "cookies": { "optOut": [{ "name": "gdpr", "value": "1" }] },
       "id": "37319f5d-9484-4da8-aee1-570a78688da3",
-      "domains": ["yandex.com", "yandex.ru", "ya.ru", "kinopoisk.ru"]
+      "domains": [
+        "kinopoisk.ru",
+        "ya.ru",
+        "yandex.az",
+        "yandex.by",
+        "yandex.co.il",
+        "yandex.com",
+        "yandex.com.am",
+        "yandex.com.ge",
+        "yandex.com.tr",
+        "yandex.ee",
+        "yandex.eu",
+        "yandex.kz",
+        "yandex.lt",
+        "yandex.lv",
+        "yandex.md",
+        "yandex.pt",
+        "yandex.ru",
+        "yandex.tj",
+        "yandex.tm",
+        "yandex.uz",
+        "yandex.vc"
+      ],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "gdpr",
+            "value": "1"
+          }
+        ]
+      }
     },
     {
       "click": {},
