@@ -1800,7 +1800,6 @@
         "zdnet.de",
         "zdnet.fr",
         "intersport.fr",
-        "decathlon.fr",
         "leboncoin.fr",
         "boursorama.com",
         "boursobank.com",
@@ -1817,14 +1816,49 @@
       ]
     },
     {
-      "click": {
-        "optIn": "#didomi-notice-agree-button",
-        "optOut": ".didomi-continue-without-agreeing",
-        "presence": "div#didomi-notice"
+      "id": "05b53737-a488-4312-b845-72d804872158",
+      "domains": [
+        "decathlon.ch",
+        "decathlon.co.uk",
+        "decathlon.es",
+        "decathlon.fr",
+        "decathlon.hu",
+        "decathlon.media",
+        "decathlon.mt",
+        "decathlon.nl",
+        "decathlon.yoga",
+        "quechua.fr"
+      ],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CXgyJwAXgyJwAAHABBENAwEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
+          }
+        ]
       },
-      "cookies": {},
-      "id": "688d29a8-e1c7-4d62-b3d4-53b451ff5a48",
-      "domains": ["orange.sk", "hnonline.sk"]
+      "click": {
+        "presence": "#didomi-popup",
+        "optOut": ".didomi-continue-without-agreeing",
+        "optIn": "#didomi-notice-agree-button"
+      }
+    },
+    {
+      "id": "5da98b86-9a16-47ec-8607-046744d93396",
+      "domains": ["decathlon.cz", "decathlon.it", "hnonline.sk", "orange.sk"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CXgyJwAXgyJwAAHABBENAwEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#didomi-notice",
+        "optOut": ".didomi-continue-without-agreeing",
+        "optIn": "#didomi-notice-agree-button"
+      }
     },
     {
       "click": { "optIn": "a.cmptxt_btn_yes", "presence": "div.cmpboxinner" },
@@ -2858,7 +2892,16 @@
         "blablacar.pl",
         "blablacar.pt",
         "blablacar.ro",
-        "blablacar.sk"
+        "blablacar.sk",
+        "decathlon-united.media",
+        "decathlon.at",
+        "decathlon.be",
+        "decathlon.com.dz",
+        "decathlon.de",
+        "decathlon.pl",
+        "decathlon.pt",
+        "decathlon.ro",
+        "decathlon.sk"
       ],
       "cookies": {
         "optOut": [
@@ -2871,6 +2914,23 @@
       "click": {
         "presence": "#didomi-popup",
         "optOut": "#didomi-notice-disagree-button",
+        "optIn": "#didomi-notice-agree-button"
+      }
+    },
+    {
+      "id": "e4b0998b-a54c-458d-935b-6ec957175711",
+      "domains": ["decathlon.ee"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CXgyJwAXgyJwAAHABBENAwEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#didomi-popup",
+        "optOut": "#didomi-notice-x-button",
         "optIn": "#didomi-notice-agree-button"
       }
     },
@@ -5222,6 +5282,8 @@
       },
       "id": "8f401b10-02b6-4e05-88fa-c37012d4c8c0",
       "domains": [
+        "decathlon.nc",
+        "decathlon.re",
         "magnite.com",
         "mecklenburg-vorpommern.de",
         "omv.com",
@@ -5388,17 +5450,42 @@
     },
     {
       "id": "05157ed1-12c2-4f84-9dff-718fae5bc096",
-      "domains": ["reverso.net"],
+      "domains": [
+        "decathlon.bg",
+        "decathlon.ca",
+        "decathlon.hr",
+        "decathlon.ie",
+        "decathlon.lt",
+        "decathlon.lv",
+        "decathlon.se",
+        "reverso.net"
+      ],
       "cookies": {
         "optOut": [
           {
             "name": "euconsent-v2",
-            "value": "CRolnUARolnUAAHABBENDHCgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
+            "value": "CXgyJwAXgyJwAAHABBENAwEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
           }
         ]
       },
       "click": {
         "presence": "#didomi-popup",
+        "optIn": "#didomi-notice-agree-button"
+      }
+    },
+    {
+      "id": "83ad4c2f-e59a-4295-a342-5db40fb81763",
+      "domains": ["decathlon.si"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "euconsent-v2",
+            "value": "CXgyJwAXgyJwAAHABBENAwEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#didomi-notice",
         "optIn": "#didomi-notice-agree-button"
       }
     },
@@ -6777,6 +6864,15 @@
         "presence": "#ppms_cm_popup_overlay",
         "optOut": "#ppms_cm_reject-all",
         "optIn": "#ppms_cm_agree-to-all"
+      }
+    },
+    {
+      "id": "1da8a6ad-f894-400e-8b3d-2a281015b86d",
+      "domains": ["decathlon.com.sa", "decathlon.gp", "decathlon.mq"],
+      "click": {
+        "presence": "#shopify-pc__banner",
+        "optOut": "#shopify-pc__banner__btn-decline",
+        "optIn": "#shopify-pc__banner__btn-accept"
       }
     }
   ]
