@@ -269,6 +269,15 @@
         "inpost.eu",
         "inpost.it",
         "intel.com",
+        "intersport.at",
+        "intersport.com",
+        "intersport.com.tr",
+        "intersport.cz",
+        "intersport.dk",
+        "intersport.es",
+        "intersport.hu",
+        "intersport.nl",
+        "intersport.sk",
         "kaufland.de",
         "lg.com",
         "lidl.co.uk",
@@ -977,6 +986,10 @@
         "intermarche.be",
         "intermarche.pl",
         "intermarche.pt",
+        "intersport.hr",
+        "intersport.it",
+        "intersport.pl",
+        "intersport.si",
         "issuu.com",
         "voetbal24.be",
         "weforum.org"
@@ -3287,13 +3300,13 @@
       "domains": ["metoffice.gov.uk", "footballmanager.com", "sigames.com"]
     },
     {
-      "click": {
-        "optIn": "button#kc-acceptAndHide",
-        "presence": "div#kconsent"
-      },
-      "cookies": {},
       "id": "282ff551-ce28-4b7f-9633-eaaa7ce89890",
-      "domains": ["k-ruoka.fi"]
+      "domains": ["intersport.fi", "k-ruoka.fi"],
+      "click": {
+        "presence": ".kc-onsent",
+        "optOut": "#kc-denyAndHide",
+        "optIn": "#kc-acceptAndHide"
+      }
     },
     {
       "click": {
@@ -6873,6 +6886,88 @@
         "presence": "#shopify-pc__banner",
         "optOut": "#shopify-pc__banner__btn-decline",
         "optIn": "#shopify-pc__banner__btn-accept"
+      }
+    },
+    {
+      "id": "9c762187-68bd-4d9b-b16c-014236082550",
+      "domains": ["intersport.be"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "CookieConsent",
+            "value": "{necessary:true%2Cpreferences:false%2Cstatistics:false%2Cmarketing:false%2Cmethod:%27explicit%27%2Cver:1%2Cutc:2524608000000%2Cregion:%27zz%27}"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#CybotCookiebotDialog",
+        "optOut": "#CybotCookiebotDialogBodyButtonDecline",
+        "optIn": "#CybotCookiebotDialogBodyButtonAccept"
+      }
+    },
+    {
+      "id": "a8a9ddf7-1cf3-4252-b4f6-6d396e4c7ba7",
+      "domains": [
+        "intersport.bg",
+        "intersport.com.cy",
+        "intersport.gr",
+        "intersport.ro"
+      ],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "ConsentChecked",
+            "value": "{\"userHasSetCookies\":true,\"functionalityCookies\":false,\"statisticCookies\":false,\"marketingCookies\":false}"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#fancybox-container-1",
+        "optOut": ".js-decline",
+        "optIn": ".js-accept"
+      }
+    },
+    {
+      "id": "de176046-8be7-4876-8332-0559dfd0b70b",
+      "domains": ["intersport.de"],
+      "click": {
+        "presence": ".cookie-banner",
+        "optOut": ".js--cookie-banner-save-required-settings",
+        "optIn": ".js--cookie-banner-accept"
+      }
+    },
+    {
+      "id": "1450d6da-220a-42dd-b523-1771343cbd90",
+      "domains": ["intersport.fo"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "ConsentV2",
+            "value": "[%22necessary%22]"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#cookieConsentModal",
+        "optOut": "#acceptNecessaryCookiesBtn",
+        "optIn": "#acceptAllCookiesBtn"
+      }
+    },
+    {
+      "id": "6fdb72ae-429c-49ad-87d3-4ff2675e5d29",
+      "domains": ["intersport.mk"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "site_cookie_info_i",
+            "value": "2"
+          }
+        ]
+      },
+      "click": {
+        "presence": "#modal-cookie-info",
+        "optOut": ".no-agree > a",
+        "optIn": ".cookie-agree"
       }
     }
   ]
