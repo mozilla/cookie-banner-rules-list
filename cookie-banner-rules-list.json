@@ -1267,13 +1267,13 @@
       "domains": ["idokep.hu"]
     },
     {
-      "click": {
-        "optIn": "button.js-accept",
-        "presence": "div.cookie-banner-buttons"
-      },
-      "cookies": {},
       "id": "dbbccc0a-13ba-4cd8-9cf0-32420401be55",
-      "domains": ["emag.ro"]
+      "domains": ["emag.bg", "emag.hu", "emag.ro"],
+      "click": {
+        "presence": ".cookie-banner-buttons",
+        "optOut": ".js-refuse",
+        "optIn": ".js-accept"
+      }
     },
     {
       "click": {
@@ -2448,15 +2448,6 @@
       "cookies": {},
       "id": "7e5d072f-ea5a-4a82-9ea4-3bbf06d5cc8d",
       "domains": ["nettiauto.com"]
-    },
-    {
-      "click": {
-        "optIn": "button.js-accept",
-        "presence": "div.cookie-banner-buttons"
-      },
-      "cookies": {},
-      "id": "e78a3fdb-bcba-402c-b2da-63994aba1b30",
-      "domains": ["emag.hu"]
     },
     {
       "click": {
