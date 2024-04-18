@@ -82,6 +82,15 @@
       }
     },
     {
+      "id": "cookieyes",
+      "domains": [],
+      "click": {
+        "presence": "#cky-consent, .cky-consent-container",
+        "optOut": ".cky-btn-reject",
+        "optIn": ".cky-btn-accept"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
@@ -5112,16 +5121,6 @@
     },
     {
       "click": {
-        "optIn": "button.cky-btn-accept",
-        "optOut": "button.cky-btn-reject",
-        "presence": "div.cky-consent-bar"
-      },
-      "cookies": {},
-      "id": "b3b80b81-90f0-497f-b78c-53b611d4dfaf",
-      "domains": ["hugedomains.com"]
-    },
-    {
-      "click": {
         "optIn": ".cc-btn.cc-allow",
         "optOut": ".cc-btn.cc-deny",
         "presence": ".cc-window.cc-banner"
@@ -5595,16 +5594,6 @@
         "optOut": ".CookiesAlert_cookiesAlert__3qSl1 .Button_button__3Me73",
         "presence": ".CookiesAlert_cookiesAlert__3qSl1"
       }
-    },
-    {
-      "id": "536f8027-111f-4798-a9ef-745b30fe65c8",
-      "domains": ["met.ie"],
-      "click": {
-        "optOut": ".cky-btn.cky-btn-reject",
-        "optIn": ".cky-btn.cky-btn-accept",
-        "presence": ".cky-consent-bar"
-      },
-      "cookies": {}
     },
     {
       "id": "9f5f0c06-5221-45b2-a174-7d70fd128eb3",
