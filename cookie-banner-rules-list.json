@@ -5533,7 +5533,7 @@
       "cookies": {
         "optOut": [
           {
-            "name": "CookieConsentDeclined",
+            "name": "__Secure-HO_Cookie_Consent_Declined",
             "value": "1"
           }
         ]
