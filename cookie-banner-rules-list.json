@@ -3507,7 +3507,7 @@
     {
       "click": {
         "optIn": "button.cc-banner__button-accept",
-        "presence": "section.cc-banner"
+        "presence": ".cc-banner"
       },
       "cookies": {},
       "id": "9ab30eae-9592-47b1-b46e-7640c4316f14",
