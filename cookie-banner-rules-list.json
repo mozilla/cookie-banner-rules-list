@@ -3507,6 +3507,7 @@
     {
       "click": {
         "optIn": "button.cc-banner__button-accept",
+        "optOut": "button.cc-banner__button-reject",
         "presence": ".cc-banner"
       },
       "cookies": {},
