@@ -5057,12 +5057,21 @@
       "domains": ["pik.bg", "prosport.ro", "sciencedaily.com"]
     },
     {
-      "click": {
-        "optIn": ".sc-1olg58b-0.bXsYmb.sc-1olg58b-1.KXemC",
-        "optOut": ".sc-1olg58b-0.jHiTgL.sc-1olg58b-1.sc-1hth3pd-7.KXemC.kSupJA",
-        "presence": ".sc-mgoo3k-0.jFxlDH"
+      "click": {},
+      "cookies": {
+        "optOut": [
+          {
+            "name": ".consent",
+            "value": "fu0-ma0-pe0"
+          }
+        ],
+        "optIn": [
+          {
+            "name": ".consent",
+            "value": "fu1-ma1-pe1"
+          }
+        ]
       },
-      "cookies": {},
       "id": "cc78c082-2dc6-4287-9a7c-168c591810fd",
       "domains": ["galaxus.de"]
     },
