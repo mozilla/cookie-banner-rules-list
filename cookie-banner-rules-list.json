@@ -583,6 +583,22 @@
       }
     },
     {
+      "id": "529b0511-417d-46e3-a601-4e9c8e662d01",
+      "domains": ["metaconnect.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "meta_connect_cookies_session",
+            "value": "true"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".cookie-banner",
+        "optOut": ".cookie-banner__close"
+      }
+    },
+    {
       "id": "c232eab8-f55a-436a-8033-478746d05d98",
       "domains": ["threads.net"],
       "cookies": {
@@ -606,6 +622,10 @@
           {
             "name": "d_prefs",
             "value": "MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw"
+          },
+          {
+            "name": "twtr_pixel_opt_in",
+            "value": "N"
           }
         ],
         "optIn": [
