@@ -1923,14 +1923,7 @@
         "orange.pl",
         "quechua.fr"
       ],
-      "cookies": {
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CXgyJwAXgyJwAAHABBENAtEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
+      "cookies": {},
       "click": {
         "presence": "#didomi-popup",
         "optOut": ".didomi-continue-without-agreeing",
@@ -1946,14 +1939,7 @@
         "orange.md",
         "orange.sk"
       ],
-      "cookies": {
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CXgyJwAXgyJwAAHABBENAtEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
+      "cookies": {},
       "click": {
         "presence": "#didomi-notice",
         "optOut": ".didomi-continue-without-agreeing",
@@ -3003,14 +2989,7 @@
         "decathlon.ro",
         "decathlon.sk"
       ],
-      "cookies": {
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CXgyJwAXgyJwAAHABBENAtEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
+      "cookies": {},
       "click": {
         "presence": "#didomi-popup",
         "optOut": "#didomi-notice-disagree-button",
@@ -3020,14 +2999,7 @@
     {
       "id": "49719e34-a29a-4604-ae3c-b9835e286473",
       "domains": ["orange-business.com"],
-      "cookies": {
-        "optOut": [
-          {
-            "name": "consentiab",
-            "value": "CXgyJwAXgyJwAAHABBENAtEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
+      "cookies": {},
       "click": {
         "presence": "#didomi-popup",
         "optOut": "#didomi-notice-disagree-button",
@@ -3037,14 +3009,7 @@
     {
       "id": "e4b0998b-a54c-458d-935b-6ec957175711",
       "domains": ["decathlon.ee"],
-      "cookies": {
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CXgyJwAXgyJwAAHABBENAtEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
+      "cookies": {},
       "click": {
         "presence": "#didomi-popup",
         "optOut": "#didomi-notice-x-button",
@@ -5548,14 +5513,7 @@
         "orange.lu",
         "reverso.net"
       ],
-      "cookies": {
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CXgyJwAXgyJwAAHABBENAtEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
+      "cookies": {},
       "click": {
         "presence": "#didomi-popup",
         "optIn": "#didomi-notice-agree-button"
@@ -5564,14 +5522,7 @@
     {
       "id": "83ad4c2f-e59a-4295-a342-5db40fb81763",
       "domains": ["decathlon.si", "t-mobile.pl"],
-      "cookies": {
-        "optOut": [
-          {
-            "name": "euconsent-v2",
-            "value": "CXgyJwAXgyJwAAHABBENAtEgAAAAAAAAAAAAAAAAAAAA.YAAAAAAAAAAA"
-          }
-        ]
-      },
+      "cookies": {},
       "click": {
         "presence": "#didomi-notice",
         "optIn": "#didomi-notice-agree-button"
@@ -7029,14 +6980,7 @@
     {
       "id": "5050fb9c-fd8a-44c2-817c-23d95f494190",
       "domains": ["credit-agricole.pl"],
-      "cookies": {
-        "optOut": [
-          {
-            "name": "ppms_privacy_7bd68a14-fbc6-44f1-9d8b-1cf0cf5eb0bb",
-            "value": "{%22consents%22:{%22analytics%22:{%22status%22:0%2C%22updatedAt%22:%222050-01-01T00:00:00.000Z%22}%2C%22ab_testing_and_personalization%22:{%22status%22:0%2C%22updatedAt%22:%222050-01-01T00:00:00.000Z%22}%2C%22remarketing%22:{%22status%22:0%2C%22updatedAt%22:%222050-01-01T00:00:00.000Z%22}}%2C%22domain%22:{%22normalized%22:%22credit-agricole.pl%22%2C%22isWildcard%22:true%2C%22pattern%22:%22*.credit-agricole.pl%22}}"
-          }
-        ]
-      },
+      "cookies": {},
       "click": {
         "presence": "#ppms_cm_popup_overlay",
         "optOut": "#ppms_cm_reject-all",
