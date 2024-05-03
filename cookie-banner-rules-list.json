@@ -441,13 +441,15 @@
       "cookies": {},
       "id": "2d821158-5945-4134-a078-56c6da4f678d",
       "domains": [
+        "darty.com",
         "e.leclerc",
         "fnac.be",
         "fnac.ch",
         "fnac.com",
         "fnac.pt",
         "leclercdrive.fr",
-        "mondialrelay.fr"
+        "mondialrelay.fr",
+        "pasteur.fr"
       ]
     },
     {
@@ -581,6 +583,22 @@
       }
     },
     {
+      "id": "529b0511-417d-46e3-a601-4e9c8e662d01",
+      "domains": ["metaconnect.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "meta_connect_cookies_session",
+            "value": "true"
+          }
+        ]
+      },
+      "click": {
+        "presence": ".cookie-banner",
+        "optOut": ".cookie-banner__close"
+      }
+    },
+    {
       "id": "c232eab8-f55a-436a-8033-478746d05d98",
       "domains": ["threads.net"],
       "cookies": {
@@ -604,6 +622,10 @@
           {
             "name": "d_prefs",
             "value": "MjoxLGNvbnNlbnRfdmVyc2lvbjoyLHRleHRfdmVyc2lvbjoxMDAw"
+          },
+          {
+            "name": "twtr_pixel_opt_in",
+            "value": "N"
           }
         ],
         "optIn": [
@@ -4331,6 +4353,18 @@
     {
       "id": "8c949b75-4c7b-4559-8ade-780064af370a",
       "domains": ["asus.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "isReadCookiePolicyDNT",
+            "value": "No"
+          },
+          {
+            "name": "isReadCookiePolicyDNTAa",
+            "value": "false"
+          }
+        ]
+      },
       "click": {
         "presence": "#cookie-policy-info",
         "optOut": ".btn-reject",
@@ -6726,7 +6760,8 @@
         "enedis.fr",
         "fortuneo.fr",
         "lcl.fr",
-        "tf1.fr"
+        "tf1.fr",
+        "tf1info.fr"
       ],
       "click": {
         "optIn": "#popin_tc_privacy_button_3",
