@@ -7194,6 +7194,14 @@
           }
         ]
       }
+    },
+    {
+      "id": "06ae9b8e-909a-4f50-be66-0046a1a75ddf",
+      "domains": ["rp-online.de"],
+      "click": {
+        "presence": "main[data-consent-main]",
+        "optIn": "custom-button#consentAccept"
+      }
     }
   ]
 }
