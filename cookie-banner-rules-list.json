@@ -7219,6 +7219,15 @@
         "optIn": ".cookie-consent-banner__btn-primary",
         "presence": "#cookie-consent-banner"
       }
+    },
+    {
+      "id": "2959DF71-D2E8-4896-80C3-6E8DD89C5E0F",
+      "domains": ["arbeiterkammer.at"],
+      "click": {
+        "optIn": ".btn-accept-cookies",
+        "optOut": ".btn-save-technical-cookies",
+        "presence": "#cookieModal"
+      }
     }
   ]
 }
