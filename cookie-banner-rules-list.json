@@ -82,6 +82,15 @@
       }
     },
     {
+      "id": "trustcommander",
+      "domains": [],
+      "click": {
+        "optIn": "#popin_tc_privacy_button",
+        "optOut": "#popin_tc_privacy_button_2",
+        "presence": "#tc-privacy-wrapper"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
