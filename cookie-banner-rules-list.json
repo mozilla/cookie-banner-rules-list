@@ -7219,6 +7219,14 @@
         "optIn": ".cookie-consent-banner__btn-primary",
         "presence": "#cookie-consent-banner"
       }
+    },
+    {
+      "id": "727d6577-ae04-4dc0-8ae3-c0af3f3787d5",
+      "domains": ["gls.de"],
+      "click": {
+        "presence": "div.cookie-notice",
+        "optOut": "button.cn-decline"
+      }
     }
   ]
 }
