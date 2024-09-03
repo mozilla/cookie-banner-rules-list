@@ -7219,6 +7219,14 @@
         "optIn": ".cookie-consent-banner__btn-primary",
         "presence": "#cookie-consent-banner"
       }
+    },
+    {
+      "id": "b337aaa7-683f-4c8c-8a22-75ab6ae301ff",
+      "domains": ["destatis.de"],
+      "click": {
+        "presence": "div.cookiebanner",
+        "optOut": "button.rejectAll"
+      }
     }
   ]
 }
