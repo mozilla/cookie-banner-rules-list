@@ -82,6 +82,14 @@
       }
     },
     {
+      "id": "ihavecookies",
+      "domains": [],
+      "click": {
+        "presence": "#gdpr-cookie-message",
+        "optIn": "#gdpr-cookie-accept"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
