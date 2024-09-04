@@ -82,6 +82,15 @@
       }
     },
     {
+      "id": "finsweetcookieconsent",
+      "domains": [],
+      "click": {
+        "presence": "[fs-cc=\"banner\"]",
+        "optOut": "[fs-cc=\"deny\"]",
+        "optIn": "[fs-cc=\"allow\"]"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
