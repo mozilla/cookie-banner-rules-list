@@ -7234,6 +7234,18 @@
         "presence": "div.cookiebanner",
         "optOut": "button.rejectAll"
       }
+    },
+    {
+      "id": "3b73c6b4-b746-462b-8f5e-054ffcd5f2b3",
+      "domains": ["duh.de"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookie_dismiss",
+            "value": "true"
+          }
+        ]
+      }
     }
   ]
 }
