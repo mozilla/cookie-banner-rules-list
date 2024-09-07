@@ -7246,6 +7246,18 @@
           }
         ]
       }
+    },
+    {
+      "id": "4882b113-70d0-4aec-bc13-dae28bff4ee8",
+      "domains": ["wilderssecurity.com"],
+      "cookies": {
+        "optIn": [
+          {
+            "name": "xf_notice_dismiss",
+            "value": "-1"
+          }
+        ]
+      }
     }
   ]
 }
