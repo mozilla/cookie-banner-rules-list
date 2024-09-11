@@ -7246,6 +7246,18 @@
           }
         ]
       }
+    },
+    {
+      "id": "827f0fef-80ca-4761-a29f-579ab230d4f0",
+      "domains": ["globalclimaterisks.org"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "viewed_cookie_policy",
+            "value": "yes"
+          }
+        ]
+      }
     }
   ]
 }
