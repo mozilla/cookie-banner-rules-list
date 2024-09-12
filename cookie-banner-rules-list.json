@@ -7246,6 +7246,18 @@
           }
         ]
       }
+    },
+    {
+      "id": "22de6561-620b-4505-8092-a327b0d627ec",
+      "domains": ["overdrive.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "od_track",
+            "value": "0"
+          }
+        ]
+      }
     }
   ]
 }
