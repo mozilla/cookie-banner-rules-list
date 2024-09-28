@@ -6006,12 +6006,35 @@
     },
     {
       "id": "91484461-01AD-4D78-9ED8-D17C688F47E7",
-      "domains": ["zdf.de", "3sat.de"],
+      "domains": ["zdf.de"],
       "click": {
         "optOut": "#zdf-cmp-deny-btn",
         "presence": ".zdf-cmp-modal-content"
       },
-      "cookies": {}
+      "cookies": {
+        "optOut": [
+          {
+            "name": "zdf_cmp_client",
+            "value": "{%22version%22:%22v1%22%2C%22iteration%22:1%2C%22consents%22:[{%22id%22:%22erforderlich%22%2C%22value%22:true}%2C{%22id%22:%22erfolgsmessung%22%2C%22value%22:true}%2C{%22id%22:%22personalisierung%22%2C%22value%22:false}%2C{%22id%22:%22socialMedia%22%2C%22value%22:false}%2C{%22id%22:%22instagram%22%2C%22value%22:false}%2C{%22id%22:%22twitter%22%2C%22value%22:false}%2C{%22id%22:%22facebook%22%2C%22value%22:false}%2C{%22id%22:%22drittsysteme%22%2C%22value%22:false}]}"
+          }
+        ]
+      }
+    },
+    {
+      "id": "a040a5d5-0dd5-4556-a9eb-42647bddbb69",
+      "domains": ["3sat.de"],
+      "click": {
+        "optOut": "#zdf-cmp-deny-btn",
+        "presence": ".zdf-cmp-modal-content"
+      },
+      "cookies": {
+        "optOut": [
+          {
+            "name": "3sat_cmp_client",
+            "value": "{%22version%22:%22v1%22%2C%22iteration%22:1%2C%22consents%22:[{%22id%22:%22erforderlich%22%2C%22value%22:true}%2C{%22id%22:%22erfolgsmessung%22%2C%22value%22:true}%2C{%22id%22:%22personalisierung%22%2C%22value%22:false}%2C{%22id%22:%22socialMedia%22%2C%22value%22:false}%2C{%22id%22:%22twitter%22%2C%22value%22:false}%2C{%22id%22:%22instagram%22%2C%22value%22:false}%2C{%22id%22:%22facebook%22%2C%22value%22:false}%2C{%22id%22:%22drittsysteme%22%2C%22value%22:false}]}"
+          }
+        ]
+      }
     },
     {
       "id": "0EAF9E99-36C6-4165-87BE-A62EF1751E1D",
