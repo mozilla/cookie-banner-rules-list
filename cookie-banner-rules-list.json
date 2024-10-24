@@ -82,6 +82,15 @@
       }
     },
     {
+      "id": "evidon",
+      "domains": [],
+      "click": {
+        "presence": "#_evidon_banner",
+        "optOut": "#_evidon-decline-button",
+        "optIn": "#_evidon-accept-button"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
@@ -3834,19 +3843,6 @@
     },
     {
       "click": {
-        "optIn": "button#_evidon-accept-button",
-        "optOut": "button#_evidon-decline-button",
-        "presence": "div#_evidon_banner"
-      },
-      "cookies": {
-        "optIn": [{ "name": "_tt_enable_cookie", "value": "1" }],
-        "optOut": []
-      },
-      "id": "25d7b523-6e33-414a-a1e8-b9f27c7e8a37",
-      "domains": ["eventbrite.com"]
-    },
-    {
-      "click": {
         "optIn": "button.css-7c2c0h",
         "presence": "div#qc-cmp2-container"
       },
@@ -3923,16 +3919,6 @@
       "cookies": {},
       "id": "645dca4f-49b6-456e-8aa1-40dfdb35acb7",
       "domains": ["huawei.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#_evidon-accept-button",
-        "optOut": "button#_evidon-decline-button",
-        "presence": "div#_evidon_banner"
-      },
-      "cookies": {},
-      "id": "35142692-9d67-4f16-9512-36673e35c43d",
-      "domains": ["pubmatic.com"]
     },
     {
       "click": {
@@ -4276,23 +4262,12 @@
       "domains": ["ucla.edu"]
     },
     {
-      "click": {
-        "optIn": "button#_evidon-accept-button",
-        "optOut": "button#_evidon-decline-button",
-        "presence": "div#_evidon-message"
-      },
-      "cookies": {},
-      "id": "23df4915-5954-41ea-8d5c-e76a1d98e70b",
-      "domains": ["playstation.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#_evidon-banner-acceptbutton",
-        "presence": "div#_evidon-banner-content"
-      },
-      "cookies": {},
       "id": "21e686fb-7250-4fbc-ab5c-6a6bf67775d3",
-      "domains": ["lenovo.com"]
+      "domains": ["lenovo.com"],
+      "click": {
+        "presence": "#_evidon-banner",
+        "optIn": "#_evidon-banner-acceptbutton"
+      }
     },
     {
       "click": {
@@ -4316,13 +4291,12 @@
       "domains": ["figma.com"]
     },
     {
-      "click": {
-        "optIn": "button#_evidon-decline-button",
-        "presence": "div#_evidon-message"
-      },
-      "cookies": {},
       "id": "85aec7ab-1cc2-4651-b3fc-0cbae9a241f2",
-      "domains": ["crunchyroll.com"]
+      "domains": ["crunchyroll.com"],
+      "click": {
+        "presence": "#_evidon_banner",
+        "optIn": "#_evidon-decline-button"
+      }
     },
     {
       "click": {
