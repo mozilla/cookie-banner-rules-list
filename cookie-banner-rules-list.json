@@ -82,6 +82,15 @@
       }
     },
     {
+      "id": "cookiehub",
+      "domains": [],
+      "click": {
+        "optIn": ".ch2-allow-all-btn",
+        "optOut": ".ch2-deny-all-btn",
+        "presence": ".ch2-dialog"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
