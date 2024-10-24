@@ -82,6 +82,15 @@
       }
     },
     {
+      "id": "hubspotcookieconsent",
+      "domains": [],
+      "click": {
+        "presence": "#hs-eu-cookie-confirmation",
+        "optOut": "#hs-eu-decline-button",
+        "optIn": "#hs-eu-confirmation-button"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
@@ -5503,16 +5512,6 @@
       "cookies": {},
       "id": "ca37bf31-bf4e-4172-bf7e-91baca32c9e2",
       "domains": ["adjust.com"]
-    },
-    {
-      "click": {
-        "optIn": "button#hs-eu-confirmation-button",
-        "optOut": "button#hs-eu-decline-button",
-        "presence": "div#hs-eu-cookie-confirmation"
-      },
-      "cookies": {},
-      "id": "8308357f-6a66-433d-bfc3-de401410c350",
-      "domains": ["hubspot.com"]
     },
     {
       "id": "63104024-41b5-4be5-8019-2c59eaaf612c",
