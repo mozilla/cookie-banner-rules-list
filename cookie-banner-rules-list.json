@@ -82,6 +82,15 @@
       }
     },
     {
+      "id": "termsfeed",
+      "domains": [],
+      "click": {
+        "presence": "#termsfeed-com---nb",
+        "optOut": ".cc-nb-reject",
+        "optIn": ".cc-nb-okagree"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
