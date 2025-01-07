@@ -7246,6 +7246,15 @@
           }
         ]
       }
+    },
+    {
+      "id": "1addc0d4-bac4-422d-a587-64376d42243a",
+      "domains": ["aok.de"],
+      "click": {
+        "presence": "aok-cx2-consent",
+        "optOut": "a#acceptFunctionalLink",
+        "optIn": "button[data-cy='consent-all']"
+      }
     }
   ]
 }
