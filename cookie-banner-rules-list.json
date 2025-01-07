@@ -691,11 +691,10 @@
     },
     {
       "click": {
-        "optIn": "div.gdpr div > button:not([aria-label]",
-        "optOut": "div.gdpr div > button + button:not([aria-label])",
-        "presence": "div.gdpr"
+        "optIn": "button.fides-accept-all-button",
+        "optOut": "button.fides-reject-all-button",
+        "presence": "div#fides-banner"
       },
-      "cookies": { "optOut": [{ "name": "purr-pref-agent", "value": "<Go" }] },
       "id": "488f07f9-0a01-4118-aab3-2b817e9fe6dc",
       "domains": ["nytimes.com"]
     },
@@ -7218,6 +7217,34 @@
       "click": {
         "optIn": ".cookie-consent-banner__btn-primary",
         "presence": "#cookie-consent-banner"
+      }
+    },
+    {
+      "id": "727d6577-ae04-4dc0-8ae3-c0af3f3787d5",
+      "domains": ["gls.de"],
+      "click": {
+        "presence": "div.cookie-notice",
+        "optOut": "button.cn-decline"
+      }
+    },
+    {
+      "id": "b337aaa7-683f-4c8c-8a22-75ab6ae301ff",
+      "domains": ["destatis.de"],
+      "click": {
+        "presence": "div.cookiebanner",
+        "optOut": "button.rejectAll"
+      }
+    },
+    {
+      "id": "3b73c6b4-b746-462b-8f5e-054ffcd5f2b3",
+      "domains": ["duh.de"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookie_dismiss",
+            "value": "true"
+          }
+        ]
       }
     }
   ]
