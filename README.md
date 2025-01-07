@@ -3,7 +3,8 @@
 Rules List for Firefox's automated cookie banner handling feature.
 
 > [!IMPORTANT]  
-> We are currently not accepting PRs adding more global / CMP rules (empty domain field) until we have concluded our performance testing. Contributing new or fixing existing site-specific rules is still encouraged!
+> Pull requests for cookie banner rules are currently not being accepted since
+> Cookie Banner Handling is currently not enabled in Firefox.
 
 ## How to Add or Update Rules
 
