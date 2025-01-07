@@ -7246,6 +7246,23 @@
           }
         ]
       }
+    },
+    {
+      "id": "b2f079a7-2a86-4d1d-9a07-3d743f0c1a06",
+      "domains": ["fedex.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "_svs",
+            "value": "%7B%22c%22%3A%7B%221%22%3Atrue%2C%222%22%3Afalse%2C%223%22%3Afalse%7D%2C%22ct%22%3A1734975639067%7D"
+          }
+        ]
+      },
+      "click": {
+        "optOut": ".fxg-gdpr__reject-all-btn",
+        "optIn": ".fxg-gdpr__accept-all-btn",
+        "presence": ".fxg-gdpr"
+      }
     }
   ]
 }
