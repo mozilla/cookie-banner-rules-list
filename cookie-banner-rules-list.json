@@ -7246,6 +7246,15 @@
           }
         ]
       }
+    },
+    {
+      "id": "700ec300-58cb-4c09-8c6e-7682cb9a0956",
+      "domains": ["barmer.de"],
+      "click": {
+        "presence": "div#__tealiumGDPRecModal",
+        "optOut": "a#no_consent",
+        "optIn": "a#consent_prompt_submit"
+      }
     }
   ]
 }
