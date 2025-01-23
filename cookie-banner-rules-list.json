@@ -7246,6 +7246,22 @@
           }
         ]
       }
+    },
+    {
+      "id": "7936e11b-62eb-4f23-b67b-1532e974ffd3",
+      "domains": ["lyreco.com"],
+      "cookies": {
+        "optOut": [
+          {
+            "name": "cookie-agreed",
+            "value": "2"
+          },
+          {
+            "name": "cookie-agreed-version",
+            "value": "1.0.0"
+          }
+        ]
+      }
     }
   ]
 }
