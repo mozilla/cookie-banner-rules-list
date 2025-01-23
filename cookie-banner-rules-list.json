@@ -82,6 +82,15 @@
       }
     },
     {
+      "id": "legalweb",
+      "domains": [],
+      "click": {
+        "optIn": ".lw-pp-btn-accept-all, .sp-dsgvo-privacy-btn-accept-all",
+        "optOut": ".lw-pp-btn-accept-nothing, .sp-dsgvo-privacy-btn-accept-nothing",
+        "presence": ".lwb-pp-overlay, .sp-dsgvo-popup-overlay"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
