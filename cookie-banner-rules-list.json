@@ -553,15 +553,9 @@
       "cookies": {
         "optOut": [
           {
-            "name": "CONSENT",
-            "path": "/",
-            "value": "PENDING+742",
-            "sameSite": 0
-          },
-          {
             "name": "SOCS",
             "path": "/",
-            "value": "CAESNQgDEitib3FfaWRlbnRpdHlmcm9udGVuZHVpc2VydmVyXzIwMjMwOTEyLjA4X3AwGgJlbiACGgYIgOCTqAY",
+            "value": "CAESEwgDEgk2ODE2MjA0MzYaAmVuIAEaBgiAg4K4Bg",
             "sameSite": 0
           }
         ]
