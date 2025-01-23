@@ -82,6 +82,15 @@
       }
     },
     {
+      "id": "cookiescript",
+      "domains": [],
+      "click": {
+        "presence": "#cookiescript_injected",
+        "optOut": "#cookiescript_reject",
+        "optIn": "#cookiescript_accept"
+      }
+    },
+    {
       "id": "disabled",
       "domains": [
         "tumblr.com",
@@ -5276,16 +5285,6 @@
       },
       "id": "d0b8bc2c-c633-4628-aa39-e840060efc2e",
       "domains": ["se.pl"]
-    },
-    {
-      "click": {
-        "optIn": "div#cookiescript_accept",
-        "optOut": "div#cookiescript_reject ",
-        "presence": "div#cookiescript_injected"
-      },
-      "cookies": {},
-      "id": "7f8a8bfd-343c-4fa5-969b-35a0690f6f4f",
-      "domains": ["idealmedia.io"]
     },
     {
       "click": {
