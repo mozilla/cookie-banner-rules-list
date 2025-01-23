@@ -7246,6 +7246,14 @@
           }
         ]
       }
+    },
+    {
+      "id": "d1833fcb-3e76-4887-a3ca-70c6ccfe5f2a",
+      "domains": ["fanatical.com"],
+      "click": {
+        "presence": ".biscuit-auth-collapsible",
+        "optIn": ".accept-cookies-btn"
+      }
     }
   ]
 }
